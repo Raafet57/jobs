@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Exposition à l'IA — Marché du Travail Français</title>
+<meta name="description" content="Visualisation interactive de l'exposition à l'intelligence artificielle pour 211 métiers du marché du travail français. Données Eurostat LFS 2023, salaires DARES/INSEE.">
+<style>
+*,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
+:root{--bg:#0a0a0f;--bg2:#12121a;--fg:#e0e0e8;--fg2:#888894;--sw:248px}
+body{background:var(--bg);color:var(--fg);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',system-ui,sans-serif;overflow:hidden;height:100vh}
+#sidebar{position:fixed;top:0;left:0;bottom:0;width:var(--sw);background:var(--bg2);border-right:1px solid rgba(255,255,255,.06);padding:18px 16px;z-index:10;overflow-y:auto;display:flex;flex-direction:column;gap:18px}
+#sidebar h1{font-size:14px;font-weight:600;letter-spacing:-.02em;line-height:1.3}
+.flag{font-size:18px;display:block;margin-bottom:4px}
+.subtitle{font-size:10px;color:var(--fg2);margin-top:5px;line-height:1.4}
+.subtitle a{color:var(--fg2)}
+.stat-section{display:flex;flex-direction:column;gap:6px}
+.stat-section h3{font-size:10px;font-weight:600;text-transform:uppercase;letter-spacing:.07em;color:#666}
+.stat-big{font-size:26px;font-weight:700;letter-spacing:-.03em}
+.stat-label{font-size:10px;color:var(--fg2)}
+.histogram{display:flex;align-items:flex-end;gap:2px;height:48px}
+.histogram .bar{flex:1;border-radius:1px 1px 0 0;min-height:2px}
+.hist-labels{display:flex;justify-content:space-between;font-size:9px;color:var(--fg2);margin-top:2px}
+.tier-row{display:flex;align-items:center;gap:6px;font-size:11px;margin-bottom:3px}
+.tier-color{width:10px;height:10px;border-radius:2px;flex-shrink:0}
+.tier-name{flex:1;color:var(--fg2);font-size:10px}
+.hbar-row{display:flex;align-items:center;gap:6px;font-size:11px;margin-bottom:4px}
+.hbar-label{width:80px;flex-shrink:0;color:var(--fg2);font-size:10px;text-align:right}
+.hbar-track{flex:1;height:10px;background:rgba(255,255,255,.04);border-radius:2px;overflow:hidden}
+.hbar-fill{height:100%;border-radius:2px}
+.hbar-val{width:22px;flex-shrink:0;font-size:10px;text-align:right}
+.grad-legend{display:flex;align-items:center;gap:6px;font-size:10px;color:var(--fg2)}
+canvas#canvas{display:block;position:fixed;top:0;left:var(--sw);cursor:default}
+#tooltip{position:fixed;pointer-events:none;background:var(--bg2);border:1px solid rgba(255,255,255,.12);border-radius:8px;padding:12px 16px;font-size:13px;line-height:1.5;max-width:360px;opacity:0;transition:opacity .12s;z-index:20;box-shadow:0 8px 32px rgba(0,0,0,.6)}
+#tooltip.visible{opacity:1}
+.tt-title{font-weight:600;font-size:14px;margin-bottom:6px;color:#fff}
+.tt-exp{font-size:12px;margin-bottom:8px}
+.tt-stats{display:grid;grid-template-columns:auto auto;gap:2px 12px;font-size:12px}
+.tt-stats .lbl{color:var(--fg2)}.tt-stats .val{text-align:right}
+.tt-rat{font-size:11px;color:var(--fg2);margin-top:8px;line-height:1.4;border-top:1px solid rgba(255,255,255,.06);padding-top:8px;font-style:italic}
+#loading{position:fixed;inset:0;left:var(--sw);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:12px;color:var(--fg2);font-size:13px}
+.spinner{width:32px;height:32px;border:3px solid rgba(255,255,255,.1);border-top-color:rgba(255,255,255,.5);border-radius:50%;animation:spin .8s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+</style>
+</head>
+<body>
+<div id="sidebar">
+  <div>
+    <span class="flag">🇫🇷</span>
+    <h1>Exposition à l'IA<br>Marché du Travail Français</h1>
+    <p class="subtitle">211 métiers · superficie = emploi · couleur = exposition IA<br>
+    Source: <a href="https://ec.europa.eu/eurostat/" target="_blank">Eurostat LFS 2023</a> · <a href="https://dares.travail-emploi.gouv.fr/" target="_blank">DARES</a> · <a href="https://www.insee.fr/" target="_blank">INSEE</a><br>
+    Scores IA: Gemini AI</p>
+  </div>
+  <div class="stat-section"><h3>Emplois totaux</h3><div class="stat-big" id="sTot">—</div></div>
+  <div class="stat-section"><h3>Exposition moy. pondérée</h3><div class="stat-big" id="sAvg">—</div><div class="stat-label">pondérée par l'emploi · échelle 0–10</div></div>
+  <div class="stat-section"><h3>Emplois par score d'exposition</h3>
+    <div class="histogram" id="hist"></div>
+    <div class="hist-labels"><span>0</span><span>5</span><span>10</span></div>
+  </div>
+  <div class="stat-section"><h3>Répartition par niveau</h3><div id="tiers"></div></div>
+  <div class="stat-section"><h3>Exposition par salaire</h3><div id="payChart"></div></div>
+  <div class="stat-section"><h3>Exposition par niveau d'études</h3><div id="eduChart"></div></div>
+  <div class="stat-section"><h3>Masse salariale exposée (score ≥7)</h3><div class="stat-big" id="sWages">—</div><div class="stat-label">salaires annuels bruts</div></div>
+  <div class="grad-legend"><span>Faible</span><canvas id="gradLegend" width="80" height="8" style="border-radius:2px"></canvas><span>Élevée</span></div>
+</div>
+<div id="loading"><div class="spinner"></div><span>Chargement des données…</span></div>
+<canvas id="canvas" style="display:none"></canvas>
+<div id="tooltip"><div class="tt-title"></div><div class="tt-exp"></div><div class="tt-stats"></div><div class="tt-rat"></div></div>
+<script>
+function eRgb(s){const t=Math.max(0,Math.min(10,s))/10;if(t<.5){const u=t/.5;return[Math.round(50+u*180),Math.round(160-u*10),Math.round(50-u*20)]}const u=(t-.5)/.5;return[Math.round(230+u*25),Math.round(150-u*110),Math.round(30-u*10)]}
+function eCol(s,a){a=a==null?1:a;if(s==null)return'rgba(100,100,100,'+a+')';const c=eRgb(s);return'rgba('+c[0]+','+c[1]+','+c[2]+','+a+')'}
+function fmt(n){if(n==null)return'—';if(n>=1e6)return(n/1e6).toFixed(1)+'M';if(n>=1e3)return Math.round(n/1e3)+'K';return n.toLocaleString('fr-FR')}
+function fmtP(n){return n==null?'—':n.toLocaleString('fr-FR')+' €'}
+function worst(row,rs,side,tot,ext){var re=ext*(rs/tot);if(!re)return Infinity;var w=0;for(var i=0;i<row.length;i++){var il=side*(row[i].value/rs);if(!il)continue;var a=Math.max(re/il,il/re);if(a>w)w=a}return w}
+function squarify(items,x,y,w,h){if(!items.length)return[];if(items.length===1)return[Object.assign({},items[0],{rx:x,ry:y,rw:w,rh:h})];var tot=items.reduce(function(s,d){return s+d.value},0);if(!tot)return[];var res=[],rem=items.slice(),cx=x,cy=y,cw=w,ch=h;
+while(rem.length){var rt=rem.reduce(function(s,d){return s+d.value},0),vert=cw>=ch,side=vert?ch:cw,ext=vert?cw:ch,row=[rem[0]],rs=rem[0].value;
+for(var i=1;i<rem.length;i++){var cand=row.concat([rem[i]]),cs=rs+rem[i].value;if(worst(cand,cs,side,rt,ext)<worst(row,rs,side,rt,ext)){row=cand;rs=cs}else break}
+var thick=ext*(rs/rt),off=0;for(var j=0;j<row.length;j++){var it=row[j],il=side*(it.value/rs),r=Object.assign({},it);vert?(r.rx=cx,r.ry=cy+off,r.rw=thick,r.rh=il):(r.rx=cx+off,r.ry=cy,r.rw=il,r.rh=thick);res.push(r);off+=il}
+vert?(cx+=thick,cw-=thick):(cy+=thick,ch-=thick);rem=rem.slice(row.length)}return res}
+var MARGIN=10,GAP=1.5,SW=248,data=[],rects=[],hovered=null;
+var canvas=document.getElementById('canvas'),ctx=canvas.getContext('2d'),dpr=devicePixelRatio||1;
+function buildRects(){var bw=window.innerWidth-SW,bh=window.innerHeight;canvas.width=bw*dpr;canvas.height=bh*dpr;canvas.style.width=bw+'px';canvas.style.height=bh+'px';
+var byC={};data.forEach(function(d){if(!byC[d.category])byC[d.category]=[];byC[d.category].push(d)});
+var cats=Object.keys(byC).map(function(cat){var items=byC[cat].sort(function(a,b){return b.jobs-a.jobs});return{cat:cat,items:items,value:items.reduce(function(s,d){return s+(d.jobs||1)},0)}}).sort(function(a,b){return b.value-a.value});
+var cr=squarify(cats,MARGIN,MARGIN,bw-MARGIN*2,bh-MARGIN*2);rects=[];
+cr.forEach(function(c){var ir=squarify(c.items.map(function(d){return Object.assign({},d,{value:d.jobs||1})}),c.rx+GAP,c.ry+GAP,c.rw-GAP*2,c.rh-GAP*2);ir.forEach(function(r){rects.push(r)})})}
+function draw(){ctx.setTransform(dpr,0,0,dpr,0,0);ctx.fillStyle='#0a0a0f';ctx.fillRect(0,0,canvas.width/dpr,canvas.height/dpr);
+rects.forEach(function(r){var isH=r===hovered,g=GAP/2,rx=r.rx+g,ry=r.ry+g,rw=r.rw-g*2,rh=r.rh-g*2;if(rw<=0||rh<=0)return;
+ctx.fillStyle=eCol(r.exposure,isH?.85:.5);ctx.fillRect(rx,ry,rw,rh);
+if(isH){ctx.strokeStyle='#fff';ctx.lineWidth=2;ctx.strokeRect(rx,ry,rw,rh)}
+if(rw>50&&rh>18){ctx.save();ctx.beginPath();ctx.rect(rx+4,ry+2,rw-8,rh-4);ctx.clip();var fs=Math.min(13,Math.max(9,Math.min(rw/10,rh/3)));ctx.font='500 '+fs+'px -apple-system,system-ui,sans-serif';ctx.fillStyle=isH?'#fff':'rgba(255,255,255,.85)';ctx.textBaseline='top';ctx.fillText(r.title,rx+5,ry+4);if(rh>34&&rw>60){ctx.font='400 '+Math.max(8,fs-2)+'px -apple-system,system-ui,sans-serif';ctx.fillStyle='rgba(255,255,255,.5)';ctx.fillText(r.exposure+'/10 · '+fmt(r.jobs),rx+5,ry+4+fs+2)}ctx.restore()}})}
+function hitTest(mx,my){var cx=mx-SW,cy=my;for(var i=rects.length-1;i>=0;i--){var r=rects[i];if(cx>=r.rx&&cx<r.rx+r.rw&&cy>=r.ry&&cy<r.ry+r.rh)return r}return null}
+function showTip(d,mx,my){var tt=document.getElementById('tooltip'),col=eCol(d.exposure);tt.querySelector('.tt-title').textContent=d.title;tt.querySelector('.tt-exp').innerHTML='<span style="color:'+col+';font-weight:600">Exposition IA : '+d.exposure+'/10</span><div style="margin-top:3px;height:4px;background:rgba(255,255,255,.08);border-radius:2px"><div style="height:100%;width:'+d.exposure*10+'%;background:'+col+';border-radius:2px"></div></div>';tt.querySelector('.tt-stats').innerHTML='<span class="lbl">Salaire médian</span><span class="val">'+fmtP(d.pay)+'</span><span class="lbl">Emplois (2023)</span><span class="val">'+fmt(d.jobs)+'</span><span class="lbl">Perspectives</span><span class="val">'+(d.outlook!=null?d.outlook+'%':'—')+(d.outlook_desc?' ('+d.outlook_desc+')':'')+'</span><span class="lbl">Formation</span><span class="val">'+d.education+'</span>';tt.querySelector('.tt-rat').textContent=d.exposure_rationale||'';var tx=mx+16,ty=Math.max(10,Math.min(my-16,window.innerHeight-280));if(tx+360>window.innerWidth)tx=mx-376;tt.style.left=tx+'px';tt.style.top=ty+'px';tt.classList.add('visible')}
+function hideTip(){document.getElementById('tooltip').classList.remove('visible')}
+canvas.addEventListener('mousemove',function(e){var h=hitTest(e.clientX,e.clientY);if(h!==hovered){hovered=h;draw()}h?(showTip(h,e.clientX,e.clientY),canvas.style.cursor='pointer'):(hideTip(),canvas.style.cursor='default')});
+canvas.addEventListener('click',function(e){var h=hitTest(e.clientX,e.clientY);if(h&&h.url)window.open(h.url,'_blank')});
+canvas.addEventListener('mouseleave',function(){hovered=null;hideTip();draw()});
+window.addEventListener('resize',function(){dpr=devicePixelRatio||1;buildRects();draw()});
+function stats(){var tot=data.reduce(function(s,d){return s+(d.jobs||0)},0),ws=0,wc=0;data.forEach(function(d){if(d.exposure!=null&&d.jobs){ws+=d.exposure*d.jobs;wc+=d.jobs}});var avg=wc?ws/wc:0;
+document.getElementById('sTot').textContent=(tot/1e6).toFixed(1)+'M';document.getElementById('sAvg').innerHTML='<span style="color:'+eCol(avg)+'">'+avg.toFixed(1)+'</span>';
+var hist=new Array(11).fill(0);data.forEach(function(d){if(d.exposure!=null&&d.jobs)hist[d.exposure]+=d.jobs});var mx=Math.max.apply(null,hist.concat([1]));document.getElementById('hist').innerHTML=hist.map(function(c,i){return'<div class="bar" style="height:'+Math.max(2,c/mx*100)+'%;background:'+eCol(i,.7)+'"></div>'}).join('');
+var TIERS=[{n:'Minimale (0-1)',r:[0,1],m:.5},{n:'Faible (2-3)',r:[2,3],m:2.5},{n:'Modérée (4-5)',r:[4,5],m:4.5},{n:'Élevée (6-7)',r:[6,7],m:6.5},{n:'Très élevée (8-10)',r:[8,10],m:9}];document.getElementById('tiers').innerHTML=TIERS.map(function(t){var j=data.filter(function(d){return d.exposure>=t.r[0]&&d.exposure<=t.r[1]}).reduce(function(s,d){return s+d.jobs},0),p=tot?j/tot*100:0;return'<div class="tier-row"><div class="tier-color" style="background:'+eCol(t.m)+'"></div><span class="tier-name">'+t.n+'</span>&nbsp;<span>'+fmt(j)+'</span>&nbsp;<span style="color:var(--fg2);font-size:10px">'+p.toFixed(0)+'%</span></div>'}).join('');
+var PAYS=[{l:'<25K€',mn:0,mx:25000},{l:'25-35K€',mn:25000,mx:35000},{l:'35-50K€',mn:35000,mx:50000},{l:'50-75K€',mn:50000,mx:75000},{l:'75K€+',mn:75000,mx:1e9}];document.getElementById('payChart').innerHTML=PAYS.map(function(b){var s=0,n=0;data.forEach(function(d){if(d.exposure!=null&&d.jobs&&d.pay>=b.mn&&d.pay<b.mx){s+=d.exposure*d.jobs;n+=d.jobs}});var a=n?s/n:0;return'<div class="hbar-row"><span class="hbar-label">'+b.l+'</span><div class="hbar-track"><div class="hbar-fill" style="width:'+(a/10*100)+'%;background:'+eCol(a,.8)+'"></div></div><span class="hbar-val">'+a.toFixed(1)+'</span></div>'}).join('');
+var EDUS=[{l:'Sans diplôme',m:['Sans diplôme requis','CAP/BEP']},{l:'Bac',m:['Bac']},{l:'Bac+2',m:['Bac+2']},{l:'Licence/Bac+3',m:['Licence/Bac+3']},{l:'Master+',m:['Master/Bac+5','Doctorat']}];document.getElementById('eduChart').innerHTML=EDUS.map(function(g){var s=0,n=0;data.forEach(function(d){if(d.exposure!=null&&d.jobs&&g.m.indexOf(d.education)>=0){s+=d.exposure*d.jobs;n+=d.jobs}});var a=n?s/n:0;return'<div class="hbar-row"><span class="hbar-label">'+g.l+'</span><div class="hbar-track"><div class="hbar-fill" style="width:'+(a/10*100)+'%;background:'+eCol(a,.8)+'"></div></div><span class="hbar-val">'+a.toFixed(1)+'</span></div>'}).join('');
+var we=data.filter(function(d){return d.exposure>=7&&d.jobs&&d.pay}).reduce(function(s,d){return s+d.jobs*d.pay},0);document.getElementById('sWages').textContent=(we/1e9).toFixed(0)+'Md€';
+var gc=document.getElementById('gradLegend').getContext('2d');for(var x=0;x<80;x++){var rgb=eRgb(x/79*10);gc.fillStyle='rgb('+rgb[0]+','+rgb[1]+','+rgb[2]+')';gc.fillRect(x,0,1,8)}}
+fetch('./data.json').then(function(r){return r.json()}).then(function(d){data=d;document.getElementById('loading').style.display='none';canvas.style.display='block';stats();dpr=devicePixelRatio||1;buildRects();draw()}).catch(function(e){document.getElementById('loading').innerHTML='<span style="color:#f44">Erreur de chargement : '+e+'</span>'});
+</script>
+</body>
+</html>
