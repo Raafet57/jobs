@@ -124,50 +124,50 @@
 
     ## 🔗 Cascade & Dependency Risk (US + France)
 
-  ### Methodology: Leontief Input-Output Model
+  ### Methodology: Leontief Total-Requirements Model
 
-  Both cascade visualizations use a **Leontief input-output (I-O) model** to compute how AI-driven contraction in high-exposure sectors propagates demand shocks through the economy:
+  Both cascade visualizations use a **Leontief input-output total-requirements model** to compute how AI-driven contraction in high-exposure sectors propagates demand shocks through the economy. No heuristic constants or tuning parameters are used — cascade scores are derived directly from the total-requirements matrix.
 
-  1. **Technical coefficients matrix (A)**: Loaded from checked-in data extracts of official government I-O tables:
-     - **US**: BEA 2022 Input-Output Accounts, Use of Commodities by Industries, Sector Level (16 sectors)
-       - Source: [bea.gov/industry/input-output-accounts-data](https://www.bea.gov/industry/input-output-accounts-data)
-     - **France**: INSEE 2020 Comptes nationaux, Tableau des entrées intermédiaires (TEI), nomenclature A17 (17 branches)
-       - Source: [insee.fr/fr/statistiques/2832834](https://www.insee.fr/fr/statistiques/2832834)
+  #### Data Sources
 
-  2. **Leontief inverse L = (I − A)⁻¹**: Total requirements matrix computed via Gaussian elimination. Column sums give Type I output multipliers (US range: 1.24–1.80x; France range: 1.21–2.25x).
+  | | US | France |
+  |---|---|---|
+  | **I-O table** | BEA 2022 Use of Commodities by Industries (Sector Level) | INSEE 2020 Tableau des entrées intermédiaires (TEI), A17 |
+  | **Sectors** | 16 (NAICS-based) | 17 (NAF/NACE A17) |
+  | **Source URL** | [bea.gov/industry/input-output-accounts-data](https://www.bea.gov/industry/input-output-accounts-data) | [insee.fr/fr/statistiques/2832834](https://www.insee.fr/fr/statistiques/2832834) |
+  | **Occ. mapping** | BLS OEWS industry matrix (25 categories) | DARES FAP 2009 correspondence (22 categories) |
 
-  3. **Sector direct exposure**: Computed as employment-weighted average of occupation AI exposures within each sector, using occupation-to-sector mapping weights derived from:
-     - **US**: BLS Occupational Employment and Wage Statistics (OEWS) industry matrix
-     - **France**: DARES Familles Professionnelles (FAP 2009) to NAF/NACE correspondence
+  #### Pipeline
 
-  4. **Cascade scoring**: When AI contracts high-exposure sectors (sector avg ≥ 5.0), the Leontief inverse propagates demand shocks. Each occupation's cascade risk:
-     `cascade_risk = max(direct, round(direct + (sector_cascade − direct) × 0.6))`
-     where sector_cascade is the employment-weighted cascade exposure across the occupation's mapped sectors.
+  1. **Load technical coefficients matrix A** from checked-in data extracts (`scripts/data/*.json`)
+  2. **Compute Leontief inverse** (total requirements matrix): `L = (I − A)⁻¹` via Gaussian elimination
+  3. **Compute sector direct AI exposure** as employment-weighted average of mapped occupation scores
+  4. **Compute sector cascade exposure**: for sector j, `cascade_j = Σ_i L[j][i] × direct_i`
+  5. **Map to occupations**: weighted average of mapped sectors' cascade exposure, floored at direct score
+  6. `cascade_risk = max(direct_score, round(weighted_cascade_exposure))`
 
-  ### Key Results
+  #### Key Results
 
   | Metric | US (BEA 2022) | France (INSEE 2020) |
   |--------|---------------|---------------------|
-  | I-O sectors | 16 | 17 |
   | Occupations | 342 | 225 |
   | Direct avg | 4.91/10 | 3.64/10 |
-  | Cascade avg | 5.35/10 | 4.04/10 |
-  | Cascade uplift | +0.44 | +0.40 |
+  | Cascade avg | 6.74/10 | 5.43/10 |
+  | Cascade uplift | +1.83 | +1.79 |
   | High-risk (≥7) direct | 49.0M (34%) | 4.2M (15%) |
-  | High-risk (≥7) cascade | 49.3M (34%) | 4.5M (16%) |
+  | High-risk (≥7) cascade | 79.9M (55%) | 8.5M (30%) |
 
-  ### Data Files
+  #### Data Files (`scripts/data/`)
 
-  Source data extracts and mappings are checked into `scripts/data/`:
   - `bea-2022-use-sector.json` — BEA Use table technical coefficients (16×16)
   - `insee-2020-tes-a17.json` — INSEE TEI coefficients (17×17)
   - `bls-to-bea-sector-map.json` — BLS occupation category → BEA sector weights
   - `fap-to-insee-sector-map.json` — FAP category → INSEE branch weights
-  - `PROVENANCE.md` — Full source documentation and access URLs
+  - `PROVENANCE.md` — Full source documentation, sector code tables, and methodology
 
-  ### Scripts
+  #### Script
 
-  - `scripts/src/generate-cascade-io.ts` — Loads I-O tables from data files, computes Leontief inverse, derives sector cascade multipliers, and scores all occupations for both countries.
+  `scripts/src/generate-cascade-io.ts` — Loads I-O tables, computes Leontief inverse, derives sector cascade multipliers, and scores all occupations.
 
   ---
 
