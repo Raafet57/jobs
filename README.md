@@ -5,6 +5,7 @@
   **Live demos:**
   - 🇺🇸 US: [joshkale.github.io/jobs](https://joshkale.github.io/jobs/)
   - 🇫🇷 France: [joshkale.github.io/jobs/france](https://joshkale.github.io/jobs/france/)
+  - 🔗 Cascade Risk: [raafet57.github.io/jobs/cascade](https://raafet57.github.io/jobs/cascade/)
 
   ![AI Exposure Treemap](jobs.png)
 
@@ -120,7 +121,69 @@
 
   ---
 
-  ## AI exposure scoring rubric
+
+    ## 🔗 Cascade & Dependency Risk (NEW)
+
+    ### The insight
+
+    Direct AI exposure only tells half the story. When AI eliminates white-collar office work, the economic shockwave ripples through the entire economy:
+
+    - **Office buildings empty** → janitors, security guards, maintenance workers lose jobs
+    - **Workers lose income** → restaurants, retail, personal services lose customers
+    - **Commercial construction halts** → construction workers lose projects
+    - **Families lose health insurance** → healthcare demand shifts
+    - **Dual-income families can't afford daycare** → childcare workers displaced
+
+    ### The numbers
+
+    | Metric | Direct AI Risk | Cascade Risk |
+    |--------|---------------|--------------|
+    | Weighted avg score | **4.9 / 10** | **7.4 / 10** |
+    | Workers at high risk (≥7) | **49M (34%)** | **99M (69%)** |
+    | Exposed wage bill | ~$2.5T | ~$4.7T |
+
+    The cascade model nearly **doubles** the number of workers at high risk — from 49M to 99M.
+
+    ### Biggest cascade jumps
+
+    | Occupation | Direct | Cascade | Jump | Workers |
+    |-----------|--------|---------|------|---------|
+    | Janitors & building cleaners | 1 | 6 | +5 | 2.4M |
+    | Home health & personal care aides | 2 | 7 | +5 | 4.3M |
+    | Waiters & waitresses | 3 | 8 | +5 | 2.3M |
+    | Childcare workers | 2 | 7 | +5 | 992K |
+    | Food & beverage serving workers | 3 | 7 | +4 | 5.0M |
+    | Cooks | 3 | 7 | +4 | 2.8M |
+    | Construction laborers | 1 | 6 | +5 | 1.6M |
+    | Registered nurses | 4 | 8 | +4 | 3.4M |
+
+    ### Methodology
+
+    For each of the 342 BLS occupations, Gemini 2.5 Flash estimates the **derived demand percentage** (0–100): what fraction of this occupation's total employment depends on the continued existence of high-exposure white-collar/office work.
+
+    Two dependency channels are analyzed:
+    1. **Employer channel**: % of workers employed by organizations serving high-exposure sectors (e.g., janitors in office buildings)
+    2. **Consumer channel**: % of revenue from spending by high-exposure workers (e.g., restaurants near business districts)
+
+    The cascade risk score is then:
+
+    \`\`\`
+    cascade_risk = max(direct, round(direct + (10 - direct) × derived_pct/100 × 0.8))
+    \`\`\`
+
+    This ensures cascade risk is always ≥ direct risk, and the derived demand amplifies the remaining "room to grow" above the direct score.
+
+    ### Cascade key files
+
+    | File | Description |
+    |------|-------------|
+    | `cascade/data.json` | 342 occupations with both direct + cascade scores |
+    | `cascade/index.html` | Interactive treemap with Direct/Cascade toggle |
+
+    **Live demo:** [raafet57.github.io/jobs/cascade](https://raafet57.github.io/jobs/cascade/)
+
+    ---
+    ## AI exposure scoring rubric
 
   Each occupation is scored on a single **AI Exposure** axis from 0 to 10, measuring how much AI will reshape that occupation. The score considers both direct automation (AI doing the work) and indirect effects (AI making workers so productive that fewer are needed).
 
