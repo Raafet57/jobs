@@ -122,81 +122,53 @@
   ---
 
 
-    ## 🔗 Cascade & Dependency Risk (NEW)
+    ## 🔗 Cascade & Dependency Risk (US + France)
 
-    ### The insight
+  ### Methodology: Leontief Input-Output Model
 
-    Direct AI exposure only tells half the story. When AI eliminates white-collar office work, the economic shockwave ripples through the entire economy:
+  Both cascade visualizations use a **Leontief input-output (I-O) model** to compute how AI-driven contraction in high-exposure sectors propagates demand shocks through the economy:
 
-    - **Office buildings empty** → janitors, security guards, maintenance workers lose jobs
-    - **Workers lose income** → restaurants, retail, personal services lose customers
-    - **Commercial construction halts** → construction workers lose projects
-    - **Families lose health insurance** → healthcare demand shifts
-    - **Dual-income families can't afford daycare** → childcare workers displaced
+  1. **Technical coefficients matrix (A)**: Loaded from checked-in data extracts of official government I-O tables:
+     - **US**: BEA 2022 Input-Output Accounts, Use of Commodities by Industries, Sector Level (16 sectors)
+       - Source: [bea.gov/industry/input-output-accounts-data](https://www.bea.gov/industry/input-output-accounts-data)
+     - **France**: INSEE 2020 Comptes nationaux, Tableau des entrées intermédiaires (TEI), nomenclature A17 (17 branches)
+       - Source: [insee.fr/fr/statistiques/2832834](https://www.insee.fr/fr/statistiques/2832834)
 
-    ### The numbers
+  2. **Leontief inverse L = (I − A)⁻¹**: Total requirements matrix computed via Gaussian elimination. Column sums give Type I output multipliers (US range: 1.24–1.80x; France range: 1.21–2.25x).
 
-    | Metric | Direct AI Risk | Cascade Risk |
-    |--------|---------------|--------------|
-    | Weighted avg score | **4.9 / 10** | **7.4 / 10** |
-    | Workers at high risk (≥7) | **49M (34%)** | **99M (69%)** |
-    | Exposed wage bill | ~$2.5T | ~$4.7T |
+  3. **Sector direct exposure**: Computed as employment-weighted average of occupation AI exposures within each sector, using occupation-to-sector mapping weights derived from:
+     - **US**: BLS Occupational Employment and Wage Statistics (OEWS) industry matrix
+     - **France**: DARES Familles Professionnelles (FAP 2009) to NAF/NACE correspondence
 
-    The cascade model nearly **doubles** the number of workers at high risk — from 49M to 99M.
+  4. **Cascade scoring**: When AI contracts high-exposure sectors (sector avg ≥ 5.0), the Leontief inverse propagates demand shocks. Each occupation's cascade risk:
+     `cascade_risk = max(direct, round(direct + (sector_cascade − direct) × 0.6))`
+     where sector_cascade is the employment-weighted cascade exposure across the occupation's mapped sectors.
 
-    ### Biggest cascade jumps
+  ### Key Results
 
-    | Occupation | Direct | Cascade | Jump | Workers |
-    |-----------|--------|---------|------|---------|
-    | Janitors & building cleaners | 1 | 6 | +5 | 2.4M |
-    | Home health & personal care aides | 2 | 7 | +5 | 4.3M |
-    | Waiters & waitresses | 3 | 8 | +5 | 2.3M |
-    | Childcare workers | 2 | 7 | +5 | 992K |
-    | Food & beverage serving workers | 3 | 7 | +4 | 5.0M |
-    | Cooks | 3 | 7 | +4 | 2.8M |
-    | Construction laborers | 1 | 6 | +5 | 1.6M |
-    | Registered nurses | 4 | 8 | +4 | 3.4M |
+  | Metric | US (BEA 2022) | France (INSEE 2020) |
+  |--------|---------------|---------------------|
+  | I-O sectors | 16 | 17 |
+  | Occupations | 342 | 225 |
+  | Direct avg | 4.91/10 | 3.64/10 |
+  | Cascade avg | 5.35/10 | 4.04/10 |
+  | Cascade uplift | +0.44 | +0.40 |
+  | High-risk (≥7) direct | 49.0M (34%) | 4.2M (15%) |
+  | High-risk (≥7) cascade | 49.3M (34%) | 4.5M (16%) |
 
-    ### Methodology
+  ### Data Files
 
-    For each of the 342 BLS occupations, Gemini 2.5 Flash estimates the **derived demand percentage** (0–100): what fraction of this occupation's total employment depends on the continued existence of high-exposure white-collar/office work.
+  Source data extracts and mappings are checked into `scripts/data/`:
+  - `bea-2022-use-sector.json` — BEA Use table technical coefficients (16×16)
+  - `insee-2020-tes-a17.json` — INSEE TEI coefficients (17×17)
+  - `bls-to-bea-sector-map.json` — BLS occupation category → BEA sector weights
+  - `fap-to-insee-sector-map.json` — FAP category → INSEE branch weights
+  - `PROVENANCE.md` — Full source documentation and access URLs
 
-    Two dependency channels are analyzed:
-    1. **Employer channel**: % of workers employed by organizations serving high-exposure sectors (e.g., janitors in office buildings)
-    2. **Consumer channel**: % of revenue from spending by high-exposure workers (e.g., restaurants near business districts)
+  ### Scripts
 
-    The cascade risk score is then:
+  - `scripts/src/generate-cascade-io.ts` — Loads I-O tables from data files, computes Leontief inverse, derives sector cascade multipliers, and scores all occupations for both countries.
 
-    \`\`\`
-    cascade_risk = max(direct, round(direct + (10 - direct) × derived_pct/100 × 0.8))
-    \`\`\`
+  ---
 
-    This ensures cascade risk is always ≥ direct risk, and the derived demand amplifies the remaining "room to grow" above the direct score.
-
-    ### Cascade key files
-
-    | File | Description |
-    |------|-------------|
-    | `cascade/data.json` | 342 occupations with both direct + cascade scores |
-    | `cascade/index.html` | Interactive treemap with Direct/Cascade toggle |
-
-    **Live demo:** [raafet57.github.io/jobs/cascade](https://raafet57.github.io/jobs/cascade/)
-
-    ---
-    ## AI exposure scoring rubric
-
-  Each occupation is scored on a single **AI Exposure** axis from 0 to 10, measuring how much AI will reshape that occupation. The score considers both direct automation (AI doing the work) and indirect effects (AI making workers so productive that fewer are needed).
-
-  A key signal is whether the job's work product is fundamentally digital — if the job can be done entirely from a home office on a computer, AI exposure is inherently high. Conversely, jobs requiring physical presence, manual skill, or real-time human interaction have a natural barrier.
-
-  **Calibration examples:**
-
-  | Score | Meaning | US examples | French examples |
-  |-------|---------|-------------|-----------------|
-  | 0–1 | Minimal | Roofers, janitors | Assistantes maternelles, aides-soignants |
-  | 2–3 | Low | Electricians, nurses aides | Infirmiers, professeurs des écoles |
-  | 4–5 | Moderate | Registered nurses, retail | Attachés commerciaux, ingénieurs IT |
-  | 6–7 | High | Teachers, accountants | Cadres fonction publique, ouvriers manutention |
-  | 8–9 | Very high | Software developers, paralegals | Secrétaires bureautiques, développeurs |
-  | 10 | Maximum | Medical transcriptionists | — |
   
