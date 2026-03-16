@@ -12,10 +12,10 @@
     "exposure": 2,
     "exposure_rationale": "This job involves physical cleaning tasks that require manual dexterity and adaptation to various environments. While some robotic tools exist, comprehensive automation is still far off.",
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/agents-d-entretien-de-locaux",
-    "cascade_risk": 2,
+    "cascade_risk": 4,
     "derived_demand_pct": 65,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.01x [INSEE TES 2020]",
-    "io_multiplier": 1.01
+    "cascade_rationale": "Total requirements cascade via RU (1.22x total requirements), OQ (1.21x total requirements), LZ (1.52x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.34
   },
   {
     "title": "Aides-soignants",
@@ -30,10 +30,10 @@
     "exposure": 1,
     "exposure_rationale": "This role is centered on direct patient care, requiring empathy, physical assistance, and complex human interaction. These core aspects are inherently resistant to automation.",
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/aides-soignants",
-    "cascade_risk": 2,
+    "cascade_risk": 4,
     "derived_demand_pct": 45,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.01x [INSEE TES 2020]",
-    "io_multiplier": 1.01
+    "cascade_rationale": "Total requirements cascade via OQ (1.21x total requirements), MN (1.31x total requirements), RU (1.22x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.22
   },
   {
     "title": "Infirmiers",
@@ -48,10 +48,10 @@
     "exposure": 2,
     "exposure_rationale": "Nurses provide direct patient care, requiring critical thinking, empathy, and complex physical procedures. While some administrative tasks might be automated, the core care functions are not.",
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/infirmiers",
-    "cascade_risk": 3,
+    "cascade_risk": 4,
     "derived_demand_pct": 45,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.01x [INSEE TES 2020]",
-    "io_multiplier": 1.01
+    "cascade_rationale": "Total requirements cascade via OQ (1.21x total requirements), MN (1.31x total requirements), RU (1.22x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.22
   },
   {
     "title": "Aides à domicile",
@@ -66,10 +66,10 @@
     "exposure": 1,
     "exposure_rationale": "These roles involve direct physical care and human interaction, which are difficult to automate. The tasks are primarily non-digital and require empathy and physical presence.",
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/aides-a-domicile",
-    "cascade_risk": 2,
+    "cascade_risk": 4,
     "derived_demand_pct": 50,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.01x [INSEE TES 2020]",
-    "io_multiplier": 1.01
+    "cascade_rationale": "Total requirements cascade via RU (1.22x total requirements), OQ (1.21x total requirements), LZ (1.52x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.34
   },
   {
     "title": "Cadres administratifs et financiers",
@@ -86,8 +86,8 @@
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/cadres-administratifs-et-financiers",
     "cascade_risk": 7,
     "derived_demand_pct": 100,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.02x [INSEE TES 2020]",
-    "io_multiplier": 1.02
+    "cascade_rationale": "Total requirements cascade via MN (1.31x total requirements), KZ (1.29x total requirements), JZ (1.40x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.33
   },
   {
     "title": "Professeurs du secondaire",
@@ -102,10 +102,10 @@
     "exposure": 3,
     "exposure_rationale": "Teaching requires complex human interaction, pedagogical adaptation, and emotional intelligence, which are difficult for AI to replicate. While administrative tasks might be automated, the core teaching function remains human.",
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/professeurs-du-secondaire",
-    "cascade_risk": 3,
+    "cascade_risk": 4,
     "derived_demand_pct": 60,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.01x [INSEE TES 2020]",
-    "io_multiplier": 1.01
+    "cascade_rationale": "Total requirements cascade via OQ (1.21x total requirements), MN (1.31x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.22
   },
   {
     "title": "Employés services publics",
@@ -122,8 +122,8 @@
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/employes-services-publics",
     "cascade_risk": 5,
     "derived_demand_pct": 70,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.01x [INSEE TES 2020]",
-    "io_multiplier": 1.01
+    "cascade_rationale": "Total requirements cascade via MN (1.31x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.22
   },
   {
     "title": "Attachés commerciaux",
@@ -138,10 +138,10 @@
     "exposure": 4,
     "exposure_rationale": "Sales roles rely heavily on human persuasion, negotiation, and relationship building, which are difficult for AI to fully replicate. AI can support lead generation and CRM, but the core selling process remains human-driven.",
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/attaches-commerciaux",
-    "cascade_risk": 4,
+    "cascade_risk": 6,
     "derived_demand_pct": 60,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.01x [INSEE TES 2020]",
-    "io_multiplier": 1.01
+    "cascade_rationale": "Total requirements cascade via GZ (1.33x total requirements), MN (1.31x total requirements), C1 (1.80x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.38
   },
   {
     "title": "Assistantes maternelles",
@@ -156,10 +156,10 @@
     "exposure": 0,
     "exposure_rationale": "This role involves direct care for children, requiring constant physical presence, emotional support, and complex, unpredictable human interaction. It is fundamentally non-digital and empathy-driven.",
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/assistantes-maternelles",
-    "cascade_risk": 2,
+    "cascade_risk": 4,
     "derived_demand_pct": 75,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.01x [INSEE TES 2020]",
-    "io_multiplier": 1.01
+    "cascade_rationale": "Total requirements cascade via RU (1.22x total requirements), OQ (1.21x total requirements), LZ (1.52x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.34
   },
   {
     "title": "Cadres fonction publique",
@@ -176,8 +176,8 @@
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/cadres-fonction-publique",
     "cascade_risk": 6,
     "derived_demand_pct": 70,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.01x [INSEE TES 2020]",
-    "io_multiplier": 1.01
+    "cascade_rationale": "Total requirements cascade via MN (1.31x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.22
   },
   {
     "title": "Maîtrise des magasins",
@@ -192,10 +192,10 @@
     "exposure": 3,
     "exposure_rationale": "This role involves managing human teams, customer interactions, and physical store operations, requiring leadership and problem-solving skills. While AI can optimize logistics, human oversight and interpersonal skills are crucial.",
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/maitrise-des-magasins",
-    "cascade_risk": 4,
+    "cascade_risk": 6,
     "derived_demand_pct": 60,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.01x [INSEE TES 2020]",
-    "io_multiplier": 1.01
+    "cascade_rationale": "Total requirements cascade via GZ (1.33x total requirements), MN (1.31x total requirements), C1 (1.80x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.38
   },
   {
     "title": "Ouvriers magasinage manutention",
@@ -210,10 +210,10 @@
     "exposure": 6,
     "exposure_rationale": "These roles involve repetitive physical tasks and machinery operation in controlled environments, making them highly susceptible to automation by robotics and AI-driven logistics. Human oversight will shift to maintenance and supervision.",
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/ouvriers-magasinage-manutention",
-    "cascade_risk": 6,
+    "cascade_risk": 7,
     "derived_demand_pct": 55,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.01x [INSEE TES 2020]",
-    "io_multiplier": 1.01
+    "cascade_rationale": "Total requirements cascade via HZ (1.47x total requirements), C5 (1.54x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.47
   },
   {
     "title": "Professeurs des écoles",
@@ -228,10 +228,10 @@
     "exposure": 2,
     "exposure_rationale": "Teaching young children requires extensive human interaction, emotional intelligence, and adaptive pedagogical approaches that AI cannot replicate. The role is deeply rooted in human development and social learning.",
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/professeurs-des-ecoles",
-    "cascade_risk": 3,
+    "cascade_risk": 4,
     "derived_demand_pct": 55,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.01x [INSEE TES 2020]",
-    "io_multiplier": 1.01
+    "cascade_rationale": "Total requirements cascade via OQ (1.21x total requirements), MN (1.31x total requirements), RU (1.22x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.22
   },
   {
     "title": "Ingénieurs et chefs de projets IT",
@@ -246,10 +246,10 @@
     "exposure": 5,
     "exposure_rationale": "While these roles are highly digital, they involve complex problem-solving, creative design, and strategic project management, which AI currently augments rather than replaces. AI tools are used to enhance productivity.",
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/ingenieurs-et-chefs-de-projets-it",
-    "cascade_risk": 5,
+    "cascade_risk": 8,
     "derived_demand_pct": 100,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.02x [INSEE TES 2020]",
-    "io_multiplier": 1.02
+    "cascade_rationale": "Total requirements cascade via JZ (1.40x total requirements), MN (1.31x total requirements), KZ (1.29x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.34
   },
   {
     "title": "Secrétaires bureautiques",
@@ -266,8 +266,8 @@
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/secretaires-bureautiques",
     "cascade_risk": 8,
     "derived_demand_pct": 100,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.02x [INSEE TES 2020]",
-    "io_multiplier": 1.02
+    "cascade_rationale": "Total requirements cascade via MN (1.31x total requirements), KZ (1.29x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.33
   },
   {
     "title": "Ouvriers emballage manutention",
@@ -282,10 +282,10 @@
     "exposure": 3,
     "exposure_rationale": "This role involves significant physical labor and handling of diverse objects, which is challenging for current robotics. However, tasks like sorting, basic packing, and inventory management can be increasingly assisted or partially automated by AI-driven systems.",
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/ouvriers-emballage-manutention",
-    "cascade_risk": 4,
+    "cascade_risk": 7,
     "derived_demand_pct": 35,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.01x [INSEE TES 2020]",
-    "io_multiplier": 1.01
+    "cascade_rationale": "Total requirements cascade via HZ (1.47x total requirements), GZ (1.33x total requirements), C5 (1.54x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.47
   },
   {
     "title": "Conducteurs routiers",
@@ -300,10 +300,10 @@
     "exposure": 6,
     "exposure_rationale": "Autonomous driving technology is rapidly advancing, posing a significant long-term threat to this profession, especially for long-haul routes. However, human drivers are still required for complex urban deliveries, loading/unloading, and unforeseen situations.",
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/conducteurs-routiers",
-    "cascade_risk": 6,
+    "cascade_risk": 7,
     "derived_demand_pct": 45,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.01x [INSEE TES 2020]",
-    "io_multiplier": 1.01
+    "cascade_rationale": "Total requirements cascade via HZ (1.47x total requirements), C5 (1.54x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.47
   },
   {
     "title": "Cadres B fonction publique",
@@ -320,8 +320,8 @@
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/cadres-b-fonction-publique",
     "cascade_risk": 6,
     "derived_demand_pct": 65,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.01x [INSEE TES 2020]",
-    "io_multiplier": 1.01
+    "cascade_rationale": "Total requirements cascade via MN (1.31x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.22
   },
   {
     "title": "Agents services hospitaliers",
@@ -336,10 +336,10 @@
     "exposure": 1,
     "exposure_rationale": "This is a hands-on, physical role involving direct patient environment care and human interaction, which is very difficult to automate. While some cleaning tasks could be robot-assisted, the core service aspect requires human presence and empathy.",
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/agents-services-hospitaliers",
-    "cascade_risk": 2,
+    "cascade_risk": 4,
     "derived_demand_pct": 60,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.01x [INSEE TES 2020]",
-    "io_multiplier": 1.01
+    "cascade_rationale": "Total requirements cascade via RU (1.22x total requirements), OQ (1.21x total requirements), LZ (1.52x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.34
   },
   {
     "title": "Ingénieurs R&D industrie",
@@ -354,10 +354,10 @@
     "exposure": 5,
     "exposure_rationale": "AI serves as a powerful tool for these professionals, automating data analysis, simulations, and design iterations to enhance efficiency. Nevertheless, the essential functions of innovation, complex problem-solving, and strategic direction require human ingenuity and critical thinking.",
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/ingenieurs-r-d-industrie",
-    "cascade_risk": 5,
+    "cascade_risk": 7,
     "derived_demand_pct": 45,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.02x [INSEE TES 2020]",
-    "io_multiplier": 1.02
+    "cascade_rationale": "Total requirements cascade via MN (1.31x total requirements), C3 (1.51x total requirements), C5 (1.54x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.36
   },
   {
     "title": "Techniciens services administratifs",
@@ -374,8 +374,8 @@
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/techniciens-services-administratifs",
     "cascade_risk": 7,
     "derived_demand_pct": 75,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.02x [INSEE TES 2020]",
-    "io_multiplier": 1.02
+    "cascade_rationale": "Total requirements cascade via MN (1.31x total requirements), KZ (1.29x total requirements), JZ (1.40x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.33
   },
   {
     "title": "Cadres commerciaux, marketing, achats",
@@ -390,10 +390,10 @@
     "exposure": 5,
     "exposure_rationale": "AI can significantly enhance efficiency in market analysis, lead generation, and personalized marketing campaigns. However, the core functions of strategic negotiation, complex client relationship management, and creative campaign development remain human-driven.",
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/cadres-commerciaux-marketing-achats",
-    "cascade_risk": 5,
+    "cascade_risk": 6,
     "derived_demand_pct": 55,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.01x [INSEE TES 2020]",
-    "io_multiplier": 1.01
+    "cascade_rationale": "Total requirements cascade via GZ (1.33x total requirements), MN (1.31x total requirements), C1 (1.80x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.38
   },
   {
     "title": "Employés comptabilité",
@@ -410,8 +410,8 @@
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/employes-comptabilite",
     "cascade_risk": 8,
     "derived_demand_pct": 70,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.02x [INSEE TES 2020]",
-    "io_multiplier": 1.02
+    "cascade_rationale": "Total requirements cascade via MN (1.31x total requirements), KZ (1.29x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.33
   },
   {
     "title": "Techniciens maintenance environnement",
@@ -426,10 +426,10 @@
     "exposure": 4,
     "exposure_rationale": "While AI can significantly aid in predictive maintenance and diagnostics, the core tasks involve physical intervention, troubleshooting in varied environments, and hands-on repair. The need for human dexterity and adaptability to unforeseen mechanical issues keeps the automation exposure moderate.",
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/techniciens-maintenance-environnement",
-    "cascade_risk": 4,
+    "cascade_risk": 6,
     "derived_demand_pct": 45,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.02x [INSEE TES 2020]",
-    "io_multiplier": 1.02
+    "cascade_rationale": "Total requirements cascade via C5 (1.54x total requirements), MN (1.31x total requirements), GZ (1.33x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.45
   },
   {
     "title": "Agents administratifs",
@@ -446,8 +446,8 @@
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/agents-administratifs",
     "cascade_risk": 7,
     "derived_demand_pct": 75,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.02x [INSEE TES 2020]",
-    "io_multiplier": 1.02
+    "cascade_rationale": "Total requirements cascade via MN (1.31x total requirements), KZ (1.29x total requirements), JZ (1.40x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.33
   },
   {
     "title": "Agents sécurité ordre public",
@@ -462,10 +462,10 @@
     "exposure": 2,
     "exposure_rationale": "While AI can enhance surveillance and anomaly detection, the core of this role requires human judgment, physical presence, de-escalation skills, and direct intervention in unpredictable situations. The need for human interaction, empathy, and adaptability to complex social dynamics makes full automation highly improbable.",
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/agents-securite-ordre-public",
-    "cascade_risk": 3,
+    "cascade_risk": 4,
     "derived_demand_pct": 55,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.01x [INSEE TES 2020]",
-    "io_multiplier": 1.01
+    "cascade_rationale": "Total requirements cascade via OQ (1.21x total requirements), MN (1.31x total requirements), RU (1.22x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.22
   },
   {
     "title": "Médecins",
@@ -480,10 +480,10 @@
     "exposure": 3,
     "exposure_rationale": "AI can significantly assist in diagnostics, data analysis, and treatment recommendations, enhancing efficiency and accuracy. However, the core of medical practice involves complex human interaction, empathy, ethical decision-making, and holistic patient management, which are beyond current AI capabilities.",
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/medecins",
-    "cascade_risk": 3,
+    "cascade_risk": 4,
     "derived_demand_pct": 45,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.01x [INSEE TES 2020]",
-    "io_multiplier": 1.01
+    "cascade_rationale": "Total requirements cascade via OQ (1.21x total requirements), MN (1.31x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.22
   },
   {
     "title": "Éducateurs spécialisés",
@@ -498,10 +498,10 @@
     "exposure": 0,
     "exposure_rationale": "This role is fundamentally human-centric, requiring deep empathy, emotional intelligence, complex social interaction, and individualized support. The core functions of building trust, adapting to unique human needs, and providing emotional guidance are entirely beyond the scope of current AI.",
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/educateurs-specialises",
-    "cascade_risk": 2,
+    "cascade_risk": 4,
     "derived_demand_pct": 40,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.01x [INSEE TES 2020]",
-    "io_multiplier": 1.01
+    "cascade_rationale": "Total requirements cascade via OQ (1.21x total requirements), MN (1.31x total requirements), RU (1.22x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.22
   },
   {
     "title": "Vendeurs spécialisés",
@@ -516,10 +516,10 @@
     "exposure": 4,
     "exposure_rationale": "While e-commerce and AI-powered recommendation systems can automate some aspects of sales, the core of this role involves human interaction, persuasion, and personalized advice. Building rapport, understanding nuanced customer needs, and providing a tailored shopping experience remain crucial human functions.",
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/vendeurs-specialises",
-    "cascade_risk": 4,
+    "cascade_risk": 6,
     "derived_demand_pct": 65,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.01x [INSEE TES 2020]",
-    "io_multiplier": 1.01
+    "cascade_rationale": "Total requirements cascade via GZ (1.33x total requirements), MN (1.31x total requirements), C1 (1.80x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.38
   },
   {
     "title": "Maçons",
@@ -534,10 +534,10 @@
     "exposure": 1,
     "exposure_rationale": "This is a highly physical, outdoor, and manual role requiring significant dexterity, problem-solving on-site, and adaptation to unpredictable conditions. While some construction tasks might see robotic assistance, the core craft and versatility of a mason are extremely difficult to automate.",
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/macons",
-    "cascade_risk": 2,
+    "cascade_risk": 4,
     "derived_demand_pct": 55,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.01x [INSEE TES 2020]",
-    "io_multiplier": 1.01
+    "cascade_rationale": "Total requirements cascade via FZ (1.50x total requirements), C5 (1.54x total requirements), DE (1.53x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.51
   },
   {
     "title": "Serveurs cafés restaurants",
@@ -552,10 +552,10 @@
     "exposure": 1,
     "exposure_rationale": "This role is intensely human-centric, relying on direct customer interaction, social skills, and adaptability in a dynamic environment. While some ordering processes can be digitalized, the core service, empathy, and problem-solving in real-time social situations are irreplaceable by AI.",
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/serveurs-cafes-restaurants",
-    "cascade_risk": 1,
+    "cascade_risk": 2,
     "derived_demand_pct": 60,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.00x [INSEE TES 2020]",
-    "io_multiplier": 1
+    "cascade_rationale": "Total requirements cascade via IZ (1.56x total requirements), GZ (1.33x total requirements), RU (1.22x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.52
   },
   {
     "title": "Employés banque assurances",
@@ -570,10 +570,10 @@
     "exposure": 7,
     "exposure_rationale": "This role involves numerous routine, data-driven, and procedural tasks such as account management, basic inquiries, and document processing, which are highly susceptible to AI and RPA. While complex financial advice and relationship management will remain human, a significant portion of transactional work is being automated.",
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/employes-banque-assurances",
-    "cascade_risk": 7,
+    "cascade_risk": 8,
     "derived_demand_pct": 90,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.01x [INSEE TES 2020]",
-    "io_multiplier": 1.01
+    "cascade_rationale": "Total requirements cascade via KZ (1.29x total requirements), MN (1.31x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.31
   },
   {
     "title": "Coiffeurs esthéticiens",
@@ -588,10 +588,10 @@
     "exposure": 0,
     "exposure_rationale": "This profession requires high manual dexterity, artistic judgment, direct physical interaction, and strong interpersonal skills to understand and fulfill client preferences. The personalized service and human touch are central to the role and cannot be replicated by AI or robotics.",
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/coiffeurs-estheticiens",
-    "cascade_risk": 2,
+    "cascade_risk": 4,
     "derived_demand_pct": 55,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.01x [INSEE TES 2020]",
-    "io_multiplier": 1.01
+    "cascade_rationale": "Total requirements cascade via RU (1.22x total requirements), OQ (1.21x total requirements), LZ (1.52x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.34
   },
   {
     "title": "Cuisinier professionnel",
@@ -608,8 +608,8 @@
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/cuisinier-professionnel",
     "cascade_risk": 2,
     "derived_demand_pct": 60,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.00x [INSEE TES 2020]",
-    "io_multiplier": 1
+    "cascade_rationale": "Total requirements cascade via GZ (1.33x total requirements), RU (1.22x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.52
   },
   {
     "title": "Conducteur livreur courte distance",
@@ -624,10 +624,10 @@
     "exposure": 6,
     "exposure_rationale": "While driving tasks are increasingly susceptible to automation, last-mile delivery often requires human interaction, problem-solving, and navigation in complex environments. AI can optimize routes and logistics, but full physical delivery automation is not yet widespread.",
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/conducteur-livreur-courte-distance",
-    "cascade_risk": 6,
+    "cascade_risk": 7,
     "derived_demand_pct": 40,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.01x [INSEE TES 2020]",
-    "io_multiplier": 1.01
+    "cascade_rationale": "Total requirements cascade via HZ (1.47x total requirements), C5 (1.54x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.47
   },
   {
     "title": "Employé services divers",
@@ -642,10 +642,10 @@
     "exposure": 3,
     "exposure_rationale": "This broad category typically involves a mix of physical tasks, direct human interaction, and basic administrative duties. While some routine administrative aspects could be supported by AI, the core service delivery often requires human presence and adaptability.",
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/employe-services-divers",
-    "cascade_risk": 3,
+    "cascade_risk": 4,
     "derived_demand_pct": 70,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.01x [INSEE TES 2020]",
-    "io_multiplier": 1.01
+    "cascade_rationale": "Total requirements cascade via OQ (1.21x total requirements), LZ (1.52x total requirements), MN (1.31x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.34
   },
   {
     "title": "Caissier de magasin",
@@ -662,8 +662,8 @@
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/caissier-de-magasin",
     "cascade_risk": 7,
     "derived_demand_pct": 50,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.01x [INSEE TES 2020]",
-    "io_multiplier": 1.01
+    "cascade_rationale": "Total requirements cascade via MN (1.31x total requirements), C5 (1.54x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.38
   },
   {
     "title": "Vendeur produits alimentaires",
@@ -678,10 +678,10 @@
     "exposure": 4,
     "exposure_rationale": "This role combines product knowledge, direct customer interaction, and merchandising tasks, often requiring sensory input and social skills. While AI can assist with inventory management and personalized recommendations, the human element in sales and advice remains significant.",
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/vendeur-produits-alimentaires",
-    "cascade_risk": 4,
+    "cascade_risk": 6,
     "derived_demand_pct": 30,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.01x [INSEE TES 2020]",
-    "io_multiplier": 1.01
+    "cascade_rationale": "Total requirements cascade via GZ (1.33x total requirements), MN (1.31x total requirements), C1 (1.80x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.38
   },
   {
     "title": "Technicien expert",
@@ -696,10 +696,10 @@
     "exposure": 5,
     "exposure_rationale": "Expert technicians deal with complex diagnostics, troubleshooting, and non-routine problem-solving, often requiring critical thinking and hands-on intervention. While AI can enhance diagnostic tools and provide data analysis, the human expertise for intricate issues remains crucial.",
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/technicien-expert",
-    "cascade_risk": 5,
+    "cascade_risk": 6,
     "derived_demand_pct": 75,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.02x [INSEE TES 2020]",
-    "io_multiplier": 1.02
+    "cascade_rationale": "Total requirements cascade via C5 (1.54x total requirements), MN (1.31x total requirements), GZ (1.33x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.45
   },
   {
     "title": "Animateur socioculturel",
@@ -714,10 +714,10 @@
     "exposure": 1,
     "exposure_rationale": "This profession is deeply rooted in human interaction, empathy, creativity, and understanding group dynamics, which are core human attributes. AI cannot replicate the nuanced social and emotional intelligence required for effective sociocultural animation.",
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/animateur-socioculturel",
-    "cascade_risk": 2,
+    "cascade_risk": 4,
     "derived_demand_pct": 40,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.01x [INSEE TES 2020]",
-    "io_multiplier": 1.01
+    "cascade_rationale": "Total requirements cascade via OQ (1.21x total requirements), MN (1.31x total requirements), RU (1.22x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.22
   },
   {
     "title": "Cadre de la banque",
@@ -732,10 +732,10 @@
     "exposure": 7,
     "exposure_rationale": "Banking executives deal with extensive data analysis, strategic decision-making, and complex regulatory compliance, areas where AI can automate many analytical and advisory functions. While strategic oversight and high-level client relationships remain human, many routine cognitive tasks are susceptible to automation.",
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/cadre-de-la-banque",
-    "cascade_risk": 7,
+    "cascade_risk": 8,
     "derived_demand_pct": 95,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.01x [INSEE TES 2020]",
-    "io_multiplier": 1.01
+    "cascade_rationale": "Total requirements cascade via KZ (1.29x total requirements), MN (1.31x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.31
   },
   {
     "title": "Vendeur généraliste",
@@ -750,10 +750,10 @@
     "exposure": 5,
     "exposure_rationale": "Generalist sales roles involve direct customer interaction, product presentation, and sales techniques, requiring social skills and adaptability. While AI can optimize inventory and provide personalized recommendations, the human element in persuasion and relationship building remains important.",
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/vendeur-generaliste",
-    "cascade_risk": 5,
+    "cascade_risk": 6,
     "derived_demand_pct": 55,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.01x [INSEE TES 2020]",
-    "io_multiplier": 1.01
+    "cascade_rationale": "Total requirements cascade via GZ (1.33x total requirements), MN (1.31x total requirements), C1 (1.80x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.38
   },
   {
     "title": "Ingénieur technico-commercial",
@@ -770,8 +770,8 @@
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/ingenieur-technico-commercial",
     "cascade_risk": 6,
     "derived_demand_pct": 80,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.01x [INSEE TES 2020]",
-    "io_multiplier": 1.01
+    "cascade_rationale": "Total requirements cascade via MN (1.31x total requirements), C5 (1.54x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.38
   },
   {
     "title": "Technicien études BTP",
@@ -788,8 +788,8 @@
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/technicien-etudes-btp",
     "cascade_risk": 6,
     "derived_demand_pct": 70,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.01x [INSEE TES 2020]",
-    "io_multiplier": 1.01
+    "cascade_rationale": "Total requirements cascade via C5 (1.54x total requirements), DE (1.53x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.51
   },
   {
     "title": "Agent de sécurité",
@@ -806,8 +806,8 @@
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/agent-de-securite",
     "cascade_risk": 4,
     "derived_demand_pct": 85,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.01x [INSEE TES 2020]",
-    "io_multiplier": 1.01
+    "cascade_rationale": "Total requirements cascade via LZ (1.52x total requirements), MN (1.31x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.34
   },
   {
     "title": "Employé de maison",
@@ -822,10 +822,10 @@
     "exposure": 1,
     "exposure_rationale": "This profession involves highly physical tasks, personalized service, and adaptability to diverse and often unpredictable environments, requiring human dexterity and judgment. The trust and personal relationship aspects are also central and cannot be replicated by AI.",
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/employe-de-maison",
-    "cascade_risk": 2,
+    "cascade_risk": 4,
     "derived_demand_pct": 65,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.01x [INSEE TES 2020]",
-    "io_multiplier": 1.01
+    "cascade_rationale": "Total requirements cascade via RU (1.22x total requirements), OQ (1.21x total requirements), LZ (1.52x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.34
   },
   {
     "title": "Éleveur indépendant",
@@ -840,10 +840,10 @@
     "exposure": 2,
     "exposure_rationale": "Livestock farming involves significant physical labor, direct animal care, and decision-making based on observation and experience in dynamic outdoor environments. While AI can aid in monitoring and data analysis, the core tasks of animal husbandry and welfare remain human-dependent.",
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/eleveur-independant",
-    "cascade_risk": 2,
+    "cascade_risk": 4,
     "derived_demand_pct": 25,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.00x [INSEE TES 2020]",
-    "io_multiplier": 1
+    "cascade_rationale": "Total requirements cascade via AZ (1.59x total requirements), C1 (1.80x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.61
   },
   {
     "title": "Ouvrier non qualifié métallerie",
@@ -858,10 +858,10 @@
     "exposure": 5,
     "exposure_rationale": "These roles often involve repetitive manual tasks and assembly line work, which are increasingly susceptible to automation by robotics and advanced manufacturing systems. While some dexterity is required, the routine nature makes it vulnerable to AI-driven machines.",
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/ouvrier-non-qualifie-metallerie",
-    "cascade_risk": 5,
+    "cascade_risk": 6,
     "derived_demand_pct": 55,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.01x [INSEE TES 2020]",
-    "io_multiplier": 1.01
+    "cascade_rationale": "Total requirements cascade via C5 (1.54x total requirements), C3 (1.51x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.56
   },
   {
     "title": "Peintre finisseur bâtiment",
@@ -876,10 +876,10 @@
     "exposure": 3,
     "exposure_rationale": "This skilled trade requires fine motor skills, aesthetic judgment, and adaptability to diverse surfaces and complex architectural details. While some large-scale painting can be automated, the precision and artistry for finishing work remain largely human.",
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/peintre-finisseur-batiment",
-    "cascade_risk": 3,
+    "cascade_risk": 4,
     "derived_demand_pct": 70,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.01x [INSEE TES 2020]",
-    "io_multiplier": 1.01
+    "cascade_rationale": "Total requirements cascade via FZ (1.50x total requirements), C5 (1.54x total requirements), DE (1.53x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.51
   },
   {
     "title": "Dirigeant PME",
@@ -894,10 +894,10 @@
     "exposure": 4,
     "exposure_rationale": "This role involves strategic decision-making, human leadership, innovation, and complex problem-solving in dynamic environments, requiring high emotional intelligence and adaptability. While AI can support data analysis and market insights, the core entrepreneurial and leadership functions remain human.",
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/dirigeant-pme",
-    "cascade_risk": 5,
+    "cascade_risk": 7,
     "derived_demand_pct": 60,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.02x [INSEE TES 2020]",
-    "io_multiplier": 1.02
+    "cascade_rationale": "Total requirements cascade via MN (1.31x total requirements), KZ (1.29x total requirements), GZ (1.33x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.33
   },
   {
     "title": "Formateur professionnel",
@@ -912,10 +912,10 @@
     "exposure": 3,
     "exposure_rationale": "Trainers rely heavily on human interaction, pedagogical skills, empathy, and the ability to adapt content to diverse learners, providing nuanced feedback. While AI can deliver content and personalize learning paths, the human connection and adaptive teaching remain crucial.",
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/formateur-professionnel",
-    "cascade_risk": 3,
+    "cascade_risk": 4,
     "derived_demand_pct": 75,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.01x [INSEE TES 2020]",
-    "io_multiplier": 1.01
+    "cascade_rationale": "Total requirements cascade via OQ (1.21x total requirements), MN (1.31x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.22
   },
   {
     "title": "Paramédicaux divers",
@@ -930,10 +930,10 @@
     "exposure": 2,
     "exposure_rationale": "These roles involve direct patient care, requiring empathy, physical interaction, and complex decision-making in varied human contexts. While some administrative tasks can be supported by AI, the core functions are highly resistant to automation.",
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/paramedicaux-divers",
-    "cascade_risk": 3,
+    "cascade_risk": 4,
     "derived_demand_pct": 60,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.01x [INSEE TES 2020]",
-    "io_multiplier": 1.01
+    "cascade_rationale": "Total requirements cascade via OQ (1.21x total requirements), MN (1.31x total requirements), RU (1.22x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.22
   },
   {
     "title": "Techniciens comptables financiers",
@@ -950,8 +950,8 @@
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/techniciens-comptables-financiers",
     "cascade_risk": 7,
     "derived_demand_pct": 80,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.02x [INSEE TES 2020]",
-    "io_multiplier": 1.02
+    "cascade_rationale": "Total requirements cascade via MN (1.31x total requirements), KZ (1.29x total requirements), JZ (1.40x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.33
   },
   {
     "title": "Techniciens médicaux",
@@ -968,8 +968,8 @@
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/techniciens-medicaux",
     "cascade_risk": 4,
     "derived_demand_pct": 50,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.01x [INSEE TES 2020]",
-    "io_multiplier": 1.01
+    "cascade_rationale": "Total requirements cascade via MN (1.31x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.22
   },
   {
     "title": "Gérants HCR",
@@ -984,10 +984,10 @@
     "exposure": 1,
     "exposure_rationale": "This role is highly entrepreneurial, requiring complex decision-making, leadership, customer interaction, and adaptability in a dynamic environment. While AI can assist with booking or inventory, the core functions of management and human service are deeply resistant to automation.",
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/gerants-hcr",
-    "cascade_risk": 1,
+    "cascade_risk": 2,
     "derived_demand_pct": 70,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.00x [INSEE TES 2020]",
-    "io_multiplier": 1
+    "cascade_rationale": "Total requirements cascade via IZ (1.56x total requirements), GZ (1.33x total requirements), RU (1.22x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.52
   },
   {
     "title": "Techniciens mécanique métaux",
@@ -1002,10 +1002,10 @@
     "exposure": 3,
     "exposure_rationale": "This profession involves hands-on technical skills, machine operation, and problem-solving in a physical environment. While AI can optimize design or predictive maintenance, the core tasks require human dexterity, spatial reasoning, and on-site intervention.",
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/techniciens-mecanique-metaux",
-    "cascade_risk": 3,
+    "cascade_risk": 6,
     "derived_demand_pct": 60,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.01x [INSEE TES 2020]",
-    "io_multiplier": 1.01
+    "cascade_rationale": "Total requirements cascade via C5 (1.54x total requirements), C4 (1.63x total requirements), C3 (1.51x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.56
   },
   {
     "title": "Agriculteurs indépendants",
@@ -1020,10 +1020,10 @@
     "exposure": 1,
     "exposure_rationale": "This role is highly physical, outdoor, and requires complex decision-making based on variable environmental conditions and biological systems. While AI assists with precision farming, the core tasks of land management, animal care, and strategic planning remain human-centric.",
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/agriculteurs-independants",
-    "cascade_risk": 2,
+    "cascade_risk": 4,
     "derived_demand_pct": 20,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.00x [INSEE TES 2020]",
-    "io_multiplier": 1
+    "cascade_rationale": "Total requirements cascade via AZ (1.59x total requirements), C1 (1.80x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.61
   },
   {
     "title": "Jardiniers salariés",
@@ -1038,10 +1038,10 @@
     "exposure": 0,
     "exposure_rationale": "This profession is primarily physical, outdoor, and requires hands-on skills with plants and tools in varied environments. The core tasks involve manual labor, aesthetic judgment, and direct interaction with nature, making it highly resistant to AI automation.",
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/jardiniers-salaries",
-    "cascade_risk": 1,
+    "cascade_risk": 4,
     "derived_demand_pct": 60,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.00x [INSEE TES 2020]",
-    "io_multiplier": 1
+    "cascade_rationale": "Total requirements cascade via AZ (1.59x total requirements), C1 (1.80x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.61
   },
   {
     "title": "Techniciens industries process",
@@ -1056,10 +1056,10 @@
     "exposure": 5,
     "exposure_rationale": "This role involves monitoring and optimizing complex industrial processes, which are heavily automated and increasingly AI-driven for efficiency. However, human technicians are crucial for troubleshooting, maintenance, safety oversight, and adapting to unforeseen operational challenges.",
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/techniciens-industries-process",
-    "cascade_risk": 5,
+    "cascade_risk": 7,
     "derived_demand_pct": 55,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.01x [INSEE TES 2020]",
-    "io_multiplier": 1.01
+    "cascade_rationale": "Total requirements cascade via C5 (1.54x total requirements), C1 (1.80x total requirements), C2 (2.25x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.7
   },
   {
     "title": "Mécaniciens véhicules",
@@ -1074,10 +1074,10 @@
     "exposure": 3,
     "exposure_rationale": "This profession requires significant hands-on physical work, diagnostic skills, and problem-solving for complex mechanical and electronic systems. While AI can enhance diagnostic tools and predictive maintenance, the actual repair and intricate manual tasks remain human-dependent.",
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/mecaniciens-vehicules",
-    "cascade_risk": 3,
+    "cascade_risk": 6,
     "derived_demand_pct": 45,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.02x [INSEE TES 2020]",
-    "io_multiplier": 1.02
+    "cascade_rationale": "Total requirements cascade via C5 (1.54x total requirements), FZ (1.50x total requirements), MN (1.31x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.45
   },
   {
     "title": "Secrétaires de direction",
@@ -1094,8 +1094,8 @@
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/secretaires-de-direction",
     "cascade_risk": 7,
     "derived_demand_pct": 90,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.02x [INSEE TES 2020]",
-    "io_multiplier": 1.02
+    "cascade_rationale": "Total requirements cascade via MN (1.31x total requirements), KZ (1.29x total requirements), JZ (1.40x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.33
   },
   {
     "title": "Ingénieurs production",
@@ -1110,10 +1110,10 @@
     "exposure": 5,
     "exposure_rationale": "This role involves strategic planning, complex problem-solving, and human management within production environments. While AI can optimize processes and analyze data, the core functions of leadership, innovation, and adapting to unforeseen challenges require human cognitive abilities.",
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/ingenieurs-production",
-    "cascade_risk": 5,
+    "cascade_risk": 8,
     "derived_demand_pct": 40,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.03x [INSEE TES 2020]",
-    "io_multiplier": 1.03
+    "cascade_rationale": "Total requirements cascade via MN (1.31x total requirements), C3 (1.51x total requirements), JZ (1.40x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.41
   },
   {
     "title": "Employés Poste Télécoms",
@@ -1130,8 +1130,8 @@
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/employes-poste-telecoms",
     "cascade_risk": 4,
     "derived_demand_pct": 45,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.01x [INSEE TES 2020]",
-    "io_multiplier": 1.01
+    "cascade_rationale": "Total requirements cascade via MN (1.31x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.22
   },
   {
     "title": "Conducteurs véhicules légers",
@@ -1146,10 +1146,10 @@
     "exposure": 6,
     "exposure_rationale": "This role is primarily physical, involving driving vehicles. However, it faces a significant long-term threat from autonomous driving technology, which is rapidly advancing and aims to automate the core function of vehicle operation.",
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/conducteurs-vehicules-legers",
-    "cascade_risk": 6,
+    "cascade_risk": 7,
     "derived_demand_pct": 60,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.01x [INSEE TES 2020]",
-    "io_multiplier": 1.01
+    "cascade_rationale": "Total requirements cascade via HZ (1.47x total requirements), C5 (1.54x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.47
   },
   {
     "title": "Électriciens bâtiment",
@@ -1164,10 +1164,10 @@
     "exposure": 1,
     "exposure_rationale": "This profession is highly physical, requiring hands-on installation, maintenance, and troubleshooting in diverse building environments. The core tasks involve manual dexterity, spatial reasoning, and on-site problem-solving, making it highly resistant to AI automation.",
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/electriciens-batiment",
-    "cascade_risk": 2,
+    "cascade_risk": 4,
     "derived_demand_pct": 70,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.01x [INSEE TES 2020]",
-    "io_multiplier": 1.01
+    "cascade_rationale": "Total requirements cascade via FZ (1.50x total requirements), C5 (1.54x total requirements), DE (1.53x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.51
   },
   {
     "title": "Plombiers chauffagistes",
@@ -1182,10 +1182,10 @@
     "exposure": 1,
     "exposure_rationale": "This profession is highly physical, involving hands-on installation, maintenance, and repair of plumbing and heating systems in diverse settings. The core tasks require manual dexterity, diagnostic skills, and on-site problem-solving, making it highly resistant to AI automation.",
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/plombiers-chauffagistes",
-    "cascade_risk": 2,
+    "cascade_risk": 4,
     "derived_demand_pct": 70,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.01x [INSEE TES 2020]",
-    "io_multiplier": 1.01
+    "cascade_rationale": "Total requirements cascade via FZ (1.50x total requirements), C5 (1.54x total requirements), DE (1.53x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.51
   },
   {
     "title": "Ingénieurs BTP",
@@ -1202,8 +1202,8 @@
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/ingenieurs-btp",
     "cascade_risk": 4,
     "derived_demand_pct": 80,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.01x [INSEE TES 2020]",
-    "io_multiplier": 1.01
+    "cascade_rationale": "Total requirements cascade via C5 (1.54x total requirements), DE (1.53x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.51
   },
   {
     "title": "Professeurs supérieur",
@@ -1218,10 +1218,10 @@
     "exposure": 3,
     "exposure_rationale": "This profession involves complex teaching, research, and mentoring, requiring critical thinking, creativity, and nuanced human interaction. While AI can assist with content generation or basic assessment, the core functions of inspiring students and guiding advanced research are deeply human.",
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/professeurs-superieur",
-    "cascade_risk": 3,
+    "cascade_risk": 4,
     "derived_demand_pct": 75,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.01x [INSEE TES 2020]",
-    "io_multiplier": 1.01
+    "cascade_rationale": "Total requirements cascade via OQ (1.21x total requirements), MN (1.31x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.22
   },
   {
     "title": "Conducteurs transport commun",
@@ -1236,10 +1236,10 @@
     "exposure": 5,
     "exposure_rationale": "This role primarily involves driving and passenger management, which is directly impacted by advancements in autonomous vehicle technology. While human interaction and safety oversight remain crucial, the core driving function is increasingly susceptible to automation in the long term.",
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/conducteurs-transport-commun",
-    "cascade_risk": 5,
+    "cascade_risk": 7,
     "derived_demand_pct": 85,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.01x [INSEE TES 2020]",
-    "io_multiplier": 1.01
+    "cascade_rationale": "Total requirements cascade via HZ (1.47x total requirements), GZ (1.33x total requirements), C5 (1.54x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.47
   },
   {
     "title": "Vendeurs Ameublement Bricolage",
@@ -1254,10 +1254,10 @@
     "exposure": 4,
     "exposure_rationale": "This role heavily relies on human interaction, empathy, and negotiation skills, which are difficult for AI to replicate. While AI can assist with inventory management and product recommendations, the core sales process remains human-centric.",
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/vendeurs-ameublement-bricolage",
-    "cascade_risk": 4,
+    "cascade_risk": 6,
     "derived_demand_pct": 70,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.01x [INSEE TES 2020]",
-    "io_multiplier": 1.01
+    "cascade_rationale": "Total requirements cascade via GZ (1.33x total requirements), MN (1.31x total requirements), C1 (1.80x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.38
   },
   {
     "title": "Artistes Musique Danse",
@@ -1272,10 +1272,10 @@
     "exposure": 1,
     "exposure_rationale": "This profession is fundamentally human, relying on creativity, emotional expression, and live performance. While AI can assist in music composition or visual effects, the core artistic creation and delivery remain beyond full automation.",
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/artistes-musique-danse",
-    "cascade_risk": 3,
+    "cascade_risk": 6,
     "derived_demand_pct": 90,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.02x [INSEE TES 2020]",
-    "io_multiplier": 1.02
+    "cascade_rationale": "Total requirements cascade via JZ (1.40x total requirements), RU (1.22x total requirements), MN (1.31x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.3
   },
   {
     "title": "Ouvriers Bâtiment Non Qualifiés",
@@ -1290,10 +1290,10 @@
     "exposure": 1,
     "exposure_rationale": "This role involves significant physical labor and adaptability to diverse construction site conditions, which are challenging for current AI and robotics. Tasks are often non-routine and require human dexterity and problem-solving in dynamic environments.",
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/ouvriers-batiment-non-qualifies",
-    "cascade_risk": 2,
+    "cascade_risk": 4,
     "derived_demand_pct": 85,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.01x [INSEE TES 2020]",
-    "io_multiplier": 1.01
+    "cascade_rationale": "Total requirements cascade via FZ (1.50x total requirements), C5 (1.54x total requirements), DE (1.53x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.51
   },
   {
     "title": "Professionnels Spectacles",
@@ -1308,10 +1308,10 @@
     "exposure": 2,
     "exposure_rationale": "This field requires a blend of technical skills, creativity, and real-time problem-solving in dynamic live environments. While AI can enhance certain aspects like special effects, the coordination and execution of live performances remain human-driven.",
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/professionnels-spectacles",
-    "cascade_risk": 3,
+    "cascade_risk": 6,
     "derived_demand_pct": 90,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.02x [INSEE TES 2020]",
-    "io_multiplier": 1.02
+    "cascade_rationale": "Total requirements cascade via JZ (1.40x total requirements), RU (1.22x total requirements), MN (1.31x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.3
   },
   {
     "title": "Graphistes Stylistes Décorateurs",
@@ -1328,8 +1328,8 @@
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/graphistes-stylistes-decorateurs",
     "cascade_risk": 6,
     "derived_demand_pct": 75,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.02x [INSEE TES 2020]",
-    "io_multiplier": 1.02
+    "cascade_rationale": "Total requirements cascade via JZ (1.40x total requirements), MN (1.31x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.3
   },
   {
     "title": "Aides Cuisine Restauration",
@@ -1346,8 +1346,8 @@
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/aides-cuisine-restauration",
     "cascade_risk": 2,
     "derived_demand_pct": 95,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.00x [INSEE TES 2020]",
-    "io_multiplier": 1
+    "cascade_rationale": "Total requirements cascade via GZ (1.33x total requirements), RU (1.22x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.52
   },
   {
     "title": "Surveillants Scolaires",
@@ -1362,10 +1362,10 @@
     "exposure": 1,
     "exposure_rationale": "This role is fundamentally human, requiring direct interaction, supervision, conflict resolution, and emotional intelligence to manage student behavior. AI cannot replicate the nuanced judgment and personal presence needed for effective school surveillance and student support.",
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/surveillants-scolaires",
-    "cascade_risk": 2,
+    "cascade_risk": 4,
     "derived_demand_pct": 25,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.01x [INSEE TES 2020]",
-    "io_multiplier": 1.01
+    "cascade_rationale": "Total requirements cascade via OQ (1.21x total requirements), MN (1.31x total requirements), RU (1.22x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.22
   },
   {
     "title": "Employés Libre Service",
@@ -1380,10 +1380,10 @@
     "exposure": 3,
     "exposure_rationale": "This role involves physical tasks like stocking and maintaining store appearance, alongside some customer interaction. While inventory management can be AI-assisted, the physical manipulation of goods and direct customer support require human presence and dexterity.",
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/employes-libre-service",
-    "cascade_risk": 4,
+    "cascade_risk": 6,
     "derived_demand_pct": 45,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.01x [INSEE TES 2020]",
-    "io_multiplier": 1.01
+    "cascade_rationale": "Total requirements cascade via GZ (1.33x total requirements), MN (1.31x total requirements), C1 (1.80x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.38
   },
   {
     "title": "Sportifs Animateurs Sportifs",
@@ -1398,10 +1398,10 @@
     "exposure": 1,
     "exposure_rationale": "This profession is inherently human, centered on physical performance, coaching, motivation, and direct interaction with individuals or groups. AI can analyze performance data, but cannot replace the personal guidance, empathy, and real-time adaptation required in sports and animation.",
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/sportifs-animateurs-sportifs",
-    "cascade_risk": 2,
+    "cascade_risk": 4,
     "derived_demand_pct": 55,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.01x [INSEE TES 2020]",
-    "io_multiplier": 1.01
+    "cascade_rationale": "Total requirements cascade via OQ (1.21x total requirements), MN (1.31x total requirements), RU (1.22x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.22
   },
   {
     "title": "Ingénieurs Méthodes Qualité",
@@ -1416,10 +1416,10 @@
     "exposure": 7,
     "exposure_rationale": "This role involves significant data analysis, process optimization, and predictive modeling, areas where AI excels. AI can automate quality checks, optimize production flows, and identify inefficiencies, transforming many routine analytical and monitoring tasks.",
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/ingenieurs-methodes-qualite",
-    "cascade_risk": 7,
+    "cascade_risk": 8,
     "derived_demand_pct": 35,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.03x [INSEE TES 2020]",
-    "io_multiplier": 1.03
+    "cascade_rationale": "Total requirements cascade via MN (1.31x total requirements), JZ (1.40x total requirements), C5 (1.54x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.41
   },
   {
     "title": "Cadres RH Recrutement",
@@ -1434,10 +1434,10 @@
     "exposure": 6,
     "exposure_rationale": "AI can significantly automate routine HR tasks such as resume screening, scheduling interviews, and data analysis for talent management. However, strategic decision-making, complex negotiations, employee relations, and empathetic communication remain critical human functions.",
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/cadres-rh-recrutement",
-    "cascade_risk": 6,
+    "cascade_risk": 7,
     "derived_demand_pct": 75,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.02x [INSEE TES 2020]",
-    "io_multiplier": 1.02
+    "cascade_rationale": "Total requirements cascade via MN (1.31x total requirements), KZ (1.29x total requirements), JZ (1.40x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.33
   },
   {
     "title": "Techniciens Électricité Électronique",
@@ -1452,10 +1452,10 @@
     "exposure": 3,
     "exposure_rationale": "This role requires hands-on installation, maintenance, and troubleshooting of complex electrical and electronic systems in diverse physical environments. While AI can aid in diagnostics and predictive maintenance, the physical intervention and nuanced problem-solving remain human tasks.",
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/techniciens-electricite-electronique",
-    "cascade_risk": 4,
+    "cascade_risk": 6,
     "derived_demand_pct": 45,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.01x [INSEE TES 2020]",
-    "io_multiplier": 1.01
+    "cascade_rationale": "Total requirements cascade via C3 (1.51x total requirements), C5 (1.54x total requirements), DE (1.53x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.52
   },
   {
     "title": "Ouvriers Qualifiés Mécanique",
@@ -1470,10 +1470,10 @@
     "exposure": 3,
     "exposure_rationale": "This profession involves precise manual assembly, adjustment, and troubleshooting of mechanical components, often requiring fine motor skills and adaptability. While some repetitive assembly tasks can be automated by robots, complex adjustments and custom work still rely on human expertise.",
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/ouvriers-qualifies-mecanique",
-    "cascade_risk": 3,
+    "cascade_risk": 6,
     "derived_demand_pct": 35,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.01x [INSEE TES 2020]",
-    "io_multiplier": 1.01
+    "cascade_rationale": "Total requirements cascade via C5 (1.54x total requirements), C4 (1.63x total requirements), C3 (1.51x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.56
   },
   {
     "title": "Techniciens Assurances",
@@ -1488,10 +1488,10 @@
     "exposure": 7,
     "exposure_rationale": "This role involves significant data processing, policy administration, and routine claims handling, areas highly susceptible to AI automation. AI can efficiently process information, assess risks, and manage customer inquiries, reducing the need for manual intervention in many procedural tasks.",
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/techniciens-assurances",
-    "cascade_risk": 7,
+    "cascade_risk": 8,
     "derived_demand_pct": 85,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.01x [INSEE TES 2020]",
-    "io_multiplier": 1.01
+    "cascade_rationale": "Total requirements cascade via KZ (1.29x total requirements), MN (1.31x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.31
   },
   {
     "title": "Commerciaux Intermédiaires",
@@ -1506,10 +1506,10 @@
     "exposure": 5,
     "exposure_rationale": "This role combines human interaction, negotiation, and strategic client relationship management, which are difficult for AI to fully replicate. While AI can enhance lead generation, CRM analysis, and personalized outreach, the nuanced art of persuasion and complex deal-making remains human.",
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/commerciaux-intermediaires",
-    "cascade_risk": 5,
+    "cascade_risk": 6,
     "derived_demand_pct": 65,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.01x [INSEE TES 2020]",
-    "io_multiplier": 1.01
+    "cascade_rationale": "Total requirements cascade via GZ (1.33x total requirements), MN (1.31x total requirements), C1 (1.80x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.38
   },
   {
     "title": "Responsables Magasinage",
@@ -1524,10 +1524,10 @@
     "exposure": 6,
     "exposure_rationale": "This role involves managing logistics, inventory, and warehouse operations, areas significantly impacted by automation and AI. AI can optimize stock levels, route planning, and automate material handling, reducing the need for human intervention in many operational aspects.",
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/responsables-magasinage",
-    "cascade_risk": 6,
+    "cascade_risk": 7,
     "derived_demand_pct": 45,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.01x [INSEE TES 2020]",
-    "io_multiplier": 1.01
+    "cascade_rationale": "Total requirements cascade via HZ (1.47x total requirements), C5 (1.54x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.47
   },
   {
     "title": "Cadres Assurances",
@@ -1542,10 +1542,10 @@
     "exposure": 7,
     "exposure_rationale": "This role involves high-level strategic decision-making, complex risk assessment, and team management, which require human judgment and leadership. While AI can provide sophisticated analytics and predictive models to inform decisions, the ultimate strategic direction and ethical considerations remain human responsibilities.",
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/cadres-assurances",
-    "cascade_risk": 7,
+    "cascade_risk": 8,
     "derived_demand_pct": 85,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.01x [INSEE TES 2020]",
-    "io_multiplier": 1.01
+    "cascade_rationale": "Total requirements cascade via KZ (1.29x total requirements), MN (1.31x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.31
   },
   {
     "title": "Ouvriers Agro-alimentaire Non Qualifiés",
@@ -1560,10 +1560,10 @@
     "exposure": 5,
     "exposure_rationale": "This role often involves repetitive manual tasks in a controlled environment, making it susceptible to automation by robotics and specialized machinery. AI can optimize production lines and quality control, potentially reducing the need for human labor in routine operational functions.",
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/ouvriers-agro-alimentaire-non-qualifies",
-    "cascade_risk": 5,
+    "cascade_risk": 7,
     "derived_demand_pct": 25,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.01x [INSEE TES 2020]",
-    "io_multiplier": 1.01
+    "cascade_rationale": "Total requirements cascade via C5 (1.54x total requirements), C1 (1.80x total requirements), C2 (2.25x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.7
   },
   {
     "title": "Représentants particuliers",
@@ -1578,10 +1578,10 @@
     "exposure": 4,
     "exposure_rationale": "This role involves significant human interaction, persuasion, and understanding individual customer needs, which are difficult for AI to fully replicate. However, AI can automate lead generation, CRM management, and provide sales support, impacting some procedural tasks.",
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/representants-particuliers",
-    "cascade_risk": 4,
+    "cascade_risk": 6,
     "derived_demand_pct": 65,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.01x [INSEE TES 2020]",
-    "io_multiplier": 1.01
+    "cascade_rationale": "Total requirements cascade via GZ (1.33x total requirements), MN (1.31x total requirements), C1 (1.80x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.38
   },
   {
     "title": "Techniciens support informatique",
@@ -1596,10 +1596,10 @@
     "exposure": 7,
     "exposure_rationale": "This role is highly digital, with AI capable of automating diagnostics, troubleshooting, and providing initial user support through chatbots. While physical installation and complex maintenance require human intervention, a significant portion of the cognitive tasks is susceptible to AI.",
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/techniciens-support-informatique",
-    "cascade_risk": 7,
+    "cascade_risk": 8,
     "derived_demand_pct": 75,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.02x [INSEE TES 2020]",
-    "io_multiplier": 1.02
+    "cascade_rationale": "Total requirements cascade via JZ (1.40x total requirements), MN (1.31x total requirements), KZ (1.29x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.34
   },
   {
     "title": "Menuisiers, agenceurs, isoleurs",
@@ -1614,10 +1614,10 @@
     "exposure": 1,
     "exposure_rationale": "This is a highly physical and skilled manual trade involving on-site work, custom fitting, and problem-solving that requires human dexterity and judgment. While some design and fabrication processes can be automated, the core tasks remain largely immune to AI automation.",
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/menuisiers-agenceurs-isoleurs",
-    "cascade_risk": 2,
+    "cascade_risk": 4,
     "derived_demand_pct": 65,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.01x [INSEE TES 2020]",
-    "io_multiplier": 1.01
+    "cascade_rationale": "Total requirements cascade via FZ (1.50x total requirements), C5 (1.54x total requirements), DE (1.53x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.51
   },
   {
     "title": "Professionnels action sociale",
@@ -1632,10 +1632,10 @@
     "exposure": 0,
     "exposure_rationale": "This profession is deeply rooted in human interaction, empathy, and complex social problem-solving, requiring nuanced understanding of individual situations. While administrative tasks might see some automation, the core functions of support, guidance, and emotional connection are inherently human and resistant to AI.",
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/professionnels-action-sociale",
-    "cascade_risk": 2,
+    "cascade_risk": 4,
     "derived_demand_pct": 35,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.01x [INSEE TES 2020]",
-    "io_multiplier": 1.01
+    "cascade_rationale": "Total requirements cascade via OQ (1.21x total requirements), MN (1.31x total requirements), RU (1.22x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.22
   },
   {
     "title": "Chefs de chantier, conducteurs travaux",
@@ -1650,10 +1650,10 @@
     "exposure": 2,
     "exposure_rationale": "This role requires on-site leadership, complex problem-solving, and human coordination in dynamic environments, which are difficult for AI to manage. While AI can assist with planning, scheduling, and data analysis, the core responsibilities of real-time decision-making and team management remain human.",
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/chefs-de-chantier-conducteurs-travaux",
-    "cascade_risk": 2,
+    "cascade_risk": 4,
     "derived_demand_pct": 50,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.01x [INSEE TES 2020]",
-    "io_multiplier": 1.01
+    "cascade_rationale": "Total requirements cascade via FZ (1.50x total requirements), C5 (1.54x total requirements), DE (1.53x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.51
   },
   {
     "title": "Boulangers, pâtissiers",
@@ -1668,10 +1668,10 @@
     "exposure": 1,
     "exposure_rationale": "This is a craft-based profession heavily reliant on manual dexterity, sensory judgment (taste, smell, touch), and artistic skill, which are challenging for AI to replicate. While some industrial processes are automated, the artisanal core of the job remains human.",
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/boulangers-patissiers",
-    "cascade_risk": 1,
+    "cascade_risk": 2,
     "derived_demand_pct": 35,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.00x [INSEE TES 2020]",
-    "io_multiplier": 1
+    "cascade_rationale": "Total requirements cascade via IZ (1.56x total requirements), GZ (1.33x total requirements), RU (1.22x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.52
   },
   {
     "title": "Agents immobiliers, syndics",
@@ -1686,10 +1686,10 @@
     "exposure": 4,
     "exposure_rationale": "This role demands strong interpersonal skills, negotiation, and understanding client emotions and complex market dynamics, which are difficult for AI to fully automate. However, AI can significantly assist with property valuation, lead generation, and administrative tasks, impacting procedural aspects.",
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/agents-immobiliers-syndics",
-    "cascade_risk": 4,
+    "cascade_risk": 6,
     "derived_demand_pct": 70,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.01x [INSEE TES 2020]",
-    "io_multiplier": 1.01
+    "cascade_rationale": "Total requirements cascade via GZ (1.33x total requirements), MN (1.31x total requirements), C1 (1.80x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.38
   },
   {
     "title": "Employés hôtellerie",
@@ -1704,10 +1704,10 @@
     "exposure": 0,
     "exposure_rationale": "This role is fundamentally about direct human interaction, personalized customer service, and physical tasks like cleaning and serving, which require empathy and adaptability. While booking and check-in processes can be automated, the core hospitality experience remains human-driven.",
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/employes-hotellerie",
-    "cascade_risk": 1,
+    "cascade_risk": 2,
     "derived_demand_pct": 65,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.00x [INSEE TES 2020]",
-    "io_multiplier": 1
+    "cascade_rationale": "Total requirements cascade via IZ (1.56x total requirements), GZ (1.33x total requirements), RU (1.22x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.52
   },
   {
     "title": "Professionnels du droit",
@@ -1724,8 +1724,8 @@
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/professionnels-du-droit",
     "cascade_risk": 6,
     "derived_demand_pct": 45,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.01x [INSEE TES 2020]",
-    "io_multiplier": 1.01
+    "cascade_rationale": "Total requirements cascade via MN (1.31x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.22
   },
   {
     "title": "Ouvriers non qualifiés TP",
@@ -1740,10 +1740,10 @@
     "exposure": 0,
     "exposure_rationale": "This role involves primarily physical, often repetitive manual labor in outdoor and sometimes hazardous environments, requiring human presence and physical strength. While some heavy machinery can be automated, the core tasks are largely resistant to AI automation.",
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/ouvriers-non-qualifies-tp",
-    "cascade_risk": 1,
+    "cascade_risk": 4,
     "derived_demand_pct": 50,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.01x [INSEE TES 2020]",
-    "io_multiplier": 1.01
+    "cascade_rationale": "Total requirements cascade via FZ (1.50x total requirements), C5 (1.54x total requirements), DE (1.53x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.51
   },
   {
     "title": "Chaudronniers, serruriers, métalliers",
@@ -1758,10 +1758,10 @@
     "exposure": 1,
     "exposure_rationale": "This is a highly skilled manual trade involving precision metalworking, custom fabrication, and on-site installation, requiring significant human dexterity and problem-solving. While some repetitive cutting and shaping can be automated, the core craft and adaptability remain human.",
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/chaudronniers-serruriers-metalliers",
-    "cascade_risk": 3,
+    "cascade_risk": 6,
     "derived_demand_pct": 20,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.01x [INSEE TES 2020]",
-    "io_multiplier": 1.01
+    "cascade_rationale": "Total requirements cascade via C5 (1.54x total requirements), C4 (1.63x total requirements), C3 (1.51x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.56
   },
   {
     "title": "Bouchers",
@@ -1776,10 +1776,10 @@
     "exposure": 1,
     "exposure_rationale": "This is a skilled manual craft requiring precise cutting, preparation, and direct customer interaction, relying heavily on human dexterity, judgment, and sensory skills. While industrial meat processing can be automated, the artisanal aspect and personalized service are resistant to AI.",
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/bouchers",
-    "cascade_risk": 1,
+    "cascade_risk": 2,
     "derived_demand_pct": 40,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.00x [INSEE TES 2020]",
-    "io_multiplier": 1
+    "cascade_rationale": "Total requirements cascade via IZ (1.56x total requirements), GZ (1.33x total requirements), RU (1.22x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.52
   },
   {
     "title": "Ouvriers qualifiés TP",
@@ -1794,10 +1794,10 @@
     "exposure": 2,
     "exposure_rationale": "This role involves skilled physical labor and operating complex machinery, requiring human judgment and adaptation to dynamic site conditions. While some machinery is becoming more autonomous, human oversight, maintenance, and complex problem-solving remain essential.",
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/ouvriers-qualifies-tp",
-    "cascade_risk": 2,
+    "cascade_risk": 4,
     "derived_demand_pct": 55,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.01x [INSEE TES 2020]",
-    "io_multiplier": 1.01
+    "cascade_rationale": "Total requirements cascade via FZ (1.50x total requirements), C5 (1.54x total requirements), DE (1.53x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.51
   },
   {
     "title": "Chercheurs (hors industrie/supérieur)",
@@ -1812,10 +1812,10 @@
     "exposure": 6,
     "exposure_rationale": "This is a highly cognitive and creative role where AI serves as a powerful tool for data analysis, simulation, and literature review, automating many procedural research tasks. However, the formulation of novel hypotheses, experimental design, interpretation of complex results, and creative insight remain fundamentally human.",
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/chercheurs-hors-industrie-superieur",
-    "cascade_risk": 6,
+    "cascade_risk": 7,
     "derived_demand_pct": 45,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.02x [INSEE TES 2020]",
-    "io_multiplier": 1.02
+    "cascade_rationale": "Total requirements cascade via MN (1.31x total requirements), C5 (1.54x total requirements), JZ (1.40x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.36
   },
   {
     "title": "Ouvriers maintenance mécanique",
@@ -1830,10 +1830,10 @@
     "exposure": 3,
     "exposure_rationale": "This role combines physical inspection, hands-on repair, and complex troubleshooting of mechanical systems, requiring human dexterity and problem-solving. While AI can enhance predictive maintenance and diagnostics, the physical intervention and nuanced repair tasks remain largely manual.",
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/ouvriers-maintenance-mecanique",
-    "cascade_risk": 3,
+    "cascade_risk": 6,
     "derived_demand_pct": 35,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.02x [INSEE TES 2020]",
-    "io_multiplier": 1.02
+    "cascade_rationale": "Total requirements cascade via C5 (1.54x total requirements), FZ (1.50x total requirements), MN (1.31x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.45
   },
   {
     "title": "Ouvriers non qualifiés bâtiment",
@@ -1848,10 +1848,10 @@
     "exposure": 0,
     "exposure_rationale": "This role primarily involves physical, often repetitive manual labor on construction sites, requiring human presence, strength, and adaptability to varying conditions. These core physical tasks are largely resistant to automation by AI.",
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/ouvriers-non-qualifies-batiment",
-    "cascade_risk": 1,
+    "cascade_risk": 4,
     "derived_demand_pct": 60,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.01x [INSEE TES 2020]",
-    "io_multiplier": 1.01
+    "cascade_rationale": "Total requirements cascade via FZ (1.50x total requirements), C5 (1.54x total requirements), DE (1.53x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.51
   },
   {
     "title": "Agents maîtrise fabrication mécanique",
@@ -1866,10 +1866,10 @@
     "exposure": 4,
     "exposure_rationale": "This role involves supervising production, managing teams, and making real-time decisions in a manufacturing environment, requiring human judgment and leadership. While AI can optimize production processes and quality control, the human oversight, problem-solving, and team management remain essential.",
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/agents-maitrise-fabrication-mecanique",
-    "cascade_risk": 4,
+    "cascade_risk": 6,
     "derived_demand_pct": 25,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.01x [INSEE TES 2020]",
-    "io_multiplier": 1.01
+    "cascade_rationale": "Total requirements cascade via C5 (1.54x total requirements), C4 (1.63x total requirements), C3 (1.51x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.56
   },
   {
     "title": "Ouvriers qualifiés IAA",
@@ -1884,10 +1884,10 @@
     "exposure": 3,
     "exposure_rationale": "This role involves skilled manual tasks and machine operation in food processing, requiring human oversight, quality control, and problem-solving. While many processes are highly automated, human intervention for setup, maintenance, and sensory evaluation remains crucial.",
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/ouvriers-qualifies-iaa",
-    "cascade_risk": 4,
+    "cascade_risk": 7,
     "derived_demand_pct": 30,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.01x [INSEE TES 2020]",
-    "io_multiplier": 1.01
+    "cascade_rationale": "Total requirements cascade via C5 (1.54x total requirements), C1 (1.80x total requirements), C2 (2.25x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.7
   },
   {
     "title": "Responsable logistique",
@@ -1902,10 +1902,10 @@
     "exposure": 6,
     "exposure_rationale": "This role involves significant data processing, inventory management, and route optimization, which are areas where AI excels. While human oversight and problem-solving remain crucial, many procedural and analytical tasks can be augmented or automated by AI.",
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/responsable-logistique",
-    "cascade_risk": 6,
+    "cascade_risk": 7,
     "derived_demand_pct": 40,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.01x [INSEE TES 2020]",
-    "io_multiplier": 1.01
+    "cascade_rationale": "Total requirements cascade via HZ (1.47x total requirements), C5 (1.54x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.47
   },
   {
     "title": "Ouvrier usinage métal",
@@ -1920,10 +1920,10 @@
     "exposure": 3,
     "exposure_rationale": "This job primarily involves skilled manual operation of machinery and physical manipulation of materials. While AI can optimize machine settings or predict maintenance needs, the core tasks require human dexterity, precision, and problem-solving in a physical environment.",
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/ouvrier-usinage-metal",
-    "cascade_risk": 3,
+    "cascade_risk": 6,
     "derived_demand_pct": 25,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.01x [INSEE TES 2020]",
-    "io_multiplier": 1.01
+    "cascade_rationale": "Total requirements cascade via C5 (1.54x total requirements), C4 (1.63x total requirements), C3 (1.51x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.56
   },
   {
     "title": "Agent maîtrise industrie",
@@ -1938,10 +1938,10 @@
     "exposure": 5,
     "exposure_rationale": "This role involves supervising industrial processes, which are increasingly monitored and optimized by digital systems. AI can assist in anomaly detection, predictive maintenance, and process optimization, but human decision-making and team management remain essential.",
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/agent-maitrise-industrie",
-    "cascade_risk": 5,
+    "cascade_risk": 7,
     "derived_demand_pct": 30,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.01x [INSEE TES 2020]",
-    "io_multiplier": 1.01
+    "cascade_rationale": "Total requirements cascade via C5 (1.54x total requirements), C1 (1.80x total requirements), C2 (2.25x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.7
   },
   {
     "title": "Technicien développement informatique",
@@ -1956,10 +1956,10 @@
     "exposure": 7,
     "exposure_rationale": "This role involves tasks like coding, testing, and debugging, which are increasingly augmented by AI tools for code generation and error detection. While complex design and innovative problem-solving require human input, many routine development tasks are highly susceptible to AI automation.",
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/technicien-developpement-informatique",
-    "cascade_risk": 7,
+    "cascade_risk": 8,
     "derived_demand_pct": 60,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.02x [INSEE TES 2020]",
-    "io_multiplier": 1.02
+    "cascade_rationale": "Total requirements cascade via JZ (1.40x total requirements), MN (1.31x total requirements), KZ (1.29x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.34
   },
   {
     "title": "Agent accueil information",
@@ -1974,10 +1974,10 @@
     "exposure": 6,
     "exposure_rationale": "Many routine information provision and basic inquiry tasks can be handled by AI-powered chatbots and virtual assistants. While complex issues and empathetic human interaction remain, a significant portion of this role's duties is susceptible to automation.",
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/agent-accueil-information",
-    "cascade_risk": 6,
+    "cascade_risk": 7,
     "derived_demand_pct": 80,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.02x [INSEE TES 2020]",
-    "io_multiplier": 1.02
+    "cascade_rationale": "Total requirements cascade via MN (1.31x total requirements), KZ (1.29x total requirements), JZ (1.40x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.33
   },
   {
     "title": "Technicien bancaire",
@@ -1992,10 +1992,10 @@
     "exposure": 7,
     "exposure_rationale": "This role involves significant data processing, compliance checks, and customer interaction within a highly digital environment. AI can automate many routine back-office tasks, fraud detection, and even some advisory functions, leading to high exposure.",
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/technicien-bancaire",
-    "cascade_risk": 7,
+    "cascade_risk": 8,
     "derived_demand_pct": 90,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.01x [INSEE TES 2020]",
-    "io_multiplier": 1.01
+    "cascade_rationale": "Total requirements cascade via KZ (1.29x total requirements), MN (1.31x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.31
   },
   {
     "title": "Technicien transport tourisme",
@@ -2010,10 +2010,10 @@
     "exposure": 6,
     "exposure_rationale": "This role involves planning, coordination, and information dissemination in sectors heavily reliant on digital platforms and data. AI can optimize routes, manage bookings, and provide customer information, making many procedural tasks susceptible to automation.",
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/technicien-transport-tourisme",
-    "cascade_risk": 6,
+    "cascade_risk": 7,
     "derived_demand_pct": 70,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.01x [INSEE TES 2020]",
-    "io_multiplier": 1.01
+    "cascade_rationale": "Total requirements cascade via HZ (1.47x total requirements), C5 (1.54x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.47
   },
   {
     "title": "Conducteur engins BTP",
@@ -2028,10 +2028,10 @@
     "exposure": 1,
     "exposure_rationale": "This is a highly physical and skilled manual role involving the operation of heavy machinery in dynamic outdoor environments. While autonomous machinery is developing, the need for human judgment, adaptability to unforeseen conditions, and interaction with other workers remains paramount.",
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/conducteur-engins-btp",
-    "cascade_risk": 2,
+    "cascade_risk": 4,
     "derived_demand_pct": 55,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.01x [INSEE TES 2020]",
-    "io_multiplier": 1.01
+    "cascade_rationale": "Total requirements cascade via FZ (1.50x total requirements), C5 (1.54x total requirements), DE (1.53x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.51
   },
   {
     "title": "Pharmacien",
@@ -2046,10 +2046,10 @@
     "exposure": 3,
     "exposure_rationale": "This role involves significant patient interaction, ethical judgment, and personalized health advice, which are difficult for AI to replicate. While AI can assist with inventory management and prescription verification, the core human-centric aspects remain essential.",
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/pharmacien",
-    "cascade_risk": 3,
+    "cascade_risk": 4,
     "derived_demand_pct": 35,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.01x [INSEE TES 2020]",
-    "io_multiplier": 1.01
+    "cascade_rationale": "Total requirements cascade via OQ (1.21x total requirements), MN (1.31x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.22
   },
   {
     "title": "Cadre maintenance environnement",
@@ -2064,10 +2064,10 @@
     "exposure": 4,
     "exposure_rationale": "This role involves strategic planning, complex problem-solving, and team management, which are inherently human tasks. While AI can enhance predictive maintenance and environmental data analysis, the leadership and decision-making components are not easily automated.",
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/cadre-maintenance-environnement",
-    "cascade_risk": 4,
+    "cascade_risk": 8,
     "derived_demand_pct": 40,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.03x [INSEE TES 2020]",
-    "io_multiplier": 1.03
+    "cascade_rationale": "Total requirements cascade via MN (1.31x total requirements), C3 (1.51x total requirements), JZ (1.40x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.41
   },
   {
     "title": "Cadre magasin",
@@ -2082,10 +2082,10 @@
     "exposure": 4,
     "exposure_rationale": "This role involves significant human interaction, team leadership, and strategic decision-making in a dynamic retail environment. While AI can optimize inventory and analyze sales data, the core managerial and customer relationship aspects require human judgment and empathy.",
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/cadre-magasin",
-    "cascade_risk": 4,
+    "cascade_risk": 6,
     "derived_demand_pct": 65,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.01x [INSEE TES 2020]",
-    "io_multiplier": 1.01
+    "cascade_rationale": "Total requirements cascade via GZ (1.33x total requirements), MN (1.31x total requirements), C1 (1.80x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.38
   },
   {
     "title": "Psychologue, psychothérapeute",
@@ -2100,10 +2100,10 @@
     "exposure": 0,
     "exposure_rationale": "This profession relies heavily on human empathy, complex emotional understanding, and the establishment of a therapeutic relationship, which are fundamentally non-automatable. While AI might assist with data analysis or basic cognitive tools, the core of the work is deeply human.",
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/psychologue-psychotherapeute",
-    "cascade_risk": 2,
+    "cascade_risk": 4,
     "derived_demand_pct": 45,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.01x [INSEE TES 2020]",
-    "io_multiplier": 1.01
+    "cascade_rationale": "Total requirements cascade via OQ (1.21x total requirements), MN (1.31x total requirements), RU (1.22x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.22
   },
   {
     "title": "Ouvrier entretien bâtiment",
@@ -2118,10 +2118,10 @@
     "exposure": 1,
     "exposure_rationale": "This role involves diverse physical tasks, troubleshooting, and manual repairs in varied and often unpredictable environments. While smart systems can detect issues, the actual hands-on maintenance and problem-solving require human dexterity and adaptability.",
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/ouvrier-entretien-batiment",
-    "cascade_risk": 3,
+    "cascade_risk": 6,
     "derived_demand_pct": 85,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.02x [INSEE TES 2020]",
-    "io_multiplier": 1.02
+    "cascade_rationale": "Total requirements cascade via C5 (1.54x total requirements), FZ (1.50x total requirements), MN (1.31x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.45
   },
   {
     "title": "Télévendeur",
@@ -2138,8 +2138,8 @@
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/televendeur",
     "cascade_risk": 8,
     "derived_demand_pct": 70,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.01x [INSEE TES 2020]",
-    "io_multiplier": 1.01
+    "cascade_rationale": "Total requirements cascade via MN (1.31x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.38
   },
   {
     "title": "Cadre communication",
@@ -2154,10 +2154,10 @@
     "exposure": 4,
     "exposure_rationale": "This role demands high levels of creativity, strategic thinking, and nuanced understanding of human emotions and cultural contexts. While AI can assist with content generation and audience analysis, the core creative direction and complex narrative building remain human-centric.",
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/cadre-communication",
-    "cascade_risk": 4,
+    "cascade_risk": 6,
     "derived_demand_pct": 60,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.02x [INSEE TES 2020]",
-    "io_multiplier": 1.02
+    "cascade_rationale": "Total requirements cascade via JZ (1.40x total requirements), MN (1.31x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.3
   },
   {
     "title": "Viticulteur, arboriculteur",
@@ -2172,10 +2172,10 @@
     "exposure": 1,
     "exposure_rationale": "This is a highly physical, outdoor, and seasonal role involving direct interaction with plants and natural environments. While AI can assist with crop monitoring and yield prediction, the core tasks of cultivation, pruning, and harvesting require human dexterity and adaptability.",
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/viticulteur-arboriculteur",
-    "cascade_risk": 2,
+    "cascade_risk": 4,
     "derived_demand_pct": 25,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.00x [INSEE TES 2020]",
-    "io_multiplier": 1
+    "cascade_rationale": "Total requirements cascade via AZ (1.59x total requirements), C1 (1.80x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.61
   },
   {
     "title": "Ouvrier industrie chimique",
@@ -2190,10 +2190,10 @@
     "exposure": 3,
     "exposure_rationale": "This role involves operating and monitoring complex industrial machinery, often requiring human intervention for safety, troubleshooting, and quality control. While processes are highly automated, the need for skilled human oversight and manual adjustments remains significant.",
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/ouvrier-industrie-chimique",
-    "cascade_risk": 4,
+    "cascade_risk": 7,
     "derived_demand_pct": 20,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.01x [INSEE TES 2020]",
-    "io_multiplier": 1.01
+    "cascade_rationale": "Total requirements cascade via C5 (1.54x total requirements), C1 (1.80x total requirements), C2 (2.25x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.7
   },
   {
     "title": "Architecte",
@@ -2208,10 +2208,10 @@
     "exposure": 3,
     "exposure_rationale": "This profession relies heavily on creativity, aesthetic judgment, complex problem-solving, and client communication, which are inherently human skills. While AI can assist with design generation and structural analysis, the conceptual and relational aspects are not easily automated.",
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/architecte",
-    "cascade_risk": 3,
+    "cascade_risk": 4,
     "derived_demand_pct": 70,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.01x [INSEE TES 2020]",
-    "io_multiplier": 1.01
+    "cascade_rationale": "Total requirements cascade via FZ (1.50x total requirements), C5 (1.54x total requirements), DE (1.53x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.51
   },
   {
     "title": "Journalistes et cadres édition",
@@ -2228,8 +2228,8 @@
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/journalistes-et-cadres-edition",
     "cascade_risk": 7,
     "derived_demand_pct": 50,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.02x [INSEE TES 2020]",
-    "io_multiplier": 1.02
+    "cascade_rationale": "Total requirements cascade via JZ (1.40x total requirements), MN (1.31x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.3
   },
   {
     "title": "Ouvriers assainissement et déchets",
@@ -2244,10 +2244,10 @@
     "exposure": 1,
     "exposure_rationale": "This profession is primarily physical, involving manual labor, operation of heavy machinery, and outdoor work in challenging environments. AI has minimal direct impact on the core tasks, which require physical presence and dexterity.",
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/ouvriers-assainissement-et-dechets",
-    "cascade_risk": 2,
+    "cascade_risk": 4,
     "derived_demand_pct": 25,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.01x [INSEE TES 2020]",
-    "io_multiplier": 1.01
+    "cascade_rationale": "Total requirements cascade via RU (1.22x total requirements), OQ (1.21x total requirements), LZ (1.52x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.34
   },
   {
     "title": "Artisans et ouvriers qualifiés",
@@ -2262,10 +2262,10 @@
     "exposure": 2,
     "exposure_rationale": "These roles are characterized by skilled manual craftsmanship, unique artistic expression, and personalized client interaction. While some administrative aspects might be digitized, the core creative and physical tasks are difficult for AI to replicate.",
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/artisans-et-ouvriers-qualifies",
-    "cascade_risk": 3,
+    "cascade_risk": 5,
     "derived_demand_pct": 50,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.00x [INSEE TES 2020]",
-    "io_multiplier": 1
+    "cascade_rationale": "Total requirements cascade via RU (1.22x total requirements), C5 (1.54x total requirements), C1 (1.80x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.43
   },
   {
     "title": "Viticulteurs, arboriculteurs indépendants",
@@ -2280,10 +2280,10 @@
     "exposure": 3,
     "exposure_rationale": "This profession involves significant outdoor physical labor and decision-making based on environmental conditions and plant health. While precision agriculture and AI-powered analytics are increasingly used, the core tasks still require human judgment, physical presence, and direct interaction with crops.",
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/viticulteurs-arboriculteurs-independants",
-    "cascade_risk": 3,
+    "cascade_risk": 4,
     "derived_demand_pct": 25,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.00x [INSEE TES 2020]",
-    "io_multiplier": 1
+    "cascade_rationale": "Total requirements cascade via AZ (1.59x total requirements), C1 (1.80x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.61
   },
   {
     "title": "Agriculteurs salariés",
@@ -2298,10 +2298,10 @@
     "exposure": 3,
     "exposure_rationale": "This role involves substantial physical work, operating machinery, and direct interaction with crops or livestock. While agricultural automation and AI-driven tools are advancing, human oversight, adaptability to changing conditions, and manual tasks remain essential.",
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/agriculteurs-salaries",
-    "cascade_risk": 3,
+    "cascade_risk": 4,
     "derived_demand_pct": 25,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.00x [INSEE TES 2020]",
-    "io_multiplier": 1
+    "cascade_rationale": "Total requirements cascade via AZ (1.59x total requirements), C1 (1.80x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.61
   },
   {
     "title": "Ouvriers qualifiés bois ameublement",
@@ -2316,10 +2316,10 @@
     "exposure": 2,
     "exposure_rationale": "This profession relies on skilled manual work, precision, and the operation of specialized machinery for wood processing and furniture making. While design and some machine operations can be digitally assisted, the craftsmanship and physical assembly aspects are not easily automated by AI.",
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/ouvriers-qualifies-bois-ameublement",
-    "cascade_risk": 3,
+    "cascade_risk": 7,
     "derived_demand_pct": 50,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.01x [INSEE TES 2020]",
-    "io_multiplier": 1.01
+    "cascade_rationale": "Total requirements cascade via C5 (1.54x total requirements), C1 (1.80x total requirements), GZ (1.33x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.54
   },
   {
     "title": "Spécialistes appareillage médical",
@@ -2336,8 +2336,8 @@
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/specialistes-appareillage-medical",
     "cascade_risk": 4,
     "derived_demand_pct": 40,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.01x [INSEE TES 2020]",
-    "io_multiplier": 1.01
+    "cascade_rationale": "Total requirements cascade via MN (1.31x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.22
   },
   {
     "title": "Ouvriers qualifiés matériaux énergie",
@@ -2352,10 +2352,10 @@
     "exposure": 2,
     "exposure_rationale": "This category encompasses skilled manual labor, machine operation, and quality control within industrial environments, often involving hazardous materials or conditions. While some repetitive tasks can be automated, the need for human oversight, problem-solving, and specialized physical skills remains significant.",
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/ouvriers-qualifies-materiaux-energie",
-    "cascade_risk": 3,
+    "cascade_risk": 7,
     "derived_demand_pct": 30,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.01x [INSEE TES 2020]",
-    "io_multiplier": 1.01
+    "cascade_rationale": "Total requirements cascade via C5 (1.54x total requirements), C1 (1.80x total requirements), C2 (2.25x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.7
   },
   {
     "title": "Cadres intermédiaires police armée",
@@ -2370,10 +2370,10 @@
     "exposure": 3,
     "exposure_rationale": "These roles are fundamentally about leadership, human management, strategic decision-making, and complex field operations, often in unpredictable environments. While AI can support intelligence gathering and logistics, the core human judgment, ethical considerations, and command responsibilities are not automatable.",
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/cadres-intermediaires-police-armee",
-    "cascade_risk": 3,
+    "cascade_risk": 4,
     "derived_demand_pct": 60,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.01x [INSEE TES 2020]",
-    "io_multiplier": 1.01
+    "cascade_rationale": "Total requirements cascade via OQ (1.21x total requirements), MN (1.31x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.22
   },
   {
     "title": "Cadres hôtellerie restauration",
@@ -2390,8 +2390,8 @@
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/cadres-hotellerie-restauration",
     "cascade_risk": 4,
     "derived_demand_pct": 70,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.00x [INSEE TES 2020]",
-    "io_multiplier": 1
+    "cascade_rationale": "Total requirements cascade via GZ (1.33x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.52
   },
   {
     "title": "Techniciens encadrement agricole",
@@ -2408,8 +2408,8 @@
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/techniciens-encadrement-agricole",
     "cascade_risk": 5,
     "derived_demand_pct": 30,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.00x [INSEE TES 2020]",
-    "io_multiplier": 1
+    "cascade_rationale": "Total requirements cascade via C1 (1.80x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.61
   },
   {
     "title": "Maîtres d'hôtel",
@@ -2424,10 +2424,10 @@
     "exposure": 1,
     "exposure_rationale": "This profession is fundamentally about personalized customer service, team coordination, and creating an exceptional guest experience, requiring high emotional intelligence and social skills. AI cannot replicate the nuanced human interaction, adaptability, and problem-solving required in real-time service environments.",
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/maitres-d-hotel",
-    "cascade_risk": 1,
+    "cascade_risk": 2,
     "derived_demand_pct": 80,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.00x [INSEE TES 2020]",
-    "io_multiplier": 1
+    "cascade_rationale": "Total requirements cascade via IZ (1.56x total requirements), GZ (1.33x total requirements), RU (1.22x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.52
   },
   {
     "title": "Vendeurs gros matériel équipements",
@@ -2442,10 +2442,10 @@
     "exposure": 5,
     "exposure_rationale": "This role involves complex sales, negotiation, and building long-term client relationships, which rely heavily on human persuasion, empathy, and understanding nuanced needs. While AI can optimize lead generation and CRM, the strategic human interaction and trust-building aspects are not easily automated.",
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/vendeurs-gros-materiel-equipements",
-    "cascade_risk": 5,
+    "cascade_risk": 6,
     "derived_demand_pct": 60,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.01x [INSEE TES 2020]",
-    "io_multiplier": 1.01
+    "cascade_rationale": "Total requirements cascade via GZ (1.33x total requirements), MN (1.31x total requirements), C1 (1.80x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.38
   },
   {
     "title": "Agents qualifiés laboratoire",
@@ -2460,10 +2460,10 @@
     "exposure": 6,
     "exposure_rationale": "This profession involves precise execution of laboratory protocols, data collection, and equipment maintenance, often in highly controlled environments. While many repetitive tasks and data analysis can be automated by robotics and AI, human oversight, troubleshooting, and interpretation of complex results remain essential.",
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/agents-qualifies-laboratoire",
-    "cascade_risk": 6,
+    "cascade_risk": 7,
     "derived_demand_pct": 45,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.01x [INSEE TES 2020]",
-    "io_multiplier": 1.01
+    "cascade_rationale": "Total requirements cascade via C5 (1.54x total requirements), C2 (2.25x total requirements), DE (1.53x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.7
   },
   {
     "title": "Ingénieurs cadres logistique",
@@ -2480,8 +2480,8 @@
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/ingenieurs-cadres-logistique",
     "cascade_risk": 8,
     "derived_demand_pct": 70,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.01x [INSEE TES 2020]",
-    "io_multiplier": 1.01
+    "cascade_rationale": "Total requirements multiplier 1.47x [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.47
   },
   {
     "title": "Ouvriers qualifiés électricité électronique",
@@ -2496,10 +2496,10 @@
     "exposure": 3,
     "exposure_rationale": "This profession involves hands-on installation, maintenance, and troubleshooting of complex electrical and electronic systems, requiring physical presence and diagnostic skills. While AI can aid in predictive maintenance and fault diagnosis, the actual repair and physical intervention tasks remain human-dependent.",
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/ouvriers-qualifies-electricite-electronique",
-    "cascade_risk": 4,
+    "cascade_risk": 6,
     "derived_demand_pct": 55,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.01x [INSEE TES 2020]",
-    "io_multiplier": 1.01
+    "cascade_rationale": "Total requirements cascade via C3 (1.51x total requirements), C5 (1.54x total requirements), DE (1.53x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.52
   },
   {
     "title": "Assistants communication",
@@ -2516,8 +2516,8 @@
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/assistants-communication",
     "cascade_risk": 7,
     "derived_demand_pct": 75,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.02x [INSEE TES 2020]",
-    "io_multiplier": 1.02
+    "cascade_rationale": "Total requirements cascade via JZ (1.40x total requirements), MN (1.31x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.3
   },
   {
     "title": "Concierges",
@@ -2532,10 +2532,10 @@
     "exposure": 1,
     "exposure_rationale": "This profession is deeply rooted in personalized human interaction, trust, and providing bespoke services, often requiring a physical presence and local knowledge. While AI can offer information, it cannot replicate the emotional intelligence, adaptability, and personal connection essential to a concierge's role.",
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/concierges",
-    "cascade_risk": 2,
+    "cascade_risk": 4,
     "derived_demand_pct": 60,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.01x [INSEE TES 2020]",
-    "io_multiplier": 1.01
+    "cascade_rationale": "Total requirements cascade via RU (1.22x total requirements), OQ (1.21x total requirements), LZ (1.52x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.34
   },
   {
     "title": "Intermédiaires commerce",
@@ -2550,10 +2550,10 @@
     "exposure": 5,
     "exposure_rationale": "This role involves significant human interaction, negotiation, and relationship building, which are difficult for AI to fully replicate. However, AI can automate lead generation, market analysis, and administrative tasks, impacting efficiency.",
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/intermediaires-commerce",
-    "cascade_risk": 5,
+    "cascade_risk": 6,
     "derived_demand_pct": 80,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.01x [INSEE TES 2020]",
-    "io_multiplier": 1.01
+    "cascade_rationale": "Total requirements cascade via GZ (1.33x total requirements), MN (1.31x total requirements), C1 (1.80x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.38
   },
   {
     "title": "Agents administratifs transports",
@@ -2570,8 +2570,8 @@
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/agents-administratifs-transports",
     "cascade_risk": 8,
     "derived_demand_pct": 70,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.01x [INSEE TES 2020]",
-    "io_multiplier": 1.01
+    "cascade_rationale": "Total requirements multiplier 1.47x [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.47
   },
   {
     "title": "Ouvriers industries chimiques",
@@ -2586,10 +2586,10 @@
     "exposure": 2,
     "exposure_rationale": "This is a largely physical role involving manual labor in industrial settings, which is less susceptible to current AI automation. While some processes are robotized, human intervention for non-standard tasks remains crucial.",
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/ouvriers-industries-chimiques",
-    "cascade_risk": 3,
+    "cascade_risk": 7,
     "derived_demand_pct": 65,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.01x [INSEE TES 2020]",
-    "io_multiplier": 1.01
+    "cascade_rationale": "Total requirements cascade via C5 (1.54x total requirements), C1 (1.80x total requirements), C2 (2.25x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.7
   },
   {
     "title": "Ouvriers artisanat textile/cuir",
@@ -2604,10 +2604,10 @@
     "exposure": 1,
     "exposure_rationale": "This role involves highly skilled manual craftsmanship, requiring fine motor skills, aesthetic judgment, and adaptation to unique materials. These artisanal qualities are extremely difficult for AI and robotics to replicate.",
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/ouvriers-artisanat-textile-cuir",
-    "cascade_risk": 3,
+    "cascade_risk": 7,
     "derived_demand_pct": 70,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.01x [INSEE TES 2020]",
-    "io_multiplier": 1.01
+    "cascade_rationale": "Total requirements cascade via C5 (1.54x total requirements), C1 (1.80x total requirements), GZ (1.33x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.54
   },
   {
     "title": "Éleveurs salariés",
@@ -2622,10 +2622,10 @@
     "exposure": 1,
     "exposure_rationale": "This is a predominantly physical and outdoor role involving direct care and interaction with animals, which is largely immune to AI automation. While some farm tasks can be mechanized, the nuanced judgment and hands-on work remain human.",
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/eleveurs-salaries",
-    "cascade_risk": 2,
+    "cascade_risk": 4,
     "derived_demand_pct": 30,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.00x [INSEE TES 2020]",
-    "io_multiplier": 1
+    "cascade_rationale": "Total requirements cascade via AZ (1.59x total requirements), C1 (1.80x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.61
   },
   {
     "title": "Contrôleurs impôts/douanes",
@@ -2642,8 +2642,8 @@
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/controleurs-impots-douanes",
     "cascade_risk": 7,
     "derived_demand_pct": 90,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.01x [INSEE TES 2020]",
-    "io_multiplier": 1.01
+    "cascade_rationale": "Total requirements cascade via MN (1.31x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.22
   },
   {
     "title": "Couvreurs",
@@ -2658,10 +2658,10 @@
     "exposure": 0,
     "exposure_rationale": "This is a highly physical, outdoor, and skilled manual labor role, requiring dexterity, balance, and adaptation to various weather conditions and building structures. It is currently almost entirely immune to automation by AI.",
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/couvreurs",
-    "cascade_risk": 1,
+    "cascade_risk": 4,
     "derived_demand_pct": 75,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.01x [INSEE TES 2020]",
-    "io_multiplier": 1.01
+    "cascade_rationale": "Total requirements cascade via FZ (1.50x total requirements), C5 (1.54x total requirements), DE (1.53x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.51
   },
   {
     "title": "Ouvriers non qualifiés divers",
@@ -2676,10 +2676,10 @@
     "exposure": 2,
     "exposure_rationale": "This category encompasses a wide range of non-specialized manual tasks, often requiring adaptability and physical presence in diverse environments. While some repetitive elements could be assisted by robotics, the core work remains largely physical and non-automatable by AI.",
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/ouvriers-non-qualifies-divers",
-    "cascade_risk": 3,
+    "cascade_risk": 5,
     "derived_demand_pct": 70,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.00x [INSEE TES 2020]",
-    "io_multiplier": 1
+    "cascade_rationale": "Total requirements cascade via RU (1.22x total requirements), C5 (1.54x total requirements), C1 (1.80x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.43
   },
   {
     "title": "Artistes plasticiens",
@@ -2694,10 +2694,10 @@
     "exposure": 0,
     "exposure_rationale": "This role is fundamentally driven by human creativity, originality, and emotional expression, which are core aspects AI cannot replicate. While AI can be a tool for artists, the conceptualization and unique artistic vision remain human.",
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/artistes-plasticiens",
-    "cascade_risk": 2,
+    "cascade_risk": 6,
     "derived_demand_pct": 85,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.02x [INSEE TES 2020]",
-    "io_multiplier": 1.02
+    "cascade_rationale": "Total requirements cascade via JZ (1.40x total requirements), RU (1.22x total requirements), MN (1.31x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.3
   },
   {
     "title": "Employés/opérateurs informatique",
@@ -2712,10 +2712,10 @@
     "exposure": 7,
     "exposure_rationale": "Many tasks in this category, such as routine system monitoring, data entry, and basic technical support, are highly procedural and can be automated by AI. AI can handle repetitive operations and provide initial troubleshooting, reducing the need for human operators.",
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/employes-operateurs-informatique",
-    "cascade_risk": 7,
+    "cascade_risk": 8,
     "derived_demand_pct": 55,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.02x [INSEE TES 2020]",
-    "io_multiplier": 1.02
+    "cascade_rationale": "Total requirements cascade via JZ (1.40x total requirements), MN (1.31x total requirements), KZ (1.29x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.34
   },
   {
     "title": "Ouvriers métal non qualifiés",
@@ -2730,10 +2730,10 @@
     "exposure": 2,
     "exposure_rationale": "This role involves physical tasks in a manufacturing environment, such as loading, unloading, and basic quality checks of metal parts. While core processes are automated, human intervention for non-standard handling and oversight remains necessary.",
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/ouvriers-metal-non-qualifies",
-    "cascade_risk": 3,
+    "cascade_risk": 6,
     "derived_demand_pct": 18,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.01x [INSEE TES 2020]",
-    "io_multiplier": 1.01
+    "cascade_rationale": "Total requirements cascade via C5 (1.54x total requirements), C4 (1.63x total requirements), C3 (1.51x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.56
   },
   {
     "title": "Ouvriers industries graphiques",
@@ -2748,10 +2748,10 @@
     "exposure": 3,
     "exposure_rationale": "This role involves operating and maintaining complex machinery, requiring skilled human oversight for setup, quality control, and troubleshooting. While AI can optimize printing processes, the nuanced judgment of materials and output quality remains human.",
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/ouvriers-industries-graphiques",
-    "cascade_risk": 4,
+    "cascade_risk": 7,
     "derived_demand_pct": 45,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.01x [INSEE TES 2020]",
-    "io_multiplier": 1.01
+    "cascade_rationale": "Total requirements cascade via C5 (1.54x total requirements), C1 (1.80x total requirements), GZ (1.33x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.54
   },
   {
     "title": "Soudeurs",
@@ -2766,10 +2766,10 @@
     "exposure": 1,
     "exposure_rationale": "Welding is a highly skilled manual trade requiring precision, dexterity, and adaptability to diverse materials and complex geometries. While robotic welding exists for repetitive tasks, human welders are essential for custom work and quality control.",
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/soudeurs",
-    "cascade_risk": 3,
+    "cascade_risk": 6,
     "derived_demand_pct": 20,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.01x [INSEE TES 2020]",
-    "io_multiplier": 1.01
+    "cascade_rationale": "Total requirements cascade via C5 (1.54x total requirements), C4 (1.63x total requirements), C3 (1.51x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.56
   },
   {
     "title": "Directeurs/inspecteurs scolaires",
@@ -2784,10 +2784,10 @@
     "exposure": 3,
     "exposure_rationale": "This role involves complex leadership, human resource management, strategic planning, and conflict resolution, requiring high emotional intelligence and ethical judgment. While AI can assist with administrative tasks, the core human-centric functions are not automatable.",
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/directeurs-inspecteurs-scolaires",
-    "cascade_risk": 3,
+    "cascade_risk": 4,
     "derived_demand_pct": 35,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.01x [INSEE TES 2020]",
-    "io_multiplier": 1.01
+    "cascade_rationale": "Total requirements cascade via OQ (1.21x total requirements), MN (1.31x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.22
   },
   {
     "title": "Carrossiers automobiles",
@@ -2802,10 +2802,10 @@
     "exposure": 1,
     "exposure_rationale": "This is a highly skilled manual trade involving physical repair, shaping, and aesthetic finishing of vehicle bodies. While diagnostic tools may be digital, the hands-on craftsmanship and nuanced judgment remain human.",
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/carrossiers-automobiles",
-    "cascade_risk": 3,
+    "cascade_risk": 6,
     "derived_demand_pct": 22,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.02x [INSEE TES 2020]",
-    "io_multiplier": 1.02
+    "cascade_rationale": "Total requirements cascade via C5 (1.54x total requirements), FZ (1.50x total requirements), MN (1.31x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.45
   },
   {
     "title": "Ouvriers alimentation non qualifiés",
@@ -2822,8 +2822,8 @@
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/ouvriers-alimentation-non-qualifies",
     "cascade_risk": 2,
     "derived_demand_pct": 45,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.00x [INSEE TES 2020]",
-    "io_multiplier": 1
+    "cascade_rationale": "Total requirements cascade via GZ (1.33x total requirements), RU (1.22x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.52
   },
   {
     "title": "Dentistes",
@@ -2838,10 +2838,10 @@
     "exposure": 2,
     "exposure_rationale": "This is a highly skilled medical profession requiring complex manual procedures, patient interaction, and ethical judgment. While AI can assist with diagnostics and treatment planning, the hands-on execution and empathetic patient care remain human-centric.",
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/dentistes",
-    "cascade_risk": 3,
+    "cascade_risk": 4,
     "derived_demand_pct": 35,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.01x [INSEE TES 2020]",
-    "io_multiplier": 1.01
+    "cascade_rationale": "Total requirements cascade via OQ (1.21x total requirements), MN (1.31x total requirements), RU (1.22x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.22
   },
   {
     "title": "Juristes",
@@ -2858,8 +2858,8 @@
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/juristes",
     "cascade_risk": 7,
     "derived_demand_pct": 70,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.02x [INSEE TES 2020]",
-    "io_multiplier": 1.02
+    "cascade_rationale": "Total requirements cascade via MN (1.31x total requirements), KZ (1.29x total requirements), JZ (1.40x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.33
   },
   {
     "title": "Dessinateur mécanique",
@@ -2876,8 +2876,8 @@
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/dessinateur-mecanique",
     "cascade_risk": 7,
     "derived_demand_pct": 35,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.01x [INSEE TES 2020]",
-    "io_multiplier": 1.01
+    "cascade_rationale": "Total requirements cascade via C5 (1.54x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.56
   },
   {
     "title": "Chef cuisinier",
@@ -2892,10 +2892,10 @@
     "exposure": 1,
     "exposure_rationale": "This profession is highly physical, creative, and involves significant human interaction, both with staff and customers. While some repetitive kitchen tasks might see automation, the core culinary artistry, management, and adaptation to customer preferences remain human-centric.",
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/chef-cuisinier",
-    "cascade_risk": 1,
+    "cascade_risk": 2,
     "derived_demand_pct": 60,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.00x [INSEE TES 2020]",
-    "io_multiplier": 1
+    "cascade_rationale": "Total requirements cascade via IZ (1.56x total requirements), GZ (1.33x total requirements), RU (1.22x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.52
   },
   {
     "title": "Pilote installation industrielle",
@@ -2910,10 +2910,10 @@
     "exposure": 6,
     "exposure_rationale": "This role involves monitoring and controlling complex industrial machinery, where AI can significantly optimize processes, predict maintenance needs, and automate routine operational decisions. However, human intervention is still critical for safety, troubleshooting, and handling unforeseen complex situations.",
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/pilote-installation-industrielle",
-    "cascade_risk": 6,
+    "cascade_risk": 7,
     "derived_demand_pct": 25,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.01x [INSEE TES 2020]",
-    "io_multiplier": 1.01
+    "cascade_rationale": "Total requirements cascade via C5 (1.54x total requirements), C2 (2.25x total requirements), DE (1.53x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.7
   },
   {
     "title": "Maraîcher, horticulteur",
@@ -2928,10 +2928,10 @@
     "exposure": 2,
     "exposure_rationale": "This profession is predominantly physical and often outdoors, involving direct interaction with plants and soil. Although agricultural robotics and AI for crop monitoring are emerging, the nuanced tasks of planting, harvesting, and specific plant care still largely require human dexterity and judgment.",
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/maraicher-horticulteur",
-    "cascade_risk": 2,
+    "cascade_risk": 4,
     "derived_demand_pct": 18,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.00x [INSEE TES 2020]",
-    "io_multiplier": 1
+    "cascade_rationale": "Total requirements cascade via AZ (1.59x total requirements), C1 (1.80x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.61
   },
   {
     "title": "Ouvrier maintenance électricité",
@@ -2946,10 +2946,10 @@
     "exposure": 3,
     "exposure_rationale": "This role combines physical work with diagnostic and problem-solving skills, often in varied environments. While AI can enhance predictive maintenance and fault diagnosis, the hands-on repair, installation, and complex troubleshooting necessitate human physical presence and expertise.",
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/ouvrier-maintenance-electricite",
-    "cascade_risk": 3,
+    "cascade_risk": 6,
     "derived_demand_pct": 50,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.02x [INSEE TES 2020]",
-    "io_multiplier": 1.02
+    "cascade_rationale": "Total requirements cascade via C5 (1.54x total requirements), FZ (1.50x total requirements), MN (1.31x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.45
   },
   {
     "title": "Agent d'accompagnement",
@@ -2964,10 +2964,10 @@
     "exposure": 1,
     "exposure_rationale": "This profession is fundamentally centered on direct human interaction, requiring empathy, adaptability, and personalized support for individuals. These core human qualities and the ability to respond to diverse, unpredictable needs are extremely challenging for AI to replicate effectively.",
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/agent-d-accompagnement",
-    "cascade_risk": 3,
+    "cascade_risk": 7,
     "derived_demand_pct": 40,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.01x [INSEE TES 2020]",
-    "io_multiplier": 1.01
+    "cascade_rationale": "Total requirements cascade via HZ (1.47x total requirements), GZ (1.33x total requirements), C5 (1.54x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.47
   },
   {
     "title": "Ingénieur télécoms",
@@ -2984,8 +2984,8 @@
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/ingenieur-telecoms",
     "cascade_risk": 8,
     "derived_demand_pct": 65,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.02x [INSEE TES 2020]",
-    "io_multiplier": 1.02
+    "cascade_rationale": "Total requirements cascade via MN (1.31x total requirements), KZ (1.29x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.34
   },
   {
     "title": "Cadre des transports",
@@ -3002,8 +3002,8 @@
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/cadre-des-transports",
     "cascade_risk": 7,
     "derived_demand_pct": 55,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.01x [INSEE TES 2020]",
-    "io_multiplier": 1.01
+    "cascade_rationale": "Total requirements cascade via HZ (1.47x total requirements), C5 (1.54x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.47
   },
   {
     "title": "Employé transports tourisme",
@@ -3018,10 +3018,10 @@
     "exposure": 5,
     "exposure_rationale": "Many routine tasks such as booking, providing information, and basic customer service are increasingly handled by AI-powered chatbots and online platforms. However, complex problem-solving, personalized advice, and handling unforeseen situations still necessitate human intervention and empathy.",
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/employe-transports-tourisme",
-    "cascade_risk": 5,
+    "cascade_risk": 7,
     "derived_demand_pct": 75,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.01x [INSEE TES 2020]",
-    "io_multiplier": 1.01
+    "cascade_rationale": "Total requirements cascade via HZ (1.47x total requirements), GZ (1.33x total requirements), C5 (1.54x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.47
   },
   {
     "title": "Conducteur de train",
@@ -3036,10 +3036,10 @@
     "exposure": 6,
     "exposure_rationale": "Although autonomous train systems are operational in controlled environments, full automation on main lines faces significant safety, infrastructure, and regulatory challenges. AI can optimize routes and predict issues, but human oversight for safety, immediate incident response, and complex decision-making remains crucial.",
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/conducteur-de-train",
-    "cascade_risk": 6,
+    "cascade_risk": 7,
     "derived_demand_pct": 55,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.01x [INSEE TES 2020]",
-    "io_multiplier": 1.01
+    "cascade_rationale": "Total requirements cascade via HZ (1.47x total requirements), C5 (1.54x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.47
   },
   {
     "title": "Professionnel politique",
@@ -3054,10 +3054,10 @@
     "exposure": 0,
     "exposure_rationale": "This profession is fundamentally human, requiring complex social interaction, negotiation, ethical judgment, and direct representation of constituents. While AI can support data analysis for campaigns or aid in policy drafting, the core functions of leadership, empathy, and political decision-making are inherently non-automatable.",
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/professionnel-politique",
-    "cascade_risk": 2,
+    "cascade_risk": 4,
     "derived_demand_pct": 45,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.01x [INSEE TES 2020]",
-    "io_multiplier": 1.01
+    "cascade_rationale": "Total requirements cascade via RU (1.22x total requirements), OQ (1.21x total requirements), GZ (1.33x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.25
   },
   {
     "title": "Ouvrier non qualifié électricité",
@@ -3072,10 +3072,10 @@
     "exposure": 3,
     "exposure_rationale": "This role primarily involves manual and often repetitive tasks in electrical and electronic assembly or basic wiring. While robotics can automate some highly standardized processes, many tasks still require human dexterity, adaptability to varied environments, and problem-solving for non-routine issues.",
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/ouvrier-non-qualifie-electricite",
-    "cascade_risk": 4,
+    "cascade_risk": 6,
     "derived_demand_pct": 45,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.01x [INSEE TES 2020]",
-    "io_multiplier": 1.01
+    "cascade_rationale": "Total requirements cascade via C3 (1.51x total requirements), C5 (1.54x total requirements), DE (1.53x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.52
   },
   {
     "title": "Technicien matériaux souples/bois",
@@ -3090,10 +3090,10 @@
     "exposure": 5,
     "exposure_rationale": "This profession involves operating and supervising specialized machinery, quality control, and some design tasks. AI can optimize production processes, enhance defect detection, and assist with design, yet human oversight, skilled intervention, and adaptability to non-standard materials remain crucial.",
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/technicien-materiaux-souples-bois",
-    "cascade_risk": 5,
+    "cascade_risk": 7,
     "derived_demand_pct": 55,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.01x [INSEE TES 2020]",
-    "io_multiplier": 1.01
+    "cascade_rationale": "Total requirements cascade via C5 (1.54x total requirements), C1 (1.80x total requirements), GZ (1.33x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.54
   },
   {
     "title": "Cadre armée/gendarmerie",
@@ -3108,10 +3108,10 @@
     "exposure": 0,
     "exposure_rationale": "This role is inherently human, demanding leadership, complex strategic decision-making, human management, and ethical judgment in highly unpredictable environments. While AI can support intelligence gathering and logistics, the core functions of command, empathy, and adapting to dynamic human situations are non-automatable.",
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/cadre-armee-gendarmerie",
-    "cascade_risk": 2,
+    "cascade_risk": 4,
     "derived_demand_pct": 35,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.01x [INSEE TES 2020]",
-    "io_multiplier": 1.01
+    "cascade_rationale": "Total requirements cascade via OQ (1.21x total requirements), MN (1.31x total requirements), RU (1.22x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.22
   },
   {
     "title": "Ouvrier non qualifié bois",
@@ -3126,10 +3126,10 @@
     "exposure": 3,
     "exposure_rationale": "This role primarily involves manual handling, basic machine operation, and assembly tasks in woodworking. While robotics can automate some repetitive processes, human dexterity, adaptability to varied materials, and quality control for non-standard items remain essential.",
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/ouvrier-non-qualifie-bois",
-    "cascade_risk": 4,
+    "cascade_risk": 7,
     "derived_demand_pct": 55,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.01x [INSEE TES 2020]",
-    "io_multiplier": 1.01
+    "cascade_rationale": "Total requirements cascade via C5 (1.54x total requirements), C1 (1.80x total requirements), GZ (1.33x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.54
   },
   {
     "title": "Charpentier bois",
@@ -3144,10 +3144,10 @@
     "exposure": 2,
     "exposure_rationale": "This profession involves highly skilled manual work, often performed on-site, requiring complex measurements, precise cutting, and assembly of large wooden structures. While prefabrication can be automated, the on-site adaptation, problem-solving, and craftsmanship remain inherently human tasks.",
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/charpentier-bois",
-    "cascade_risk": 2,
+    "cascade_risk": 4,
     "derived_demand_pct": 75,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.01x [INSEE TES 2020]",
-    "io_multiplier": 1.01
+    "cascade_rationale": "Total requirements cascade via FZ (1.50x total requirements), C5 (1.54x total requirements), DE (1.53x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.51
   },
   {
     "title": "Agent police municipale",
@@ -3162,10 +3162,10 @@
     "exposure": 0,
     "exposure_rationale": "This role is fundamentally human, requiring direct interaction, nuanced judgment in complex social situations, conflict resolution, and physical presence. While AI can support surveillance or data analysis, the core functions of community engagement, ethical decision-making, and de-escalation are inherently non-automatable.",
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/agent-police-municipale",
-    "cascade_risk": 2,
+    "cascade_risk": 4,
     "derived_demand_pct": 45,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.01x [INSEE TES 2020]",
-    "io_multiplier": 1.01
+    "cascade_rationale": "Total requirements cascade via OQ (1.21x total requirements), MN (1.31x total requirements), RU (1.22x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.22
   },
   {
     "title": "Sage-femme",
@@ -3180,10 +3180,10 @@
     "exposure": 0,
     "exposure_rationale": "This profession is profoundly human-centric, demanding direct patient care, deep empathy, complex medical judgment, and crucial emotional support during sensitive life events. While AI can aid in diagnostics or monitoring, the core aspects of human connection, personalized care, and ethical decision-making are irreplaceable.",
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/sage-femme",
-    "cascade_risk": 2,
+    "cascade_risk": 4,
     "derived_demand_pct": 65,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.01x [INSEE TES 2020]",
-    "io_multiplier": 1.01
+    "cascade_rationale": "Total requirements cascade via OQ (1.21x total requirements), MN (1.31x total requirements), RU (1.22x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.22
   },
   {
     "title": "Ouvriers qualifiés textile cuir",
@@ -3198,10 +3198,10 @@
     "exposure": 3,
     "exposure_rationale": "This role involves skilled manual work with materials like textile and leather. While some machinery might incorporate AI for precision or efficiency, the core tasks remain physical and require human dexterity and judgment.",
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/ouvriers-qualifies-textile-cuir",
-    "cascade_risk": 4,
+    "cascade_risk": 7,
     "derived_demand_pct": 65,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.01x [INSEE TES 2020]",
-    "io_multiplier": 1.01
+    "cascade_rationale": "Total requirements cascade via C5 (1.54x total requirements), C1 (1.80x total requirements), GZ (1.33x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.54
   },
   {
     "title": "Agents impôts et douanes",
@@ -3218,8 +3218,8 @@
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/agents-impots-et-douanes",
     "cascade_risk": 7,
     "derived_demand_pct": 55,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.01x [INSEE TES 2020]",
-    "io_multiplier": 1.01
+    "cascade_rationale": "Total requirements cascade via MN (1.31x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.22
   },
   {
     "title": "Cadres dirigeants grandes entreprises",
@@ -3234,10 +3234,10 @@
     "exposure": 4,
     "exposure_rationale": "This role is highly strategic, involving complex decision-making, leadership, and human interaction. While AI can provide data insights and support for strategic planning, the core functions of vision, negotiation, and managing human capital remain distinctly human.",
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/cadres-dirigeants-grandes-entreprises",
-    "cascade_risk": 5,
+    "cascade_risk": 7,
     "derived_demand_pct": 85,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.02x [INSEE TES 2020]",
-    "io_multiplier": 1.02
+    "cascade_rationale": "Total requirements cascade via MN (1.31x total requirements), KZ (1.29x total requirements), GZ (1.33x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.33
   },
   {
     "title": "Ouvriers non qualifiés métallurgie",
@@ -3252,10 +3252,10 @@
     "exposure": 6,
     "exposure_rationale": "This role involves repetitive physical tasks in industrial settings, which are increasingly susceptible to automation by robotics and AI-driven machinery. While some tasks may still require human intervention, a significant portion can be streamlined or replaced.",
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/ouvriers-non-qualifies-metallurgie",
-    "cascade_risk": 6,
+    "cascade_risk": 7,
     "derived_demand_pct": 15,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.01x [INSEE TES 2020]",
-    "io_multiplier": 1.01
+    "cascade_rationale": "Total requirements cascade via C5 (1.54x total requirements), C2 (2.25x total requirements), DE (1.53x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.7
   },
   {
     "title": "Ingénieurs maintenance informatique",
@@ -3270,10 +3270,10 @@
     "exposure": 6,
     "exposure_rationale": "This role is deeply digital, involving system administration and maintenance. While AI can automate routine monitoring, diagnostics, and some maintenance tasks, complex problem-solving, system architecture, and security remain areas requiring human expertise and adaptation.",
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/ingenieurs-maintenance-informatique",
-    "cascade_risk": 6,
+    "cascade_risk": 8,
     "derived_demand_pct": 65,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.02x [INSEE TES 2020]",
-    "io_multiplier": 1.02
+    "cascade_rationale": "Total requirements cascade via JZ (1.40x total requirements), MN (1.31x total requirements), KZ (1.29x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.34
   },
   {
     "title": "Régleurs machines industrielles",
@@ -3288,10 +3288,10 @@
     "exposure": 4,
     "exposure_rationale": "This role involves skilled manual intervention to set up and adjust industrial machinery. While AI can optimize machine parameters and predict maintenance needs, the physical dexterity and problem-solving required for precise adjustments remain human-centric.",
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/regleurs-machines-industrielles",
-    "cascade_risk": 4,
+    "cascade_risk": 6,
     "derived_demand_pct": 20,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.01x [INSEE TES 2020]",
-    "io_multiplier": 1.01
+    "cascade_rationale": "Total requirements cascade via C5 (1.54x total requirements), C4 (1.63x total requirements), C3 (1.51x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.56
   },
   {
     "title": "Photographes",
@@ -3306,10 +3306,10 @@
     "exposure": 3,
     "exposure_rationale": "This is a creative and artistic profession that heavily relies on human vision, aesthetic judgment, and client interaction. While AI tools can assist with image editing and even generation, the core artistic direction and ability to capture unique moments remain human.",
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/photographes",
-    "cascade_risk": 4,
+    "cascade_risk": 6,
     "derived_demand_pct": 70,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.02x [INSEE TES 2020]",
-    "io_multiplier": 1.02
+    "cascade_rationale": "Total requirements cascade via JZ (1.40x total requirements), MN (1.31x total requirements), OQ (1.21x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.3
   },
   {
     "title": "Interprètes",
@@ -3326,8 +3326,8 @@
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/interpretes",
     "cascade_risk": 7,
     "derived_demand_pct": 80,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.02x [INSEE TES 2020]",
-    "io_multiplier": 1.02
+    "cascade_rationale": "Total requirements cascade via JZ (1.40x total requirements), MN (1.31x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.3
   },
   {
     "title": "Agents maîtrise entretien",
@@ -3342,10 +3342,10 @@
     "exposure": 4,
     "exposure_rationale": "This role involves supervising physical maintenance tasks, planning, and managing teams. While AI can optimize scheduling and predict maintenance needs, the direct oversight, problem-solving in unexpected situations, and human management aspects are not easily automated.",
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/agents-maitrise-entretien",
-    "cascade_risk": 4,
+    "cascade_risk": 6,
     "derived_demand_pct": 75,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.02x [INSEE TES 2020]",
-    "io_multiplier": 1.02
+    "cascade_rationale": "Total requirements cascade via C5 (1.54x total requirements), MN (1.31x total requirements), GZ (1.33x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.45
   },
   {
     "title": "Ouvriers non qualifiés industriels",
@@ -3362,8 +3362,8 @@
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/ouvriers-non-qualifies-industriels",
     "cascade_risk": 7,
     "derived_demand_pct": 30,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.01x [INSEE TES 2020]",
-    "io_multiplier": 1.01
+    "cascade_rationale": "Total requirements cascade via C5 (1.54x total requirements), C2 (2.25x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.7
   },
   {
     "title": "Cadres Poste télécommunications",
@@ -3380,8 +3380,8 @@
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/cadres-poste-telecommunications",
     "cascade_risk": 6,
     "derived_demand_pct": 50,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.01x [INSEE TES 2020]",
-    "io_multiplier": 1.01
+    "cascade_rationale": "Total requirements cascade via MN (1.31x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.22
   },
   {
     "title": "Maîtrise hôtellerie",
@@ -3398,8 +3398,8 @@
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/maitrise-hotellerie",
     "cascade_risk": 3,
     "derived_demand_pct": 85,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.00x [INSEE TES 2020]",
-    "io_multiplier": 1
+    "cascade_rationale": "Total requirements cascade via GZ (1.33x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.52
   },
   {
     "title": "Artisans bois ameublement",
@@ -3414,10 +3414,10 @@
     "exposure": 2,
     "exposure_rationale": "This profession involves highly skilled manual craftsmanship, creativity, and often custom work with wood. While AI can aid in design or material optimization, the tactile execution, artistic judgment, and unique touch of an artisan are inherently human and difficult to automate.",
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/artisans-bois-ameublement",
-    "cascade_risk": 3,
+    "cascade_risk": 7,
     "derived_demand_pct": 60,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.01x [INSEE TES 2020]",
-    "io_multiplier": 1.01
+    "cascade_rationale": "Total requirements cascade via C5 (1.54x total requirements), C1 (1.80x total requirements), GZ (1.33x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.54
   },
   {
     "title": "Maraîchers horticulteurs indépendants",
@@ -3432,10 +3432,10 @@
     "exposure": 2,
     "exposure_rationale": "This role is primarily physical, outdoor, and involves managing complex biological systems. While AI can assist with monitoring, irrigation, and pest detection, the hands-on cultivation, adaptation to unpredictable environmental conditions, and direct interaction with plants remain human tasks.",
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/maraichers-horticulteurs-independants",
-    "cascade_risk": 2,
+    "cascade_risk": 4,
     "derived_demand_pct": 40,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.00x [INSEE TES 2020]",
-    "io_multiplier": 1
+    "cascade_rationale": "Total requirements cascade via AZ (1.59x total requirements), C1 (1.80x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.61
   },
   {
     "title": "Dessinateurs bâtiment et TP",
@@ -3452,8 +3452,8 @@
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/dessinateurs-batiment-et-tp",
     "cascade_risk": 7,
     "derived_demand_pct": 80,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.01x [INSEE TES 2020]",
-    "io_multiplier": 1.01
+    "cascade_rationale": "Total requirements cascade via C5 (1.54x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.51
   },
   {
     "title": "Agents traitement thermique surface",
@@ -3468,10 +3468,10 @@
     "exposure": 5,
     "exposure_rationale": "This role involves operating and monitoring specialized industrial processes. While AI can optimize process parameters, detect anomalies, and automate some quality control, the skilled human intervention for setup, complex troubleshooting, and fine-tuning remains crucial.",
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/agents-traitement-thermique-surface",
-    "cascade_risk": 5,
+    "cascade_risk": 6,
     "derived_demand_pct": 25,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.01x [INSEE TES 2020]",
-    "io_multiplier": 1.01
+    "cascade_rationale": "Total requirements cascade via C5 (1.54x total requirements), C3 (1.51x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.56
   },
   {
     "title": "Personnels navigants aviation",
@@ -3486,10 +3486,10 @@
     "exposure": 4,
     "exposure_rationale": "This role requires highly skilled operation of complex systems, critical decision-making under pressure, and significant human interaction for safety and service. While AI assists with navigation and flight management, the human element for unforeseen circumstances, passenger care, and ultimate responsibility remains indispensable.",
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/personnels-navigants-aviation",
-    "cascade_risk": 5,
+    "cascade_risk": 7,
     "derived_demand_pct": 80,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.01x [INSEE TES 2020]",
-    "io_multiplier": 1.01
+    "cascade_rationale": "Total requirements cascade via HZ (1.47x total requirements), GZ (1.33x total requirements), C5 (1.54x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.47
   },
   {
     "title": "Ouvriers non qualifiés textile cuir",
@@ -3506,8 +3506,8 @@
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/ouvriers-non-qualifies-textile-cuir",
     "cascade_risk": 7,
     "derived_demand_pct": 60,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.01x [INSEE TES 2020]",
-    "io_multiplier": 1.01
+    "cascade_rationale": "Total requirements cascade via C5 (1.54x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.54
   },
   {
     "title": "Agents exploitation transports",
@@ -3522,10 +3522,10 @@
     "exposure": 6,
     "exposure_rationale": "This role involves significant data processing for logistics and scheduling, which AI can optimize. However, human oversight and intervention are critical for managing disruptions and ensuring safety in complex transport systems.",
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/agents-exploitation-transports",
-    "cascade_risk": 6,
+    "cascade_risk": 7,
     "derived_demand_pct": 60,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.01x [INSEE TES 2020]",
-    "io_multiplier": 1.01
+    "cascade_rationale": "Total requirements cascade via HZ (1.47x total requirements), C5 (1.54x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.47
   },
   {
     "title": "Vétérinaires",
@@ -3540,10 +3540,10 @@
     "exposure": 2,
     "exposure_rationale": "This profession is highly reliant on direct patient interaction, complex medical procedures, and empathetic communication. While AI can aid in diagnostics and research, the core clinical and surgical tasks require human expertise and judgment.",
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/veterinaires",
-    "cascade_risk": 3,
+    "cascade_risk": 4,
     "derived_demand_pct": 30,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.01x [INSEE TES 2020]",
-    "io_multiplier": 1.01
+    "cascade_rationale": "Total requirements cascade via OQ (1.21x total requirements), MN (1.31x total requirements), RU (1.22x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.22
   },
   {
     "title": "Intermédiaires Poste Télécoms",
@@ -3560,8 +3560,8 @@
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/intermediaires-poste-telecoms",
     "cascade_risk": 7,
     "derived_demand_pct": 75,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.01x [INSEE TES 2020]",
-    "io_multiplier": 1.01
+    "cascade_rationale": "Total requirements cascade via MN (1.31x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.22
   },
   {
     "title": "Travailleurs pierre matériaux",
@@ -3576,10 +3576,10 @@
     "exposure": 1,
     "exposure_rationale": "This profession is fundamentally hands-on, requiring specialized manual skills and artistic judgment in shaping and working with physical materials. While digital tools might assist in design, the core execution remains a physical craft largely untouched by AI automation.",
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/travailleurs-pierre-materiaux",
-    "cascade_risk": 2,
+    "cascade_risk": 4,
     "derived_demand_pct": 80,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.01x [INSEE TES 2020]",
-    "io_multiplier": 1.01
+    "cascade_rationale": "Total requirements cascade via FZ (1.50x total requirements), C5 (1.54x total requirements), DE (1.53x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.51
   },
   {
     "title": "Bûcherons sylviculteurs forestiers",
@@ -3594,10 +3594,10 @@
     "exposure": 2,
     "exposure_rationale": "This role involves significant outdoor physical labor, operating heavy machinery, and direct interaction with natural environments. While AI can optimize forest management and logistics, the core tasks of felling, planting, and maintenance require human presence and manual dexterity.",
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/bucherons-sylviculteurs-forestiers",
-    "cascade_risk": 2,
+    "cascade_risk": 4,
     "derived_demand_pct": 50,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.00x [INSEE TES 2020]",
-    "io_multiplier": 1
+    "cascade_rationale": "Total requirements cascade via AZ (1.59x total requirements), C1 (1.80x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.61
   },
   {
     "title": "Géomètres",
@@ -3614,8 +3614,8 @@
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/geometres",
     "cascade_risk": 7,
     "derived_demand_pct": 85,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.01x [INSEE TES 2020]",
-    "io_multiplier": 1.01
+    "cascade_rationale": "Total requirements cascade via C5 (1.54x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.51
   },
   {
     "title": "Ingénieurs cadres agriculture",
@@ -3632,8 +3632,8 @@
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/ingenieurs-cadres-agriculture",
     "cascade_risk": 8,
     "derived_demand_pct": 45,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.00x [INSEE TES 2020]",
-    "io_multiplier": 1
+    "cascade_rationale": "Total requirements multiplier 1.61x [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.61
   },
   {
     "title": "Clergé",
@@ -3648,10 +3648,10 @@
     "exposure": 0,
     "exposure_rationale": "This profession is entirely centered on human interaction, spiritual guidance, and community support, requiring deep empathy and understanding of human experience. These core functions are inherently non-automatable by artificial intelligence.",
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/clerge",
-    "cascade_risk": 2,
+    "cascade_risk": 4,
     "derived_demand_pct": 40,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.01x [INSEE TES 2020]",
-    "io_multiplier": 1.01
+    "cascade_rationale": "Total requirements cascade via RU (1.22x total requirements), OQ (1.21x total requirements), GZ (1.33x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.25
   },
   {
     "title": "Charcutiers traiteurs",
@@ -3668,8 +3668,8 @@
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/charcutiers-traiteurs",
     "cascade_risk": 2,
     "derived_demand_pct": 70,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.00x [INSEE TES 2020]",
-    "io_multiplier": 1
+    "cascade_rationale": "Total requirements cascade via GZ (1.33x total requirements), RU (1.22x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.52
   },
   {
     "title": "Mainteniciens électroménager",
@@ -3684,10 +3684,10 @@
     "exposure": 3,
     "exposure_rationale": "This profession involves hands-on diagnosis and repair of physical appliances, requiring manual dexterity and problem-solving in varied physical contexts. While AI can assist with diagnostic tools and access to technical documentation, the actual repair work remains a human task.",
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/mainteniciens-electromenager",
-    "cascade_risk": 3,
+    "cascade_risk": 6,
     "derived_demand_pct": 40,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.02x [INSEE TES 2020]",
-    "io_multiplier": 1.02
+    "cascade_rationale": "Total requirements cascade via C5 (1.54x total requirements), FZ (1.50x total requirements), MN (1.31x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.45
   },
   {
     "title": "Charpentiers métal",
@@ -3702,10 +3702,10 @@
     "exposure": 1,
     "exposure_rationale": "This role is primarily physical, involving the fabrication, assembly, and installation of metal structures, often in challenging environments. While design and some fabrication can be automated, the on-site precision work and problem-solving require human skill and adaptability.",
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/charpentiers-metal",
-    "cascade_risk": 2,
+    "cascade_risk": 4,
     "derived_demand_pct": 85,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.01x [INSEE TES 2020]",
-    "io_multiplier": 1.01
+    "cascade_rationale": "Total requirements cascade via FZ (1.50x total requirements), C5 (1.54x total requirements), DE (1.53x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.51
   },
   {
     "title": "Conducteurs engins agricoles",
@@ -3722,8 +3722,8 @@
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/conducteurs-engins-agricoles",
     "cascade_risk": 5,
     "derived_demand_pct": 40,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.00x [INSEE TES 2020]",
-    "io_multiplier": 1
+    "cascade_rationale": "Total requirements cascade via C1 (1.80x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.61
   },
   {
     "title": "Ouvriers qualifiés industrie",
@@ -3738,10 +3738,10 @@
     "exposure": 6,
     "exposure_rationale": "This broad category encompasses many procedural and repetitive tasks within industrial settings, which are prime candidates for automation by AI and robotics. While human oversight and maintenance remain crucial, the direct execution of many production tasks is increasingly being taken over by intelligent systems.",
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/ouvriers-qualifies-industrie",
-    "cascade_risk": 6,
+    "cascade_risk": 7,
     "derived_demand_pct": 70,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.01x [INSEE TES 2020]",
-    "io_multiplier": 1.01
+    "cascade_rationale": "Total requirements cascade via C5 (1.54x total requirements), C2 (2.25x total requirements), DE (1.53x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.7
   },
   {
     "title": "Tuyauteurs",
@@ -3756,10 +3756,10 @@
     "exposure": 1,
     "exposure_rationale": "This is a highly skilled manual trade involving precise fabrication and installation of piping systems, often in complex and hazardous industrial settings. The physical dexterity, problem-solving in situ, and adherence to safety protocols are inherently human tasks.",
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/tuyauteurs",
-    "cascade_risk": 3,
+    "cascade_risk": 6,
     "derived_demand_pct": 75,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.01x [INSEE TES 2020]",
-    "io_multiplier": 1.01
+    "cascade_rationale": "Total requirements cascade via C5 (1.54x total requirements), C4 (1.63x total requirements), C3 (1.51x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.56
   },
   {
     "title": "Pêcheurs aquaculteurs",
@@ -3774,10 +3774,10 @@
     "exposure": 2,
     "exposure_rationale": "This profession involves significant physical labor in challenging outdoor environments, operating specialized equipment, and direct interaction with marine life. While AI can assist with resource monitoring and navigation, the core tasks of fishing and aquaculture management require human presence and adaptability.",
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/pecheurs-aquaculteurs",
-    "cascade_risk": 2,
+    "cascade_risk": 4,
     "derived_demand_pct": 55,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.00x [INSEE TES 2020]",
-    "io_multiplier": 1
+    "cascade_rationale": "Total requirements cascade via AZ (1.59x total requirements), C1 (1.80x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.61
   },
   {
     "title": "Écrivains",
@@ -3794,8 +3794,8 @@
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/ecrivains",
     "cascade_risk": 8,
     "derived_demand_pct": 60,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.02x [INSEE TES 2020]",
-    "io_multiplier": 1.02
+    "cascade_rationale": "Total requirements cascade via MN (1.31x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.3
   },
   {
     "title": "Agents maîtrise fabrication électrique",
@@ -3812,8 +3812,8 @@
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/agents-maitrise-fabrication-electrique",
     "cascade_risk": 7,
     "derived_demand_pct": 35,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.01x [INSEE TES 2020]",
-    "io_multiplier": 1.01
+    "cascade_rationale": "Total requirements cascade via C5 (1.54x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.52
   },
   {
     "title": "Exploitants équipements sportifs",
@@ -3828,10 +3828,10 @@
     "exposure": 3,
     "exposure_rationale": "This profession involves managing physical spaces, ensuring safety, coordinating events, and providing direct customer service, all requiring significant human interaction and on-site presence. While AI can streamline booking and administrative tasks, the core operational and experiential aspects are inherently human-centric.",
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/exploitants-equipements-sportifs",
-    "cascade_risk": 3,
+    "cascade_risk": 4,
     "derived_demand_pct": 70,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.01x [INSEE TES 2020]",
-    "io_multiplier": 1.01
+    "cascade_rationale": "Total requirements cascade via OQ (1.21x total requirements), MN (1.31x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.22
   },
   {
     "title": "Magistrats",
@@ -3848,8 +3848,8 @@
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/magistrats",
     "cascade_risk": 7,
     "derived_demand_pct": 80,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.01x [INSEE TES 2020]",
-    "io_multiplier": 1.01
+    "cascade_rationale": "Total requirements cascade via MN (1.31x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.22
   },
   {
     "title": "Dessinateurs électricité électronique",
@@ -3866,8 +3866,8 @@
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/dessinateurs-electricite-electronique",
     "cascade_risk": 8,
     "derived_demand_pct": 55,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.01x [INSEE TES 2020]",
-    "io_multiplier": 1.01
+    "cascade_rationale": "Total requirements multiplier 1.52x [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.52
   },
   {
     "title": "Bûcherons, sylviculteurs indépendants",
@@ -3882,10 +3882,10 @@
     "exposure": 1,
     "exposure_rationale": "This profession is primarily physical, outdoor, and involves operating heavy machinery in varied natural environments. While AI can aid in forest inventory and management planning, the core tasks of felling, planting, and maintaining forests remain manual and require human judgment.",
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/bucherons-sylviculteurs-independants",
-    "cascade_risk": 2,
+    "cascade_risk": 4,
     "derived_demand_pct": 40,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.00x [INSEE TES 2020]",
-    "io_multiplier": 1
+    "cascade_rationale": "Total requirements cascade via AZ (1.59x total requirements), C1 (1.80x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.61
   },
   {
     "title": "Professionnels de l'orientation",
@@ -3902,8 +3902,8 @@
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/professionnels-de-l-orientation",
     "cascade_risk": 4,
     "derived_demand_pct": 65,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.01x [INSEE TES 2020]",
-    "io_multiplier": 1.01
+    "cascade_rationale": "Total requirements cascade via MN (1.31x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.22
   },
   {
     "title": "Cadres et techniciens documentation",
@@ -3920,8 +3920,8 @@
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/cadres-et-techniciens-documentation",
     "cascade_risk": 7,
     "derived_demand_pct": 85,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.02x [INSEE TES 2020]",
-    "io_multiplier": 1.02
+    "cascade_rationale": "Total requirements cascade via JZ (1.40x total requirements), MN (1.31x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.3
   },
   {
     "title": "Ouvriers non qualifiés imprimerie",
@@ -3936,10 +3936,10 @@
     "exposure": 3,
     "exposure_rationale": "This role involves manual handling, machine operation, and basic quality control within an industrial setting. While AI can optimize production lines and predict maintenance needs, the core physical tasks performed by non-qualified workers are not directly automated by AI.",
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/ouvriers-non-qualifies-imprimerie",
-    "cascade_risk": 4,
+    "cascade_risk": 7,
     "derived_demand_pct": 50,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.01x [INSEE TES 2020]",
-    "io_multiplier": 1.01
+    "cascade_rationale": "Total requirements cascade via C5 (1.54x total requirements), C1 (1.80x total requirements), GZ (1.33x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.54
   },
   {
     "title": "Ouvriers qualifiés bois papier",
@@ -3954,10 +3954,10 @@
     "exposure": 4,
     "exposure_rationale": "These qualified workers operate and monitor complex industrial machinery, requiring specialized skills and problem-solving abilities. While AI can enhance machine optimization, predictive maintenance, and quality control, the direct operation and oversight of heavy equipment remain human-centric.",
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/ouvriers-qualifies-bois-papier",
-    "cascade_risk": 4,
+    "cascade_risk": 7,
     "derived_demand_pct": 45,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.01x [INSEE TES 2020]",
-    "io_multiplier": 1.01
+    "cascade_rationale": "Total requirements cascade via C5 (1.54x total requirements), C1 (1.80x total requirements), C2 (2.25x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.7
   },
   {
     "title": "Marins, pêcheurs indépendants",
@@ -3972,10 +3972,10 @@
     "exposure": 2,
     "exposure_rationale": "This profession is highly physical, outdoor, and involves navigating unpredictable marine environments, requiring significant human judgment and manual skills. While AI can assist with navigation, weather forecasting, and fish detection, the core tasks remain hands-on and human-driven.",
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/marins-pecheurs-independants",
-    "cascade_risk": 2,
+    "cascade_risk": 4,
     "derived_demand_pct": 30,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.00x [INSEE TES 2020]",
-    "io_multiplier": 1
+    "cascade_rationale": "Total requirements cascade via AZ (1.59x total requirements), C1 (1.80x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.61
   },
   {
     "title": "Contrôleurs des transports",
@@ -3990,10 +3990,10 @@
     "exposure": 5,
     "exposure_rationale": "This role involves a mix of human interaction for ticket verification and rule enforcement, alongside monitoring and incident management. While AI can automate ticket checks and identify anomalies, the human element of conflict resolution and direct interaction remains crucial.",
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/controleurs-des-transports",
-    "cascade_risk": 5,
+    "cascade_risk": 7,
     "derived_demand_pct": 75,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.01x [INSEE TES 2020]",
-    "io_multiplier": 1.01
+    "cascade_rationale": "Total requirements cascade via HZ (1.47x total requirements), GZ (1.33x total requirements), C5 (1.54x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.47
   },
   {
     "title": "Cadres et maîtres d'équipage",
@@ -4008,10 +4008,10 @@
     "exposure": 3,
     "exposure_rationale": "This role demands leadership, complex decision-making in critical situations, and crew management in dynamic marine environments. While AI can enhance navigation, route optimization, and predictive maintenance, the ultimate command and human leadership remain indispensable.",
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/cadres-et-maitres-d-equipage",
-    "cascade_risk": 3,
+    "cascade_risk": 4,
     "derived_demand_pct": 35,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.00x [INSEE TES 2020]",
-    "io_multiplier": 1
+    "cascade_rationale": "Total requirements cascade via AZ (1.59x total requirements), C1 (1.80x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.61
   },
   {
     "title": "Marins salariés",
@@ -4026,10 +4026,10 @@
     "exposure": 2,
     "exposure_rationale": "This profession involves physical labor, maintenance, and watchkeeping on vessels, often in challenging conditions. While AI can aid in navigation and system monitoring, the hands-on tasks and human presence required for safety and operation are fundamental.",
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/marins-salaries",
-    "cascade_risk": 2,
+    "cascade_risk": 4,
     "derived_demand_pct": 30,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.00x [INSEE TES 2020]",
-    "io_multiplier": 1
+    "cascade_rationale": "Total requirements cascade via AZ (1.59x total requirements), C1 (1.80x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.61
   },
   {
     "title": "Ouvriers non qualifiés papier bois",
@@ -4044,9 +4044,9 @@
     "exposure": 3,
     "exposure_rationale": "This role primarily involves manual handling, basic machine operation, and packaging within industrial production lines. While AI can optimize workflows and logistics, many routine physical tasks are increasingly susceptible to automation and robotic solutions.",
     "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/ouvriers-non-qualifies-papier-bois",
-    "cascade_risk": 4,
+    "cascade_risk": 7,
     "derived_demand_pct": 45,
-    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.01x [INSEE TES 2020]",
-    "io_multiplier": 1.01
+    "cascade_rationale": "Total requirements cascade via C5 (1.54x total requirements), C1 (1.80x total requirements), C2 (2.25x total requirements) [INSEE 2020 total-requirements table (TES)]",
+    "io_multiplier": 1.7
   }
 ]
