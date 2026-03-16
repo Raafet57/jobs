@@ -172,3 +172,32 @@
   ---
 
   
+
+    ## Phase 4: Narrative & Onboarding Layer
+
+    ### Key Findings
+
+    | Metric | US | France |
+    |--------|-----|--------|
+    | Direct high-risk jobs (score ≥7) | 49M (34%) | 4.2M (15%) |
+    | Cascade high-risk jobs (score ≥7) | 77.2M (54%) | 8.9M (31%) |
+    | Additional jobs at risk via cascade | **28.2M** | **4.6M** |
+    | Weighted avg score (direct → cascade) | 4.91 → 6.74 | 3.64 → 5.43 |
+
+    ### What's New in Phase 4
+
+    - **Headline stat panel**: Both vizzes now open with a prominent "key finding" box showing the cascade impact at a glance
+    - **Slider onboarding animation**: On first visit, the adoption slider auto-animates from 0% → 40% over 2 seconds, demonstrating interactivity
+    - **Score explanation tooltip**: Hovering the gradient legend explains the 1–10 scale in plain language
+    - **Sharper regional panel** (US): Metros now ranked by cascade multiplier with "Most Amplified" (SF, Seattle, NY) and "Most Sheltered" (Las Vegas, Orlando, New Orleans) groupings, each with plain-English annotations
+    - **Cascade delta callouts**: The cascade info box now shows how many additional jobs are at risk vs direct exposure alone
+
+    ### Regional Highlights
+
+    | Metro | Cascade Multiplier | Why |
+    |-------|-------------------|-----|
+    | San Francisco | 1.00x | Tech & professional services hub |
+    | Seattle | 1.00x | Heavy tech concentration |
+    | Las Vegas | 0.79x | Tourism economy sheltered from white-collar cascades |
+    | Orlando | 0.86x | Theme parks buffer knowledge-work demand collapse |
+  
