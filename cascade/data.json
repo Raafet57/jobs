@@ -13,8 +13,8 @@
     "url": "https://www.bls.gov/ooh/business-and-financial/accountants-and-auditors.htm",
     "cascade_risk": 8,
     "derived_demand_pct": 75,
-    "cascade_rationale": "I-O cascade via finance (1.06x multiplier), professional (1.15x multiplier), admin_support (1.09x multiplier); sector multiplier 1.09x",
-    "io_multiplier": 1.09
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x), 53 (1.07x); weighted multiplier 1.05x [BEA 2022 Use Table]",
+    "io_multiplier": 1.05
   },
   {
     "title": "Actors",
@@ -30,8 +30,8 @@
     "url": "https://www.bls.gov/ooh/entertainment-and-sports/actors.htm",
     "cascade_risk": 7,
     "derived_demand_pct": 50,
-    "cascade_rationale": "I-O cascade via information (1.10x multiplier); sector multiplier 1.03x",
-    "io_multiplier": 1.03
+    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.02x [BEA 2022 Use Table]",
+    "io_multiplier": 1.02
   },
   {
     "title": "Actuaries",
@@ -47,8 +47,8 @@
     "url": "https://www.bls.gov/ooh/math/actuaries.htm",
     "cascade_risk": 8,
     "derived_demand_pct": 95,
-    "cascade_rationale": "I-O cascade via finance (1.06x multiplier), professional (1.15x multiplier), information (1.10x multiplier); sector multiplier 1.09x",
-    "io_multiplier": 1.09
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x); weighted multiplier 1.05x [BEA 2022 Use Table]",
+    "io_multiplier": 1.05
   },
   {
     "title": "Administrative services and facilities managers",
@@ -64,8 +64,8 @@
     "url": "https://www.bls.gov/ooh/management/administrative-services-managers.htm",
     "cascade_risk": 6,
     "derived_demand_pct": 85,
-    "cascade_rationale": "I-O cascade via professional (1.15x multiplier), finance (1.06x multiplier), information (1.10x multiplier); sector multiplier 1.06x",
-    "io_multiplier": 1.06
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x), 31G (1.06x); weighted multiplier 1.04x [BEA 2022 Use Table]",
+    "io_multiplier": 1.04
   },
   {
     "title": "Adult basic and secondary education and ESL teachers",
@@ -81,7 +81,7 @@
     "url": "https://www.bls.gov/ooh/education-training-and-library/adult-literacy-and-ged-teachers.htm",
     "cascade_risk": 7,
     "derived_demand_pct": 20,
-    "cascade_rationale": "Minimal cascade effect; sector multiplier 1.00x",
+    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.00x [BEA 2022 Use Table]",
     "io_multiplier": 1
   },
   {
@@ -98,8 +98,8 @@
     "url": "https://www.bls.gov/ooh/sales/advertising-sales-agents.htm",
     "cascade_risk": 7,
     "derived_demand_pct": 75,
-    "cascade_rationale": "I-O cascade via finance (1.06x multiplier), real_estate (1.11x multiplier), professional (1.15x multiplier); sector multiplier 1.04x",
-    "io_multiplier": 1.04
+    "cascade_rationale": "I-O cascade via sectors 53 (1.07x), PROF (1.10x); weighted multiplier 1.03x [BEA 2022 Use Table]",
+    "io_multiplier": 1.03
   },
   {
     "title": "Advertising, promotions, and marketing managers",
@@ -115,8 +115,8 @@
     "url": "https://www.bls.gov/ooh/management/advertising-promotions-and-marketing-managers.htm",
     "cascade_risk": 8,
     "derived_demand_pct": 80,
-    "cascade_rationale": "I-O cascade via professional (1.15x multiplier), finance (1.06x multiplier), information (1.10x multiplier); sector multiplier 1.06x",
-    "io_multiplier": 1.06
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x), 31G (1.06x); weighted multiplier 1.04x [BEA 2022 Use Table]",
+    "io_multiplier": 1.04
   },
   {
     "title": "Aerospace engineering and operations technologists and technicians",
@@ -132,8 +132,8 @@
     "url": "https://www.bls.gov/ooh/architecture-and-engineering/aerospace-engineering-and-operations-technicians.htm",
     "cascade_risk": 5,
     "derived_demand_pct": 10,
-    "cascade_rationale": "I-O cascade via professional (1.15x multiplier); sector multiplier 1.07x",
-    "io_multiplier": 1.07
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x), 31G (1.06x); weighted multiplier 1.06x [BEA 2022 Use Table]",
+    "io_multiplier": 1.06
   },
   {
     "title": "Aerospace engineers",
@@ -149,8 +149,8 @@
     "url": "https://www.bls.gov/ooh/architecture-and-engineering/aerospace-engineers.htm",
     "cascade_risk": 7,
     "derived_demand_pct": 35,
-    "cascade_rationale": "I-O cascade via professional (1.15x multiplier); sector multiplier 1.07x",
-    "io_multiplier": 1.07
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x), 31G (1.06x); weighted multiplier 1.06x [BEA 2022 Use Table]",
+    "io_multiplier": 1.06
   },
   {
     "title": "Agricultural and food science technicians",
@@ -166,8 +166,8 @@
     "url": "https://www.bls.gov/ooh/life-physical-and-social-science/agricultural-and-food-science-technicians.htm",
     "cascade_risk": 5,
     "derived_demand_pct": 15,
-    "cascade_rationale": "I-O cascade via professional (1.15x multiplier); sector multiplier 1.06x",
-    "io_multiplier": 1.06
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x), 31G (1.06x); weighted multiplier 1.04x [BEA 2022 Use Table]",
+    "io_multiplier": 1.04
   },
   {
     "title": "Agricultural and food scientists",
@@ -183,8 +183,8 @@
     "url": "https://www.bls.gov/ooh/life-physical-and-social-science/agricultural-and-food-scientists.htm",
     "cascade_risk": 6,
     "derived_demand_pct": 20,
-    "cascade_rationale": "I-O cascade via professional (1.15x multiplier); sector multiplier 1.06x",
-    "io_multiplier": 1.06
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x), 31G (1.06x); weighted multiplier 1.04x [BEA 2022 Use Table]",
+    "io_multiplier": 1.04
   },
   {
     "title": "Agricultural engineers",
@@ -200,8 +200,8 @@
     "url": "https://www.bls.gov/ooh/architecture-and-engineering/agricultural-engineers.htm",
     "cascade_risk": 6,
     "derived_demand_pct": 15,
-    "cascade_rationale": "I-O cascade via professional (1.15x multiplier); sector multiplier 1.07x",
-    "io_multiplier": 1.07
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x), 31G (1.06x); weighted multiplier 1.06x [BEA 2022 Use Table]",
+    "io_multiplier": 1.06
   },
   {
     "title": "Agricultural workers",
@@ -217,7 +217,7 @@
     "url": "https://www.bls.gov/ooh/farming-fishing-and-forestry/agricultural-workers.htm",
     "cascade_risk": 3,
     "derived_demand_pct": 5,
-    "cascade_rationale": "Minimal cascade effect; sector multiplier 1.00x",
+    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.00x [BEA 2022 Use Table]",
     "io_multiplier": 1
   },
   {
@@ -234,8 +234,8 @@
     "url": "https://www.bls.gov/ooh/transportation-and-material-moving/air-traffic-controllers.htm",
     "cascade_risk": 7,
     "derived_demand_pct": 60,
-    "cascade_rationale": "Minimal cascade effect; sector multiplier 1.00x",
-    "io_multiplier": 1
+    "cascade_rationale": "I-O cascade via sectors 31G (1.06x); weighted multiplier 1.02x [BEA 2022 Use Table]",
+    "io_multiplier": 1.02
   },
   {
     "title": "Aircraft and avionics equipment mechanics and technicians",
@@ -249,9 +249,9 @@
     "exposure": 3,
     "exposure_rationale": "The core of this occupation involves physical labor, manual dexterity, and real-time troubleshooting in a physical environment, which provides a strong barrier against AI automation. While AI will significantly enhance diagnostic capabilities, predictive maintenance, and the interpretation of flight data, the actual repair, assembly, and FAA-regulated physical inspections must still be performed by human technicians.",
     "url": "https://www.bls.gov/ooh/installation-maintenance-and-repair/aircraft-and-avionics-equipment-mechanics-and-technicians.htm",
-    "cascade_risk": 3,
+    "cascade_risk": 4,
     "derived_demand_pct": 55,
-    "cascade_rationale": "I-O cascade via real_estate (1.11x multiplier); sector multiplier 1.03x",
+    "cascade_rationale": "I-O cascade via sectors 31G (1.06x), 53 (1.07x); weighted multiplier 1.03x [BEA 2022 Use Table]",
     "io_multiplier": 1.03
   },
   {
@@ -268,8 +268,8 @@
     "url": "https://www.bls.gov/ooh/transportation-and-material-moving/airline-and-commercial-pilots.htm",
     "cascade_risk": 5,
     "derived_demand_pct": 65,
-    "cascade_rationale": "Minimal cascade effect; sector multiplier 1.00x",
-    "io_multiplier": 1
+    "cascade_rationale": "I-O cascade via sectors 31G (1.06x); weighted multiplier 1.02x [BEA 2022 Use Table]",
+    "io_multiplier": 1.02
   },
   {
     "title": "Animal care and service workers",
@@ -285,8 +285,8 @@
     "url": "https://www.bls.gov/ooh/personal-care-and-service/animal-care-and-service-workers.htm",
     "cascade_risk": 3,
     "derived_demand_pct": 45,
-    "cascade_rationale": "Minimal cascade effect; sector multiplier 1.00x",
-    "io_multiplier": 1
+    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.01x [BEA 2022 Use Table]",
+    "io_multiplier": 1.01
   },
   {
     "title": "Announcers and DJs",
@@ -302,8 +302,8 @@
     "url": "https://www.bls.gov/ooh/media-and-communication/announcers.htm",
     "cascade_risk": 7,
     "derived_demand_pct": 40,
-    "cascade_rationale": "I-O cascade via information (1.10x multiplier), professional (1.15x multiplier); sector multiplier 1.08x",
-    "io_multiplier": 1.08
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x); weighted multiplier 1.05x [BEA 2022 Use Table]",
+    "io_multiplier": 1.05
   },
   {
     "title": "Anthropologists and archeologists",
@@ -319,8 +319,8 @@
     "url": "https://www.bls.gov/ooh/life-physical-and-social-science/anthropologists-and-archeologists.htm",
     "cascade_risk": 5,
     "derived_demand_pct": 40,
-    "cascade_rationale": "I-O cascade via professional (1.15x multiplier); sector multiplier 1.06x",
-    "io_multiplier": 1.06
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x), 31G (1.06x); weighted multiplier 1.04x [BEA 2022 Use Table]",
+    "io_multiplier": 1.04
   },
   {
     "title": "Arbitrators, mediators, and conciliators",
@@ -336,8 +336,8 @@
     "url": "https://www.bls.gov/ooh/legal/arbitrators-mediators-and-conciliators.htm",
     "cascade_risk": 7,
     "derived_demand_pct": 85,
-    "cascade_rationale": "I-O cascade via professional (1.15x multiplier), finance (1.06x multiplier); sector multiplier 1.09x",
-    "io_multiplier": 1.09
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x); weighted multiplier 1.06x [BEA 2022 Use Table]",
+    "io_multiplier": 1.06
   },
   {
     "title": "Architects",
@@ -353,8 +353,8 @@
     "url": "https://www.bls.gov/ooh/architecture-and-engineering/architects.htm",
     "cascade_risk": 7,
     "derived_demand_pct": 75,
-    "cascade_rationale": "I-O cascade via professional (1.15x multiplier); sector multiplier 1.07x",
-    "io_multiplier": 1.07
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x), 31G (1.06x); weighted multiplier 1.06x [BEA 2022 Use Table]",
+    "io_multiplier": 1.06
   },
   {
     "title": "Architectural and engineering managers",
@@ -370,8 +370,8 @@
     "url": "https://www.bls.gov/ooh/management/architectural-and-engineering-managers.htm",
     "cascade_risk": 7,
     "derived_demand_pct": 80,
-    "cascade_rationale": "I-O cascade via professional (1.15x multiplier), finance (1.06x multiplier), information (1.10x multiplier); sector multiplier 1.06x",
-    "io_multiplier": 1.06
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x), 31G (1.06x); weighted multiplier 1.04x [BEA 2022 Use Table]",
+    "io_multiplier": 1.04
   },
   {
     "title": "Archivists, curators, and museum workers",
@@ -387,7 +387,7 @@
     "url": "https://www.bls.gov/ooh/education-training-and-library/curators-museum-technicians-and-conservators.htm",
     "cascade_risk": 6,
     "derived_demand_pct": 35,
-    "cascade_rationale": "Minimal cascade effect; sector multiplier 1.00x",
+    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.00x [BEA 2022 Use Table]",
     "io_multiplier": 1
   },
   {
@@ -404,8 +404,8 @@
     "url": "https://www.bls.gov/ooh/arts-and-design/art-directors.htm",
     "cascade_risk": 8,
     "derived_demand_pct": 65,
-    "cascade_rationale": "I-O cascade via information (1.10x multiplier), professional (1.15x multiplier); sector multiplier 1.08x",
-    "io_multiplier": 1.08
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x), 31G (1.06x); weighted multiplier 1.05x [BEA 2022 Use Table]",
+    "io_multiplier": 1.05
   },
   {
     "title": "Assemblers and fabricators",
@@ -421,8 +421,8 @@
     "url": "https://www.bls.gov/ooh/production/assemblers-and-fabricators.htm",
     "cascade_risk": 4,
     "derived_demand_pct": 45,
-    "cascade_rationale": "Minimal cascade effect; sector multiplier 1.00x",
-    "io_multiplier": 1
+    "cascade_rationale": "I-O cascade via sectors 31G (1.06x); weighted multiplier 1.05x [BEA 2022 Use Table]",
+    "io_multiplier": 1.05
   },
   {
     "title": "Athletes and sports competitors",
@@ -438,8 +438,8 @@
     "url": "https://www.bls.gov/ooh/entertainment-and-sports/athletes-and-sports-competitors.htm",
     "cascade_risk": 3,
     "derived_demand_pct": 70,
-    "cascade_rationale": "I-O cascade via information (1.10x multiplier); sector multiplier 1.03x",
-    "io_multiplier": 1.03
+    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.02x [BEA 2022 Use Table]",
+    "io_multiplier": 1.02
   },
   {
     "title": "Athletic trainers",
@@ -453,10 +453,10 @@
     "exposure": 3,
     "exposure_rationale": "The core duties of athletic trainers—such as applying tape/braces, providing emergency first aid on the field, and performing manual rehabilitation—require physical presence and tactile skills that AI cannot replicate. While AI can assist with peripheral tasks like injury analysis, record-keeping, and designing recovery protocols, the job remains fundamentally grounded in real-time human interaction and physical healthcare delivery.",
     "url": "https://www.bls.gov/ooh/healthcare/athletic-trainers.htm",
-    "cascade_risk": 3,
+    "cascade_risk": 4,
     "derived_demand_pct": 40,
-    "cascade_rationale": "Minimal cascade effect; sector multiplier 1.00x",
-    "io_multiplier": 1
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x); weighted multiplier 1.01x [BEA 2022 Use Table]",
+    "io_multiplier": 1.01
   },
   {
     "title": "Atmospheric scientists, including meteorologists",
@@ -472,8 +472,8 @@
     "url": "https://www.bls.gov/ooh/life-physical-and-social-science/atmospheric-scientists-including-meteorologists.htm",
     "cascade_risk": 8,
     "derived_demand_pct": 20,
-    "cascade_rationale": "I-O cascade via professional (1.15x multiplier); sector multiplier 1.06x",
-    "io_multiplier": 1.06
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x), 31G (1.06x); weighted multiplier 1.04x [BEA 2022 Use Table]",
+    "io_multiplier": 1.04
   },
   {
     "title": "Audiologists",
@@ -489,8 +489,8 @@
     "url": "https://www.bls.gov/ooh/healthcare/audiologists.htm",
     "cascade_risk": 4,
     "derived_demand_pct": 50,
-    "cascade_rationale": "Minimal cascade effect; sector multiplier 1.00x",
-    "io_multiplier": 1
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x); weighted multiplier 1.01x [BEA 2022 Use Table]",
+    "io_multiplier": 1.01
   },
   {
     "title": "Automotive body and glass repairers",
@@ -506,7 +506,7 @@
     "url": "https://www.bls.gov/ooh/installation-maintenance-and-repair/automotive-body-and-glass-repairers.htm",
     "cascade_risk": 3,
     "derived_demand_pct": 30,
-    "cascade_rationale": "I-O cascade via real_estate (1.11x multiplier); sector multiplier 1.03x",
+    "cascade_rationale": "I-O cascade via sectors 31G (1.06x), 53 (1.07x); weighted multiplier 1.03x [BEA 2022 Use Table]",
     "io_multiplier": 1.03
   },
   {
@@ -521,9 +521,9 @@
     "exposure": 3,
     "exposure_rationale": "The core of this occupation involves physical labor, manual dexterity, and real-time mechanical repair in a physical environment, which provides a strong barrier against AI automation. While AI will significantly enhance diagnostic capabilities and predictive maintenance software, the actual physical replacement of parts and hands-on troubleshooting remains a human-centric task.",
     "url": "https://www.bls.gov/ooh/installation-maintenance-and-repair/automotive-service-technicians-and-mechanics.htm",
-    "cascade_risk": 3,
+    "cascade_risk": 4,
     "derived_demand_pct": 25,
-    "cascade_rationale": "I-O cascade via real_estate (1.11x multiplier); sector multiplier 1.03x",
+    "cascade_rationale": "I-O cascade via sectors 31G (1.06x), 53 (1.07x); weighted multiplier 1.03x [BEA 2022 Use Table]",
     "io_multiplier": 1.03
   },
   {
@@ -538,10 +538,10 @@
     "exposure": 2,
     "exposure_rationale": "The core duties of a baker are physical and sensory, involving manual dexterity for shaping dough and real-time monitoring of physical products in high-heat environments. While AI can optimize recipes or assist with inventory management and scheduling, the fundamental work of kneading, decorating, and handling equipment remains a physical task resistant to digital automation.",
     "url": "https://www.bls.gov/ooh/production/bakers.htm",
-    "cascade_risk": 3,
+    "cascade_risk": 4,
     "derived_demand_pct": 35,
-    "cascade_rationale": "Minimal cascade effect; sector multiplier 1.00x",
-    "io_multiplier": 1
+    "cascade_rationale": "I-O cascade via sectors 31G (1.06x); weighted multiplier 1.05x [BEA 2022 Use Table]",
+    "io_multiplier": 1.05
   },
   {
     "title": "Barbers, hairstylists, and cosmetologists",
@@ -557,8 +557,8 @@
     "url": "https://www.bls.gov/ooh/personal-care-and-service/barbers-hairstylists-and-cosmetologists.htm",
     "cascade_risk": 3,
     "derived_demand_pct": 60,
-    "cascade_rationale": "Minimal cascade effect; sector multiplier 1.00x",
-    "io_multiplier": 1
+    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.01x [BEA 2022 Use Table]",
+    "io_multiplier": 1.01
   },
   {
     "title": "Bartenders",
@@ -572,10 +572,10 @@
     "exposure": 2,
     "exposure_rationale": "The core of bartending involves physical manipulation of objects, manual cleaning, and real-time social interaction in a physical environment. While AI can assist with peripheral tasks like inventory management or automated ordering, the primary value of the role lies in human presence, physical service, and the social 'hospitality' aspect which remains difficult to automate.",
     "url": "https://www.bls.gov/ooh/food-preparation-and-serving/bartenders.htm",
-    "cascade_risk": 2,
+    "cascade_risk": 3,
     "derived_demand_pct": 75,
-    "cascade_rationale": "Minimal cascade effect; sector multiplier 1.00x",
-    "io_multiplier": 1
+    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.01x [BEA 2022 Use Table]",
+    "io_multiplier": 1.01
   },
   {
     "title": "Bill and account collectors",
@@ -591,8 +591,8 @@
     "url": "https://www.bls.gov/ooh/office-and-administrative-support/bill-and-account-collectors.htm",
     "cascade_risk": 9,
     "derived_demand_pct": 40,
-    "cascade_rationale": "I-O cascade via finance (1.06x multiplier), professional (1.15x multiplier), admin_support (1.09x multiplier); sector multiplier 1.07x",
-    "io_multiplier": 1.07
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x), 53 (1.07x), 31G (1.06x); weighted multiplier 1.04x [BEA 2022 Use Table]",
+    "io_multiplier": 1.04
   },
   {
     "title": "Biochemists and biophysicists",
@@ -608,8 +608,8 @@
     "url": "https://www.bls.gov/ooh/life-physical-and-social-science/biochemists-and-biophysicists.htm",
     "cascade_risk": 7,
     "derived_demand_pct": 20,
-    "cascade_rationale": "I-O cascade via professional (1.15x multiplier); sector multiplier 1.06x",
-    "io_multiplier": 1.06
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x), 31G (1.06x); weighted multiplier 1.04x [BEA 2022 Use Table]",
+    "io_multiplier": 1.04
   },
   {
     "title": "Bioengineers and biomedical engineers",
@@ -625,8 +625,8 @@
     "url": "https://www.bls.gov/ooh/architecture-and-engineering/biomedical-engineers.htm",
     "cascade_risk": 7,
     "derived_demand_pct": 15,
-    "cascade_rationale": "I-O cascade via professional (1.15x multiplier); sector multiplier 1.07x",
-    "io_multiplier": 1.07
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x), 31G (1.06x); weighted multiplier 1.06x [BEA 2022 Use Table]",
+    "io_multiplier": 1.06
   },
   {
     "title": "Biological technicians",
@@ -642,8 +642,8 @@
     "url": "https://www.bls.gov/ooh/life-physical-and-social-science/biological-technicians.htm",
     "cascade_risk": 5,
     "derived_demand_pct": 25,
-    "cascade_rationale": "I-O cascade via professional (1.15x multiplier); sector multiplier 1.06x",
-    "io_multiplier": 1.06
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x), 31G (1.06x); weighted multiplier 1.04x [BEA 2022 Use Table]",
+    "io_multiplier": 1.04
   },
   {
     "title": "Boilermakers",
@@ -659,7 +659,7 @@
     "url": "https://www.bls.gov/ooh/construction-and-extraction/boilermakers.htm",
     "cascade_risk": 2,
     "derived_demand_pct": 35,
-    "cascade_rationale": "Minimal cascade effect; sector multiplier 1.01x",
+    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.01x [BEA 2022 Use Table]",
     "io_multiplier": 1.01
   },
   {
@@ -676,8 +676,8 @@
     "url": "https://www.bls.gov/ooh/office-and-administrative-support/bookkeeping-accounting-and-auditing-clerks.htm",
     "cascade_risk": 9,
     "derived_demand_pct": 100,
-    "cascade_rationale": "I-O cascade via finance (1.06x multiplier), professional (1.15x multiplier), admin_support (1.09x multiplier); sector multiplier 1.07x",
-    "io_multiplier": 1.07
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x), 53 (1.07x), 31G (1.06x); weighted multiplier 1.04x [BEA 2022 Use Table]",
+    "io_multiplier": 1.04
   },
   {
     "title": "Broadcast, sound, and video technicians",
@@ -691,10 +691,10 @@
     "exposure": 6,
     "exposure_rationale": "This occupation is a hybrid of physical labor (setting up hardware, rigging lights, running cables) and digital knowledge work (mixing sound, editing video, managing broadcast signals). While the physical installation tasks are resistant to AI, the digital components—such as sound leveling, video editing, and signal monitoring—are being rapidly automated by AI tools, leading to higher productivity and a projected decline in specialized roles like sound and broadcast technicians.",
     "url": "https://www.bls.gov/ooh/media-and-communication/broadcast-and-sound-engineering-technicians.htm",
-    "cascade_risk": 7,
+    "cascade_risk": 6,
     "derived_demand_pct": 55,
-    "cascade_rationale": "I-O cascade via information (1.10x multiplier), professional (1.15x multiplier); sector multiplier 1.08x",
-    "io_multiplier": 1.08
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x); weighted multiplier 1.05x [BEA 2022 Use Table]",
+    "io_multiplier": 1.05
   },
   {
     "title": "Budget analysts",
@@ -710,8 +710,8 @@
     "url": "https://www.bls.gov/ooh/business-and-financial/budget-analysts.htm",
     "cascade_risk": 8,
     "derived_demand_pct": 100,
-    "cascade_rationale": "I-O cascade via finance (1.06x multiplier), professional (1.15x multiplier), admin_support (1.09x multiplier); sector multiplier 1.09x",
-    "io_multiplier": 1.09
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x), 53 (1.07x); weighted multiplier 1.05x [BEA 2022 Use Table]",
+    "io_multiplier": 1.05
   },
   {
     "title": "Bus drivers",
@@ -727,8 +727,8 @@
     "url": "https://www.bls.gov/ooh/transportation-and-material-moving/bus-drivers.htm",
     "cascade_risk": 4,
     "derived_demand_pct": 40,
-    "cascade_rationale": "Minimal cascade effect; sector multiplier 1.00x",
-    "io_multiplier": 1
+    "cascade_rationale": "I-O cascade via sectors 31G (1.06x); weighted multiplier 1.02x [BEA 2022 Use Table]",
+    "io_multiplier": 1.02
   },
   {
     "title": "Butchers",
@@ -742,10 +742,10 @@
     "exposure": 2,
     "exposure_rationale": "The core of this occupation involves manual dexterity, physical strength, and real-time interaction with physical products in a cold, unpredictable environment. While AI can assist with peripheral tasks like inventory tracking and sales forecasting, the primary duties of cutting, deboning, and handling meat are resistant to digital automation and require specialized robotics rather than AI software.",
     "url": "https://www.bls.gov/ooh/production/butchers-and-meat-cutters.htm",
-    "cascade_risk": 3,
+    "cascade_risk": 4,
     "derived_demand_pct": 45,
-    "cascade_rationale": "Minimal cascade effect; sector multiplier 1.00x",
-    "io_multiplier": 1
+    "cascade_rationale": "I-O cascade via sectors 31G (1.06x); weighted multiplier 1.05x [BEA 2022 Use Table]",
+    "io_multiplier": 1.05
   },
   {
     "title": "Calibration technologists and technicians",
@@ -761,7 +761,7 @@
     "url": "https://www.bls.gov/ooh/installation-maintenance-and-repair/calibration-technologists-and-technicians.htm",
     "cascade_risk": 4,
     "derived_demand_pct": 35,
-    "cascade_rationale": "I-O cascade via real_estate (1.11x multiplier); sector multiplier 1.03x",
+    "cascade_rationale": "I-O cascade via sectors 31G (1.06x), 53 (1.07x); weighted multiplier 1.03x [BEA 2022 Use Table]",
     "io_multiplier": 1.03
   },
   {
@@ -778,8 +778,8 @@
     "url": "https://www.bls.gov/ooh/healthcare/cardiovascular-technologists-and-technicians.htm",
     "cascade_risk": 4,
     "derived_demand_pct": 45,
-    "cascade_rationale": "Minimal cascade effect; sector multiplier 1.00x",
-    "io_multiplier": 1
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x); weighted multiplier 1.01x [BEA 2022 Use Table]",
+    "io_multiplier": 1.01
   },
   {
     "title": "Career and technical education teachers",
@@ -795,7 +795,7 @@
     "url": "https://www.bls.gov/ooh/education-training-and-library/career-and-technical-education-teachers.htm",
     "cascade_risk": 4,
     "derived_demand_pct": 30,
-    "cascade_rationale": "Minimal cascade effect; sector multiplier 1.00x",
+    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.00x [BEA 2022 Use Table]",
     "io_multiplier": 1
   },
   {
@@ -812,7 +812,7 @@
     "url": "https://www.bls.gov/ooh/construction-and-extraction/carpenters.htm",
     "cascade_risk": 2,
     "derived_demand_pct": 65,
-    "cascade_rationale": "Minimal cascade effect; sector multiplier 1.01x",
+    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.01x [BEA 2022 Use Table]",
     "io_multiplier": 1.01
   },
   {
@@ -829,8 +829,8 @@
     "url": "https://www.bls.gov/ooh/architecture-and-engineering/cartographers-and-photogrammetrists.htm",
     "cascade_risk": 8,
     "derived_demand_pct": 55,
-    "cascade_rationale": "I-O cascade via professional (1.15x multiplier); sector multiplier 1.07x",
-    "io_multiplier": 1.07
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x), 31G (1.06x); weighted multiplier 1.06x [BEA 2022 Use Table]",
+    "io_multiplier": 1.06
   },
   {
     "title": "Cashiers",
@@ -846,8 +846,8 @@
     "url": "https://www.bls.gov/ooh/sales/cashiers.htm",
     "cascade_risk": 7,
     "derived_demand_pct": 80,
-    "cascade_rationale": "I-O cascade via finance (1.06x multiplier), real_estate (1.11x multiplier), professional (1.15x multiplier); sector multiplier 1.04x",
-    "io_multiplier": 1.04
+    "cascade_rationale": "I-O cascade via sectors 53 (1.07x), PROF (1.10x); weighted multiplier 1.03x [BEA 2022 Use Table]",
+    "io_multiplier": 1.03
   },
   {
     "title": "Chefs and head cooks",
@@ -863,8 +863,8 @@
     "url": "https://www.bls.gov/ooh/food-preparation-and-serving/chefs-and-head-cooks.htm",
     "cascade_risk": 3,
     "derived_demand_pct": 75,
-    "cascade_rationale": "Minimal cascade effect; sector multiplier 1.00x",
-    "io_multiplier": 1
+    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.01x [BEA 2022 Use Table]",
+    "io_multiplier": 1.01
   },
   {
     "title": "Chemical engineers",
@@ -880,8 +880,8 @@
     "url": "https://www.bls.gov/ooh/architecture-and-engineering/chemical-engineers.htm",
     "cascade_risk": 6,
     "derived_demand_pct": 40,
-    "cascade_rationale": "I-O cascade via professional (1.15x multiplier); sector multiplier 1.07x",
-    "io_multiplier": 1.07
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x), 31G (1.06x); weighted multiplier 1.06x [BEA 2022 Use Table]",
+    "io_multiplier": 1.06
   },
   {
     "title": "Chemical technicians",
@@ -897,8 +897,8 @@
     "url": "https://www.bls.gov/ooh/life-physical-and-social-science/chemical-technicians.htm",
     "cascade_risk": 5,
     "derived_demand_pct": 35,
-    "cascade_rationale": "I-O cascade via professional (1.15x multiplier); sector multiplier 1.06x",
-    "io_multiplier": 1.06
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x), 31G (1.06x); weighted multiplier 1.04x [BEA 2022 Use Table]",
+    "io_multiplier": 1.04
   },
   {
     "title": "Chemists and materials scientists",
@@ -914,8 +914,8 @@
     "url": "https://www.bls.gov/ooh/life-physical-and-social-science/chemists-and-materials-scientists.htm",
     "cascade_risk": 7,
     "derived_demand_pct": 40,
-    "cascade_rationale": "I-O cascade via professional (1.15x multiplier); sector multiplier 1.06x",
-    "io_multiplier": 1.06
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x), 31G (1.06x); weighted multiplier 1.04x [BEA 2022 Use Table]",
+    "io_multiplier": 1.04
   },
   {
     "title": "Childcare workers",
@@ -931,8 +931,8 @@
     "url": "https://www.bls.gov/ooh/personal-care-and-service/childcare-workers.htm",
     "cascade_risk": 3,
     "derived_demand_pct": 85,
-    "cascade_rationale": "Minimal cascade effect; sector multiplier 1.00x",
-    "io_multiplier": 1
+    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.01x [BEA 2022 Use Table]",
+    "io_multiplier": 1.01
   },
   {
     "title": "Chiropractors",
@@ -946,10 +946,10 @@
     "exposure": 3,
     "exposure_rationale": "The core of chiropractic work is highly physical, requiring manual dexterity for spinal adjustments and real-time physical assessment of a patient's musculoskeletal system. While AI can assist with peripheral tasks like medical imaging analysis, diagnostic suggestions, and administrative business management, it cannot replace the essential hands-on therapeutic interventions that define the profession.",
     "url": "https://www.bls.gov/ooh/healthcare/chiropractors.htm",
-    "cascade_risk": 3,
+    "cascade_risk": 4,
     "derived_demand_pct": 60,
-    "cascade_rationale": "Minimal cascade effect; sector multiplier 1.00x",
-    "io_multiplier": 1
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x); weighted multiplier 1.01x [BEA 2022 Use Table]",
+    "io_multiplier": 1.01
   },
   {
     "title": "Civil engineering technologists and technicians",
@@ -965,8 +965,8 @@
     "url": "https://www.bls.gov/ooh/architecture-and-engineering/civil-engineering-technicians.htm",
     "cascade_risk": 6,
     "derived_demand_pct": 70,
-    "cascade_rationale": "I-O cascade via professional (1.15x multiplier); sector multiplier 1.07x",
-    "io_multiplier": 1.07
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x), 31G (1.06x); weighted multiplier 1.06x [BEA 2022 Use Table]",
+    "io_multiplier": 1.06
   },
   {
     "title": "Civil engineers",
@@ -982,8 +982,8 @@
     "url": "https://www.bls.gov/ooh/architecture-and-engineering/civil-engineers.htm",
     "cascade_risk": 6,
     "derived_demand_pct": 65,
-    "cascade_rationale": "I-O cascade via professional (1.15x multiplier); sector multiplier 1.07x",
-    "io_multiplier": 1.07
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x), 31G (1.06x); weighted multiplier 1.06x [BEA 2022 Use Table]",
+    "io_multiplier": 1.06
   },
   {
     "title": "Claims adjusters, appraisers, examiners, and investigators",
@@ -997,10 +997,10 @@
     "exposure": 7,
     "exposure_rationale": "This occupation is heavily focused on information processing, document review, and data-driven decision-making, all of which are highly susceptible to AI automation. While physical inspections and interpersonal negotiations provide some protection, the BLS already projects a decline in employment due to AI's ability to analyze photos of damage and automate claim calculations.",
     "url": "https://www.bls.gov/ooh/business-and-financial/claims-adjusters-appraisers-examiners-and-investigators.htm",
-    "cascade_risk": 8,
+    "cascade_risk": 7,
     "derived_demand_pct": 45,
-    "cascade_rationale": "I-O cascade via finance (1.06x multiplier), professional (1.15x multiplier), admin_support (1.09x multiplier); sector multiplier 1.09x",
-    "io_multiplier": 1.09
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x), 53 (1.07x); weighted multiplier 1.05x [BEA 2022 Use Table]",
+    "io_multiplier": 1.05
   },
   {
     "title": "Clinical laboratory technologists and technicians",
@@ -1016,8 +1016,8 @@
     "url": "https://www.bls.gov/ooh/healthcare/clinical-laboratory-technologists-and-technicians.htm",
     "cascade_risk": 5,
     "derived_demand_pct": 25,
-    "cascade_rationale": "Minimal cascade effect; sector multiplier 1.00x",
-    "io_multiplier": 1
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x); weighted multiplier 1.01x [BEA 2022 Use Table]",
+    "io_multiplier": 1.01
   },
   {
     "title": "Coaches and scouts",
@@ -1033,8 +1033,8 @@
     "url": "https://www.bls.gov/ooh/entertainment-and-sports/coaches-and-scouts.htm",
     "cascade_risk": 4,
     "derived_demand_pct": 65,
-    "cascade_rationale": "I-O cascade via information (1.10x multiplier); sector multiplier 1.03x",
-    "io_multiplier": 1.03
+    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.02x [BEA 2022 Use Table]",
+    "io_multiplier": 1.02
   },
   {
     "title": "Community health workers",
@@ -1048,9 +1048,9 @@
     "exposure": 3,
     "exposure_rationale": "The core of this occupation is built on trust, cultural sensitivity, and physical presence within specific communities, which AI cannot replicate. While AI can assist with peripheral tasks like data collection, report writing, and resource matching, the primary duties involve home visits, hands-on advocacy, and real-time interpersonal coaching for vulnerable populations.",
     "url": "https://www.bls.gov/ooh/community-and-social-service/community-health-workers.htm",
-    "cascade_risk": 3,
+    "cascade_risk": 4,
     "derived_demand_pct": 20,
-    "cascade_rationale": "Minimal cascade effect; sector multiplier 1.00x",
+    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.00x [BEA 2022 Use Table]",
     "io_multiplier": 1
   },
   {
@@ -1067,8 +1067,8 @@
     "url": "https://www.bls.gov/ooh/management/compensation-and-benefits-managers.htm",
     "cascade_risk": 7,
     "derived_demand_pct": 95,
-    "cascade_rationale": "I-O cascade via professional (1.15x multiplier), finance (1.06x multiplier), information (1.10x multiplier); sector multiplier 1.06x",
-    "io_multiplier": 1.06
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x), 31G (1.06x); weighted multiplier 1.04x [BEA 2022 Use Table]",
+    "io_multiplier": 1.04
   },
   {
     "title": "Compensation, benefits, and job analysis specialists",
@@ -1084,8 +1084,8 @@
     "url": "https://www.bls.gov/ooh/business-and-financial/compensation-benefits-and-job-analysis-specialists.htm",
     "cascade_risk": 8,
     "derived_demand_pct": 95,
-    "cascade_rationale": "I-O cascade via finance (1.06x multiplier), professional (1.15x multiplier), admin_support (1.09x multiplier); sector multiplier 1.09x",
-    "io_multiplier": 1.09
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x), 53 (1.07x); weighted multiplier 1.05x [BEA 2022 Use Table]",
+    "io_multiplier": 1.05
   },
   {
     "title": "Compliance officers",
@@ -1101,8 +1101,8 @@
     "url": "https://www.bls.gov/ooh/business-and-financial/compliance-officers.htm",
     "cascade_risk": 8,
     "derived_demand_pct": 85,
-    "cascade_rationale": "I-O cascade via finance (1.06x multiplier), professional (1.15x multiplier), admin_support (1.09x multiplier); sector multiplier 1.09x",
-    "io_multiplier": 1.09
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x), 53 (1.07x); weighted multiplier 1.05x [BEA 2022 Use Table]",
+    "io_multiplier": 1.05
   },
   {
     "title": "Computer and information research scientists",
@@ -1118,7 +1118,7 @@
     "url": "https://www.bls.gov/ooh/computer-and-information-technology/computer-and-information-research-scientists.htm",
     "cascade_risk": 9,
     "derived_demand_pct": 55,
-    "cascade_rationale": "",
+    "cascade_rationale": "No sector mapping for category \"computer-and-information-technology\"",
     "io_multiplier": 1
   },
   {
@@ -1135,8 +1135,8 @@
     "url": "https://www.bls.gov/ooh/management/computer-and-information-systems-managers.htm",
     "cascade_risk": 7,
     "derived_demand_pct": 95,
-    "cascade_rationale": "I-O cascade via professional (1.15x multiplier), finance (1.06x multiplier), information (1.10x multiplier); sector multiplier 1.06x",
-    "io_multiplier": 1.06
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x), 31G (1.06x); weighted multiplier 1.04x [BEA 2022 Use Table]",
+    "io_multiplier": 1.04
   },
   {
     "title": "Computer hardware engineers",
@@ -1152,8 +1152,8 @@
     "url": "https://www.bls.gov/ooh/architecture-and-engineering/computer-hardware-engineers.htm",
     "cascade_risk": 8,
     "derived_demand_pct": 65,
-    "cascade_rationale": "I-O cascade via professional (1.15x multiplier); sector multiplier 1.07x",
-    "io_multiplier": 1.07
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x), 31G (1.06x); weighted multiplier 1.06x [BEA 2022 Use Table]",
+    "io_multiplier": 1.06
   },
   {
     "title": "Computer network architects",
@@ -1169,7 +1169,7 @@
     "url": "https://www.bls.gov/ooh/computer-and-information-technology/computer-network-architects.htm",
     "cascade_risk": 8,
     "derived_demand_pct": 95,
-    "cascade_rationale": "",
+    "cascade_rationale": "No sector mapping for category \"computer-and-information-technology\"",
     "io_multiplier": 1
   },
   {
@@ -1186,7 +1186,7 @@
     "url": "https://www.bls.gov/ooh/computer-and-information-technology/computer-programmers.htm",
     "cascade_risk": 9,
     "derived_demand_pct": 85,
-    "cascade_rationale": "",
+    "cascade_rationale": "No sector mapping for category \"computer-and-information-technology\"",
     "io_multiplier": 1
   },
   {
@@ -1203,7 +1203,7 @@
     "url": "https://www.bls.gov/ooh/computer-and-information-technology/computer-support-specialists.htm",
     "cascade_risk": 8,
     "derived_demand_pct": 95,
-    "cascade_rationale": "",
+    "cascade_rationale": "No sector mapping for category \"computer-and-information-technology\"",
     "io_multiplier": 1
   },
   {
@@ -1220,7 +1220,7 @@
     "url": "https://www.bls.gov/ooh/computer-and-information-technology/computer-systems-analysts.htm",
     "cascade_risk": 8,
     "derived_demand_pct": 95,
-    "cascade_rationale": "",
+    "cascade_rationale": "No sector mapping for category \"computer-and-information-technology\"",
     "io_multiplier": 1
   },
   {
@@ -1237,8 +1237,8 @@
     "url": "https://www.bls.gov/ooh/personal-care-and-service/concierges.htm",
     "cascade_risk": 5,
     "derived_demand_pct": 75,
-    "cascade_rationale": "Minimal cascade effect; sector multiplier 1.00x",
-    "io_multiplier": 1
+    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.01x [BEA 2022 Use Table]",
+    "io_multiplier": 1.01
   },
   {
     "title": "Conservation scientists and foresters",
@@ -1254,8 +1254,8 @@
     "url": "https://www.bls.gov/ooh/life-physical-and-social-science/conservation-scientists.htm",
     "cascade_risk": 5,
     "derived_demand_pct": 25,
-    "cascade_rationale": "I-O cascade via professional (1.15x multiplier); sector multiplier 1.06x",
-    "io_multiplier": 1.06
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x), 31G (1.06x); weighted multiplier 1.04x [BEA 2022 Use Table]",
+    "io_multiplier": 1.04
   },
   {
     "title": "Construction and building inspectors",
@@ -1271,7 +1271,7 @@
     "url": "https://www.bls.gov/ooh/construction-and-extraction/construction-and-building-inspectors.htm",
     "cascade_risk": 5,
     "derived_demand_pct": 75,
-    "cascade_rationale": "Minimal cascade effect; sector multiplier 1.01x",
+    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.01x [BEA 2022 Use Table]",
     "io_multiplier": 1.01
   },
   {
@@ -1288,7 +1288,7 @@
     "url": "https://www.bls.gov/ooh/construction-and-extraction/construction-equipment-operators.htm",
     "cascade_risk": 3,
     "derived_demand_pct": 75,
-    "cascade_rationale": "Minimal cascade effect; sector multiplier 1.01x",
+    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.01x [BEA 2022 Use Table]",
     "io_multiplier": 1.01
   },
   {
@@ -1305,7 +1305,7 @@
     "url": "https://www.bls.gov/ooh/construction-and-extraction/construction-laborers-and-helpers.htm",
     "cascade_risk": 2,
     "derived_demand_pct": 45,
-    "cascade_rationale": "Minimal cascade effect; sector multiplier 1.01x",
+    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.01x [BEA 2022 Use Table]",
     "io_multiplier": 1.01
   },
   {
@@ -1322,8 +1322,8 @@
     "url": "https://www.bls.gov/ooh/management/construction-managers.htm",
     "cascade_risk": 6,
     "derived_demand_pct": 55,
-    "cascade_rationale": "I-O cascade via professional (1.15x multiplier), finance (1.06x multiplier), information (1.10x multiplier); sector multiplier 1.06x",
-    "io_multiplier": 1.06
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x), 31G (1.06x); weighted multiplier 1.04x [BEA 2022 Use Table]",
+    "io_multiplier": 1.04
   },
   {
     "title": "Cooks",
@@ -1339,8 +1339,8 @@
     "url": "https://www.bls.gov/ooh/food-preparation-and-serving/cooks.htm",
     "cascade_risk": 3,
     "derived_demand_pct": 65,
-    "cascade_rationale": "Minimal cascade effect; sector multiplier 1.00x",
-    "io_multiplier": 1
+    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.01x [BEA 2022 Use Table]",
+    "io_multiplier": 1.01
   },
   {
     "title": "Correctional officers and bailiffs",
@@ -1356,8 +1356,8 @@
     "url": "https://www.bls.gov/ooh/protective-service/correctional-officers.htm",
     "cascade_risk": 5,
     "derived_demand_pct": 5,
-    "cascade_rationale": "I-O cascade via admin_support (1.09x multiplier), real_estate (1.11x multiplier); sector multiplier 1.05x",
-    "io_multiplier": 1.05
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x), 53 (1.07x); weighted multiplier 1.04x [BEA 2022 Use Table]",
+    "io_multiplier": 1.04
   },
   {
     "title": "Cost estimators",
@@ -1373,8 +1373,8 @@
     "url": "https://www.bls.gov/ooh/business-and-financial/cost-estimators.htm",
     "cascade_risk": 8,
     "derived_demand_pct": 75,
-    "cascade_rationale": "I-O cascade via finance (1.06x multiplier), professional (1.15x multiplier), admin_support (1.09x multiplier); sector multiplier 1.09x",
-    "io_multiplier": 1.09
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x), 53 (1.07x); weighted multiplier 1.05x [BEA 2022 Use Table]",
+    "io_multiplier": 1.05
   },
   {
     "title": "Court reporters and simultaneous captioners",
@@ -1390,8 +1390,8 @@
     "url": "https://www.bls.gov/ooh/legal/court-reporters.htm",
     "cascade_risk": 9,
     "derived_demand_pct": 85,
-    "cascade_rationale": "I-O cascade via professional (1.15x multiplier), finance (1.06x multiplier); sector multiplier 1.09x",
-    "io_multiplier": 1.09
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x); weighted multiplier 1.06x [BEA 2022 Use Table]",
+    "io_multiplier": 1.06
   },
   {
     "title": "Craft and fine artists",
@@ -1407,8 +1407,8 @@
     "url": "https://www.bls.gov/ooh/arts-and-design/craft-and-fine-artists.htm",
     "cascade_risk": 6,
     "derived_demand_pct": 80,
-    "cascade_rationale": "I-O cascade via information (1.10x multiplier), professional (1.15x multiplier); sector multiplier 1.08x",
-    "io_multiplier": 1.08
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x), 31G (1.06x); weighted multiplier 1.05x [BEA 2022 Use Table]",
+    "io_multiplier": 1.05
   },
   {
     "title": "Credit counselors",
@@ -1422,10 +1422,10 @@
     "exposure": 7,
     "exposure_rationale": "The core tasks of credit counseling—analyzing financial data, creating budgets, and explaining debt management options—are fundamentally digital and information-based, making them highly susceptible to AI automation. While the role requires interpersonal skills and emotional support for clients in financial distress, AI can already perform the complex calculations and personalized recommendation generation that constitute the bulk of the technical work.",
     "url": "https://www.bls.gov/ooh/business-and-financial/credit-counselors.htm",
-    "cascade_risk": 8,
+    "cascade_risk": 7,
     "derived_demand_pct": 60,
-    "cascade_rationale": "I-O cascade via finance (1.06x multiplier), professional (1.15x multiplier), admin_support (1.09x multiplier); sector multiplier 1.09x",
-    "io_multiplier": 1.09
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x), 53 (1.07x); weighted multiplier 1.05x [BEA 2022 Use Table]",
+    "io_multiplier": 1.05
   },
   {
     "title": "Customer service representatives",
@@ -1441,8 +1441,8 @@
     "url": "https://www.bls.gov/ooh/office-and-administrative-support/customer-service-representatives.htm",
     "cascade_risk": 9,
     "derived_demand_pct": 70,
-    "cascade_rationale": "I-O cascade via finance (1.06x multiplier), professional (1.15x multiplier), admin_support (1.09x multiplier); sector multiplier 1.07x",
-    "io_multiplier": 1.07
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x), 53 (1.07x), 31G (1.06x); weighted multiplier 1.04x [BEA 2022 Use Table]",
+    "io_multiplier": 1.04
   },
   {
     "title": "Dancers and choreographers",
@@ -1458,8 +1458,8 @@
     "url": "https://www.bls.gov/ooh/entertainment-and-sports/dancers-and-choreographers.htm",
     "cascade_risk": 3,
     "derived_demand_pct": 80,
-    "cascade_rationale": "I-O cascade via information (1.10x multiplier); sector multiplier 1.03x",
-    "io_multiplier": 1.03
+    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.02x [BEA 2022 Use Table]",
+    "io_multiplier": 1.02
   },
   {
     "title": "Data scientists",
@@ -1475,8 +1475,8 @@
     "url": "https://www.bls.gov/ooh/math/data-scientists.htm",
     "cascade_risk": 9,
     "derived_demand_pct": 85,
-    "cascade_rationale": "I-O cascade via finance (1.06x multiplier), professional (1.15x multiplier), information (1.10x multiplier); sector multiplier 1.09x",
-    "io_multiplier": 1.09
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x); weighted multiplier 1.05x [BEA 2022 Use Table]",
+    "io_multiplier": 1.05
   },
   {
     "title": "Database administrators and architects",
@@ -1492,7 +1492,7 @@
     "url": "https://www.bls.gov/ooh/computer-and-information-technology/database-administrators.htm",
     "cascade_risk": 9,
     "derived_demand_pct": 90,
-    "cascade_rationale": "",
+    "cascade_rationale": "No sector mapping for category \"computer-and-information-technology\"",
     "io_multiplier": 1
   },
   {
@@ -1509,8 +1509,8 @@
     "url": "https://www.bls.gov/ooh/transportation-and-material-moving/delivery-truck-drivers-and-driver-sales-workers.htm",
     "cascade_risk": 4,
     "derived_demand_pct": 50,
-    "cascade_rationale": "Minimal cascade effect; sector multiplier 1.00x",
-    "io_multiplier": 1
+    "cascade_rationale": "I-O cascade via sectors 31G (1.06x); weighted multiplier 1.02x [BEA 2022 Use Table]",
+    "io_multiplier": 1.02
   },
   {
     "title": "Dental and ophthalmic laboratory technicians and medical appliance technicians",
@@ -1526,8 +1526,8 @@
     "url": "https://www.bls.gov/ooh/production/dental-and-ophthalmic-laboratory-technicians-and-medical-appliance-technicians.htm",
     "cascade_risk": 5,
     "derived_demand_pct": 40,
-    "cascade_rationale": "Minimal cascade effect; sector multiplier 1.00x",
-    "io_multiplier": 1
+    "cascade_rationale": "I-O cascade via sectors 31G (1.06x); weighted multiplier 1.05x [BEA 2022 Use Table]",
+    "io_multiplier": 1.05
   },
   {
     "title": "Dental assistants",
@@ -1541,10 +1541,10 @@
     "exposure": 3,
     "exposure_rationale": "The core of the job involves physical, hands-on tasks such as sterilizing instruments, assisting in surgeries, and providing direct patient care that requires human presence and manual dexterity. While AI can significantly automate the administrative and digital aspects of the role—such as scheduling, billing, and preliminary X-ray analysis—the majority of the workday is spent in the physical dental operatory where AI cannot currently replace human labor.",
     "url": "https://www.bls.gov/ooh/healthcare/dental-assistants.htm",
-    "cascade_risk": 3,
+    "cascade_risk": 4,
     "derived_demand_pct": 55,
-    "cascade_rationale": "Minimal cascade effect; sector multiplier 1.00x",
-    "io_multiplier": 1
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x); weighted multiplier 1.01x [BEA 2022 Use Table]",
+    "io_multiplier": 1.01
   },
   {
     "title": "Dental hygienists",
@@ -1558,10 +1558,10 @@
     "exposure": 2,
     "exposure_rationale": "The core of this occupation involves high-precision manual dexterity and physical procedures performed on patients in a clinical setting, which AI cannot replicate. While AI may assist with peripheral tasks like analyzing X-rays or automating patient documentation, the primary work of cleaning teeth and conducting physical exams remains insulated from automation.",
     "url": "https://www.bls.gov/ooh/healthcare/dental-hygienists.htm",
-    "cascade_risk": 3,
+    "cascade_risk": 4,
     "derived_demand_pct": 50,
-    "cascade_rationale": "Minimal cascade effect; sector multiplier 1.00x",
-    "io_multiplier": 1
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x); weighted multiplier 1.01x [BEA 2022 Use Table]",
+    "io_multiplier": 1.01
   },
   {
     "title": "Dentists",
@@ -1575,10 +1575,10 @@
     "exposure": 3,
     "exposure_rationale": "The core of dentistry involves highly precise physical procedures, manual dexterity, and real-time patient interaction in a clinical setting, which are resistant to AI automation. While AI will significantly enhance diagnostic accuracy through X-ray analysis and streamline administrative practice management, the physical requirement of performing surgery and restorative work creates a strong barrier to high exposure.",
     "url": "https://www.bls.gov/ooh/healthcare/dentists.htm",
-    "cascade_risk": 3,
+    "cascade_risk": 4,
     "derived_demand_pct": 65,
-    "cascade_rationale": "Minimal cascade effect; sector multiplier 1.00x",
-    "io_multiplier": 1
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x); weighted multiplier 1.01x [BEA 2022 Use Table]",
+    "io_multiplier": 1.01
   },
   {
     "title": "Desktop publishers",
@@ -1594,8 +1594,8 @@
     "url": "https://www.bls.gov/ooh/office-and-administrative-support/desktop-publishers.htm",
     "cascade_risk": 9,
     "derived_demand_pct": 90,
-    "cascade_rationale": "I-O cascade via finance (1.06x multiplier), professional (1.15x multiplier), admin_support (1.09x multiplier); sector multiplier 1.07x",
-    "io_multiplier": 1.07
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x), 53 (1.07x), 31G (1.06x); weighted multiplier 1.04x [BEA 2022 Use Table]",
+    "io_multiplier": 1.04
   },
   {
     "title": "Diagnostic medical sonographers",
@@ -1611,8 +1611,8 @@
     "url": "https://www.bls.gov/ooh/healthcare/diagnostic-medical-sonographers.htm",
     "cascade_risk": 5,
     "derived_demand_pct": 45,
-    "cascade_rationale": "Minimal cascade effect; sector multiplier 1.00x",
-    "io_multiplier": 1
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x); weighted multiplier 1.01x [BEA 2022 Use Table]",
+    "io_multiplier": 1.01
   },
   {
     "title": "Diesel service technicians and mechanics",
@@ -1626,9 +1626,9 @@
     "exposure": 3,
     "exposure_rationale": "The core of this occupation is highly physical, requiring manual dexterity, strength, and real-time problem-solving in a hands-on environment. While AI will significantly enhance diagnostic software and technical manuals used by technicians, it cannot perform the physical repairs, parts replacement, or tool manipulation that define the job.",
     "url": "https://www.bls.gov/ooh/installation-maintenance-and-repair/diesel-service-technicians-and-mechanics.htm",
-    "cascade_risk": 3,
+    "cascade_risk": 4,
     "derived_demand_pct": 70,
-    "cascade_rationale": "I-O cascade via real_estate (1.11x multiplier); sector multiplier 1.03x",
+    "cascade_rationale": "I-O cascade via sectors 31G (1.06x), 53 (1.07x); weighted multiplier 1.03x [BEA 2022 Use Table]",
     "io_multiplier": 1.03
   },
   {
@@ -1645,8 +1645,8 @@
     "url": "https://www.bls.gov/ooh/healthcare/dietitians-and-nutritionists.htm",
     "cascade_risk": 6,
     "derived_demand_pct": 60,
-    "cascade_rationale": "Minimal cascade effect; sector multiplier 1.00x",
-    "io_multiplier": 1
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x); weighted multiplier 1.01x [BEA 2022 Use Table]",
+    "io_multiplier": 1.01
   },
   {
     "title": "Drafters",
@@ -1662,8 +1662,8 @@
     "url": "https://www.bls.gov/ooh/architecture-and-engineering/drafters.htm",
     "cascade_risk": 9,
     "derived_demand_pct": 80,
-    "cascade_rationale": "I-O cascade via professional (1.15x multiplier); sector multiplier 1.07x",
-    "io_multiplier": 1.07
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x), 31G (1.06x); weighted multiplier 1.06x [BEA 2022 Use Table]",
+    "io_multiplier": 1.06
   },
   {
     "title": "Drywall installers, ceiling tile installers, and tapers",
@@ -1679,7 +1679,7 @@
     "url": "https://www.bls.gov/ooh/construction-and-extraction/drywall-and-ceiling-tile-installers-and-tapers.htm",
     "cascade_risk": 2,
     "derived_demand_pct": 70,
-    "cascade_rationale": "Minimal cascade effect; sector multiplier 1.01x",
+    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.01x [BEA 2022 Use Table]",
     "io_multiplier": 1.01
   },
   {
@@ -1696,8 +1696,8 @@
     "url": "https://www.bls.gov/ooh/life-physical-and-social-science/economists.htm",
     "cascade_risk": 9,
     "derived_demand_pct": 90,
-    "cascade_rationale": "I-O cascade via professional (1.15x multiplier); sector multiplier 1.06x",
-    "io_multiplier": 1.06
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x), 31G (1.06x); weighted multiplier 1.04x [BEA 2022 Use Table]",
+    "io_multiplier": 1.04
   },
   {
     "title": "Editors",
@@ -1713,8 +1713,8 @@
     "url": "https://www.bls.gov/ooh/media-and-communication/editors.htm",
     "cascade_risk": 9,
     "derived_demand_pct": 85,
-    "cascade_rationale": "I-O cascade via information (1.10x multiplier), professional (1.15x multiplier); sector multiplier 1.08x",
-    "io_multiplier": 1.08
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x); weighted multiplier 1.05x [BEA 2022 Use Table]",
+    "io_multiplier": 1.05
   },
   {
     "title": "Electrical and electronic engineering technologists and technicians",
@@ -1730,8 +1730,8 @@
     "url": "https://www.bls.gov/ooh/architecture-and-engineering/electrical-and-electronics-engineering-technicians.htm",
     "cascade_risk": 5,
     "derived_demand_pct": 60,
-    "cascade_rationale": "I-O cascade via professional (1.15x multiplier); sector multiplier 1.07x",
-    "io_multiplier": 1.07
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x), 31G (1.06x); weighted multiplier 1.06x [BEA 2022 Use Table]",
+    "io_multiplier": 1.06
   },
   {
     "title": "Electrical and electronics engineers",
@@ -1747,8 +1747,8 @@
     "url": "https://www.bls.gov/ooh/architecture-and-engineering/electrical-and-electronics-engineers.htm",
     "cascade_risk": 7,
     "derived_demand_pct": 75,
-    "cascade_rationale": "I-O cascade via professional (1.15x multiplier); sector multiplier 1.07x",
-    "io_multiplier": 1.07
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x), 31G (1.06x); weighted multiplier 1.06x [BEA 2022 Use Table]",
+    "io_multiplier": 1.06
   },
   {
     "title": "Electrical and electronics installers and repairers",
@@ -1762,9 +1762,9 @@
     "exposure": 3,
     "exposure_rationale": "The core of this occupation involves physical manipulation of hardware, manual troubleshooting in unpredictable environments, and the use of hand tools, which are highly resistant to AI automation. While AI can significantly enhance diagnostic software and predictive maintenance schedules, the physical acts of disassembling, repairing, and reassembling complex electrical components require human dexterity and presence.",
     "url": "https://www.bls.gov/ooh/installation-maintenance-and-repair/electrical-and-electronics-installers-and-repairers.htm",
-    "cascade_risk": 3,
+    "cascade_risk": 4,
     "derived_demand_pct": 55,
-    "cascade_rationale": "I-O cascade via real_estate (1.11x multiplier); sector multiplier 1.03x",
+    "cascade_rationale": "I-O cascade via sectors 31G (1.06x), 53 (1.07x); weighted multiplier 1.03x [BEA 2022 Use Table]",
     "io_multiplier": 1.03
   },
   {
@@ -1781,7 +1781,7 @@
     "url": "https://www.bls.gov/ooh/installation-maintenance-and-repair/line-installers-and-repairers.htm",
     "cascade_risk": 3,
     "derived_demand_pct": 10,
-    "cascade_rationale": "I-O cascade via real_estate (1.11x multiplier); sector multiplier 1.03x",
+    "cascade_rationale": "I-O cascade via sectors 31G (1.06x), 53 (1.07x); weighted multiplier 1.03x [BEA 2022 Use Table]",
     "io_multiplier": 1.03
   },
   {
@@ -1798,7 +1798,7 @@
     "url": "https://www.bls.gov/ooh/construction-and-extraction/electricians.htm",
     "cascade_risk": 2,
     "derived_demand_pct": 45,
-    "cascade_rationale": "Minimal cascade effect; sector multiplier 1.01x",
+    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.01x [BEA 2022 Use Table]",
     "io_multiplier": 1.01
   },
   {
@@ -1815,8 +1815,8 @@
     "url": "https://www.bls.gov/ooh/architecture-and-engineering/electro-mechanical-technicians.htm",
     "cascade_risk": 5,
     "derived_demand_pct": 15,
-    "cascade_rationale": "I-O cascade via professional (1.15x multiplier); sector multiplier 1.07x",
-    "io_multiplier": 1.07
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x), 31G (1.06x); weighted multiplier 1.06x [BEA 2022 Use Table]",
+    "io_multiplier": 1.06
   },
   {
     "title": "Elementary, middle, and high school principals",
@@ -1832,8 +1832,8 @@
     "url": "https://www.bls.gov/ooh/management/elementary-middle-and-high-school-principals.htm",
     "cascade_risk": 6,
     "derived_demand_pct": 65,
-    "cascade_rationale": "I-O cascade via professional (1.15x multiplier), finance (1.06x multiplier), information (1.10x multiplier); sector multiplier 1.06x",
-    "io_multiplier": 1.06
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x), 31G (1.06x); weighted multiplier 1.04x [BEA 2022 Use Table]",
+    "io_multiplier": 1.04
   },
   {
     "title": "Elevator and escalator installers and repairers",
@@ -1849,7 +1849,7 @@
     "url": "https://www.bls.gov/ooh/construction-and-extraction/elevator-installers-and-repairers.htm",
     "cascade_risk": 3,
     "derived_demand_pct": 75,
-    "cascade_rationale": "Minimal cascade effect; sector multiplier 1.01x",
+    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.01x [BEA 2022 Use Table]",
     "io_multiplier": 1.01
   },
   {
@@ -1866,8 +1866,8 @@
     "url": "https://www.bls.gov/ooh/management/emergency-management-directors.htm",
     "cascade_risk": 6,
     "derived_demand_pct": 35,
-    "cascade_rationale": "I-O cascade via professional (1.15x multiplier), finance (1.06x multiplier), information (1.10x multiplier); sector multiplier 1.06x",
-    "io_multiplier": 1.06
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x), 31G (1.06x); weighted multiplier 1.04x [BEA 2022 Use Table]",
+    "io_multiplier": 1.04
   },
   {
     "title": "EMTs and paramedics",
@@ -1881,10 +1881,10 @@
     "exposure": 3,
     "exposure_rationale": "The core of this occupation involves physical intervention, manual dexterity, and real-time human presence in unpredictable environments, which are highly resistant to AI. While AI will significantly assist with peripheral tasks like EKG interpretation, diagnostic decision support, and automated documentation, the physical requirements of patient transport and hands-on emergency care remain essential human functions.",
     "url": "https://www.bls.gov/ooh/healthcare/emts-and-paramedics.htm",
-    "cascade_risk": 3,
+    "cascade_risk": 4,
     "derived_demand_pct": 25,
-    "cascade_rationale": "Minimal cascade effect; sector multiplier 1.00x",
-    "io_multiplier": 1
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x); weighted multiplier 1.01x [BEA 2022 Use Table]",
+    "io_multiplier": 1.01
   },
   {
     "title": "Entertainment and recreation managers",
@@ -1900,8 +1900,8 @@
     "url": "https://www.bls.gov/ooh/management/entertainment-and-recreation-managers.htm",
     "cascade_risk": 6,
     "derived_demand_pct": 75,
-    "cascade_rationale": "I-O cascade via professional (1.15x multiplier), finance (1.06x multiplier), information (1.10x multiplier); sector multiplier 1.06x",
-    "io_multiplier": 1.06
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x), 31G (1.06x); weighted multiplier 1.04x [BEA 2022 Use Table]",
+    "io_multiplier": 1.04
   },
   {
     "title": "Environmental engineering technologists and technicians",
@@ -1917,8 +1917,8 @@
     "url": "https://www.bls.gov/ooh/architecture-and-engineering/environmental-engineering-technicians.htm",
     "cascade_risk": 5,
     "derived_demand_pct": 35,
-    "cascade_rationale": "I-O cascade via professional (1.15x multiplier); sector multiplier 1.07x",
-    "io_multiplier": 1.07
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x), 31G (1.06x); weighted multiplier 1.06x [BEA 2022 Use Table]",
+    "io_multiplier": 1.06
   },
   {
     "title": "Environmental engineers",
@@ -1934,8 +1934,8 @@
     "url": "https://www.bls.gov/ooh/architecture-and-engineering/environmental-engineers.htm",
     "cascade_risk": 6,
     "derived_demand_pct": 45,
-    "cascade_rationale": "I-O cascade via professional (1.15x multiplier); sector multiplier 1.07x",
-    "io_multiplier": 1.07
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x), 31G (1.06x); weighted multiplier 1.06x [BEA 2022 Use Table]",
+    "io_multiplier": 1.06
   },
   {
     "title": "Environmental science and protection technicians",
@@ -1951,8 +1951,8 @@
     "url": "https://www.bls.gov/ooh/life-physical-and-social-science/environmental-science-and-protection-technicians.htm",
     "cascade_risk": 5,
     "derived_demand_pct": 40,
-    "cascade_rationale": "I-O cascade via professional (1.15x multiplier); sector multiplier 1.06x",
-    "io_multiplier": 1.06
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x), 31G (1.06x); weighted multiplier 1.04x [BEA 2022 Use Table]",
+    "io_multiplier": 1.04
   },
   {
     "title": "Environmental scientists and specialists",
@@ -1968,8 +1968,8 @@
     "url": "https://www.bls.gov/ooh/life-physical-and-social-science/environmental-scientists-and-specialists.htm",
     "cascade_risk": 6,
     "derived_demand_pct": 50,
-    "cascade_rationale": "I-O cascade via professional (1.15x multiplier); sector multiplier 1.06x",
-    "io_multiplier": 1.06
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x), 31G (1.06x); weighted multiplier 1.04x [BEA 2022 Use Table]",
+    "io_multiplier": 1.04
   },
   {
     "title": "Epidemiologists",
@@ -1985,8 +1985,8 @@
     "url": "https://www.bls.gov/ooh/life-physical-and-social-science/epidemiologists.htm",
     "cascade_risk": 7,
     "derived_demand_pct": 15,
-    "cascade_rationale": "I-O cascade via professional (1.15x multiplier); sector multiplier 1.06x",
-    "io_multiplier": 1.06
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x), 31G (1.06x); weighted multiplier 1.04x [BEA 2022 Use Table]",
+    "io_multiplier": 1.04
   },
   {
     "title": "Exercise physiologists",
@@ -2002,8 +2002,8 @@
     "url": "https://www.bls.gov/ooh/healthcare/exercise-physiologists.htm",
     "cascade_risk": 4,
     "derived_demand_pct": 60,
-    "cascade_rationale": "Minimal cascade effect; sector multiplier 1.00x",
-    "io_multiplier": 1
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x); weighted multiplier 1.01x [BEA 2022 Use Table]",
+    "io_multiplier": 1.01
   },
   {
     "title": "Farmers, ranchers, and other agricultural managers",
@@ -2019,8 +2019,8 @@
     "url": "https://www.bls.gov/ooh/management/farmers-ranchers-and-other-agricultural-managers.htm",
     "cascade_risk": 5,
     "derived_demand_pct": 10,
-    "cascade_rationale": "I-O cascade via professional (1.15x multiplier), finance (1.06x multiplier), information (1.10x multiplier); sector multiplier 1.06x",
-    "io_multiplier": 1.06
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x), 31G (1.06x); weighted multiplier 1.04x [BEA 2022 Use Table]",
+    "io_multiplier": 1.04
   },
   {
     "title": "Fashion designers",
@@ -2036,8 +2036,8 @@
     "url": "https://www.bls.gov/ooh/arts-and-design/fashion-designers.htm",
     "cascade_risk": 7,
     "derived_demand_pct": 80,
-    "cascade_rationale": "I-O cascade via information (1.10x multiplier), professional (1.15x multiplier); sector multiplier 1.08x",
-    "io_multiplier": 1.08
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x), 31G (1.06x); weighted multiplier 1.05x [BEA 2022 Use Table]",
+    "io_multiplier": 1.05
   },
   {
     "title": "Film and video editors and camera operators",
@@ -2053,8 +2053,8 @@
     "url": "https://www.bls.gov/ooh/media-and-communication/film-and-video-editors-and-camera-operators.htm",
     "cascade_risk": 7,
     "derived_demand_pct": 70,
-    "cascade_rationale": "I-O cascade via information (1.10x multiplier), professional (1.15x multiplier); sector multiplier 1.08x",
-    "io_multiplier": 1.08
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x); weighted multiplier 1.05x [BEA 2022 Use Table]",
+    "io_multiplier": 1.05
   },
   {
     "title": "Financial analysts",
@@ -2070,8 +2070,8 @@
     "url": "https://www.bls.gov/ooh/business-and-financial/financial-analysts.htm",
     "cascade_risk": 9,
     "derived_demand_pct": 95,
-    "cascade_rationale": "I-O cascade via finance (1.06x multiplier), professional (1.15x multiplier), admin_support (1.09x multiplier); sector multiplier 1.09x",
-    "io_multiplier": 1.09
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x), 53 (1.07x); weighted multiplier 1.05x [BEA 2022 Use Table]",
+    "io_multiplier": 1.05
   },
   {
     "title": "Financial clerks",
@@ -2087,8 +2087,8 @@
     "url": "https://www.bls.gov/ooh/office-and-administrative-support/financial-clerks.htm",
     "cascade_risk": 9,
     "derived_demand_pct": 98,
-    "cascade_rationale": "I-O cascade via finance (1.06x multiplier), professional (1.15x multiplier), admin_support (1.09x multiplier); sector multiplier 1.07x",
-    "io_multiplier": 1.07
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x), 53 (1.07x), 31G (1.06x); weighted multiplier 1.04x [BEA 2022 Use Table]",
+    "io_multiplier": 1.04
   },
   {
     "title": "Financial examiners",
@@ -2104,8 +2104,8 @@
     "url": "https://www.bls.gov/ooh/business-and-financial/financial-examiners.htm",
     "cascade_risk": 8,
     "derived_demand_pct": 90,
-    "cascade_rationale": "I-O cascade via finance (1.06x multiplier), professional (1.15x multiplier), admin_support (1.09x multiplier); sector multiplier 1.09x",
-    "io_multiplier": 1.09
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x), 53 (1.07x); weighted multiplier 1.05x [BEA 2022 Use Table]",
+    "io_multiplier": 1.05
   },
   {
     "title": "Financial managers",
@@ -2121,8 +2121,8 @@
     "url": "https://www.bls.gov/ooh/management/financial-managers.htm",
     "cascade_risk": 7,
     "derived_demand_pct": 100,
-    "cascade_rationale": "I-O cascade via professional (1.15x multiplier), finance (1.06x multiplier), information (1.10x multiplier); sector multiplier 1.06x",
-    "io_multiplier": 1.06
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x), 31G (1.06x); weighted multiplier 1.04x [BEA 2022 Use Table]",
+    "io_multiplier": 1.04
   },
   {
     "title": "Fire inspectors",
@@ -2138,8 +2138,8 @@
     "url": "https://www.bls.gov/ooh/protective-service/fire-inspectors-and-investigators.htm",
     "cascade_risk": 5,
     "derived_demand_pct": 40,
-    "cascade_rationale": "I-O cascade via admin_support (1.09x multiplier), real_estate (1.11x multiplier); sector multiplier 1.05x",
-    "io_multiplier": 1.05
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x), 53 (1.07x); weighted multiplier 1.04x [BEA 2022 Use Table]",
+    "io_multiplier": 1.04
   },
   {
     "title": "Firefighters",
@@ -2155,8 +2155,8 @@
     "url": "https://www.bls.gov/ooh/protective-service/firefighters.htm",
     "cascade_risk": 5,
     "derived_demand_pct": 5,
-    "cascade_rationale": "I-O cascade via admin_support (1.09x multiplier), real_estate (1.11x multiplier); sector multiplier 1.05x",
-    "io_multiplier": 1.05
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x), 53 (1.07x); weighted multiplier 1.04x [BEA 2022 Use Table]",
+    "io_multiplier": 1.04
   },
   {
     "title": "Fishing and hunting workers",
@@ -2170,9 +2170,9 @@
     "exposure": 2,
     "exposure_rationale": "The core duties are highly physical and take place in unpredictable outdoor environments, requiring manual labor, mechanical repair, and real-time physical coordination. AI's impact is limited to peripheral enhancements in fish-finding sonar, GPS navigation, and regulatory data processing, but it cannot replace the physical act of hauling nets, trapping animals, or maintaining vessels.",
     "url": "https://www.bls.gov/ooh/farming-fishing-and-forestry/fishers-and-related-fishing-workers.htm",
-    "cascade_risk": 2,
+    "cascade_risk": 3,
     "derived_demand_pct": 15,
-    "cascade_rationale": "Minimal cascade effect; sector multiplier 1.00x",
+    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.00x [BEA 2022 Use Table]",
     "io_multiplier": 1
   },
   {
@@ -2187,10 +2187,10 @@
     "exposure": 3,
     "exposure_rationale": "The core of this occupation requires physical presence to demonstrate exercises, correct form in real-time to prevent injury, and provide high-touch motivational support. While AI can automate peripheral tasks like workout programming, nutrition planning, and social media marketing, it cannot replace the physical safety monitoring and interpersonal accountability that define the role.",
     "url": "https://www.bls.gov/ooh/personal-care-and-service/fitness-trainers-and-instructors.htm",
-    "cascade_risk": 3,
+    "cascade_risk": 4,
     "derived_demand_pct": 65,
-    "cascade_rationale": "Minimal cascade effect; sector multiplier 1.00x",
-    "io_multiplier": 1
+    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.01x [BEA 2022 Use Table]",
+    "io_multiplier": 1.01
   },
   {
     "title": "Flight attendants",
@@ -2206,8 +2206,8 @@
     "url": "https://www.bls.gov/ooh/transportation-and-material-moving/flight-attendants.htm",
     "cascade_risk": 4,
     "derived_demand_pct": 70,
-    "cascade_rationale": "Minimal cascade effect; sector multiplier 1.00x",
-    "io_multiplier": 1
+    "cascade_rationale": "I-O cascade via sectors 31G (1.06x); weighted multiplier 1.02x [BEA 2022 Use Table]",
+    "io_multiplier": 1.02
   },
   {
     "title": "Flooring installers and tile and stone setters",
@@ -2223,7 +2223,7 @@
     "url": "https://www.bls.gov/ooh/construction-and-extraction/tile-and-marble-setters.htm",
     "cascade_risk": 2,
     "derived_demand_pct": 55,
-    "cascade_rationale": "Minimal cascade effect; sector multiplier 1.01x",
+    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.01x [BEA 2022 Use Table]",
     "io_multiplier": 1.01
   },
   {
@@ -2240,8 +2240,8 @@
     "url": "https://www.bls.gov/ooh/arts-and-design/floral-designers.htm",
     "cascade_risk": 5,
     "derived_demand_pct": 60,
-    "cascade_rationale": "I-O cascade via information (1.10x multiplier), professional (1.15x multiplier); sector multiplier 1.08x",
-    "io_multiplier": 1.08
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x), 31G (1.06x); weighted multiplier 1.05x [BEA 2022 Use Table]",
+    "io_multiplier": 1.05
   },
   {
     "title": "Food and beverage serving and related workers",
@@ -2257,8 +2257,8 @@
     "url": "https://www.bls.gov/ooh/food-preparation-and-serving/food-and-beverage-serving-and-related-workers.htm",
     "cascade_risk": 3,
     "derived_demand_pct": 80,
-    "cascade_rationale": "Minimal cascade effect; sector multiplier 1.00x",
-    "io_multiplier": 1
+    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.01x [BEA 2022 Use Table]",
+    "io_multiplier": 1.01
   },
   {
     "title": "Food preparation workers",
@@ -2272,10 +2272,10 @@
     "exposure": 2,
     "exposure_rationale": "The core duties are highly physical and require manual dexterity in unpredictable kitchen environments, which are difficult for AI to automate directly. While AI might optimize inventory management or scheduling, the primary tasks of washing, cutting, and preparing food remain resistant to digital replacement, though some labor may be displaced by industrial food processing automation.",
     "url": "https://www.bls.gov/ooh/food-preparation-and-serving/food-preparation-workers.htm",
-    "cascade_risk": 2,
+    "cascade_risk": 3,
     "derived_demand_pct": 75,
-    "cascade_rationale": "Minimal cascade effect; sector multiplier 1.00x",
-    "io_multiplier": 1
+    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.01x [BEA 2022 Use Table]",
+    "io_multiplier": 1.01
   },
   {
     "title": "Food processing equipment workers",
@@ -2291,8 +2291,8 @@
     "url": "https://www.bls.gov/ooh/production/food-and-tobacco-processing-workers.htm",
     "cascade_risk": 4,
     "derived_demand_pct": 5,
-    "cascade_rationale": "Minimal cascade effect; sector multiplier 1.00x",
-    "io_multiplier": 1
+    "cascade_rationale": "I-O cascade via sectors 31G (1.06x); weighted multiplier 1.05x [BEA 2022 Use Table]",
+    "io_multiplier": 1.05
   },
   {
     "title": "Food service managers",
@@ -2308,8 +2308,8 @@
     "url": "https://www.bls.gov/ooh/management/food-service-managers.htm",
     "cascade_risk": 5,
     "derived_demand_pct": 60,
-    "cascade_rationale": "I-O cascade via professional (1.15x multiplier), finance (1.06x multiplier), information (1.10x multiplier); sector multiplier 1.06x",
-    "io_multiplier": 1.06
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x), 31G (1.06x); weighted multiplier 1.04x [BEA 2022 Use Table]",
+    "io_multiplier": 1.04
   },
   {
     "title": "Forensic science technicians",
@@ -2325,8 +2325,8 @@
     "url": "https://www.bls.gov/ooh/life-physical-and-social-science/forensic-science-technicians.htm",
     "cascade_risk": 5,
     "derived_demand_pct": 10,
-    "cascade_rationale": "I-O cascade via professional (1.15x multiplier); sector multiplier 1.06x",
-    "io_multiplier": 1.06
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x), 31G (1.06x); weighted multiplier 1.04x [BEA 2022 Use Table]",
+    "io_multiplier": 1.04
   },
   {
     "title": "Forest and conservation workers",
@@ -2340,9 +2340,9 @@
     "exposure": 2,
     "exposure_rationale": "The core duties of this occupation are highly physical and performed in unpredictable outdoor environments, such as planting seedlings, clearing brush, and suppressing forest fires. While AI and remote sensing can assist with peripheral tasks like tree counting and health monitoring, the primary labor-intensive functions cannot be automated by digital AI systems.",
     "url": "https://www.bls.gov/ooh/farming-fishing-and-forestry/forest-and-conservation-workers.htm",
-    "cascade_risk": 2,
+    "cascade_risk": 3,
     "derived_demand_pct": 5,
-    "cascade_rationale": "Minimal cascade effect; sector multiplier 1.00x",
+    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.00x [BEA 2022 Use Table]",
     "io_multiplier": 1
   },
   {
@@ -2357,10 +2357,10 @@
     "exposure": 7,
     "exposure_rationale": "Fundraising involves significant digital work including donor research, data analysis, and the creation of promotional messaging, all of which are highly susceptible to AI automation and enhancement. While major gift solicitation and event management require high-level interpersonal skills and physical presence, the majority of the administrative, analytical, and communication-based tasks are moving toward AI-driven workflows.",
     "url": "https://www.bls.gov/ooh/business-and-financial/fundraisers.htm",
-    "cascade_risk": 8,
+    "cascade_risk": 7,
     "derived_demand_pct": 55,
-    "cascade_rationale": "I-O cascade via finance (1.06x multiplier), professional (1.15x multiplier), admin_support (1.09x multiplier); sector multiplier 1.09x",
-    "io_multiplier": 1.09
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x), 53 (1.07x); weighted multiplier 1.05x [BEA 2022 Use Table]",
+    "io_multiplier": 1.05
   },
   {
     "title": "Funeral service workers",
@@ -2374,10 +2374,10 @@
     "exposure": 3,
     "exposure_rationale": "The core of this occupation involves physical tasks like preparing remains and transporting the deceased, alongside high-stakes interpersonal work providing grief counseling and comfort. While AI can streamline administrative duties like filing death certificates, scheduling, and writing obituaries, it cannot replace the physical presence and emotional intelligence required for funeral services.",
     "url": "https://www.bls.gov/ooh/personal-care-and-service/funeral-service-occupations.htm",
-    "cascade_risk": 3,
+    "cascade_risk": 4,
     "derived_demand_pct": 5,
-    "cascade_rationale": "Minimal cascade effect; sector multiplier 1.00x",
-    "io_multiplier": 1
+    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.01x [BEA 2022 Use Table]",
+    "io_multiplier": 1.01
   },
   {
     "title": "Gambling services workers",
@@ -2393,8 +2393,8 @@
     "url": "https://www.bls.gov/ooh/personal-care-and-service/gaming-services-occupations.htm",
     "cascade_risk": 4,
     "derived_demand_pct": 40,
-    "cascade_rationale": "Minimal cascade effect; sector multiplier 1.00x",
-    "io_multiplier": 1
+    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.01x [BEA 2022 Use Table]",
+    "io_multiplier": 1.01
   },
   {
     "title": "General maintenance and repair workers",
@@ -2410,7 +2410,7 @@
     "url": "https://www.bls.gov/ooh/installation-maintenance-and-repair/general-maintenance-and-repair-workers.htm",
     "cascade_risk": 3,
     "derived_demand_pct": 70,
-    "cascade_rationale": "I-O cascade via real_estate (1.11x multiplier); sector multiplier 1.03x",
+    "cascade_rationale": "I-O cascade via sectors 31G (1.06x), 53 (1.07x); weighted multiplier 1.03x [BEA 2022 Use Table]",
     "io_multiplier": 1.03
   },
   {
@@ -2427,8 +2427,8 @@
     "url": "https://www.bls.gov/ooh/office-and-administrative-support/general-office-clerks.htm",
     "cascade_risk": 9,
     "derived_demand_pct": 95,
-    "cascade_rationale": "I-O cascade via finance (1.06x multiplier), professional (1.15x multiplier), admin_support (1.09x multiplier); sector multiplier 1.07x",
-    "io_multiplier": 1.07
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x), 53 (1.07x), 31G (1.06x); weighted multiplier 1.04x [BEA 2022 Use Table]",
+    "io_multiplier": 1.04
   },
   {
     "title": "Genetic counselors",
@@ -2444,8 +2444,8 @@
     "url": "https://www.bls.gov/ooh/healthcare/genetic-counselors.htm",
     "cascade_risk": 6,
     "derived_demand_pct": 45,
-    "cascade_rationale": "Minimal cascade effect; sector multiplier 1.00x",
-    "io_multiplier": 1
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x); weighted multiplier 1.01x [BEA 2022 Use Table]",
+    "io_multiplier": 1.01
   },
   {
     "title": "Geographers",
@@ -2461,8 +2461,8 @@
     "url": "https://www.bls.gov/ooh/life-physical-and-social-science/geographers.htm",
     "cascade_risk": 8,
     "derived_demand_pct": 45,
-    "cascade_rationale": "I-O cascade via professional (1.15x multiplier); sector multiplier 1.06x",
-    "io_multiplier": 1.06
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x), 31G (1.06x); weighted multiplier 1.04x [BEA 2022 Use Table]",
+    "io_multiplier": 1.04
   },
   {
     "title": "Geological and hydrologic technicians",
@@ -2478,8 +2478,8 @@
     "url": "https://www.bls.gov/ooh/life-physical-and-social-science/geological-and-petroleum-technicians.htm",
     "cascade_risk": 5,
     "derived_demand_pct": 35,
-    "cascade_rationale": "I-O cascade via professional (1.15x multiplier); sector multiplier 1.06x",
-    "io_multiplier": 1.06
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x), 31G (1.06x); weighted multiplier 1.04x [BEA 2022 Use Table]",
+    "io_multiplier": 1.04
   },
   {
     "title": "Geoscientists",
@@ -2495,8 +2495,8 @@
     "url": "https://www.bls.gov/ooh/life-physical-and-social-science/geoscientists.htm",
     "cascade_risk": 5,
     "derived_demand_pct": 40,
-    "cascade_rationale": "I-O cascade via professional (1.15x multiplier); sector multiplier 1.06x",
-    "io_multiplier": 1.06
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x), 31G (1.06x); weighted multiplier 1.04x [BEA 2022 Use Table]",
+    "io_multiplier": 1.04
   },
   {
     "title": "Glaziers",
@@ -2512,7 +2512,7 @@
     "url": "https://www.bls.gov/ooh/construction-and-extraction/glaziers.htm",
     "cascade_risk": 2,
     "derived_demand_pct": 60,
-    "cascade_rationale": "Minimal cascade effect; sector multiplier 1.01x",
+    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.01x [BEA 2022 Use Table]",
     "io_multiplier": 1.01
   },
   {
@@ -2529,8 +2529,8 @@
     "url": "https://www.bls.gov/ooh/arts-and-design/graphic-designers.htm",
     "cascade_risk": 9,
     "derived_demand_pct": 75,
-    "cascade_rationale": "I-O cascade via information (1.10x multiplier), professional (1.15x multiplier); sector multiplier 1.08x",
-    "io_multiplier": 1.08
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x), 31G (1.06x); weighted multiplier 1.05x [BEA 2022 Use Table]",
+    "io_multiplier": 1.05
   },
   {
     "title": "Grounds maintenance workers",
@@ -2546,8 +2546,8 @@
     "url": "https://www.bls.gov/ooh/building-and-grounds-cleaning/grounds-maintenance-workers.htm",
     "cascade_risk": 4,
     "derived_demand_pct": 50,
-    "cascade_rationale": "I-O cascade via real_estate (1.11x multiplier), admin_support (1.09x multiplier); sector multiplier 1.07x",
-    "io_multiplier": 1.07
+    "cascade_rationale": "I-O cascade via sectors 53 (1.07x), PROF (1.10x); weighted multiplier 1.05x [BEA 2022 Use Table]",
+    "io_multiplier": 1.05
   },
   {
     "title": "Hand laborers and material movers",
@@ -2561,10 +2561,10 @@
     "exposure": 2,
     "exposure_rationale": "The core duties of this occupation are fundamentally physical, involving the manual movement, cleaning, and packing of heavy materials in unpredictable real-world environments. While AI can optimize logistics, routing, and inventory tracking, the physical labor itself is resistant to AI and requires advanced robotics rather than software-based intelligence to automate.",
     "url": "https://www.bls.gov/ooh/transportation-and-material-moving/hand-laborers-and-material-movers.htm",
-    "cascade_risk": 4,
+    "cascade_risk": 3,
     "derived_demand_pct": 55,
-    "cascade_rationale": "Minimal cascade effect; sector multiplier 1.00x",
-    "io_multiplier": 1
+    "cascade_rationale": "I-O cascade via sectors 31G (1.06x); weighted multiplier 1.02x [BEA 2022 Use Table]",
+    "io_multiplier": 1.02
   },
   {
     "title": "Hazardous materials removal workers",
@@ -2580,7 +2580,7 @@
     "url": "https://www.bls.gov/ooh/construction-and-extraction/hazardous-materials-removal-workers.htm",
     "cascade_risk": 2,
     "derived_demand_pct": 45,
-    "cascade_rationale": "Minimal cascade effect; sector multiplier 1.01x",
+    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.01x [BEA 2022 Use Table]",
     "io_multiplier": 1.01
   },
   {
@@ -2597,8 +2597,8 @@
     "url": "https://www.bls.gov/ooh/architecture-and-engineering/health-and-safety-engineers.htm",
     "cascade_risk": 5,
     "derived_demand_pct": 40,
-    "cascade_rationale": "I-O cascade via professional (1.15x multiplier); sector multiplier 1.07x",
-    "io_multiplier": 1.07
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x), 31G (1.06x); weighted multiplier 1.06x [BEA 2022 Use Table]",
+    "io_multiplier": 1.06
   },
   {
     "title": "Health education specialists",
@@ -2614,7 +2614,7 @@
     "url": "https://www.bls.gov/ooh/community-and-social-service/health-educators.htm",
     "cascade_risk": 6,
     "derived_demand_pct": 35,
-    "cascade_rationale": "Minimal cascade effect; sector multiplier 1.00x",
+    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.00x [BEA 2022 Use Table]",
     "io_multiplier": 1
   },
   {
@@ -2631,8 +2631,8 @@
     "url": "https://www.bls.gov/ooh/healthcare/health-information-technologists-and-medical-registrars.htm",
     "cascade_risk": 8,
     "derived_demand_pct": 35,
-    "cascade_rationale": "Minimal cascade effect; sector multiplier 1.00x",
-    "io_multiplier": 1
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x); weighted multiplier 1.01x [BEA 2022 Use Table]",
+    "io_multiplier": 1.01
   },
   {
     "title": "Heating, air conditioning, and refrigeration mechanics and installers",
@@ -2648,7 +2648,7 @@
     "url": "https://www.bls.gov/ooh/installation-maintenance-and-repair/heating-air-conditioning-and-refrigeration-mechanics-and-installers.htm",
     "cascade_risk": 3,
     "derived_demand_pct": 65,
-    "cascade_rationale": "I-O cascade via real_estate (1.11x multiplier); sector multiplier 1.03x",
+    "cascade_rationale": "I-O cascade via sectors 31G (1.06x), 53 (1.07x); weighted multiplier 1.03x [BEA 2022 Use Table]",
     "io_multiplier": 1.03
   },
   {
@@ -2665,8 +2665,8 @@
     "url": "https://www.bls.gov/ooh/transportation-and-material-moving/heavy-and-tractor-trailer-truck-drivers.htm",
     "cascade_risk": 5,
     "derived_demand_pct": 55,
-    "cascade_rationale": "Minimal cascade effect; sector multiplier 1.00x",
-    "io_multiplier": 1
+    "cascade_rationale": "I-O cascade via sectors 31G (1.06x); weighted multiplier 1.02x [BEA 2022 Use Table]",
+    "io_multiplier": 1.02
   },
   {
     "title": "Heavy vehicle and mobile equipment service technicians",
@@ -2680,9 +2680,9 @@
     "exposure": 3,
     "exposure_rationale": "The core of this occupation is highly physical, involving manual dexterity, strength, and real-world troubleshooting in unpredictable environments like farms and construction sites. While AI will significantly enhance diagnostic software and predictive maintenance logs, it cannot perform the physical disassembly, repair, and reassembly of heavy mechanical components.",
     "url": "https://www.bls.gov/ooh/installation-maintenance-and-repair/heavy-vehicle-and-mobile-equipment-service-technicians.htm",
-    "cascade_risk": 3,
+    "cascade_risk": 4,
     "derived_demand_pct": 65,
-    "cascade_rationale": "I-O cascade via real_estate (1.11x multiplier); sector multiplier 1.03x",
+    "cascade_rationale": "I-O cascade via sectors 31G (1.06x), 53 (1.07x); weighted multiplier 1.03x [BEA 2022 Use Table]",
     "io_multiplier": 1.03
   },
   {
@@ -2699,7 +2699,7 @@
     "url": "https://www.bls.gov/ooh/education-training-and-library/high-school-teachers.htm",
     "cascade_risk": 7,
     "derived_demand_pct": 25,
-    "cascade_rationale": "Minimal cascade effect; sector multiplier 1.00x",
+    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.00x [BEA 2022 Use Table]",
     "io_multiplier": 1
   },
   {
@@ -2716,8 +2716,8 @@
     "url": "https://www.bls.gov/ooh/life-physical-and-social-science/historians.htm",
     "cascade_risk": 7,
     "derived_demand_pct": 55,
-    "cascade_rationale": "I-O cascade via professional (1.15x multiplier); sector multiplier 1.06x",
-    "io_multiplier": 1.06
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x), 31G (1.06x); weighted multiplier 1.04x [BEA 2022 Use Table]",
+    "io_multiplier": 1.04
   },
   {
     "title": "Home health and personal care aides",
@@ -2731,10 +2731,10 @@
     "exposure": 2,
     "exposure_rationale": "The core duties of this occupation are fundamentally physical and interpersonal, involving manual tasks like bathing, dressing, and lifting patients in unpredictable home environments. While AI may assist with peripheral administrative tasks like scheduling or monitoring vital signs, it cannot replace the essential human presence and physical labor required for personal care.",
     "url": "https://www.bls.gov/ooh/healthcare/home-health-aides-and-personal-care-aides.htm",
-    "cascade_risk": 3,
+    "cascade_risk": 4,
     "derived_demand_pct": 75,
-    "cascade_rationale": "Minimal cascade effect; sector multiplier 1.00x",
-    "io_multiplier": 1
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x); weighted multiplier 1.01x [BEA 2022 Use Table]",
+    "io_multiplier": 1.01
   },
   {
     "title": "Human resources managers",
@@ -2750,8 +2750,8 @@
     "url": "https://www.bls.gov/ooh/management/human-resources-managers.htm",
     "cascade_risk": 7,
     "derived_demand_pct": 95,
-    "cascade_rationale": "I-O cascade via professional (1.15x multiplier), finance (1.06x multiplier), information (1.10x multiplier); sector multiplier 1.06x",
-    "io_multiplier": 1.06
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x), 31G (1.06x); weighted multiplier 1.04x [BEA 2022 Use Table]",
+    "io_multiplier": 1.04
   },
   {
     "title": "Human resources specialists",
@@ -2765,10 +2765,10 @@
     "exposure": 7,
     "exposure_rationale": "The core tasks of recruiting, screening, and administrative record-keeping are highly digital and data-driven, making them prime targets for AI automation and augmentation. While the role requires significant interpersonal interaction and human judgment for interviewing and employee relations, AI can now handle complex scheduling, initial candidate vetting, and policy inquiries, significantly increasing individual worker productivity and reducing the need for entry-level administrative staff.",
     "url": "https://www.bls.gov/ooh/business-and-financial/human-resources-specialists.htm",
-    "cascade_risk": 8,
+    "cascade_risk": 7,
     "derived_demand_pct": 95,
-    "cascade_rationale": "I-O cascade via finance (1.06x multiplier), professional (1.15x multiplier), admin_support (1.09x multiplier); sector multiplier 1.09x",
-    "io_multiplier": 1.09
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x), 53 (1.07x); weighted multiplier 1.05x [BEA 2022 Use Table]",
+    "io_multiplier": 1.05
   },
   {
     "title": "Hydrologists",
@@ -2784,8 +2784,8 @@
     "url": "https://www.bls.gov/ooh/life-physical-and-social-science/hydrologists.htm",
     "cascade_risk": 6,
     "derived_demand_pct": 45,
-    "cascade_rationale": "I-O cascade via professional (1.15x multiplier); sector multiplier 1.06x",
-    "io_multiplier": 1.06
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x), 31G (1.06x); weighted multiplier 1.04x [BEA 2022 Use Table]",
+    "io_multiplier": 1.04
   },
   {
     "title": "Industrial designers",
@@ -2801,8 +2801,8 @@
     "url": "https://www.bls.gov/ooh/arts-and-design/industrial-designers.htm",
     "cascade_risk": 8,
     "derived_demand_pct": 40,
-    "cascade_rationale": "I-O cascade via information (1.10x multiplier), professional (1.15x multiplier); sector multiplier 1.08x",
-    "io_multiplier": 1.08
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x), 31G (1.06x); weighted multiplier 1.05x [BEA 2022 Use Table]",
+    "io_multiplier": 1.05
   },
   {
     "title": "Industrial engineering technologists and technicians",
@@ -2818,8 +2818,8 @@
     "url": "https://www.bls.gov/ooh/architecture-and-engineering/industrial-engineering-technicians.htm",
     "cascade_risk": 6,
     "derived_demand_pct": 55,
-    "cascade_rationale": "I-O cascade via professional (1.15x multiplier); sector multiplier 1.07x",
-    "io_multiplier": 1.07
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x), 31G (1.06x); weighted multiplier 1.06x [BEA 2022 Use Table]",
+    "io_multiplier": 1.06
   },
   {
     "title": "Industrial engineers",
@@ -2835,8 +2835,8 @@
     "url": "https://www.bls.gov/ooh/architecture-and-engineering/industrial-engineers.htm",
     "cascade_risk": 7,
     "derived_demand_pct": 60,
-    "cascade_rationale": "I-O cascade via professional (1.15x multiplier); sector multiplier 1.07x",
-    "io_multiplier": 1.07
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x), 31G (1.06x); weighted multiplier 1.06x [BEA 2022 Use Table]",
+    "io_multiplier": 1.06
   },
   {
     "title": "Industrial machinery mechanics, machinery maintenance workers, and millwrights",
@@ -2850,9 +2850,9 @@
     "exposure": 3,
     "exposure_rationale": "The core of this occupation involves physical labor, manual dexterity, and real-time troubleshooting in unpredictable physical environments, which provides a strong barrier against AI automation. While AI will significantly enhance diagnostic capabilities and predictive maintenance scheduling, the actual repair, installation, and physical manipulation of heavy machinery still require human presence and mechanical skill.",
     "url": "https://www.bls.gov/ooh/installation-maintenance-and-repair/industrial-machinery-mechanics-and-maintenance-workers-and-millwrights.htm",
-    "cascade_risk": 3,
+    "cascade_risk": 4,
     "derived_demand_pct": 70,
-    "cascade_rationale": "I-O cascade via real_estate (1.11x multiplier); sector multiplier 1.03x",
+    "cascade_rationale": "I-O cascade via sectors 31G (1.06x), 53 (1.07x); weighted multiplier 1.03x [BEA 2022 Use Table]",
     "io_multiplier": 1.03
   },
   {
@@ -2869,8 +2869,8 @@
     "url": "https://www.bls.gov/ooh/management/industrial-production-managers.htm",
     "cascade_risk": 6,
     "derived_demand_pct": 80,
-    "cascade_rationale": "I-O cascade via professional (1.15x multiplier), finance (1.06x multiplier), information (1.10x multiplier); sector multiplier 1.06x",
-    "io_multiplier": 1.06
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x), 31G (1.06x); weighted multiplier 1.04x [BEA 2022 Use Table]",
+    "io_multiplier": 1.04
   },
   {
     "title": "Information clerks",
@@ -2886,8 +2886,8 @@
     "url": "https://www.bls.gov/ooh/office-and-administrative-support/information-clerks.htm",
     "cascade_risk": 7,
     "derived_demand_pct": 75,
-    "cascade_rationale": "I-O cascade via finance (1.06x multiplier), professional (1.15x multiplier), admin_support (1.09x multiplier); sector multiplier 1.07x",
-    "io_multiplier": 1.07
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x), 53 (1.07x), 31G (1.06x); weighted multiplier 1.04x [BEA 2022 Use Table]",
+    "io_multiplier": 1.04
   },
   {
     "title": "Information security analysts",
@@ -2903,7 +2903,7 @@
     "url": "https://www.bls.gov/ooh/computer-and-information-technology/information-security-analysts.htm",
     "cascade_risk": 8,
     "derived_demand_pct": 65,
-    "cascade_rationale": "",
+    "cascade_rationale": "No sector mapping for category \"computer-and-information-technology\"",
     "io_multiplier": 1
   },
   {
@@ -2920,7 +2920,7 @@
     "url": "https://www.bls.gov/ooh/education-training-and-library/instructional-coordinators.htm",
     "cascade_risk": 7,
     "derived_demand_pct": 60,
-    "cascade_rationale": "Minimal cascade effect; sector multiplier 1.00x",
+    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.00x [BEA 2022 Use Table]",
     "io_multiplier": 1
   },
   {
@@ -2937,7 +2937,7 @@
     "url": "https://www.bls.gov/ooh/construction-and-extraction/insulation-workers.htm",
     "cascade_risk": 2,
     "derived_demand_pct": 85,
-    "cascade_rationale": "Minimal cascade effect; sector multiplier 1.01x",
+    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.01x [BEA 2022 Use Table]",
     "io_multiplier": 1.01
   },
   {
@@ -2954,8 +2954,8 @@
     "url": "https://www.bls.gov/ooh/sales/insurance-sales-agents.htm",
     "cascade_risk": 7,
     "derived_demand_pct": 90,
-    "cascade_rationale": "I-O cascade via finance (1.06x multiplier), real_estate (1.11x multiplier), professional (1.15x multiplier); sector multiplier 1.04x",
-    "io_multiplier": 1.04
+    "cascade_rationale": "I-O cascade via sectors 53 (1.07x), PROF (1.10x); weighted multiplier 1.03x [BEA 2022 Use Table]",
+    "io_multiplier": 1.03
   },
   {
     "title": "Insurance underwriters",
@@ -2971,8 +2971,8 @@
     "url": "https://www.bls.gov/ooh/business-and-financial/insurance-underwriters.htm",
     "cascade_risk": 9,
     "derived_demand_pct": 100,
-    "cascade_rationale": "I-O cascade via finance (1.06x multiplier), professional (1.15x multiplier), admin_support (1.09x multiplier); sector multiplier 1.09x",
-    "io_multiplier": 1.09
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x), 53 (1.07x); weighted multiplier 1.05x [BEA 2022 Use Table]",
+    "io_multiplier": 1.05
   },
   {
     "title": "Interior designers",
@@ -2988,8 +2988,8 @@
     "url": "https://www.bls.gov/ooh/arts-and-design/interior-designers.htm",
     "cascade_risk": 7,
     "derived_demand_pct": 65,
-    "cascade_rationale": "I-O cascade via information (1.10x multiplier), professional (1.15x multiplier); sector multiplier 1.08x",
-    "io_multiplier": 1.08
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x), 31G (1.06x); weighted multiplier 1.05x [BEA 2022 Use Table]",
+    "io_multiplier": 1.05
   },
   {
     "title": "Interpreters and translators",
@@ -3005,8 +3005,8 @@
     "url": "https://www.bls.gov/ooh/media-and-communication/interpreters-and-translators.htm",
     "cascade_risk": 9,
     "derived_demand_pct": 85,
-    "cascade_rationale": "I-O cascade via information (1.10x multiplier), professional (1.15x multiplier); sector multiplier 1.08x",
-    "io_multiplier": 1.08
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x); weighted multiplier 1.05x [BEA 2022 Use Table]",
+    "io_multiplier": 1.05
   },
   {
     "title": "Ironworkers",
@@ -3022,7 +3022,7 @@
     "url": "https://www.bls.gov/ooh/construction-and-extraction/structural-iron-and-steel-workers.htm",
     "cascade_risk": 2,
     "derived_demand_pct": 35,
-    "cascade_rationale": "Minimal cascade effect; sector multiplier 1.01x",
+    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.01x [BEA 2022 Use Table]",
     "io_multiplier": 1.01
   },
   {
@@ -3039,8 +3039,8 @@
     "url": "https://www.bls.gov/ooh/building-and-grounds-cleaning/janitors-and-building-cleaners.htm",
     "cascade_risk": 4,
     "derived_demand_pct": 70,
-    "cascade_rationale": "I-O cascade via real_estate (1.11x multiplier), admin_support (1.09x multiplier); sector multiplier 1.07x",
-    "io_multiplier": 1.07
+    "cascade_rationale": "I-O cascade via sectors 53 (1.07x), PROF (1.10x); weighted multiplier 1.05x [BEA 2022 Use Table]",
+    "io_multiplier": 1.05
   },
   {
     "title": "Jewelers and precious stone and metal workers",
@@ -3056,8 +3056,8 @@
     "url": "https://www.bls.gov/ooh/production/jewelers-and-precious-stone-and-metal-workers.htm",
     "cascade_risk": 4,
     "derived_demand_pct": 75,
-    "cascade_rationale": "Minimal cascade effect; sector multiplier 1.00x",
-    "io_multiplier": 1
+    "cascade_rationale": "I-O cascade via sectors 31G (1.06x); weighted multiplier 1.05x [BEA 2022 Use Table]",
+    "io_multiplier": 1.05
   },
   {
     "title": "Judges and hearing officers",
@@ -3073,8 +3073,8 @@
     "url": "https://www.bls.gov/ooh/legal/judges-and-hearing-officers.htm",
     "cascade_risk": 7,
     "derived_demand_pct": 55,
-    "cascade_rationale": "I-O cascade via professional (1.15x multiplier), finance (1.06x multiplier); sector multiplier 1.09x",
-    "io_multiplier": 1.09
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x); weighted multiplier 1.06x [BEA 2022 Use Table]",
+    "io_multiplier": 1.06
   },
   {
     "title": "Kindergarten and elementary school teachers",
@@ -3090,7 +3090,7 @@
     "url": "https://www.bls.gov/ooh/education-training-and-library/kindergarten-and-elementary-school-teachers.htm",
     "cascade_risk": 6,
     "derived_demand_pct": 25,
-    "cascade_rationale": "Minimal cascade effect; sector multiplier 1.00x",
+    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.00x [BEA 2022 Use Table]",
     "io_multiplier": 1
   },
   {
@@ -3105,10 +3105,10 @@
     "exposure": 7,
     "exposure_rationale": "This occupation is predominantly digital and knowledge-based, involving the drafting of contracts, policy development, and legal compliance—all areas where AI excels. While the high-stakes interpersonal negotiation and dispute resolution provide a buffer, AI will significantly automate the research, document generation, and investigative analysis components of the role.",
     "url": "https://www.bls.gov/ooh/business-and-financial/labor-relations-specialists.htm",
-    "cascade_risk": 8,
+    "cascade_risk": 7,
     "derived_demand_pct": 90,
-    "cascade_rationale": "I-O cascade via finance (1.06x multiplier), professional (1.15x multiplier), admin_support (1.09x multiplier); sector multiplier 1.09x",
-    "io_multiplier": 1.09
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x), 53 (1.07x); weighted multiplier 1.05x [BEA 2022 Use Table]",
+    "io_multiplier": 1.05
   },
   {
     "title": "Landscape architects",
@@ -3124,8 +3124,8 @@
     "url": "https://www.bls.gov/ooh/architecture-and-engineering/landscape-architects.htm",
     "cascade_risk": 7,
     "derived_demand_pct": 65,
-    "cascade_rationale": "I-O cascade via professional (1.15x multiplier); sector multiplier 1.07x",
-    "io_multiplier": 1.07
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x), 31G (1.06x); weighted multiplier 1.06x [BEA 2022 Use Table]",
+    "io_multiplier": 1.06
   },
   {
     "title": "Lawyers",
@@ -3141,8 +3141,8 @@
     "url": "https://www.bls.gov/ooh/legal/lawyers.htm",
     "cascade_risk": 8,
     "derived_demand_pct": 75,
-    "cascade_rationale": "I-O cascade via professional (1.15x multiplier), finance (1.06x multiplier); sector multiplier 1.09x",
-    "io_multiplier": 1.09
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x); weighted multiplier 1.06x [BEA 2022 Use Table]",
+    "io_multiplier": 1.06
   },
   {
     "title": "Librarians and library media specialists",
@@ -3158,7 +3158,7 @@
     "url": "https://www.bls.gov/ooh/education-training-and-library/librarians.htm",
     "cascade_risk": 7,
     "derived_demand_pct": 30,
-    "cascade_rationale": "Minimal cascade effect; sector multiplier 1.00x",
+    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.00x [BEA 2022 Use Table]",
     "io_multiplier": 1
   },
   {
@@ -3175,7 +3175,7 @@
     "url": "https://www.bls.gov/ooh/education-training-and-library/library-technicians-and-assistants.htm",
     "cascade_risk": 7,
     "derived_demand_pct": 35,
-    "cascade_rationale": "Minimal cascade effect; sector multiplier 1.00x",
+    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.00x [BEA 2022 Use Table]",
     "io_multiplier": 1
   },
   {
@@ -3192,8 +3192,8 @@
     "url": "https://www.bls.gov/ooh/healthcare/licensed-practical-and-licensed-vocational-nurses.htm",
     "cascade_risk": 4,
     "derived_demand_pct": 20,
-    "cascade_rationale": "Minimal cascade effect; sector multiplier 1.00x",
-    "io_multiplier": 1
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x); weighted multiplier 1.01x [BEA 2022 Use Table]",
+    "io_multiplier": 1.01
   },
   {
     "title": "Loan officers",
@@ -3209,8 +3209,8 @@
     "url": "https://www.bls.gov/ooh/business-and-financial/loan-officers.htm",
     "cascade_risk": 8,
     "derived_demand_pct": 80,
-    "cascade_rationale": "I-O cascade via finance (1.06x multiplier), professional (1.15x multiplier), admin_support (1.09x multiplier); sector multiplier 1.09x",
-    "io_multiplier": 1.09
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x), 53 (1.07x); weighted multiplier 1.05x [BEA 2022 Use Table]",
+    "io_multiplier": 1.05
   },
   {
     "title": "Lodging managers",
@@ -3226,8 +3226,8 @@
     "url": "https://www.bls.gov/ooh/management/lodging-managers.htm",
     "cascade_risk": 6,
     "derived_demand_pct": 70,
-    "cascade_rationale": "I-O cascade via professional (1.15x multiplier), finance (1.06x multiplier), information (1.10x multiplier); sector multiplier 1.06x",
-    "io_multiplier": 1.06
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x), 31G (1.06x); weighted multiplier 1.04x [BEA 2022 Use Table]",
+    "io_multiplier": 1.04
   },
   {
     "title": "Logging workers",
@@ -3241,9 +3241,9 @@
     "exposure": 2,
     "exposure_rationale": "The core work is highly physical, involving the operation of heavy machinery and manual labor in unpredictable outdoor environments. While AI may improve peripheral tasks like log grading through computer vision or optimize harvest planning, the physical requirements of felling and transporting timber provide a strong barrier to AI replacement.",
     "url": "https://www.bls.gov/ooh/farming-fishing-and-forestry/logging-workers.htm",
-    "cascade_risk": 2,
+    "cascade_risk": 3,
     "derived_demand_pct": 30,
-    "cascade_rationale": "Minimal cascade effect; sector multiplier 1.00x",
+    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.00x [BEA 2022 Use Table]",
     "io_multiplier": 1
   },
   {
@@ -3258,10 +3258,10 @@
     "exposure": 7,
     "exposure_rationale": "Logisticians perform high-level knowledge work that is primarily digital, involving data analysis, forecasting, and supply chain optimization—tasks where AI excels. While the role requires human-to-human negotiation and real-world problem-solving for physical disruptions, the core functions of inventory management and route optimization are increasingly being automated or enhanced by sophisticated AI algorithms.",
     "url": "https://www.bls.gov/ooh/business-and-financial/logisticians.htm",
-    "cascade_risk": 8,
+    "cascade_risk": 7,
     "derived_demand_pct": 65,
-    "cascade_rationale": "I-O cascade via finance (1.06x multiplier), professional (1.15x multiplier), admin_support (1.09x multiplier); sector multiplier 1.09x",
-    "io_multiplier": 1.09
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x), 53 (1.07x); weighted multiplier 1.05x [BEA 2022 Use Table]",
+    "io_multiplier": 1.05
   },
   {
     "title": "Machinists and tool and die makers",
@@ -3277,8 +3277,8 @@
     "url": "https://www.bls.gov/ooh/production/machinists-and-tool-and-die-makers.htm",
     "cascade_risk": 4,
     "derived_demand_pct": 35,
-    "cascade_rationale": "Minimal cascade effect; sector multiplier 1.00x",
-    "io_multiplier": 1
+    "cascade_rationale": "I-O cascade via sectors 31G (1.06x); weighted multiplier 1.05x [BEA 2022 Use Table]",
+    "io_multiplier": 1.05
   },
   {
     "title": "Management analysts",
@@ -3292,10 +3292,10 @@
     "exposure": 7,
     "exposure_rationale": "Management analysts perform high-level knowledge work—including data analysis, report writing, and financial modeling—that is highly susceptible to AI augmentation and automation. While the role requires significant interpersonal skills for client interviews and stakeholder management, the core 'back-office' tasks of synthesizing information and developing efficiency recommendations are increasingly being streamlined by AI tools.",
     "url": "https://www.bls.gov/ooh/business-and-financial/management-analysts.htm",
-    "cascade_risk": 8,
+    "cascade_risk": 7,
     "derived_demand_pct": 90,
-    "cascade_rationale": "I-O cascade via finance (1.06x multiplier), professional (1.15x multiplier), admin_support (1.09x multiplier); sector multiplier 1.09x",
-    "io_multiplier": 1.09
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x), 53 (1.07x); weighted multiplier 1.05x [BEA 2022 Use Table]",
+    "io_multiplier": 1.05
   },
   {
     "title": "Manicurists and pedicurists",
@@ -3311,8 +3311,8 @@
     "url": "https://www.bls.gov/ooh/personal-care-and-service/manicurists-and-pedicurists.htm",
     "cascade_risk": 3,
     "derived_demand_pct": 50,
-    "cascade_rationale": "Minimal cascade effect; sector multiplier 1.00x",
-    "io_multiplier": 1
+    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.01x [BEA 2022 Use Table]",
+    "io_multiplier": 1.01
   },
   {
     "title": "Marine engineers and naval architects",
@@ -3328,8 +3328,8 @@
     "url": "https://www.bls.gov/ooh/architecture-and-engineering/marine-engineers-and-naval-architects.htm",
     "cascade_risk": 7,
     "derived_demand_pct": 5,
-    "cascade_rationale": "I-O cascade via professional (1.15x multiplier); sector multiplier 1.07x",
-    "io_multiplier": 1.07
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x), 31G (1.06x); weighted multiplier 1.06x [BEA 2022 Use Table]",
+    "io_multiplier": 1.06
   },
   {
     "title": "Market research analysts",
@@ -3345,8 +3345,8 @@
     "url": "https://www.bls.gov/ooh/business-and-financial/market-research-analysts.htm",
     "cascade_risk": 9,
     "derived_demand_pct": 80,
-    "cascade_rationale": "I-O cascade via finance (1.06x multiplier), professional (1.15x multiplier), admin_support (1.09x multiplier); sector multiplier 1.09x",
-    "io_multiplier": 1.09
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x), 53 (1.07x); weighted multiplier 1.05x [BEA 2022 Use Table]",
+    "io_multiplier": 1.05
   },
   {
     "title": "Marriage and family therapists",
@@ -3362,7 +3362,7 @@
     "url": "https://www.bls.gov/ooh/community-and-social-service/marriage-and-family-therapists.htm",
     "cascade_risk": 5,
     "derived_demand_pct": 60,
-    "cascade_rationale": "Minimal cascade effect; sector multiplier 1.00x",
+    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.00x [BEA 2022 Use Table]",
     "io_multiplier": 1
   },
   {
@@ -3379,7 +3379,7 @@
     "url": "https://www.bls.gov/ooh/construction-and-extraction/brickmasons-blockmasons-and-stonemasons.htm",
     "cascade_risk": 2,
     "derived_demand_pct": 70,
-    "cascade_rationale": "Minimal cascade effect; sector multiplier 1.01x",
+    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.01x [BEA 2022 Use Table]",
     "io_multiplier": 1.01
   },
   {
@@ -3394,10 +3394,10 @@
     "exposure": 2,
     "exposure_rationale": "The core of this occupation is highly physical, requiring manual manipulation of soft tissues and real-time human empathy in a physical setting. While AI can assist with peripheral administrative tasks like scheduling, marketing, and documentation, it cannot replace the tactile skill and physical presence required for massage therapy.",
     "url": "https://www.bls.gov/ooh/healthcare/massage-therapists.htm",
-    "cascade_risk": 3,
+    "cascade_risk": 4,
     "derived_demand_pct": 60,
-    "cascade_rationale": "Minimal cascade effect; sector multiplier 1.00x",
-    "io_multiplier": 1
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x); weighted multiplier 1.01x [BEA 2022 Use Table]",
+    "io_multiplier": 1.01
   },
   {
     "title": "Material moving machine operators",
@@ -3413,8 +3413,8 @@
     "url": "https://www.bls.gov/ooh/transportation-and-material-moving/material-moving-machine-operators.htm",
     "cascade_risk": 4,
     "derived_demand_pct": 40,
-    "cascade_rationale": "Minimal cascade effect; sector multiplier 1.00x",
-    "io_multiplier": 1
+    "cascade_rationale": "I-O cascade via sectors 31G (1.06x); weighted multiplier 1.02x [BEA 2022 Use Table]",
+    "io_multiplier": 1.02
   },
   {
     "title": "Material recording clerks",
@@ -3430,8 +3430,8 @@
     "url": "https://www.bls.gov/ooh/office-and-administrative-support/material-recording-clerks.htm",
     "cascade_risk": 7,
     "derived_demand_pct": 60,
-    "cascade_rationale": "I-O cascade via finance (1.06x multiplier), professional (1.15x multiplier), admin_support (1.09x multiplier); sector multiplier 1.07x",
-    "io_multiplier": 1.07
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x), 53 (1.07x), 31G (1.06x); weighted multiplier 1.04x [BEA 2022 Use Table]",
+    "io_multiplier": 1.04
   },
   {
     "title": "Materials engineers",
@@ -3447,8 +3447,8 @@
     "url": "https://www.bls.gov/ooh/architecture-and-engineering/materials-engineers.htm",
     "cascade_risk": 7,
     "derived_demand_pct": 30,
-    "cascade_rationale": "I-O cascade via professional (1.15x multiplier); sector multiplier 1.07x",
-    "io_multiplier": 1.07
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x), 31G (1.06x); weighted multiplier 1.06x [BEA 2022 Use Table]",
+    "io_multiplier": 1.06
   },
   {
     "title": "Mathematicians and statisticians",
@@ -3464,8 +3464,8 @@
     "url": "https://www.bls.gov/ooh/math/mathematicians-and-statisticians.htm",
     "cascade_risk": 9,
     "derived_demand_pct": 85,
-    "cascade_rationale": "I-O cascade via finance (1.06x multiplier), professional (1.15x multiplier), information (1.10x multiplier); sector multiplier 1.09x",
-    "io_multiplier": 1.09
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x); weighted multiplier 1.05x [BEA 2022 Use Table]",
+    "io_multiplier": 1.05
   },
   {
     "title": "Mechanical engineering technologists and technicians",
@@ -3481,8 +3481,8 @@
     "url": "https://www.bls.gov/ooh/architecture-and-engineering/mechanical-engineering-technicians.htm",
     "cascade_risk": 5,
     "derived_demand_pct": 35,
-    "cascade_rationale": "I-O cascade via professional (1.15x multiplier); sector multiplier 1.07x",
-    "io_multiplier": 1.07
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x), 31G (1.06x); weighted multiplier 1.06x [BEA 2022 Use Table]",
+    "io_multiplier": 1.06
   },
   {
     "title": "Mechanical engineers",
@@ -3498,8 +3498,8 @@
     "url": "https://www.bls.gov/ooh/architecture-and-engineering/mechanical-engineers.htm",
     "cascade_risk": 7,
     "derived_demand_pct": 45,
-    "cascade_rationale": "I-O cascade via professional (1.15x multiplier); sector multiplier 1.07x",
-    "io_multiplier": 1.07
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x), 31G (1.06x); weighted multiplier 1.06x [BEA 2022 Use Table]",
+    "io_multiplier": 1.06
   },
   {
     "title": "Medical and health services managers",
@@ -3515,8 +3515,8 @@
     "url": "https://www.bls.gov/ooh/management/medical-and-health-services-managers.htm",
     "cascade_risk": 6,
     "derived_demand_pct": 35,
-    "cascade_rationale": "I-O cascade via professional (1.15x multiplier), finance (1.06x multiplier), information (1.10x multiplier); sector multiplier 1.06x",
-    "io_multiplier": 1.06
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x), 31G (1.06x); weighted multiplier 1.04x [BEA 2022 Use Table]",
+    "io_multiplier": 1.04
   },
   {
     "title": "Medical assistants",
@@ -3532,8 +3532,8 @@
     "url": "https://www.bls.gov/ooh/healthcare/medical-assistants.htm",
     "cascade_risk": 4,
     "derived_demand_pct": 45,
-    "cascade_rationale": "Minimal cascade effect; sector multiplier 1.00x",
-    "io_multiplier": 1
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x); weighted multiplier 1.01x [BEA 2022 Use Table]",
+    "io_multiplier": 1.01
   },
   {
     "title": "Medical dosimetrists",
@@ -3549,8 +3549,8 @@
     "url": "https://www.bls.gov/ooh/healthcare/medical-dosimetrists.htm",
     "cascade_risk": 8,
     "derived_demand_pct": 20,
-    "cascade_rationale": "Minimal cascade effect; sector multiplier 1.00x",
-    "io_multiplier": 1
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x); weighted multiplier 1.01x [BEA 2022 Use Table]",
+    "io_multiplier": 1.01
   },
   {
     "title": "Medical equipment repairers",
@@ -3564,9 +3564,9 @@
     "exposure": 3,
     "exposure_rationale": "The core of this occupation is physical and manual, requiring dexterity to handle tools, disassemble machinery, and work in tight physical spaces. While AI will significantly enhance diagnostic software, troubleshooting, and predictive maintenance scheduling, the physical act of repairing, installing, and calibrating hardware remains a human-centric task that cannot be automated by digital AI alone.",
     "url": "https://www.bls.gov/ooh/installation-maintenance-and-repair/medical-equipment-repairers.htm",
-    "cascade_risk": 3,
+    "cascade_risk": 4,
     "derived_demand_pct": 25,
-    "cascade_rationale": "I-O cascade via real_estate (1.11x multiplier); sector multiplier 1.03x",
+    "cascade_rationale": "I-O cascade via sectors 31G (1.06x), 53 (1.07x); weighted multiplier 1.03x [BEA 2022 Use Table]",
     "io_multiplier": 1.03
   },
   {
@@ -3583,8 +3583,8 @@
     "url": "https://www.bls.gov/ooh/healthcare/medical-records-and-health-information-technicians.htm",
     "cascade_risk": 9,
     "derived_demand_pct": 55,
-    "cascade_rationale": "Minimal cascade effect; sector multiplier 1.00x",
-    "io_multiplier": 1
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x); weighted multiplier 1.01x [BEA 2022 Use Table]",
+    "io_multiplier": 1.01
   },
   {
     "title": "Medical scientists",
@@ -3600,8 +3600,8 @@
     "url": "https://www.bls.gov/ooh/life-physical-and-social-science/medical-scientists.htm",
     "cascade_risk": 7,
     "derived_demand_pct": 35,
-    "cascade_rationale": "I-O cascade via professional (1.15x multiplier); sector multiplier 1.06x",
-    "io_multiplier": 1.06
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x), 31G (1.06x); weighted multiplier 1.04x [BEA 2022 Use Table]",
+    "io_multiplier": 1.04
   },
   {
     "title": "Medical transcriptionists",
@@ -3617,8 +3617,8 @@
     "url": "https://www.bls.gov/ooh/healthcare/medical-transcriptionists.htm",
     "cascade_risk": 10,
     "derived_demand_pct": 65,
-    "cascade_rationale": "Minimal cascade effect; sector multiplier 1.00x",
-    "io_multiplier": 1
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x); weighted multiplier 1.01x [BEA 2022 Use Table]",
+    "io_multiplier": 1.01
   },
   {
     "title": "Meeting, convention, and event planners",
@@ -3634,8 +3634,8 @@
     "url": "https://www.bls.gov/ooh/business-and-financial/meeting-convention-and-event-planners.htm",
     "cascade_risk": 7,
     "derived_demand_pct": 80,
-    "cascade_rationale": "I-O cascade via finance (1.06x multiplier), professional (1.15x multiplier), admin_support (1.09x multiplier); sector multiplier 1.09x",
-    "io_multiplier": 1.09
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x), 53 (1.07x); weighted multiplier 1.05x [BEA 2022 Use Table]",
+    "io_multiplier": 1.05
   },
   {
     "title": "Metal and plastic machine workers",
@@ -3651,8 +3651,8 @@
     "url": "https://www.bls.gov/ooh/production/metal-and-plastic-machine-workers.htm",
     "cascade_risk": 4,
     "derived_demand_pct": 20,
-    "cascade_rationale": "Minimal cascade effect; sector multiplier 1.00x",
-    "io_multiplier": 1
+    "cascade_rationale": "I-O cascade via sectors 31G (1.06x); weighted multiplier 1.05x [BEA 2022 Use Table]",
+    "io_multiplier": 1.05
   },
   {
     "title": "Microbiologists",
@@ -3668,8 +3668,8 @@
     "url": "https://www.bls.gov/ooh/life-physical-and-social-science/microbiologists.htm",
     "cascade_risk": 6,
     "derived_demand_pct": 25,
-    "cascade_rationale": "I-O cascade via professional (1.15x multiplier); sector multiplier 1.06x",
-    "io_multiplier": 1.06
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x), 31G (1.06x); weighted multiplier 1.04x [BEA 2022 Use Table]",
+    "io_multiplier": 1.04
   },
   {
     "title": "Middle school teachers",
@@ -3685,7 +3685,7 @@
     "url": "https://www.bls.gov/ooh/education-training-and-library/middle-school-teachers.htm",
     "cascade_risk": 6,
     "derived_demand_pct": 55,
-    "cascade_rationale": "Minimal cascade effect; sector multiplier 1.00x",
+    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.00x [BEA 2022 Use Table]",
     "io_multiplier": 1
   },
   {
@@ -3700,9 +3700,9 @@
     "exposure": 4,
     "exposure_rationale": "Military careers are a vast composite of physical combat, manual labor, and high-level digital strategy. While AI will heavily automate back-office administration, logistics, and intelligence analysis (high exposure), the core requirements of physical presence, tactical human leadership, and operation in unpredictable physical environments provide a significant buffer.",
     "url": "https://www.bls.gov/ooh/military/military-careers.htm",
-    "cascade_risk": 4,
+    "cascade_risk": 5,
     "derived_demand_pct": 5,
-    "cascade_rationale": "Minimal cascade effect; sector multiplier 1.00x",
+    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.00x [BEA 2022 Use Table]",
     "io_multiplier": 1
   },
   {
@@ -3719,8 +3719,8 @@
     "url": "https://www.bls.gov/ooh/architecture-and-engineering/mining-and-geological-engineers.htm",
     "cascade_risk": 6,
     "derived_demand_pct": 20,
-    "cascade_rationale": "I-O cascade via professional (1.15x multiplier); sector multiplier 1.07x",
-    "io_multiplier": 1.07
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x), 31G (1.06x); weighted multiplier 1.06x [BEA 2022 Use Table]",
+    "io_multiplier": 1.06
   },
   {
     "title": "Models",
@@ -3736,8 +3736,8 @@
     "url": "https://www.bls.gov/ooh/sales/models.htm",
     "cascade_risk": 8,
     "derived_demand_pct": 75,
-    "cascade_rationale": "I-O cascade via finance (1.06x multiplier), real_estate (1.11x multiplier), professional (1.15x multiplier); sector multiplier 1.04x",
-    "io_multiplier": 1.04
+    "cascade_rationale": "I-O cascade via sectors 53 (1.07x), PROF (1.10x); weighted multiplier 1.03x [BEA 2022 Use Table]",
+    "io_multiplier": 1.03
   },
   {
     "title": "Music directors and composers",
@@ -3753,8 +3753,8 @@
     "url": "https://www.bls.gov/ooh/entertainment-and-sports/music-directors-and-composers.htm",
     "cascade_risk": 7,
     "derived_demand_pct": 65,
-    "cascade_rationale": "I-O cascade via information (1.10x multiplier); sector multiplier 1.03x",
-    "io_multiplier": 1.03
+    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.02x [BEA 2022 Use Table]",
+    "io_multiplier": 1.02
   },
   {
     "title": "Musicians and singers",
@@ -3770,8 +3770,8 @@
     "url": "https://www.bls.gov/ooh/entertainment-and-sports/musicians-and-singers.htm",
     "cascade_risk": 4,
     "derived_demand_pct": 70,
-    "cascade_rationale": "I-O cascade via information (1.10x multiplier); sector multiplier 1.03x",
-    "io_multiplier": 1.03
+    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.02x [BEA 2022 Use Table]",
+    "io_multiplier": 1.02
   },
   {
     "title": "Natural sciences managers",
@@ -3787,8 +3787,8 @@
     "url": "https://www.bls.gov/ooh/management/natural-sciences-managers.htm",
     "cascade_risk": 7,
     "derived_demand_pct": 40,
-    "cascade_rationale": "I-O cascade via professional (1.15x multiplier), finance (1.06x multiplier), information (1.10x multiplier); sector multiplier 1.06x",
-    "io_multiplier": 1.06
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x), 31G (1.06x); weighted multiplier 1.04x [BEA 2022 Use Table]",
+    "io_multiplier": 1.04
   },
   {
     "title": "Network and computer systems administrators",
@@ -3804,7 +3804,7 @@
     "url": "https://www.bls.gov/ooh/computer-and-information-technology/network-and-computer-systems-administrators.htm",
     "cascade_risk": 8,
     "derived_demand_pct": 80,
-    "cascade_rationale": "",
+    "cascade_rationale": "No sector mapping for category \"computer-and-information-technology\"",
     "io_multiplier": 1
   },
   {
@@ -3821,8 +3821,8 @@
     "url": "https://www.bls.gov/ooh/media-and-communication/reporters-correspondents-and-broadcast-news-analysts.htm",
     "cascade_risk": 7,
     "derived_demand_pct": 40,
-    "cascade_rationale": "I-O cascade via information (1.10x multiplier), professional (1.15x multiplier); sector multiplier 1.08x",
-    "io_multiplier": 1.08
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x); weighted multiplier 1.05x [BEA 2022 Use Table]",
+    "io_multiplier": 1.05
   },
   {
     "title": "Nuclear engineers",
@@ -3838,8 +3838,8 @@
     "url": "https://www.bls.gov/ooh/architecture-and-engineering/nuclear-engineers.htm",
     "cascade_risk": 7,
     "derived_demand_pct": 10,
-    "cascade_rationale": "I-O cascade via professional (1.15x multiplier); sector multiplier 1.07x",
-    "io_multiplier": 1.07
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x), 31G (1.06x); weighted multiplier 1.06x [BEA 2022 Use Table]",
+    "io_multiplier": 1.06
   },
   {
     "title": "Nuclear medicine technologists",
@@ -3855,8 +3855,8 @@
     "url": "https://www.bls.gov/ooh/healthcare/nuclear-medicine-technologists.htm",
     "cascade_risk": 4,
     "derived_demand_pct": 45,
-    "cascade_rationale": "Minimal cascade effect; sector multiplier 1.00x",
-    "io_multiplier": 1
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x); weighted multiplier 1.01x [BEA 2022 Use Table]",
+    "io_multiplier": 1.01
   },
   {
     "title": "Nuclear technicians",
@@ -3872,8 +3872,8 @@
     "url": "https://www.bls.gov/ooh/life-physical-and-social-science/nuclear-technicians.htm",
     "cascade_risk": 5,
     "derived_demand_pct": 10,
-    "cascade_rationale": "I-O cascade via professional (1.15x multiplier); sector multiplier 1.06x",
-    "io_multiplier": 1.06
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x), 31G (1.06x); weighted multiplier 1.04x [BEA 2022 Use Table]",
+    "io_multiplier": 1.04
   },
   {
     "title": "Nurse anesthetists, nurse midwives, and nurse practitioners",
@@ -3889,8 +3889,8 @@
     "url": "https://www.bls.gov/ooh/healthcare/nurse-anesthetists-nurse-midwives-and-nurse-practitioners.htm",
     "cascade_risk": 5,
     "derived_demand_pct": 50,
-    "cascade_rationale": "Minimal cascade effect; sector multiplier 1.00x",
-    "io_multiplier": 1
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x); weighted multiplier 1.01x [BEA 2022 Use Table]",
+    "io_multiplier": 1.01
   },
   {
     "title": "Nursing assistants and orderlies",
@@ -3904,10 +3904,10 @@
     "exposure": 2,
     "exposure_rationale": "The core duties of nursing assistants and orderlies—such as bathing, dressing, and physically transferring patients—are highly manual and require real-time human presence in unpredictable physical environments. While AI may assist with peripheral tasks like recording vital signs or scheduling, the primary work product is physical care and interpersonal support, which remains largely insulated from AI automation.",
     "url": "https://www.bls.gov/ooh/healthcare/nursing-assistants.htm",
-    "cascade_risk": 3,
+    "cascade_risk": 4,
     "derived_demand_pct": 35,
-    "cascade_rationale": "Minimal cascade effect; sector multiplier 1.00x",
-    "io_multiplier": 1
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x); weighted multiplier 1.01x [BEA 2022 Use Table]",
+    "io_multiplier": 1.01
   },
   {
     "title": "Occupational health and safety specialists and technicians",
@@ -3923,8 +3923,8 @@
     "url": "https://www.bls.gov/ooh/healthcare/occupational-health-and-safety-specialists-and-technicians.htm",
     "cascade_risk": 5,
     "derived_demand_pct": 40,
-    "cascade_rationale": "Minimal cascade effect; sector multiplier 1.00x",
-    "io_multiplier": 1
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x); weighted multiplier 1.01x [BEA 2022 Use Table]",
+    "io_multiplier": 1.01
   },
   {
     "title": "Occupational therapists",
@@ -3938,10 +3938,10 @@
     "exposure": 3,
     "exposure_rationale": "Occupational therapy is a highly physical and interpersonal profession that requires real-time observation, manual manipulation of patients, and the assessment of physical environments like homes and workplaces. While AI can assist with peripheral tasks such as treatment planning, progress documentation, and medical history analysis, the core of the job involves hands-on rehabilitation and emotional support that cannot be replicated digitally.",
     "url": "https://www.bls.gov/ooh/healthcare/occupational-therapists.htm",
-    "cascade_risk": 3,
+    "cascade_risk": 4,
     "derived_demand_pct": 55,
-    "cascade_rationale": "Minimal cascade effect; sector multiplier 1.00x",
-    "io_multiplier": 1
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x); weighted multiplier 1.01x [BEA 2022 Use Table]",
+    "io_multiplier": 1.01
   },
   {
     "title": "Occupational therapy assistants and aides",
@@ -3955,10 +3955,10 @@
     "exposure": 3,
     "exposure_rationale": "The core of this occupation involves physical assistance, manual therapy, and real-time human interaction, such as lifting patients and guiding motor skill exercises, which AI cannot perform. While AI can streamline administrative tasks like scheduling, documentation, and billing, the primary value of the role is rooted in physical presence and empathetic interpersonal support.",
     "url": "https://www.bls.gov/ooh/healthcare/occupational-therapy-assistants-and-aides.htm",
-    "cascade_risk": 3,
+    "cascade_risk": 4,
     "derived_demand_pct": 55,
-    "cascade_rationale": "Minimal cascade effect; sector multiplier 1.00x",
-    "io_multiplier": 1
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x); weighted multiplier 1.01x [BEA 2022 Use Table]",
+    "io_multiplier": 1.01
   },
   {
     "title": "Oil and gas workers",
@@ -3974,7 +3974,7 @@
     "url": "https://www.bls.gov/ooh/construction-and-extraction/oil-and-gas-workers.htm",
     "cascade_risk": 3,
     "derived_demand_pct": 25,
-    "cascade_rationale": "Minimal cascade effect; sector multiplier 1.01x",
+    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.01x [BEA 2022 Use Table]",
     "io_multiplier": 1.01
   },
   {
@@ -3991,8 +3991,8 @@
     "url": "https://www.bls.gov/ooh/math/operations-research-analysts.htm",
     "cascade_risk": 9,
     "derived_demand_pct": 95,
-    "cascade_rationale": "I-O cascade via finance (1.06x multiplier), professional (1.15x multiplier), information (1.10x multiplier); sector multiplier 1.09x",
-    "io_multiplier": 1.09
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x); weighted multiplier 1.05x [BEA 2022 Use Table]",
+    "io_multiplier": 1.05
   },
   {
     "title": "Opticians",
@@ -4008,8 +4008,8 @@
     "url": "https://www.bls.gov/ooh/healthcare/opticians-dispensing.htm",
     "cascade_risk": 4,
     "derived_demand_pct": 35,
-    "cascade_rationale": "Minimal cascade effect; sector multiplier 1.00x",
-    "io_multiplier": 1
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x); weighted multiplier 1.01x [BEA 2022 Use Table]",
+    "io_multiplier": 1.01
   },
   {
     "title": "Optometrists",
@@ -4025,8 +4025,8 @@
     "url": "https://www.bls.gov/ooh/healthcare/optometrists.htm",
     "cascade_risk": 4,
     "derived_demand_pct": 30,
-    "cascade_rationale": "Minimal cascade effect; sector multiplier 1.00x",
-    "io_multiplier": 1
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x); weighted multiplier 1.01x [BEA 2022 Use Table]",
+    "io_multiplier": 1.01
   },
   {
     "title": "Orthotists and prosthetists",
@@ -4042,8 +4042,8 @@
     "url": "https://www.bls.gov/ooh/healthcare/orthotists-and-prosthetists.htm",
     "cascade_risk": 4,
     "derived_demand_pct": 65,
-    "cascade_rationale": "Minimal cascade effect; sector multiplier 1.00x",
-    "io_multiplier": 1
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x); weighted multiplier 1.01x [BEA 2022 Use Table]",
+    "io_multiplier": 1.01
   },
   {
     "title": "Painters, construction and maintenance",
@@ -4059,7 +4059,7 @@
     "url": "https://www.bls.gov/ooh/construction-and-extraction/painters-construction-and-maintenance.htm",
     "cascade_risk": 2,
     "derived_demand_pct": 55,
-    "cascade_rationale": "Minimal cascade effect; sector multiplier 1.01x",
+    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.01x [BEA 2022 Use Table]",
     "io_multiplier": 1.01
   },
   {
@@ -4076,8 +4076,8 @@
     "url": "https://www.bls.gov/ooh/production/painting-and-coating-workers.htm",
     "cascade_risk": 4,
     "derived_demand_pct": 35,
-    "cascade_rationale": "Minimal cascade effect; sector multiplier 1.00x",
-    "io_multiplier": 1
+    "cascade_rationale": "I-O cascade via sectors 31G (1.06x); weighted multiplier 1.05x [BEA 2022 Use Table]",
+    "io_multiplier": 1.05
   },
   {
     "title": "Paralegals and legal assistants",
@@ -4093,8 +4093,8 @@
     "url": "https://www.bls.gov/ooh/legal/paralegals-and-legal-assistants.htm",
     "cascade_risk": 9,
     "derived_demand_pct": 98,
-    "cascade_rationale": "I-O cascade via professional (1.15x multiplier), finance (1.06x multiplier); sector multiplier 1.09x",
-    "io_multiplier": 1.09
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x); weighted multiplier 1.06x [BEA 2022 Use Table]",
+    "io_multiplier": 1.06
   },
   {
     "title": "Personal financial advisors",
@@ -4108,10 +4108,10 @@
     "exposure": 7,
     "exposure_rationale": "The core technical tasks of this role—analyzing market data, optimizing portfolios, and tax planning—are digital and highly susceptible to AI automation, as evidenced by the rise of robo-advisors. However, the occupation is protected by a significant interpersonal component, as clients often require human trust, emotional reassurance during market volatility, and complex ethical judgment that AI cannot yet fully replicate.",
     "url": "https://www.bls.gov/ooh/business-and-financial/personal-financial-advisors.htm",
-    "cascade_risk": 8,
+    "cascade_risk": 7,
     "derived_demand_pct": 85,
-    "cascade_rationale": "I-O cascade via finance (1.06x multiplier), professional (1.15x multiplier), admin_support (1.09x multiplier); sector multiplier 1.09x",
-    "io_multiplier": 1.09
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x), 53 (1.07x); weighted multiplier 1.05x [BEA 2022 Use Table]",
+    "io_multiplier": 1.05
   },
   {
     "title": "Pest control workers",
@@ -4127,8 +4127,8 @@
     "url": "https://www.bls.gov/ooh/building-and-grounds-cleaning/pest-control-workers.htm",
     "cascade_risk": 4,
     "derived_demand_pct": 45,
-    "cascade_rationale": "I-O cascade via real_estate (1.11x multiplier), admin_support (1.09x multiplier); sector multiplier 1.07x",
-    "io_multiplier": 1.07
+    "cascade_rationale": "I-O cascade via sectors 53 (1.07x), PROF (1.10x); weighted multiplier 1.05x [BEA 2022 Use Table]",
+    "io_multiplier": 1.05
   },
   {
     "title": "Petroleum engineers",
@@ -4144,8 +4144,8 @@
     "url": "https://www.bls.gov/ooh/architecture-and-engineering/petroleum-engineers.htm",
     "cascade_risk": 6,
     "derived_demand_pct": 20,
-    "cascade_rationale": "I-O cascade via professional (1.15x multiplier); sector multiplier 1.07x",
-    "io_multiplier": 1.07
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x), 31G (1.06x); weighted multiplier 1.06x [BEA 2022 Use Table]",
+    "io_multiplier": 1.06
   },
   {
     "title": "Pharmacists",
@@ -4161,8 +4161,8 @@
     "url": "https://www.bls.gov/ooh/healthcare/pharmacists.htm",
     "cascade_risk": 5,
     "derived_demand_pct": 30,
-    "cascade_rationale": "Minimal cascade effect; sector multiplier 1.00x",
-    "io_multiplier": 1
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x); weighted multiplier 1.01x [BEA 2022 Use Table]",
+    "io_multiplier": 1.01
   },
   {
     "title": "Pharmacy technicians",
@@ -4178,8 +4178,8 @@
     "url": "https://www.bls.gov/ooh/healthcare/pharmacy-technicians.htm",
     "cascade_risk": 4,
     "derived_demand_pct": 35,
-    "cascade_rationale": "Minimal cascade effect; sector multiplier 1.00x",
-    "io_multiplier": 1
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x); weighted multiplier 1.01x [BEA 2022 Use Table]",
+    "io_multiplier": 1.01
   },
   {
     "title": "Phlebotomists",
@@ -4193,10 +4193,10 @@
     "exposure": 2,
     "exposure_rationale": "The core of the job is a highly tactile, physical procedure (venipuncture) performed on human patients in unpredictable clinical settings, which is resistant to AI automation. While AI can assist with peripheral tasks like data entry, sample tracking, and scheduling, the primary value of the role lies in manual dexterity and providing interpersonal emotional support to anxious patients.",
     "url": "https://www.bls.gov/ooh/healthcare/phlebotomists.htm",
-    "cascade_risk": 3,
+    "cascade_risk": 4,
     "derived_demand_pct": 30,
-    "cascade_rationale": "Minimal cascade effect; sector multiplier 1.00x",
-    "io_multiplier": 1
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x); weighted multiplier 1.01x [BEA 2022 Use Table]",
+    "io_multiplier": 1.01
   },
   {
     "title": "Photographers",
@@ -4212,8 +4212,8 @@
     "url": "https://www.bls.gov/ooh/media-and-communication/photographers.htm",
     "cascade_risk": 7,
     "derived_demand_pct": 65,
-    "cascade_rationale": "I-O cascade via information (1.10x multiplier), professional (1.15x multiplier); sector multiplier 1.08x",
-    "io_multiplier": 1.08
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x); weighted multiplier 1.05x [BEA 2022 Use Table]",
+    "io_multiplier": 1.05
   },
   {
     "title": "Physical therapist assistants and aides",
@@ -4227,10 +4227,10 @@
     "exposure": 3,
     "exposure_rationale": "The core of this occupation involves physical, hands-on work such as massage, stretching, and assisting patients with mobility, which AI cannot perform. While AI can streamline peripheral tasks like scheduling, documentation, and exercise plan generation, the requirement for real-time human presence and physical dexterity creates a strong barrier to automation.",
     "url": "https://www.bls.gov/ooh/healthcare/physical-therapist-assistants-and-aides.htm",
-    "cascade_risk": 3,
+    "cascade_risk": 4,
     "derived_demand_pct": 45,
-    "cascade_rationale": "Minimal cascade effect; sector multiplier 1.00x",
-    "io_multiplier": 1
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x); weighted multiplier 1.01x [BEA 2022 Use Table]",
+    "io_multiplier": 1.01
   },
   {
     "title": "Physical therapists",
@@ -4244,10 +4244,10 @@
     "exposure": 3,
     "exposure_rationale": "The core of physical therapy involves manual manipulation, physical assistance, and real-time observation of human movement in a physical environment, which AI cannot replicate. While AI can assist with administrative tasks, medical history review, and generating personalized exercise plans, the high level of physical dexterity and interpersonal empathy required limits its overall exposure.",
     "url": "https://www.bls.gov/ooh/healthcare/physical-therapists.htm",
-    "cascade_risk": 3,
+    "cascade_risk": 4,
     "derived_demand_pct": 45,
-    "cascade_rationale": "Minimal cascade effect; sector multiplier 1.00x",
-    "io_multiplier": 1
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x); weighted multiplier 1.01x [BEA 2022 Use Table]",
+    "io_multiplier": 1.01
   },
   {
     "title": "Physician assistants",
@@ -4263,8 +4263,8 @@
     "url": "https://www.bls.gov/ooh/healthcare/physician-assistants.htm",
     "cascade_risk": 5,
     "derived_demand_pct": 35,
-    "cascade_rationale": "Minimal cascade effect; sector multiplier 1.00x",
-    "io_multiplier": 1
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x); weighted multiplier 1.01x [BEA 2022 Use Table]",
+    "io_multiplier": 1.01
   },
   {
     "title": "Physicians and surgeons",
@@ -4280,8 +4280,8 @@
     "url": "https://www.bls.gov/ooh/healthcare/physicians-and-surgeons.htm",
     "cascade_risk": 5,
     "derived_demand_pct": 40,
-    "cascade_rationale": "Minimal cascade effect; sector multiplier 1.00x",
-    "io_multiplier": 1
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x); weighted multiplier 1.01x [BEA 2022 Use Table]",
+    "io_multiplier": 1.01
   },
   {
     "title": "Physicists and astronomers",
@@ -4297,8 +4297,8 @@
     "url": "https://www.bls.gov/ooh/life-physical-and-social-science/physicists-and-astronomers.htm",
     "cascade_risk": 7,
     "derived_demand_pct": 55,
-    "cascade_rationale": "I-O cascade via professional (1.15x multiplier); sector multiplier 1.06x",
-    "io_multiplier": 1.06
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x), 31G (1.06x); weighted multiplier 1.04x [BEA 2022 Use Table]",
+    "io_multiplier": 1.04
   },
   {
     "title": "Plumbers, pipefitters, and steamfitters",
@@ -4314,7 +4314,7 @@
     "url": "https://www.bls.gov/ooh/construction-and-extraction/plumbers-pipefitters-and-steamfitters.htm",
     "cascade_risk": 2,
     "derived_demand_pct": 55,
-    "cascade_rationale": "Minimal cascade effect; sector multiplier 1.01x",
+    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.01x [BEA 2022 Use Table]",
     "io_multiplier": 1.01
   },
   {
@@ -4331,8 +4331,8 @@
     "url": "https://www.bls.gov/ooh/healthcare/podiatrists.htm",
     "cascade_risk": 4,
     "derived_demand_pct": 20,
-    "cascade_rationale": "Minimal cascade effect; sector multiplier 1.00x",
-    "io_multiplier": 1
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x); weighted multiplier 1.01x [BEA 2022 Use Table]",
+    "io_multiplier": 1.01
   },
   {
     "title": "Police and detectives",
@@ -4348,8 +4348,8 @@
     "url": "https://www.bls.gov/ooh/protective-service/police-and-detectives.htm",
     "cascade_risk": 5,
     "derived_demand_pct": 10,
-    "cascade_rationale": "I-O cascade via admin_support (1.09x multiplier), real_estate (1.11x multiplier); sector multiplier 1.05x",
-    "io_multiplier": 1.05
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x), 53 (1.07x); weighted multiplier 1.04x [BEA 2022 Use Table]",
+    "io_multiplier": 1.04
   },
   {
     "title": "Political scientists",
@@ -4365,8 +4365,8 @@
     "url": "https://www.bls.gov/ooh/life-physical-and-social-science/political-scientists.htm",
     "cascade_risk": 8,
     "derived_demand_pct": 40,
-    "cascade_rationale": "I-O cascade via professional (1.15x multiplier); sector multiplier 1.06x",
-    "io_multiplier": 1.06
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x), 31G (1.06x); weighted multiplier 1.04x [BEA 2022 Use Table]",
+    "io_multiplier": 1.04
   },
   {
     "title": "Postal service workers",
@@ -4382,8 +4382,8 @@
     "url": "https://www.bls.gov/ooh/office-and-administrative-support/postal-service-workers.htm",
     "cascade_risk": 5,
     "derived_demand_pct": 25,
-    "cascade_rationale": "I-O cascade via finance (1.06x multiplier), professional (1.15x multiplier), admin_support (1.09x multiplier); sector multiplier 1.07x",
-    "io_multiplier": 1.07
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x), 53 (1.07x), 31G (1.06x); weighted multiplier 1.04x [BEA 2022 Use Table]",
+    "io_multiplier": 1.04
   },
   {
     "title": "Postsecondary education administrators",
@@ -4399,8 +4399,8 @@
     "url": "https://www.bls.gov/ooh/management/postsecondary-education-administrators.htm",
     "cascade_risk": 7,
     "derived_demand_pct": 60,
-    "cascade_rationale": "I-O cascade via professional (1.15x multiplier), finance (1.06x multiplier), information (1.10x multiplier); sector multiplier 1.06x",
-    "io_multiplier": 1.06
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x), 31G (1.06x); weighted multiplier 1.04x [BEA 2022 Use Table]",
+    "io_multiplier": 1.04
   },
   {
     "title": "Postsecondary teachers",
@@ -4416,7 +4416,7 @@
     "url": "https://www.bls.gov/ooh/education-training-and-library/postsecondary-teachers.htm",
     "cascade_risk": 7,
     "derived_demand_pct": 65,
-    "cascade_rationale": "Minimal cascade effect; sector multiplier 1.00x",
+    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.00x [BEA 2022 Use Table]",
     "io_multiplier": 1
   },
   {
@@ -4433,8 +4433,8 @@
     "url": "https://www.bls.gov/ooh/production/power-plant-operators-distributors-and-dispatchers.htm",
     "cascade_risk": 6,
     "derived_demand_pct": 20,
-    "cascade_rationale": "Minimal cascade effect; sector multiplier 1.00x",
-    "io_multiplier": 1
+    "cascade_rationale": "I-O cascade via sectors 31G (1.06x); weighted multiplier 1.05x [BEA 2022 Use Table]",
+    "io_multiplier": 1.05
   },
   {
     "title": "Preschool and childcare center directors",
@@ -4450,8 +4450,8 @@
     "url": "https://www.bls.gov/ooh/management/preschool-and-childcare-center-directors.htm",
     "cascade_risk": 6,
     "derived_demand_pct": 75,
-    "cascade_rationale": "I-O cascade via professional (1.15x multiplier), finance (1.06x multiplier), information (1.10x multiplier); sector multiplier 1.06x",
-    "io_multiplier": 1.06
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x), 31G (1.06x); weighted multiplier 1.04x [BEA 2022 Use Table]",
+    "io_multiplier": 1.04
   },
   {
     "title": "Preschool teachers",
@@ -4465,9 +4465,9 @@
     "exposure": 3,
     "exposure_rationale": "The core of this occupation involves physical care, emotional support, and real-time social interaction with children under age five, which AI cannot replicate. While AI can assist with peripheral tasks like lesson planning, curriculum design, and progress reporting, the primary job requires physical presence and human empathy to manage safety and developmental needs.",
     "url": "https://www.bls.gov/ooh/education-training-and-library/preschool-teachers.htm",
-    "cascade_risk": 3,
+    "cascade_risk": 4,
     "derived_demand_pct": 75,
-    "cascade_rationale": "Minimal cascade effect; sector multiplier 1.00x",
+    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.00x [BEA 2022 Use Table]",
     "io_multiplier": 1
   },
   {
@@ -4484,8 +4484,8 @@
     "url": "https://www.bls.gov/ooh/protective-service/private-detectives-and-investigators.htm",
     "cascade_risk": 6,
     "derived_demand_pct": 55,
-    "cascade_rationale": "I-O cascade via admin_support (1.09x multiplier), real_estate (1.11x multiplier); sector multiplier 1.05x",
-    "io_multiplier": 1.05
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x), 53 (1.07x); weighted multiplier 1.04x [BEA 2022 Use Table]",
+    "io_multiplier": 1.04
   },
   {
     "title": "Probation officers and correctional treatment specialists",
@@ -4501,7 +4501,7 @@
     "url": "https://www.bls.gov/ooh/community-and-social-service/probation-officers-and-correctional-treatment-specialists.htm",
     "cascade_risk": 6,
     "derived_demand_pct": 5,
-    "cascade_rationale": "Minimal cascade effect; sector multiplier 1.00x",
+    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.00x [BEA 2022 Use Table]",
     "io_multiplier": 1
   },
   {
@@ -4518,8 +4518,8 @@
     "url": "https://www.bls.gov/ooh/entertainment-and-sports/producers-and-directors.htm",
     "cascade_risk": 7,
     "derived_demand_pct": 60,
-    "cascade_rationale": "I-O cascade via information (1.10x multiplier); sector multiplier 1.03x",
-    "io_multiplier": 1.03
+    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.02x [BEA 2022 Use Table]",
+    "io_multiplier": 1.02
   },
   {
     "title": "Project management specialists",
@@ -4533,10 +4533,10 @@
     "exposure": 7,
     "exposure_rationale": "Project management is a digital-heavy knowledge occupation involving data analysis, scheduling, and documentation, all of which are highly susceptible to AI automation and optimization. While AI can significantly increase productivity in planning and monitoring, the role's heavy reliance on human-centric skills like stakeholder negotiation, conflict resolution, and team leadership provides a protective barrier against full automation.",
     "url": "https://www.bls.gov/ooh/business-and-financial/project-management-specialists.htm",
-    "cascade_risk": 8,
+    "cascade_risk": 7,
     "derived_demand_pct": 90,
-    "cascade_rationale": "I-O cascade via finance (1.06x multiplier), professional (1.15x multiplier), admin_support (1.09x multiplier); sector multiplier 1.09x",
-    "io_multiplier": 1.09
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x), 53 (1.07x); weighted multiplier 1.05x [BEA 2022 Use Table]",
+    "io_multiplier": 1.05
   },
   {
     "title": "Property appraisers and assessors",
@@ -4550,10 +4550,10 @@
     "exposure": 7,
     "exposure_rationale": "The core of this occupation involves analyzing data, comparing market trends, and generating reports, all of which are highly susceptible to Automated Valuation Models (AVMs) and AI-driven data analysis. While physical site inspections and the need to defend assessments in public hearings provide a buffer, the shift toward 'desktop appraisals' and AI-assisted mass assessments significantly reduces the human labor required per valuation.",
     "url": "https://www.bls.gov/ooh/business-and-financial/appraisers-and-assessors-of-real-estate.htm",
-    "cascade_risk": 8,
+    "cascade_risk": 7,
     "derived_demand_pct": 75,
-    "cascade_rationale": "I-O cascade via finance (1.06x multiplier), professional (1.15x multiplier), admin_support (1.09x multiplier); sector multiplier 1.09x",
-    "io_multiplier": 1.09
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x), 53 (1.07x); weighted multiplier 1.05x [BEA 2022 Use Table]",
+    "io_multiplier": 1.05
   },
   {
     "title": "Property, real estate, and community association managers",
@@ -4569,8 +4569,8 @@
     "url": "https://www.bls.gov/ooh/management/property-real-estate-and-community-association-managers.htm",
     "cascade_risk": 6,
     "derived_demand_pct": 80,
-    "cascade_rationale": "I-O cascade via professional (1.15x multiplier), finance (1.06x multiplier), information (1.10x multiplier); sector multiplier 1.06x",
-    "io_multiplier": 1.06
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x), 31G (1.06x); weighted multiplier 1.04x [BEA 2022 Use Table]",
+    "io_multiplier": 1.04
   },
   {
     "title": "Psychiatric technicians and aides",
@@ -4584,10 +4584,10 @@
     "exposure": 3,
     "exposure_rationale": "The core of this occupation involves physical tasks such as bathing, feeding, and physically restraining patients, which AI cannot perform. While AI can assist with monitoring patient behavior and automating documentation or reporting, the high requirement for real-time human presence, physical stamina, and interpersonal compassion creates a significant barrier to automation.",
     "url": "https://www.bls.gov/ooh/healthcare/psychiatric-technicians-and-aides.htm",
-    "cascade_risk": 3,
+    "cascade_risk": 4,
     "derived_demand_pct": 40,
-    "cascade_rationale": "Minimal cascade effect; sector multiplier 1.00x",
-    "io_multiplier": 1
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x); weighted multiplier 1.01x [BEA 2022 Use Table]",
+    "io_multiplier": 1.01
   },
   {
     "title": "Psychologists",
@@ -4603,8 +4603,8 @@
     "url": "https://www.bls.gov/ooh/life-physical-and-social-science/psychologists.htm",
     "cascade_risk": 6,
     "derived_demand_pct": 55,
-    "cascade_rationale": "I-O cascade via professional (1.15x multiplier); sector multiplier 1.06x",
-    "io_multiplier": 1.06
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x), 31G (1.06x); weighted multiplier 1.04x [BEA 2022 Use Table]",
+    "io_multiplier": 1.04
   },
   {
     "title": "Public relations and fundraising managers",
@@ -4620,8 +4620,8 @@
     "url": "https://www.bls.gov/ooh/management/public-relations-managers.htm",
     "cascade_risk": 7,
     "derived_demand_pct": 70,
-    "cascade_rationale": "I-O cascade via professional (1.15x multiplier), finance (1.06x multiplier), information (1.10x multiplier); sector multiplier 1.06x",
-    "io_multiplier": 1.06
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x), 31G (1.06x); weighted multiplier 1.04x [BEA 2022 Use Table]",
+    "io_multiplier": 1.04
   },
   {
     "title": "Public relations specialists",
@@ -4637,8 +4637,8 @@
     "url": "https://www.bls.gov/ooh/media-and-communication/public-relations-specialists.htm",
     "cascade_risk": 8,
     "derived_demand_pct": 85,
-    "cascade_rationale": "I-O cascade via information (1.10x multiplier), professional (1.15x multiplier); sector multiplier 1.08x",
-    "io_multiplier": 1.08
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x); weighted multiplier 1.05x [BEA 2022 Use Table]",
+    "io_multiplier": 1.05
   },
   {
     "title": "Public safety telecommunicators",
@@ -4654,8 +4654,8 @@
     "url": "https://www.bls.gov/ooh/office-and-administrative-support/police-fire-and-ambulance-dispatchers.htm",
     "cascade_risk": 7,
     "derived_demand_pct": 10,
-    "cascade_rationale": "I-O cascade via finance (1.06x multiplier), professional (1.15x multiplier), admin_support (1.09x multiplier); sector multiplier 1.07x",
-    "io_multiplier": 1.07
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x), 53 (1.07x), 31G (1.06x); weighted multiplier 1.04x [BEA 2022 Use Table]",
+    "io_multiplier": 1.04
   },
   {
     "title": "Purchasing managers, buyers, and purchasing agents",
@@ -4669,10 +4669,10 @@
     "exposure": 7,
     "exposure_rationale": "The core tasks of analyzing price proposals, monitoring inventory, and reviewing financial reports are highly susceptible to AI automation and optimization. While high-stakes negotiations and physical site visits provide a buffer, the majority of the work is digital information processing that can be significantly streamlined by AI, leading to higher productivity per worker and a restructuring of the procurement process.",
     "url": "https://www.bls.gov/ooh/business-and-financial/purchasing-managers-buyers-and-purchasing-agents.htm",
-    "cascade_risk": 8,
+    "cascade_risk": 7,
     "derived_demand_pct": 75,
-    "cascade_rationale": "I-O cascade via finance (1.06x multiplier), professional (1.15x multiplier), admin_support (1.09x multiplier); sector multiplier 1.09x",
-    "io_multiplier": 1.09
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x), 53 (1.07x); weighted multiplier 1.05x [BEA 2022 Use Table]",
+    "io_multiplier": 1.05
   },
   {
     "title": "Quality control inspectors",
@@ -4688,8 +4688,8 @@
     "url": "https://www.bls.gov/ooh/production/quality-control-inspectors.htm",
     "cascade_risk": 5,
     "derived_demand_pct": 55,
-    "cascade_rationale": "Minimal cascade effect; sector multiplier 1.00x",
-    "io_multiplier": 1
+    "cascade_rationale": "I-O cascade via sectors 31G (1.06x); weighted multiplier 1.05x [BEA 2022 Use Table]",
+    "io_multiplier": 1.05
   },
   {
     "title": "Radiation therapists",
@@ -4705,8 +4705,8 @@
     "url": "https://www.bls.gov/ooh/healthcare/radiation-therapists.htm",
     "cascade_risk": 4,
     "derived_demand_pct": 70,
-    "cascade_rationale": "Minimal cascade effect; sector multiplier 1.00x",
-    "io_multiplier": 1
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x); weighted multiplier 1.01x [BEA 2022 Use Table]",
+    "io_multiplier": 1.01
   },
   {
     "title": "Radiologic and MRI technologists",
@@ -4722,8 +4722,8 @@
     "url": "https://www.bls.gov/ooh/healthcare/radiologic-technologists.htm",
     "cascade_risk": 4,
     "derived_demand_pct": 70,
-    "cascade_rationale": "Minimal cascade effect; sector multiplier 1.00x",
-    "io_multiplier": 1
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x); weighted multiplier 1.01x [BEA 2022 Use Table]",
+    "io_multiplier": 1.01
   },
   {
     "title": "Railroad workers",
@@ -4739,8 +4739,8 @@
     "url": "https://www.bls.gov/ooh/transportation-and-material-moving/railroad-occupations.htm",
     "cascade_risk": 4,
     "derived_demand_pct": 65,
-    "cascade_rationale": "Minimal cascade effect; sector multiplier 1.00x",
-    "io_multiplier": 1
+    "cascade_rationale": "I-O cascade via sectors 31G (1.06x); weighted multiplier 1.02x [BEA 2022 Use Table]",
+    "io_multiplier": 1.02
   },
   {
     "title": "Real estate brokers and sales agents",
@@ -4756,8 +4756,8 @@
     "url": "https://www.bls.gov/ooh/sales/real-estate-brokers-and-sales-agents.htm",
     "cascade_risk": 6,
     "derived_demand_pct": 90,
-    "cascade_rationale": "I-O cascade via finance (1.06x multiplier), real_estate (1.11x multiplier), professional (1.15x multiplier); sector multiplier 1.04x",
-    "io_multiplier": 1.04
+    "cascade_rationale": "I-O cascade via sectors 53 (1.07x), PROF (1.10x); weighted multiplier 1.03x [BEA 2022 Use Table]",
+    "io_multiplier": 1.03
   },
   {
     "title": "Receptionists",
@@ -4773,8 +4773,8 @@
     "url": "https://www.bls.gov/ooh/office-and-administrative-support/receptionists.htm",
     "cascade_risk": 7,
     "derived_demand_pct": 95,
-    "cascade_rationale": "I-O cascade via finance (1.06x multiplier), professional (1.15x multiplier), admin_support (1.09x multiplier); sector multiplier 1.07x",
-    "io_multiplier": 1.07
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x), 53 (1.07x), 31G (1.06x); weighted multiplier 1.04x [BEA 2022 Use Table]",
+    "io_multiplier": 1.04
   },
   {
     "title": "Recreation workers",
@@ -4788,10 +4788,10 @@
     "exposure": 3,
     "exposure_rationale": "The core of this occupation involves physical presence, manual instruction, and real-time interpersonal interaction in unpredictable environments like camps and community centers. While AI can assist with peripheral administrative tasks like scheduling, program planning, and creating newsletters, it cannot replace the physical supervision, safety monitoring, and emotional leadership required to manage group activities.",
     "url": "https://www.bls.gov/ooh/personal-care-and-service/recreation-workers.htm",
-    "cascade_risk": 3,
+    "cascade_risk": 4,
     "derived_demand_pct": 75,
-    "cascade_rationale": "Minimal cascade effect; sector multiplier 1.00x",
-    "io_multiplier": 1
+    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.01x [BEA 2022 Use Table]",
+    "io_multiplier": 1.01
   },
   {
     "title": "Recreational therapists",
@@ -4805,10 +4805,10 @@
     "exposure": 3,
     "exposure_rationale": "The core of this occupation involves physical presence, manual assistance, and real-time interpersonal interaction through activities like adaptive sports, dance, and community outings. While AI can significantly assist with digital tasks like patient assessment, treatment planning, and progress documentation, it cannot replace the physical and emotional labor required to lead therapeutic interventions in person.",
     "url": "https://www.bls.gov/ooh/healthcare/recreational-therapists.htm",
-    "cascade_risk": 3,
+    "cascade_risk": 4,
     "derived_demand_pct": 65,
-    "cascade_rationale": "Minimal cascade effect; sector multiplier 1.00x",
-    "io_multiplier": 1
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x); weighted multiplier 1.01x [BEA 2022 Use Table]",
+    "io_multiplier": 1.01
   },
   {
     "title": "Registered nurses",
@@ -4824,8 +4824,8 @@
     "url": "https://www.bls.gov/ooh/healthcare/registered-nurses.htm",
     "cascade_risk": 4,
     "derived_demand_pct": 80,
-    "cascade_rationale": "Minimal cascade effect; sector multiplier 1.00x",
-    "io_multiplier": 1
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x); weighted multiplier 1.01x [BEA 2022 Use Table]",
+    "io_multiplier": 1.01
   },
   {
     "title": "Rehabilitation counselors",
@@ -4841,7 +4841,7 @@
     "url": "https://www.bls.gov/ooh/community-and-social-service/rehabilitation-counselors.htm",
     "cascade_risk": 5,
     "derived_demand_pct": 20,
-    "cascade_rationale": "Minimal cascade effect; sector multiplier 1.00x",
+    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.00x [BEA 2022 Use Table]",
     "io_multiplier": 1
   },
   {
@@ -4858,8 +4858,8 @@
     "url": "https://www.bls.gov/ooh/healthcare/respiratory-therapists.htm",
     "cascade_risk": 4,
     "derived_demand_pct": 10,
-    "cascade_rationale": "Minimal cascade effect; sector multiplier 1.00x",
-    "io_multiplier": 1
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x); weighted multiplier 1.01x [BEA 2022 Use Table]",
+    "io_multiplier": 1.01
   },
   {
     "title": "Retail sales workers",
@@ -4875,8 +4875,8 @@
     "url": "https://www.bls.gov/ooh/sales/retail-sales-workers.htm",
     "cascade_risk": 5,
     "derived_demand_pct": 60,
-    "cascade_rationale": "I-O cascade via finance (1.06x multiplier), real_estate (1.11x multiplier), professional (1.15x multiplier); sector multiplier 1.04x",
-    "io_multiplier": 1.04
+    "cascade_rationale": "I-O cascade via sectors 53 (1.07x), PROF (1.10x); weighted multiplier 1.03x [BEA 2022 Use Table]",
+    "io_multiplier": 1.03
   },
   {
     "title": "Roofers",
@@ -4892,7 +4892,7 @@
     "url": "https://www.bls.gov/ooh/construction-and-extraction/roofers.htm",
     "cascade_risk": 2,
     "derived_demand_pct": 55,
-    "cascade_rationale": "Minimal cascade effect; sector multiplier 1.01x",
+    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.01x [BEA 2022 Use Table]",
     "io_multiplier": 1.01
   },
   {
@@ -4909,8 +4909,8 @@
     "url": "https://www.bls.gov/ooh/sales/sales-engineers.htm",
     "cascade_risk": 7,
     "derived_demand_pct": 80,
-    "cascade_rationale": "I-O cascade via finance (1.06x multiplier), real_estate (1.11x multiplier), professional (1.15x multiplier); sector multiplier 1.04x",
-    "io_multiplier": 1.04
+    "cascade_rationale": "I-O cascade via sectors 53 (1.07x), PROF (1.10x); weighted multiplier 1.03x [BEA 2022 Use Table]",
+    "io_multiplier": 1.03
   },
   {
     "title": "Sales managers",
@@ -4926,8 +4926,8 @@
     "url": "https://www.bls.gov/ooh/management/sales-managers.htm",
     "cascade_risk": 7,
     "derived_demand_pct": 70,
-    "cascade_rationale": "I-O cascade via professional (1.15x multiplier), finance (1.06x multiplier), information (1.10x multiplier); sector multiplier 1.06x",
-    "io_multiplier": 1.06
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x), 31G (1.06x); weighted multiplier 1.04x [BEA 2022 Use Table]",
+    "io_multiplier": 1.04
   },
   {
     "title": "School and career counselors and advisors",
@@ -4943,7 +4943,7 @@
     "url": "https://www.bls.gov/ooh/community-and-social-service/school-and-career-counselors.htm",
     "cascade_risk": 6,
     "derived_demand_pct": 25,
-    "cascade_rationale": "Minimal cascade effect; sector multiplier 1.00x",
+    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.00x [BEA 2022 Use Table]",
     "io_multiplier": 1
   },
   {
@@ -4960,8 +4960,8 @@
     "url": "https://www.bls.gov/ooh/office-and-administrative-support/secretaries-and-administrative-assistants.htm",
     "cascade_risk": 8,
     "derived_demand_pct": 95,
-    "cascade_rationale": "I-O cascade via finance (1.06x multiplier), professional (1.15x multiplier), admin_support (1.09x multiplier); sector multiplier 1.07x",
-    "io_multiplier": 1.07
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x), 53 (1.07x), 31G (1.06x); weighted multiplier 1.04x [BEA 2022 Use Table]",
+    "io_multiplier": 1.04
   },
   {
     "title": "Securities, commodities, and financial services sales agents",
@@ -4977,8 +4977,8 @@
     "url": "https://www.bls.gov/ooh/sales/securities-commodities-and-financial-services-sales-agents.htm",
     "cascade_risk": 8,
     "derived_demand_pct": 90,
-    "cascade_rationale": "I-O cascade via finance (1.06x multiplier), real_estate (1.11x multiplier), professional (1.15x multiplier); sector multiplier 1.04x",
-    "io_multiplier": 1.04
+    "cascade_rationale": "I-O cascade via sectors 53 (1.07x), PROF (1.10x); weighted multiplier 1.03x [BEA 2022 Use Table]",
+    "io_multiplier": 1.03
   },
   {
     "title": "Security guards and gambling surveillance officers",
@@ -4994,8 +4994,8 @@
     "url": "https://www.bls.gov/ooh/protective-service/security-guards.htm",
     "cascade_risk": 6,
     "derived_demand_pct": 65,
-    "cascade_rationale": "I-O cascade via admin_support (1.09x multiplier), real_estate (1.11x multiplier); sector multiplier 1.05x",
-    "io_multiplier": 1.05
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x), 53 (1.07x); weighted multiplier 1.04x [BEA 2022 Use Table]",
+    "io_multiplier": 1.04
   },
   {
     "title": "Semiconductor processing technicians",
@@ -5011,8 +5011,8 @@
     "url": "https://www.bls.gov/ooh/production/semiconductor-processing-technicians.htm",
     "cascade_risk": 4,
     "derived_demand_pct": 5,
-    "cascade_rationale": "Minimal cascade effect; sector multiplier 1.00x",
-    "io_multiplier": 1
+    "cascade_rationale": "I-O cascade via sectors 31G (1.06x); weighted multiplier 1.05x [BEA 2022 Use Table]",
+    "io_multiplier": 1.05
   },
   {
     "title": "Set and exhibit designers",
@@ -5028,8 +5028,8 @@
     "url": "https://www.bls.gov/ooh/arts-and-design/set-and-exhibit-designers.htm",
     "cascade_risk": 7,
     "derived_demand_pct": 50,
-    "cascade_rationale": "I-O cascade via information (1.10x multiplier), professional (1.15x multiplier); sector multiplier 1.08x",
-    "io_multiplier": 1.08
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x), 31G (1.06x); weighted multiplier 1.05x [BEA 2022 Use Table]",
+    "io_multiplier": 1.05
   },
   {
     "title": "Sheet metal workers",
@@ -5045,7 +5045,7 @@
     "url": "https://www.bls.gov/ooh/construction-and-extraction/sheet-metal-workers.htm",
     "cascade_risk": 3,
     "derived_demand_pct": 60,
-    "cascade_rationale": "Minimal cascade effect; sector multiplier 1.01x",
+    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.01x [BEA 2022 Use Table]",
     "io_multiplier": 1.01
   },
   {
@@ -5060,10 +5060,10 @@
     "exposure": 3,
     "exposure_rationale": "The core of the job involves physical, hands-on treatments like facials, massages, and hair removal that require real-time human presence and manual dexterity. While AI can assist with peripheral tasks like skin analysis, product recommendations, and business management, it cannot replace the tactile and interpersonal nature of the primary service.",
     "url": "https://www.bls.gov/ooh/personal-care-and-service/skincare-specialists.htm",
-    "cascade_risk": 3,
+    "cascade_risk": 4,
     "derived_demand_pct": 70,
-    "cascade_rationale": "Minimal cascade effect; sector multiplier 1.00x",
-    "io_multiplier": 1
+    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.01x [BEA 2022 Use Table]",
+    "io_multiplier": 1.01
   },
   {
     "title": "Small engine mechanics",
@@ -5079,7 +5079,7 @@
     "url": "https://www.bls.gov/ooh/installation-maintenance-and-repair/small-engine-mechanics.htm",
     "cascade_risk": 3,
     "derived_demand_pct": 15,
-    "cascade_rationale": "I-O cascade via real_estate (1.11x multiplier); sector multiplier 1.03x",
+    "cascade_rationale": "I-O cascade via sectors 31G (1.06x), 53 (1.07x); weighted multiplier 1.03x [BEA 2022 Use Table]",
     "io_multiplier": 1.03
   },
   {
@@ -5096,8 +5096,8 @@
     "url": "https://www.bls.gov/ooh/management/social-and-community-service-managers.htm",
     "cascade_risk": 6,
     "derived_demand_pct": 50,
-    "cascade_rationale": "I-O cascade via professional (1.15x multiplier), finance (1.06x multiplier), information (1.10x multiplier); sector multiplier 1.06x",
-    "io_multiplier": 1.06
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x), 31G (1.06x); weighted multiplier 1.04x [BEA 2022 Use Table]",
+    "io_multiplier": 1.04
   },
   {
     "title": "Social and human service assistants",
@@ -5113,7 +5113,7 @@
     "url": "https://www.bls.gov/ooh/community-and-social-service/social-and-human-service-assistants.htm",
     "cascade_risk": 5,
     "derived_demand_pct": 50,
-    "cascade_rationale": "Minimal cascade effect; sector multiplier 1.00x",
+    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.00x [BEA 2022 Use Table]",
     "io_multiplier": 1
   },
   {
@@ -5130,7 +5130,7 @@
     "url": "https://www.bls.gov/ooh/community-and-social-service/social-workers.htm",
     "cascade_risk": 4,
     "derived_demand_pct": 50,
-    "cascade_rationale": "Minimal cascade effect; sector multiplier 1.00x",
+    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.00x [BEA 2022 Use Table]",
     "io_multiplier": 1
   },
   {
@@ -5147,8 +5147,8 @@
     "url": "https://www.bls.gov/ooh/life-physical-and-social-science/sociologists.htm",
     "cascade_risk": 7,
     "derived_demand_pct": 40,
-    "cascade_rationale": "I-O cascade via professional (1.15x multiplier); sector multiplier 1.06x",
-    "io_multiplier": 1.06
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x), 31G (1.06x); weighted multiplier 1.04x [BEA 2022 Use Table]",
+    "io_multiplier": 1.04
   },
   {
     "title": "Software developers, quality assurance analysts, and testers",
@@ -5164,7 +5164,7 @@
     "url": "https://www.bls.gov/ooh/computer-and-information-technology/software-developers.htm",
     "cascade_risk": 9,
     "derived_demand_pct": 70,
-    "cascade_rationale": "",
+    "cascade_rationale": "No sector mapping for category \"computer-and-information-technology\"",
     "io_multiplier": 1
   },
   {
@@ -5181,7 +5181,7 @@
     "url": "https://www.bls.gov/ooh/construction-and-extraction/solar-photovoltaic-installers.htm",
     "cascade_risk": 2,
     "derived_demand_pct": 15,
-    "cascade_rationale": "Minimal cascade effect; sector multiplier 1.01x",
+    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.01x [BEA 2022 Use Table]",
     "io_multiplier": 1.01
   },
   {
@@ -5198,7 +5198,7 @@
     "url": "https://www.bls.gov/ooh/education-training-and-library/special-education-teachers.htm",
     "cascade_risk": 5,
     "derived_demand_pct": 10,
-    "cascade_rationale": "Minimal cascade effect; sector multiplier 1.00x",
+    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.00x [BEA 2022 Use Table]",
     "io_multiplier": 1
   },
   {
@@ -5215,8 +5215,8 @@
     "url": "https://www.bls.gov/ooh/arts-and-design/multimedia-artists-and-animators.htm",
     "cascade_risk": 9,
     "derived_demand_pct": 30,
-    "cascade_rationale": "I-O cascade via information (1.10x multiplier), professional (1.15x multiplier); sector multiplier 1.08x",
-    "io_multiplier": 1.08
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x), 31G (1.06x); weighted multiplier 1.05x [BEA 2022 Use Table]",
+    "io_multiplier": 1.05
   },
   {
     "title": "Speech-language pathologists",
@@ -5232,8 +5232,8 @@
     "url": "https://www.bls.gov/ooh/healthcare/speech-language-pathologists.htm",
     "cascade_risk": 5,
     "derived_demand_pct": 35,
-    "cascade_rationale": "Minimal cascade effect; sector multiplier 1.00x",
-    "io_multiplier": 1
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x); weighted multiplier 1.01x [BEA 2022 Use Table]",
+    "io_multiplier": 1.01
   },
   {
     "title": "Stationary engineers and boiler operators",
@@ -5249,8 +5249,8 @@
     "url": "https://www.bls.gov/ooh/production/stationary-engineers-and-boiler-operators.htm",
     "cascade_risk": 4,
     "derived_demand_pct": 65,
-    "cascade_rationale": "Minimal cascade effect; sector multiplier 1.00x",
-    "io_multiplier": 1
+    "cascade_rationale": "I-O cascade via sectors 31G (1.06x); weighted multiplier 1.05x [BEA 2022 Use Table]",
+    "io_multiplier": 1.05
   },
   {
     "title": "Substance abuse, behavioral disorder, and mental health counselors",
@@ -5266,7 +5266,7 @@
     "url": "https://www.bls.gov/ooh/community-and-social-service/substance-abuse-behavioral-disorder-and-mental-health-counselors.htm",
     "cascade_risk": 5,
     "derived_demand_pct": 45,
-    "cascade_rationale": "Minimal cascade effect; sector multiplier 1.00x",
+    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.00x [BEA 2022 Use Table]",
     "io_multiplier": 1
   },
   {
@@ -5281,10 +5281,10 @@
     "exposure": 3,
     "exposure_rationale": "The core of this occupation is highly physical, requiring manual dexterity, sterile technique, and real-time presence in an operating room. While AI and robotics can assist with surgical precision or inventory management, the role remains centered on hands-on patient care and physical equipment handling that cannot be digitized.",
     "url": "https://www.bls.gov/ooh/healthcare/surgical-technologists.htm",
-    "cascade_risk": 3,
+    "cascade_risk": 4,
     "derived_demand_pct": 40,
-    "cascade_rationale": "Minimal cascade effect; sector multiplier 1.00x",
-    "io_multiplier": 1
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x); weighted multiplier 1.01x [BEA 2022 Use Table]",
+    "io_multiplier": 1.01
   },
   {
     "title": "Survey researchers",
@@ -5300,8 +5300,8 @@
     "url": "https://www.bls.gov/ooh/life-physical-and-social-science/survey-researchers.htm",
     "cascade_risk": 9,
     "derived_demand_pct": 75,
-    "cascade_rationale": "I-O cascade via professional (1.15x multiplier); sector multiplier 1.06x",
-    "io_multiplier": 1.06
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x), 31G (1.06x); weighted multiplier 1.04x [BEA 2022 Use Table]",
+    "io_multiplier": 1.04
   },
   {
     "title": "Surveying and mapping technicians",
@@ -5317,8 +5317,8 @@
     "url": "https://www.bls.gov/ooh/architecture-and-engineering/surveying-and-mapping-technicians.htm",
     "cascade_risk": 5,
     "derived_demand_pct": 65,
-    "cascade_rationale": "I-O cascade via professional (1.15x multiplier); sector multiplier 1.07x",
-    "io_multiplier": 1.07
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x), 31G (1.06x); weighted multiplier 1.06x [BEA 2022 Use Table]",
+    "io_multiplier": 1.06
   },
   {
     "title": "Surveyors",
@@ -5334,8 +5334,8 @@
     "url": "https://www.bls.gov/ooh/architecture-and-engineering/surveyors.htm",
     "cascade_risk": 5,
     "derived_demand_pct": 65,
-    "cascade_rationale": "I-O cascade via professional (1.15x multiplier); sector multiplier 1.07x",
-    "io_multiplier": 1.07
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x), 31G (1.06x); weighted multiplier 1.06x [BEA 2022 Use Table]",
+    "io_multiplier": 1.06
   },
   {
     "title": "Tax examiners and collectors, and revenue agents",
@@ -5351,8 +5351,8 @@
     "url": "https://www.bls.gov/ooh/business-and-financial/tax-examiners-and-collectors-and-revenue-agents.htm",
     "cascade_risk": 8,
     "derived_demand_pct": 50,
-    "cascade_rationale": "I-O cascade via finance (1.06x multiplier), professional (1.15x multiplier), admin_support (1.09x multiplier); sector multiplier 1.09x",
-    "io_multiplier": 1.09
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x), 53 (1.07x); weighted multiplier 1.05x [BEA 2022 Use Table]",
+    "io_multiplier": 1.05
   },
   {
     "title": "Taxi drivers, shuttle drivers, and chauffeurs",
@@ -5368,8 +5368,8 @@
     "url": "https://www.bls.gov/ooh/transportation-and-material-moving/taxi-drivers-and-chauffeurs.htm",
     "cascade_risk": 5,
     "derived_demand_pct": 70,
-    "cascade_rationale": "Minimal cascade effect; sector multiplier 1.00x",
-    "io_multiplier": 1
+    "cascade_rationale": "I-O cascade via sectors 31G (1.06x); weighted multiplier 1.02x [BEA 2022 Use Table]",
+    "io_multiplier": 1.02
   },
   {
     "title": "Teacher assistants",
@@ -5385,7 +5385,7 @@
     "url": "https://www.bls.gov/ooh/education-training-and-library/teacher-assistants.htm",
     "cascade_risk": 4,
     "derived_demand_pct": 40,
-    "cascade_rationale": "Minimal cascade effect; sector multiplier 1.00x",
+    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.00x [BEA 2022 Use Table]",
     "io_multiplier": 1
   },
   {
@@ -5402,8 +5402,8 @@
     "url": "https://www.bls.gov/ooh/media-and-communication/technical-writers.htm",
     "cascade_risk": 9,
     "derived_demand_pct": 85,
-    "cascade_rationale": "I-O cascade via information (1.10x multiplier), professional (1.15x multiplier); sector multiplier 1.08x",
-    "io_multiplier": 1.08
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x); weighted multiplier 1.05x [BEA 2022 Use Table]",
+    "io_multiplier": 1.05
   },
   {
     "title": "Telecommunications technicians",
@@ -5417,9 +5417,9 @@
     "exposure": 3,
     "exposure_rationale": "The core of this occupation is physical labor, including climbing towers, installing hardware, and manual troubleshooting in unpredictable environments, which provides a strong barrier against AI automation. While AI can assist with remote diagnostics, network optimization, and predictive maintenance, the physical necessity of splicing cables and mounting equipment ensures the role remains primarily human-driven.",
     "url": "https://www.bls.gov/ooh/installation-maintenance-and-repair/telecommunications-equipment-installers-and-repairers-except-line-installers.htm",
-    "cascade_risk": 3,
+    "cascade_risk": 4,
     "derived_demand_pct": 40,
-    "cascade_rationale": "I-O cascade via real_estate (1.11x multiplier); sector multiplier 1.03x",
+    "cascade_rationale": "I-O cascade via sectors 31G (1.06x), 53 (1.07x); weighted multiplier 1.03x [BEA 2022 Use Table]",
     "io_multiplier": 1.03
   },
   {
@@ -5436,8 +5436,8 @@
     "url": "https://www.bls.gov/ooh/office-and-administrative-support/tellers.htm",
     "cascade_risk": 7,
     "derived_demand_pct": 30,
-    "cascade_rationale": "I-O cascade via finance (1.06x multiplier), professional (1.15x multiplier), admin_support (1.09x multiplier); sector multiplier 1.07x",
-    "io_multiplier": 1.07
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x), 53 (1.07x), 31G (1.06x); weighted multiplier 1.04x [BEA 2022 Use Table]",
+    "io_multiplier": 1.04
   },
   {
     "title": "Top executives",
@@ -5453,8 +5453,8 @@
     "url": "https://www.bls.gov/ooh/management/top-executives.htm",
     "cascade_risk": 6,
     "derived_demand_pct": 80,
-    "cascade_rationale": "I-O cascade via professional (1.15x multiplier), finance (1.06x multiplier), information (1.10x multiplier); sector multiplier 1.06x",
-    "io_multiplier": 1.06
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x), 31G (1.06x); weighted multiplier 1.04x [BEA 2022 Use Table]",
+    "io_multiplier": 1.04
   },
   {
     "title": "Tour and travel guides",
@@ -5470,8 +5470,8 @@
     "url": "https://www.bls.gov/ooh/personal-care-and-service/tour-and-travel-guides.htm",
     "cascade_risk": 4,
     "derived_demand_pct": 75,
-    "cascade_rationale": "Minimal cascade effect; sector multiplier 1.00x",
-    "io_multiplier": 1
+    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.01x [BEA 2022 Use Table]",
+    "io_multiplier": 1.01
   },
   {
     "title": "Training and development managers",
@@ -5487,8 +5487,8 @@
     "url": "https://www.bls.gov/ooh/management/training-and-development-managers.htm",
     "cascade_risk": 7,
     "derived_demand_pct": 85,
-    "cascade_rationale": "I-O cascade via professional (1.15x multiplier), finance (1.06x multiplier), information (1.10x multiplier); sector multiplier 1.06x",
-    "io_multiplier": 1.06
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x), 31G (1.06x); weighted multiplier 1.04x [BEA 2022 Use Table]",
+    "io_multiplier": 1.04
   },
   {
     "title": "Training and development specialists",
@@ -5502,10 +5502,10 @@
     "exposure": 7,
     "exposure_rationale": "Much of the core work, such as designing training manuals, creating online learning modules, and assessing needs through data, is digital and highly susceptible to AI automation and augmentation. While the role requires interpersonal skills for live delivery and collaboration, AI can now generate curriculum, simulate training scenarios, and personalize learning paths, significantly increasing individual productivity and potentially reducing the number of specialists needed for content creation.",
     "url": "https://www.bls.gov/ooh/business-and-financial/training-and-development-specialists.htm",
-    "cascade_risk": 8,
+    "cascade_risk": 7,
     "derived_demand_pct": 85,
-    "cascade_rationale": "I-O cascade via finance (1.06x multiplier), professional (1.15x multiplier), admin_support (1.09x multiplier); sector multiplier 1.09x",
-    "io_multiplier": 1.09
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x), 53 (1.07x); weighted multiplier 1.05x [BEA 2022 Use Table]",
+    "io_multiplier": 1.05
   },
   {
     "title": "Transportation, storage, and distribution managers",
@@ -5521,8 +5521,8 @@
     "url": "https://www.bls.gov/ooh/management/transportation-storage-and-distribution-managers.htm",
     "cascade_risk": 6,
     "derived_demand_pct": 65,
-    "cascade_rationale": "I-O cascade via professional (1.15x multiplier), finance (1.06x multiplier), information (1.10x multiplier); sector multiplier 1.06x",
-    "io_multiplier": 1.06
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x), 31G (1.06x); weighted multiplier 1.04x [BEA 2022 Use Table]",
+    "io_multiplier": 1.04
   },
   {
     "title": "Travel agents",
@@ -5538,8 +5538,8 @@
     "url": "https://www.bls.gov/ooh/sales/travel-agents.htm",
     "cascade_risk": 9,
     "derived_demand_pct": 85,
-    "cascade_rationale": "I-O cascade via finance (1.06x multiplier), real_estate (1.11x multiplier), professional (1.15x multiplier); sector multiplier 1.04x",
-    "io_multiplier": 1.04
+    "cascade_rationale": "I-O cascade via sectors 53 (1.07x), PROF (1.10x); weighted multiplier 1.03x [BEA 2022 Use Table]",
+    "io_multiplier": 1.03
   },
   {
     "title": "Tutors",
@@ -5555,7 +5555,7 @@
     "url": "https://www.bls.gov/ooh/education-training-and-library/tutors.htm",
     "cascade_risk": 7,
     "derived_demand_pct": 75,
-    "cascade_rationale": "Minimal cascade effect; sector multiplier 1.00x",
+    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.00x [BEA 2022 Use Table]",
     "io_multiplier": 1
   },
   {
@@ -5572,8 +5572,8 @@
     "url": "https://www.bls.gov/ooh/entertainment-and-sports/umpires-referees-and-other-sports-officials.htm",
     "cascade_risk": 5,
     "derived_demand_pct": 35,
-    "cascade_rationale": "I-O cascade via information (1.10x multiplier); sector multiplier 1.03x",
-    "io_multiplier": 1.03
+    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.02x [BEA 2022 Use Table]",
+    "io_multiplier": 1.02
   },
   {
     "title": "Urban and regional planners",
@@ -5589,8 +5589,8 @@
     "url": "https://www.bls.gov/ooh/life-physical-and-social-science/urban-and-regional-planners.htm",
     "cascade_risk": 7,
     "derived_demand_pct": 75,
-    "cascade_rationale": "I-O cascade via professional (1.15x multiplier); sector multiplier 1.06x",
-    "io_multiplier": 1.06
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x), 31G (1.06x); weighted multiplier 1.04x [BEA 2022 Use Table]",
+    "io_multiplier": 1.04
   },
   {
     "title": "Veterinarians",
@@ -5606,8 +5606,8 @@
     "url": "https://www.bls.gov/ooh/healthcare/veterinarians.htm",
     "cascade_risk": 4,
     "derived_demand_pct": 65,
-    "cascade_rationale": "Minimal cascade effect; sector multiplier 1.00x",
-    "io_multiplier": 1
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x); weighted multiplier 1.01x [BEA 2022 Use Table]",
+    "io_multiplier": 1.01
   },
   {
     "title": "Veterinary assistants and laboratory animal caretakers",
@@ -5621,10 +5621,10 @@
     "exposure": 2,
     "exposure_rationale": "The core duties of this occupation are almost entirely physical and manual, involving the handling, feeding, and restraining of live animals in unpredictable environments. While AI might assist with peripheral administrative tasks or diagnostic data entry, it cannot replace the physical presence and manual dexterity required for animal care, sterilization, and surgical assistance.",
     "url": "https://www.bls.gov/ooh/healthcare/veterinary-assistants-and-laboratory-animal-caretakers.htm",
-    "cascade_risk": 3,
+    "cascade_risk": 4,
     "derived_demand_pct": 60,
-    "cascade_rationale": "Minimal cascade effect; sector multiplier 1.00x",
-    "io_multiplier": 1
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x); weighted multiplier 1.01x [BEA 2022 Use Table]",
+    "io_multiplier": 1.01
   },
   {
     "title": "Veterinary technologists and technicians",
@@ -5640,8 +5640,8 @@
     "url": "https://www.bls.gov/ooh/healthcare/veterinary-technologists-and-technicians.htm",
     "cascade_risk": 4,
     "derived_demand_pct": 65,
-    "cascade_rationale": "Minimal cascade effect; sector multiplier 1.00x",
-    "io_multiplier": 1
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x); weighted multiplier 1.01x [BEA 2022 Use Table]",
+    "io_multiplier": 1.01
   },
   {
     "title": "Waiters and waitresses",
@@ -5657,8 +5657,8 @@
     "url": "https://www.bls.gov/ooh/food-preparation-and-serving/waiters-and-waitresses.htm",
     "cascade_risk": 3,
     "derived_demand_pct": 85,
-    "cascade_rationale": "Minimal cascade effect; sector multiplier 1.00x",
-    "io_multiplier": 1
+    "cascade_rationale": "Minimal cascade effect; weighted multiplier 1.01x [BEA 2022 Use Table]",
+    "io_multiplier": 1.01
   },
   {
     "title": "Water and wastewater treatment plant and system operators",
@@ -5674,8 +5674,8 @@
     "url": "https://www.bls.gov/ooh/production/water-and-wastewater-treatment-plant-and-system-operators.htm",
     "cascade_risk": 5,
     "derived_demand_pct": 15,
-    "cascade_rationale": "Minimal cascade effect; sector multiplier 1.00x",
-    "io_multiplier": 1
+    "cascade_rationale": "I-O cascade via sectors 31G (1.06x); weighted multiplier 1.05x [BEA 2022 Use Table]",
+    "io_multiplier": 1.05
   },
   {
     "title": "Water transportation workers",
@@ -5691,8 +5691,8 @@
     "url": "https://www.bls.gov/ooh/transportation-and-material-moving/water-transportation-occupations.htm",
     "cascade_risk": 4,
     "derived_demand_pct": 10,
-    "cascade_rationale": "Minimal cascade effect; sector multiplier 1.00x",
-    "io_multiplier": 1
+    "cascade_rationale": "I-O cascade via sectors 31G (1.06x); weighted multiplier 1.02x [BEA 2022 Use Table]",
+    "io_multiplier": 1.02
   },
   {
     "title": "Web developers and digital designers",
@@ -5708,7 +5708,7 @@
     "url": "https://www.bls.gov/ooh/computer-and-information-technology/web-developers.htm",
     "cascade_risk": 9,
     "derived_demand_pct": 75,
-    "cascade_rationale": "",
+    "cascade_rationale": "No sector mapping for category \"computer-and-information-technology\"",
     "io_multiplier": 1
   },
   {
@@ -5723,10 +5723,10 @@
     "exposure": 2,
     "exposure_rationale": "The core of this occupation is highly physical, requiring manual dexterity, physical stamina, and real-time adaptation to unpredictable environments like construction sites or repair shops. While AI and robotics can automate routine assembly-line welding, the specialized, non-routine tasks and the need for physical presence in varied locations provide a strong barrier against AI displacement.",
     "url": "https://www.bls.gov/ooh/production/welders-cutters-solderers-and-brazers.htm",
-    "cascade_risk": 3,
+    "cascade_risk": 4,
     "derived_demand_pct": 35,
-    "cascade_rationale": "Minimal cascade effect; sector multiplier 1.00x",
-    "io_multiplier": 1
+    "cascade_rationale": "I-O cascade via sectors 31G (1.06x); weighted multiplier 1.05x [BEA 2022 Use Table]",
+    "io_multiplier": 1.05
   },
   {
     "title": "Wholesale and manufacturing sales representatives",
@@ -5742,8 +5742,8 @@
     "url": "https://www.bls.gov/ooh/sales/wholesale-and-manufacturing-sales-representatives.htm",
     "cascade_risk": 7,
     "derived_demand_pct": 85,
-    "cascade_rationale": "I-O cascade via finance (1.06x multiplier), real_estate (1.11x multiplier), professional (1.15x multiplier); sector multiplier 1.04x",
-    "io_multiplier": 1.04
+    "cascade_rationale": "I-O cascade via sectors 53 (1.07x), PROF (1.10x); weighted multiplier 1.03x [BEA 2022 Use Table]",
+    "io_multiplier": 1.03
   },
   {
     "title": "Wind turbine technicians",
@@ -5759,7 +5759,7 @@
     "url": "https://www.bls.gov/ooh/installation-maintenance-and-repair/wind-turbine-technicians.htm",
     "cascade_risk": 3,
     "derived_demand_pct": 15,
-    "cascade_rationale": "I-O cascade via real_estate (1.11x multiplier); sector multiplier 1.03x",
+    "cascade_rationale": "I-O cascade via sectors 31G (1.06x), 53 (1.07x); weighted multiplier 1.03x [BEA 2022 Use Table]",
     "io_multiplier": 1.03
   },
   {
@@ -5776,8 +5776,8 @@
     "url": "https://www.bls.gov/ooh/production/woodworkers.htm",
     "cascade_risk": 4,
     "derived_demand_pct": 55,
-    "cascade_rationale": "Minimal cascade effect; sector multiplier 1.00x",
-    "io_multiplier": 1
+    "cascade_rationale": "I-O cascade via sectors 31G (1.06x); weighted multiplier 1.05x [BEA 2022 Use Table]",
+    "io_multiplier": 1.05
   },
   {
     "title": "Writers and authors",
@@ -5793,8 +5793,8 @@
     "url": "https://www.bls.gov/ooh/media-and-communication/writers-and-authors.htm",
     "cascade_risk": 9,
     "derived_demand_pct": 75,
-    "cascade_rationale": "I-O cascade via information (1.10x multiplier), professional (1.15x multiplier); sector multiplier 1.08x",
-    "io_multiplier": 1.08
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x); weighted multiplier 1.05x [BEA 2022 Use Table]",
+    "io_multiplier": 1.05
   },
   {
     "title": "Zoologists and wildlife biologists",
@@ -5810,7 +5810,7 @@
     "url": "https://www.bls.gov/ooh/life-physical-and-social-science/zoologists-and-wildlife-biologists.htm",
     "cascade_risk": 5,
     "derived_demand_pct": 35,
-    "cascade_rationale": "I-O cascade via professional (1.15x multiplier); sector multiplier 1.06x",
-    "io_multiplier": 1.06
+    "cascade_rationale": "I-O cascade via sectors PROF (1.10x), 31G (1.06x); weighted multiplier 1.04x [BEA 2022 Use Table]",
+    "io_multiplier": 1.04
   }
 ]
