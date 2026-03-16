@@ -1,0 +1,1259 @@
+{
+  "source": "Computed from BEA 2022 total-requirements table × BLS QCEW 2023 metro industry employment shares",
+  "national_avg": {
+    "direct": 4.91,
+    "cascade": 6.74
+  },
+  "metros": [
+    {
+      "msa": "San Francisco-Oakland-Berkeley, CA",
+      "short": "San Francisco",
+      "total_employment": 2400000,
+      "cascade_exposure": 6.77,
+      "direct_exposure": 5.14,
+      "cascade_multiplier": 1,
+      "top_industries": [
+        {
+          "name": "Professional and business services",
+          "share": 0.19,
+          "cascade_exposure": 10
+        },
+        {
+          "name": "Educational services, health care, and social assistance",
+          "share": 0.175,
+          "cascade_exposure": 4.648268841395083
+        },
+        {
+          "name": "Information",
+          "share": 0.085,
+          "cascade_exposure": 9.533190781118321
+        }
+      ]
+    },
+    {
+      "msa": "Seattle-Tacoma-Bellevue, WA",
+      "short": "Seattle",
+      "total_employment": 2100000,
+      "cascade_exposure": 6.74,
+      "direct_exposure": 5.04,
+      "cascade_multiplier": 1,
+      "top_industries": [
+        {
+          "name": "Professional and business services",
+          "share": 0.17,
+          "cascade_exposure": 10
+        },
+        {
+          "name": "Information",
+          "share": 0.09,
+          "cascade_exposure": 9.533190781118321
+        },
+        {
+          "name": "Educational services, health care, and social assistance",
+          "share": 0.16,
+          "cascade_exposure": 4.648268841395083
+        }
+      ]
+    },
+    {
+      "msa": "New York-Newark-Jersey City, NY-NJ-PA",
+      "short": "New York",
+      "total_employment": 9800000,
+      "cascade_exposure": 6.73,
+      "direct_exposure": 5.12,
+      "cascade_multiplier": 1,
+      "top_industries": [
+        {
+          "name": "Professional and business services",
+          "share": 0.16,
+          "cascade_exposure": 10
+        },
+        {
+          "name": "Finance and insurance",
+          "share": 0.12,
+          "cascade_exposure": 9.648545265120239
+        },
+        {
+          "name": "Educational services, health care, and social assistance",
+          "share": 0.21,
+          "cascade_exposure": 4.648268841395083
+        }
+      ]
+    },
+    {
+      "msa": "Washington-Arlington-Alexandria, DC-VA-MD-WV",
+      "short": "Washington DC",
+      "total_employment": 3200000,
+      "cascade_exposure": 6.7,
+      "direct_exposure": 5.23,
+      "cascade_multiplier": 0.99,
+      "top_industries": [
+        {
+          "name": "Professional and business services",
+          "share": 0.22,
+          "cascade_exposure": 10
+        },
+        {
+          "name": "Government",
+          "share": 0.2,
+          "cascade_exposure": 6.253198440409083
+        },
+        {
+          "name": "Educational services, health care, and social assistance",
+          "share": 0.15,
+          "cascade_exposure": 4.648268841395083
+        }
+      ]
+    },
+    {
+      "msa": "Detroit-Warren-Dearborn, MI",
+      "short": "Detroit",
+      "total_employment": 2000000,
+      "cascade_exposure": 6.65,
+      "direct_exposure": 4.86,
+      "cascade_multiplier": 0.99,
+      "top_industries": [
+        {
+          "name": "Manufacturing",
+          "share": 0.15,
+          "cascade_exposure": 10
+        },
+        {
+          "name": "Professional and business services",
+          "share": 0.13,
+          "cascade_exposure": 10
+        },
+        {
+          "name": "Educational services, health care, and social assistance",
+          "share": 0.2,
+          "cascade_exposure": 4.648268841395083
+        }
+      ]
+    },
+    {
+      "msa": "Austin-Round Rock-Georgetown, TX",
+      "short": "Austin",
+      "total_employment": 1200000,
+      "cascade_exposure": 6.59,
+      "direct_exposure": 5,
+      "cascade_multiplier": 0.98,
+      "top_industries": [
+        {
+          "name": "Professional and business services",
+          "share": 0.17,
+          "cascade_exposure": 10
+        },
+        {
+          "name": "Educational services, health care, and social assistance",
+          "share": 0.155,
+          "cascade_exposure": 4.648268841395083
+        },
+        {
+          "name": "Information",
+          "share": 0.065,
+          "cascade_exposure": 9.533190781118321
+        }
+      ]
+    },
+    {
+      "msa": "Boston-Cambridge-Newton, MA-NH",
+      "short": "Boston",
+      "total_employment": 2800000,
+      "cascade_exposure": 6.57,
+      "direct_exposure": 5.06,
+      "cascade_multiplier": 0.98,
+      "top_industries": [
+        {
+          "name": "Professional and business services",
+          "share": 0.165,
+          "cascade_exposure": 10
+        },
+        {
+          "name": "Educational services, health care, and social assistance",
+          "share": 0.23,
+          "cascade_exposure": 4.648268841395083
+        },
+        {
+          "name": "Government",
+          "share": 0.101,
+          "cascade_exposure": 6.253198440409083
+        }
+      ]
+    },
+    {
+      "msa": "Hartford-East Hartford-Middletown, CT",
+      "short": "Hartford",
+      "total_employment": 570000,
+      "cascade_exposure": 6.56,
+      "direct_exposure": 5.06,
+      "cascade_multiplier": 0.97,
+      "top_industries": [
+        {
+          "name": "Professional and business services",
+          "share": 0.13,
+          "cascade_exposure": 10
+        },
+        {
+          "name": "Educational services, health care, and social assistance",
+          "share": 0.235,
+          "cascade_exposure": 4.648268841395083
+        },
+        {
+          "name": "Finance and insurance",
+          "share": 0.1,
+          "cascade_exposure": 9.648545265120239
+        }
+      ]
+    },
+    {
+      "msa": "Minneapolis-St. Paul-Bloomington, MN-WI",
+      "short": "Minneapolis",
+      "total_employment": 2000000,
+      "cascade_exposure": 6.54,
+      "direct_exposure": 4.95,
+      "cascade_multiplier": 0.97,
+      "top_industries": [
+        {
+          "name": "Professional and business services",
+          "share": 0.14,
+          "cascade_exposure": 10
+        },
+        {
+          "name": "Educational services, health care, and social assistance",
+          "share": 0.195,
+          "cascade_exposure": 4.648268841395083
+        },
+        {
+          "name": "Manufacturing",
+          "share": 0.09,
+          "cascade_exposure": 10
+        }
+      ]
+    },
+    {
+      "msa": "Milwaukee-Waukesha, WI",
+      "short": "Milwaukee",
+      "total_employment": 850000,
+      "cascade_exposure": 6.54,
+      "direct_exposure": 4.89,
+      "cascade_multiplier": 0.97,
+      "top_industries": [
+        {
+          "name": "Manufacturing",
+          "share": 0.12,
+          "cascade_exposure": 10
+        },
+        {
+          "name": "Professional and business services",
+          "share": 0.12,
+          "cascade_exposure": 10
+        },
+        {
+          "name": "Educational services, health care, and social assistance",
+          "share": 0.2,
+          "cascade_exposure": 4.648268841395083
+        }
+      ]
+    },
+    {
+      "msa": "Raleigh-Cary, NC",
+      "short": "Raleigh",
+      "total_employment": 680000,
+      "cascade_exposure": 6.51,
+      "direct_exposure": 4.98,
+      "cascade_multiplier": 0.97,
+      "top_industries": [
+        {
+          "name": "Professional and business services",
+          "share": 0.155,
+          "cascade_exposure": 10
+        },
+        {
+          "name": "Educational services, health care, and social assistance",
+          "share": 0.175,
+          "cascade_exposure": 4.648268841395083
+        },
+        {
+          "name": "Government",
+          "share": 0.119,
+          "cascade_exposure": 6.253198440409083
+        }
+      ]
+    },
+    {
+      "msa": "Cleveland-Elyria, OH",
+      "short": "Cleveland",
+      "total_employment": 1000000,
+      "cascade_exposure": 6.5,
+      "direct_exposure": 4.89,
+      "cascade_multiplier": 0.97,
+      "top_industries": [
+        {
+          "name": "Professional and business services",
+          "share": 0.125,
+          "cascade_exposure": 10
+        },
+        {
+          "name": "Manufacturing",
+          "share": 0.11,
+          "cascade_exposure": 10
+        },
+        {
+          "name": "Educational services, health care, and social assistance",
+          "share": 0.21,
+          "cascade_exposure": 4.648268841395083
+        }
+      ]
+    },
+    {
+      "msa": "Denver-Aurora-Lakewood, CO",
+      "short": "Denver",
+      "total_employment": 1600000,
+      "cascade_exposure": 6.49,
+      "direct_exposure": 4.96,
+      "cascade_multiplier": 0.96,
+      "top_industries": [
+        {
+          "name": "Professional and business services",
+          "share": 0.16,
+          "cascade_exposure": 10
+        },
+        {
+          "name": "Educational services, health care, and social assistance",
+          "share": 0.16,
+          "cascade_exposure": 4.648268841395083
+        },
+        {
+          "name": "Government",
+          "share": 0.095,
+          "cascade_exposure": 6.253198440409083
+        }
+      ]
+    },
+    {
+      "msa": "Chicago-Naperville-Elgin, IL-IN-WI",
+      "short": "Chicago",
+      "total_employment": 4700000,
+      "cascade_exposure": 6.48,
+      "direct_exposure": 4.88,
+      "cascade_multiplier": 0.96,
+      "top_industries": [
+        {
+          "name": "Professional and business services",
+          "share": 0.14,
+          "cascade_exposure": 10
+        },
+        {
+          "name": "Educational services, health care, and social assistance",
+          "share": 0.185,
+          "cascade_exposure": 4.648268841395083
+        },
+        {
+          "name": "Manufacturing",
+          "share": 0.085,
+          "cascade_exposure": 10
+        }
+      ]
+    },
+    {
+      "msa": "Charlotte-Concord-Gastonia, NC-SC",
+      "short": "Charlotte",
+      "total_employment": 1300000,
+      "cascade_exposure": 6.48,
+      "direct_exposure": 4.97,
+      "cascade_multiplier": 0.96,
+      "top_industries": [
+        {
+          "name": "Professional and business services",
+          "share": 0.135,
+          "cascade_exposure": 10
+        },
+        {
+          "name": "Finance and insurance",
+          "share": 0.09,
+          "cascade_exposure": 9.648545265120239
+        },
+        {
+          "name": "Educational services, health care, and social assistance",
+          "share": 0.17,
+          "cascade_exposure": 4.648268841395083
+        }
+      ]
+    },
+    {
+      "msa": "Cincinnati, OH-KY-IN",
+      "short": "Cincinnati",
+      "total_employment": 1100000,
+      "cascade_exposure": 6.48,
+      "direct_exposure": 4.88,
+      "cascade_multiplier": 0.96,
+      "top_industries": [
+        {
+          "name": "Professional and business services",
+          "share": 0.13,
+          "cascade_exposure": 10
+        },
+        {
+          "name": "Manufacturing",
+          "share": 0.1,
+          "cascade_exposure": 10
+        },
+        {
+          "name": "Educational services, health care, and social assistance",
+          "share": 0.195,
+          "cascade_exposure": 4.648268841395083
+        }
+      ]
+    },
+    {
+      "msa": "Dallas-Fort Worth-Arlington, TX",
+      "short": "Dallas",
+      "total_employment": 4000000,
+      "cascade_exposure": 6.47,
+      "direct_exposure": 4.88,
+      "cascade_multiplier": 0.96,
+      "top_industries": [
+        {
+          "name": "Professional and business services",
+          "share": 0.145,
+          "cascade_exposure": 10
+        },
+        {
+          "name": "Educational services, health care, and social assistance",
+          "share": 0.165,
+          "cascade_exposure": 4.648268841395083
+        },
+        {
+          "name": "Manufacturing",
+          "share": 0.07,
+          "cascade_exposure": 10
+        }
+      ]
+    },
+    {
+      "msa": "Columbus, OH",
+      "short": "Columbus",
+      "total_employment": 1100000,
+      "cascade_exposure": 6.47,
+      "direct_exposure": 4.97,
+      "cascade_multiplier": 0.96,
+      "top_industries": [
+        {
+          "name": "Professional and business services",
+          "share": 0.14,
+          "cascade_exposure": 10
+        },
+        {
+          "name": "Educational services, health care, and social assistance",
+          "share": 0.195,
+          "cascade_exposure": 4.648268841395083
+        },
+        {
+          "name": "Finance and insurance",
+          "share": 0.075,
+          "cascade_exposure": 9.648545265120239
+        }
+      ]
+    },
+    {
+      "msa": "San Diego-Chula Vista-Carlsbad, CA",
+      "short": "San Diego",
+      "total_employment": 1500000,
+      "cascade_exposure": 6.45,
+      "direct_exposure": 4.97,
+      "cascade_multiplier": 0.96,
+      "top_industries": [
+        {
+          "name": "Professional and business services",
+          "share": 0.155,
+          "cascade_exposure": 10
+        },
+        {
+          "name": "Government",
+          "share": 0.133,
+          "cascade_exposure": 6.253198440409083
+        },
+        {
+          "name": "Educational services, health care, and social assistance",
+          "share": 0.175,
+          "cascade_exposure": 4.648268841395083
+        }
+      ]
+    },
+    {
+      "msa": "Portland-Vancouver-Hillsboro, OR-WA",
+      "short": "Portland",
+      "total_employment": 1200000,
+      "cascade_exposure": 6.44,
+      "direct_exposure": 4.86,
+      "cascade_multiplier": 0.96,
+      "top_industries": [
+        {
+          "name": "Professional and business services",
+          "share": 0.13,
+          "cascade_exposure": 10
+        },
+        {
+          "name": "Manufacturing",
+          "share": 0.09,
+          "cascade_exposure": 10
+        },
+        {
+          "name": "Educational services, health care, and social assistance",
+          "share": 0.175,
+          "cascade_exposure": 4.648268841395083
+        }
+      ]
+    },
+    {
+      "msa": "Los Angeles-Long Beach-Anaheim, CA",
+      "short": "Los Angeles",
+      "total_employment": 6200000,
+      "cascade_exposure": 6.43,
+      "direct_exposure": 4.9,
+      "cascade_multiplier": 0.95,
+      "top_industries": [
+        {
+          "name": "Professional and business services",
+          "share": 0.13,
+          "cascade_exposure": 10
+        },
+        {
+          "name": "Educational services, health care, and social assistance",
+          "share": 0.175,
+          "cascade_exposure": 4.648268841395083
+        },
+        {
+          "name": "Manufacturing",
+          "share": 0.07,
+          "cascade_exposure": 10
+        }
+      ]
+    },
+    {
+      "msa": "Atlanta-Sandy Springs-Alpharetta, GA",
+      "short": "Atlanta",
+      "total_employment": 2900000,
+      "cascade_exposure": 6.43,
+      "direct_exposure": 4.92,
+      "cascade_multiplier": 0.95,
+      "top_industries": [
+        {
+          "name": "Professional and business services",
+          "share": 0.145,
+          "cascade_exposure": 10
+        },
+        {
+          "name": "Educational services, health care, and social assistance",
+          "share": 0.165,
+          "cascade_exposure": 4.648268841395083
+        },
+        {
+          "name": "Government",
+          "share": 0.103,
+          "cascade_exposure": 6.253198440409083
+        }
+      ]
+    },
+    {
+      "msa": "Salt Lake City, UT",
+      "short": "Salt Lake City",
+      "total_employment": 750000,
+      "cascade_exposure": 6.43,
+      "direct_exposure": 4.9,
+      "cascade_multiplier": 0.95,
+      "top_industries": [
+        {
+          "name": "Professional and business services",
+          "share": 0.14,
+          "cascade_exposure": 10
+        },
+        {
+          "name": "Educational services, health care, and social assistance",
+          "share": 0.16,
+          "cascade_exposure": 4.648268841395083
+        },
+        {
+          "name": "Manufacturing",
+          "share": 0.065,
+          "cascade_exposure": 10
+        }
+      ]
+    },
+    {
+      "msa": "Phoenix-Mesa-Chandler, AZ",
+      "short": "Phoenix",
+      "total_employment": 2300000,
+      "cascade_exposure": 6.41,
+      "direct_exposure": 4.93,
+      "cascade_multiplier": 0.95,
+      "top_industries": [
+        {
+          "name": "Professional and business services",
+          "share": 0.14,
+          "cascade_exposure": 10
+        },
+        {
+          "name": "Educational services, health care, and social assistance",
+          "share": 0.175,
+          "cascade_exposure": 4.648268841395083
+        },
+        {
+          "name": "Finance and insurance",
+          "share": 0.07,
+          "cascade_exposure": 9.648545265120239
+        }
+      ]
+    },
+    {
+      "msa": "Kansas City, MO-KS",
+      "short": "Kansas City",
+      "total_employment": 1100000,
+      "cascade_exposure": 6.41,
+      "direct_exposure": 4.89,
+      "cascade_multiplier": 0.95,
+      "top_industries": [
+        {
+          "name": "Professional and business services",
+          "share": 0.135,
+          "cascade_exposure": 10
+        },
+        {
+          "name": "Educational services, health care, and social assistance",
+          "share": 0.19,
+          "cascade_exposure": 4.648268841395083
+        },
+        {
+          "name": "Manufacturing",
+          "share": 0.075,
+          "cascade_exposure": 10
+        }
+      ]
+    },
+    {
+      "msa": "Philadelphia-Camden-Wilmington, PA-NJ-DE-MD",
+      "short": "Philadelphia",
+      "total_employment": 2900000,
+      "cascade_exposure": 6.39,
+      "direct_exposure": 4.96,
+      "cascade_multiplier": 0.95,
+      "top_industries": [
+        {
+          "name": "Professional and business services",
+          "share": 0.14,
+          "cascade_exposure": 10
+        },
+        {
+          "name": "Educational services, health care, and social assistance",
+          "share": 0.22,
+          "cascade_exposure": 4.648268841395083
+        },
+        {
+          "name": "Government",
+          "share": 0.113,
+          "cascade_exposure": 6.253198440409083
+        }
+      ]
+    },
+    {
+      "msa": "Indianapolis-Carmel-Anderson, IN",
+      "short": "Indianapolis",
+      "total_employment": 1100000,
+      "cascade_exposure": 6.39,
+      "direct_exposure": 4.84,
+      "cascade_multiplier": 0.95,
+      "top_industries": [
+        {
+          "name": "Professional and business services",
+          "share": 0.12,
+          "cascade_exposure": 10
+        },
+        {
+          "name": "Manufacturing",
+          "share": 0.095,
+          "cascade_exposure": 10
+        },
+        {
+          "name": "Educational services, health care, and social assistance",
+          "share": 0.195,
+          "cascade_exposure": 4.648268841395083
+        }
+      ]
+    },
+    {
+      "msa": "St. Louis, MO-IL",
+      "short": "St. Louis",
+      "total_employment": 1400000,
+      "cascade_exposure": 6.37,
+      "direct_exposure": 4.88,
+      "cascade_multiplier": 0.95,
+      "top_industries": [
+        {
+          "name": "Professional and business services",
+          "share": 0.13,
+          "cascade_exposure": 10
+        },
+        {
+          "name": "Educational services, health care, and social assistance",
+          "share": 0.21,
+          "cascade_exposure": 4.648268841395083
+        },
+        {
+          "name": "Manufacturing",
+          "share": 0.08,
+          "cascade_exposure": 10
+        }
+      ]
+    },
+    {
+      "msa": "Richmond, VA",
+      "short": "Richmond",
+      "total_employment": 690000,
+      "cascade_exposure": 6.34,
+      "direct_exposure": 4.95,
+      "cascade_multiplier": 0.94,
+      "top_industries": [
+        {
+          "name": "Professional and business services",
+          "share": 0.13,
+          "cascade_exposure": 10
+        },
+        {
+          "name": "Educational services, health care, and social assistance",
+          "share": 0.2,
+          "cascade_exposure": 4.648268841395083
+        },
+        {
+          "name": "Government",
+          "share": 0.138,
+          "cascade_exposure": 6.253198440409083
+        }
+      ]
+    },
+    {
+      "msa": "Pittsburgh, PA",
+      "short": "Pittsburgh",
+      "total_employment": 1100000,
+      "cascade_exposure": 6.31,
+      "direct_exposure": 4.87,
+      "cascade_multiplier": 0.94,
+      "top_industries": [
+        {
+          "name": "Professional and business services",
+          "share": 0.13,
+          "cascade_exposure": 10
+        },
+        {
+          "name": "Educational services, health care, and social assistance",
+          "share": 0.23,
+          "cascade_exposure": 4.648268841395083
+        },
+        {
+          "name": "Manufacturing",
+          "share": 0.07,
+          "cascade_exposure": 10
+        }
+      ]
+    },
+    {
+      "msa": "Baltimore-Columbia-Towson, MD",
+      "short": "Baltimore",
+      "total_employment": 1400000,
+      "cascade_exposure": 6.3,
+      "direct_exposure": 4.96,
+      "cascade_multiplier": 0.93,
+      "top_industries": [
+        {
+          "name": "Professional and business services",
+          "share": 0.155,
+          "cascade_exposure": 10
+        },
+        {
+          "name": "Educational services, health care, and social assistance",
+          "share": 0.23,
+          "cascade_exposure": 4.648268841395083
+        },
+        {
+          "name": "Government",
+          "share": 0.139,
+          "cascade_exposure": 6.253198440409083
+        }
+      ]
+    },
+    {
+      "msa": "Louisville-Jefferson County, KY-IN",
+      "short": "Louisville",
+      "total_employment": 670000,
+      "cascade_exposure": 6.3,
+      "direct_exposure": 4.77,
+      "cascade_multiplier": 0.93,
+      "top_industries": [
+        {
+          "name": "Professional and business services",
+          "share": 0.11,
+          "cascade_exposure": 10
+        },
+        {
+          "name": "Manufacturing",
+          "share": 0.1,
+          "cascade_exposure": 10
+        },
+        {
+          "name": "Educational services, health care, and social assistance",
+          "share": 0.2,
+          "cascade_exposure": 4.648268841395083
+        }
+      ]
+    },
+    {
+      "msa": "Rochester, NY",
+      "short": "Rochester",
+      "total_employment": 520000,
+      "cascade_exposure": 6.26,
+      "direct_exposure": 4.87,
+      "cascade_multiplier": 0.93,
+      "top_industries": [
+        {
+          "name": "Educational services, health care, and social assistance",
+          "share": 0.26,
+          "cascade_exposure": 4.648268841395083
+        },
+        {
+          "name": "Professional and business services",
+          "share": 0.11,
+          "cascade_exposure": 10
+        },
+        {
+          "name": "Manufacturing",
+          "share": 0.085,
+          "cascade_exposure": 10
+        }
+      ]
+    },
+    {
+      "msa": "Nashville-Davidson-Murfreesboro-Franklin, TN",
+      "short": "Nashville",
+      "total_employment": 1100000,
+      "cascade_exposure": 6.25,
+      "direct_exposure": 4.82,
+      "cascade_multiplier": 0.93,
+      "top_industries": [
+        {
+          "name": "Professional and business services",
+          "share": 0.125,
+          "cascade_exposure": 10
+        },
+        {
+          "name": "Educational services, health care, and social assistance",
+          "share": 0.195,
+          "cascade_exposure": 4.648268841395083
+        },
+        {
+          "name": "Manufacturing",
+          "share": 0.065,
+          "cascade_exposure": 10
+        }
+      ]
+    },
+    {
+      "msa": "Birmingham-Hoover, AL",
+      "short": "Birmingham",
+      "total_employment": 530000,
+      "cascade_exposure": 6.25,
+      "direct_exposure": 4.85,
+      "cascade_multiplier": 0.93,
+      "top_industries": [
+        {
+          "name": "Professional and business services",
+          "share": 0.12,
+          "cascade_exposure": 10
+        },
+        {
+          "name": "Educational services, health care, and social assistance",
+          "share": 0.22,
+          "cascade_exposure": 4.648268841395083
+        },
+        {
+          "name": "Government",
+          "share": 0.113,
+          "cascade_exposure": 6.253198440409083
+        }
+      ]
+    },
+    {
+      "msa": "Providence-Warwick, RI-MA",
+      "short": "Providence",
+      "total_employment": 570000,
+      "cascade_exposure": 6.22,
+      "direct_exposure": 4.83,
+      "cascade_multiplier": 0.92,
+      "top_industries": [
+        {
+          "name": "Educational services, health care, and social assistance",
+          "share": 0.24,
+          "cascade_exposure": 4.648268841395083
+        },
+        {
+          "name": "Professional and business services",
+          "share": 0.11,
+          "cascade_exposure": 10
+        },
+        {
+          "name": "Manufacturing",
+          "share": 0.08,
+          "cascade_exposure": 10
+        }
+      ]
+    },
+    {
+      "msa": "Buffalo-Cheektowaga, NY",
+      "short": "Buffalo",
+      "total_employment": 550000,
+      "cascade_exposure": 6.22,
+      "direct_exposure": 4.83,
+      "cascade_multiplier": 0.92,
+      "top_industries": [
+        {
+          "name": "Educational services, health care, and social assistance",
+          "share": 0.25,
+          "cascade_exposure": 4.648268841395083
+        },
+        {
+          "name": "Professional and business services",
+          "share": 0.11,
+          "cascade_exposure": 10
+        },
+        {
+          "name": "Manufacturing",
+          "share": 0.08,
+          "cascade_exposure": 10
+        }
+      ]
+    },
+    {
+      "msa": "Tampa-St. Petersburg-Clearwater, FL",
+      "short": "Tampa",
+      "total_employment": 1500000,
+      "cascade_exposure": 6.21,
+      "direct_exposure": 4.89,
+      "cascade_multiplier": 0.92,
+      "top_industries": [
+        {
+          "name": "Professional and business services",
+          "share": 0.13,
+          "cascade_exposure": 10
+        },
+        {
+          "name": "Educational services, health care, and social assistance",
+          "share": 0.19,
+          "cascade_exposure": 4.648268841395083
+        },
+        {
+          "name": "Government",
+          "share": 0.113,
+          "cascade_exposure": 6.253198440409083
+        }
+      ]
+    },
+    {
+      "msa": "Virginia Beach-Norfolk-Newport News, VA-NC",
+      "short": "Virginia Beach",
+      "total_employment": 800000,
+      "cascade_exposure": 6.17,
+      "direct_exposure": 4.89,
+      "cascade_multiplier": 0.92,
+      "top_industries": [
+        {
+          "name": "Government",
+          "share": 0.2,
+          "cascade_exposure": 6.253198440409083
+        },
+        {
+          "name": "Professional and business services",
+          "share": 0.115,
+          "cascade_exposure": 10
+        },
+        {
+          "name": "Educational services, health care, and social assistance",
+          "share": 0.175,
+          "cascade_exposure": 4.648268841395083
+        }
+      ]
+    },
+    {
+      "msa": "Houston-The Woodlands-Sugar Land, TX",
+      "short": "Houston",
+      "total_employment": 3300000,
+      "cascade_exposure": 6.16,
+      "direct_exposure": 4.58,
+      "cascade_multiplier": 0.91,
+      "top_industries": [
+        {
+          "name": "Professional and business services",
+          "share": 0.13,
+          "cascade_exposure": 10
+        },
+        {
+          "name": "Manufacturing",
+          "share": 0.085,
+          "cascade_exposure": 10
+        },
+        {
+          "name": "Educational services, health care, and social assistance",
+          "share": 0.17,
+          "cascade_exposure": 4.648268841395083
+        }
+      ]
+    },
+    {
+      "msa": "Jacksonville, FL",
+      "short": "Jacksonville",
+      "total_employment": 780000,
+      "cascade_exposure": 6.15,
+      "direct_exposure": 4.85,
+      "cascade_multiplier": 0.91,
+      "top_industries": [
+        {
+          "name": "Professional and business services",
+          "share": 0.12,
+          "cascade_exposure": 10
+        },
+        {
+          "name": "Educational services, health care, and social assistance",
+          "share": 0.19,
+          "cascade_exposure": 4.648268841395083
+        },
+        {
+          "name": "Government",
+          "share": 0.119,
+          "cascade_exposure": 6.253198440409083
+        }
+      ]
+    },
+    {
+      "msa": "San Antonio-New Braunfels, TX",
+      "short": "San Antonio",
+      "total_employment": 1100000,
+      "cascade_exposure": 6.14,
+      "direct_exposure": 4.86,
+      "cascade_multiplier": 0.91,
+      "top_industries": [
+        {
+          "name": "Professional and business services",
+          "share": 0.11,
+          "cascade_exposure": 10
+        },
+        {
+          "name": "Educational services, health care, and social assistance",
+          "share": 0.195,
+          "cascade_exposure": 4.648268841395083
+        },
+        {
+          "name": "Government",
+          "share": 0.144,
+          "cascade_exposure": 6.253198440409083
+        }
+      ]
+    },
+    {
+      "msa": "Sacramento-Roseville-Folsom, CA",
+      "short": "Sacramento",
+      "total_employment": 1000000,
+      "cascade_exposure": 6.12,
+      "direct_exposure": 4.92,
+      "cascade_multiplier": 0.91,
+      "top_industries": [
+        {
+          "name": "Government",
+          "share": 0.192,
+          "cascade_exposure": 6.253198440409083
+        },
+        {
+          "name": "Professional and business services",
+          "share": 0.11,
+          "cascade_exposure": 10
+        },
+        {
+          "name": "Educational services, health care, and social assistance",
+          "share": 0.205,
+          "cascade_exposure": 4.648268841395083
+        }
+      ]
+    },
+    {
+      "msa": "Oklahoma City, OK",
+      "short": "Oklahoma City",
+      "total_employment": 650000,
+      "cascade_exposure": 6.1,
+      "direct_exposure": 4.75,
+      "cascade_multiplier": 0.91,
+      "top_industries": [
+        {
+          "name": "Professional and business services",
+          "share": 0.11,
+          "cascade_exposure": 10
+        },
+        {
+          "name": "Educational services, health care, and social assistance",
+          "share": 0.185,
+          "cascade_exposure": 4.648268841395083
+        },
+        {
+          "name": "Government",
+          "share": 0.135,
+          "cascade_exposure": 6.253198440409083
+        }
+      ]
+    },
+    {
+      "msa": "Miami-Fort Lauderdale-Pompano Beach, FL",
+      "short": "Miami",
+      "total_employment": 2900000,
+      "cascade_exposure": 6.07,
+      "direct_exposure": 4.78,
+      "cascade_multiplier": 0.9,
+      "top_industries": [
+        {
+          "name": "Professional and business services",
+          "share": 0.12,
+          "cascade_exposure": 10
+        },
+        {
+          "name": "Educational services, health care, and social assistance",
+          "share": 0.17,
+          "cascade_exposure": 4.648268841395083
+        },
+        {
+          "name": "Government",
+          "share": 0.107,
+          "cascade_exposure": 6.253198440409083
+        }
+      ]
+    },
+    {
+      "msa": "Memphis, TN-MS-AR",
+      "short": "Memphis",
+      "total_employment": 630000,
+      "cascade_exposure": 6.05,
+      "direct_exposure": 4.71,
+      "cascade_multiplier": 0.9,
+      "top_industries": [
+        {
+          "name": "Professional and business services",
+          "share": 0.1,
+          "cascade_exposure": 10
+        },
+        {
+          "name": "Educational services, health care, and social assistance",
+          "share": 0.195,
+          "cascade_exposure": 4.648268841395083
+        },
+        {
+          "name": "Government",
+          "share": 0.132,
+          "cascade_exposure": 6.253198440409083
+        }
+      ]
+    },
+    {
+      "msa": "Riverside-San Bernardino-Ontario, CA",
+      "short": "Riverside",
+      "total_employment": 1600000,
+      "cascade_exposure": 5.85,
+      "direct_exposure": 4.6,
+      "cascade_multiplier": 0.87,
+      "top_industries": [
+        {
+          "name": "Educational services, health care, and social assistance",
+          "share": 0.2,
+          "cascade_exposure": 4.648268841395083
+        },
+        {
+          "name": "Professional and business services",
+          "share": 0.08,
+          "cascade_exposure": 10
+        },
+        {
+          "name": "Government",
+          "share": 0.124,
+          "cascade_exposure": 6.253198440409083
+        }
+      ]
+    },
+    {
+      "msa": "Orlando-Kissimmee-Sanford, FL",
+      "short": "Orlando",
+      "total_employment": 1400000,
+      "cascade_exposure": 5.82,
+      "direct_exposure": 4.65,
+      "cascade_multiplier": 0.86,
+      "top_industries": [
+        {
+          "name": "Professional and business services",
+          "share": 0.11,
+          "cascade_exposure": 10
+        },
+        {
+          "name": "Government",
+          "share": 0.119,
+          "cascade_exposure": 6.253198440409083
+        },
+        {
+          "name": "Educational services, health care, and social assistance",
+          "share": 0.155,
+          "cascade_exposure": 4.648268841395083
+        }
+      ]
+    },
+    {
+      "msa": "New Orleans-Metairie, LA",
+      "short": "New Orleans",
+      "total_employment": 560000,
+      "cascade_exposure": 5.8,
+      "direct_exposure": 4.58,
+      "cascade_multiplier": 0.86,
+      "top_industries": [
+        {
+          "name": "Professional and business services",
+          "share": 0.1,
+          "cascade_exposure": 10
+        },
+        {
+          "name": "Educational services, health care, and social assistance",
+          "share": 0.185,
+          "cascade_exposure": 4.648268841395083
+        },
+        {
+          "name": "Government",
+          "share": 0.125,
+          "cascade_exposure": 6.253198440409083
+        }
+      ]
+    },
+    {
+      "msa": "Las Vegas-Henderson-Paradise, NV",
+      "short": "Las Vegas",
+      "total_employment": 1100000,
+      "cascade_exposure": 5.29,
+      "direct_exposure": 4.31,
+      "cascade_multiplier": 0.79,
+      "top_industries": [
+        {
+          "name": "Arts, entertainment, recreation, accommodation, and food services",
+          "share": 0.3,
+          "cascade_exposure": 3.3347342252140977
+        },
+        {
+          "name": "Government",
+          "share": 0.131,
+          "cascade_exposure": 6.253198440409083
+        },
+        {
+          "name": "Professional and business services",
+          "share": 0.07,
+          "cascade_exposure": 10
+        }
+      ]
+    }
+  ]
+}
