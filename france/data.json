@@ -15,7 +15,8 @@
     "cascade_risk": 4,
     "derived_demand_pct": 65,
     "cascade_rationale": "Total requirements cascade via RU (1.22x total requirements), OQ (1.21x total requirements), LZ (1.52x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.34
+    "io_multiplier": 1.34,
+    "cascade_risk_raw": 3.78
   },
   {
     "title": "Aides-soignants",
@@ -33,7 +34,8 @@
     "cascade_risk": 4,
     "derived_demand_pct": 45,
     "cascade_rationale": "Total requirements cascade via OQ (1.21x total requirements), MN (1.31x total requirements), RU (1.22x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.22
+    "io_multiplier": 1.22,
+    "cascade_risk_raw": 3.79
   },
   {
     "title": "Infirmiers",
@@ -51,7 +53,8 @@
     "cascade_risk": 4,
     "derived_demand_pct": 45,
     "cascade_rationale": "Total requirements cascade via OQ (1.21x total requirements), MN (1.31x total requirements), RU (1.22x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.22
+    "io_multiplier": 1.22,
+    "cascade_risk_raw": 3.79
   },
   {
     "title": "Aides à domicile",
@@ -69,7 +72,8 @@
     "cascade_risk": 4,
     "derived_demand_pct": 50,
     "cascade_rationale": "Total requirements cascade via RU (1.22x total requirements), OQ (1.21x total requirements), LZ (1.52x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.34
+    "io_multiplier": 1.34,
+    "cascade_risk_raw": 3.78
   },
   {
     "title": "Cadres administratifs et financiers",
@@ -87,7 +91,8 @@
     "cascade_risk": 7,
     "derived_demand_pct": 100,
     "cascade_rationale": "Total requirements cascade via MN (1.31x total requirements), KZ (1.29x total requirements), JZ (1.40x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.33
+    "io_multiplier": 1.33,
+    "cascade_risk_raw": 7.04
   },
   {
     "title": "Professeurs du secondaire",
@@ -105,7 +110,8 @@
     "cascade_risk": 4,
     "derived_demand_pct": 60,
     "cascade_rationale": "Total requirements cascade via OQ (1.21x total requirements), MN (1.31x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.22
+    "io_multiplier": 1.22,
+    "cascade_risk_raw": 3.83
   },
   {
     "title": "Employés services publics",
@@ -123,7 +129,8 @@
     "cascade_risk": 5,
     "derived_demand_pct": 70,
     "cascade_rationale": "Total requirements cascade via MN (1.31x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.22
+    "io_multiplier": 1.22,
+    "cascade_risk_raw": 5
   },
   {
     "title": "Attachés commerciaux",
@@ -141,7 +148,8 @@
     "cascade_risk": 6,
     "derived_demand_pct": 60,
     "cascade_rationale": "Total requirements cascade via GZ (1.33x total requirements), MN (1.31x total requirements), C1 (1.80x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.38
+    "io_multiplier": 1.38,
+    "cascade_risk_raw": 6.29
   },
   {
     "title": "Assistantes maternelles",
@@ -159,7 +167,8 @@
     "cascade_risk": 4,
     "derived_demand_pct": 75,
     "cascade_rationale": "Total requirements cascade via RU (1.22x total requirements), OQ (1.21x total requirements), LZ (1.52x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.34
+    "io_multiplier": 1.34,
+    "cascade_risk_raw": 3.78
   },
   {
     "title": "Cadres fonction publique",
@@ -177,7 +186,8 @@
     "cascade_risk": 6,
     "derived_demand_pct": 70,
     "cascade_rationale": "Total requirements cascade via MN (1.31x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.22
+    "io_multiplier": 1.22,
+    "cascade_risk_raw": 6
   },
   {
     "title": "Maîtrise des magasins",
@@ -195,7 +205,8 @@
     "cascade_risk": 6,
     "derived_demand_pct": 60,
     "cascade_rationale": "Total requirements cascade via GZ (1.33x total requirements), MN (1.31x total requirements), C1 (1.80x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.38
+    "io_multiplier": 1.38,
+    "cascade_risk_raw": 6.29
   },
   {
     "title": "Ouvriers magasinage manutention",
@@ -213,7 +224,8 @@
     "cascade_risk": 7,
     "derived_demand_pct": 55,
     "cascade_rationale": "Total requirements cascade via HZ (1.47x total requirements), C5 (1.54x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.47
+    "io_multiplier": 1.47,
+    "cascade_risk_raw": 7.15
   },
   {
     "title": "Professeurs des écoles",
@@ -231,7 +243,8 @@
     "cascade_risk": 4,
     "derived_demand_pct": 55,
     "cascade_rationale": "Total requirements cascade via OQ (1.21x total requirements), MN (1.31x total requirements), RU (1.22x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.22
+    "io_multiplier": 1.22,
+    "cascade_risk_raw": 3.83
   },
   {
     "title": "Ingénieurs et chefs de projets IT",
@@ -249,7 +262,8 @@
     "cascade_risk": 8,
     "derived_demand_pct": 100,
     "cascade_rationale": "Total requirements cascade via JZ (1.40x total requirements), MN (1.31x total requirements), KZ (1.29x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.34
+    "io_multiplier": 1.34,
+    "cascade_risk_raw": 7.71
   },
   {
     "title": "Secrétaires bureautiques",
@@ -267,7 +281,8 @@
     "cascade_risk": 8,
     "derived_demand_pct": 100,
     "cascade_rationale": "Total requirements cascade via MN (1.31x total requirements), KZ (1.29x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.33
+    "io_multiplier": 1.33,
+    "cascade_risk_raw": 8
   },
   {
     "title": "Ouvriers emballage manutention",
@@ -285,7 +300,8 @@
     "cascade_risk": 7,
     "derived_demand_pct": 35,
     "cascade_rationale": "Total requirements cascade via HZ (1.47x total requirements), GZ (1.33x total requirements), C5 (1.54x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.47
+    "io_multiplier": 1.47,
+    "cascade_risk_raw": 7.15
   },
   {
     "title": "Conducteurs routiers",
@@ -303,7 +319,8 @@
     "cascade_risk": 7,
     "derived_demand_pct": 45,
     "cascade_rationale": "Total requirements cascade via HZ (1.47x total requirements), C5 (1.54x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.47
+    "io_multiplier": 1.47,
+    "cascade_risk_raw": 7.15
   },
   {
     "title": "Cadres B fonction publique",
@@ -321,7 +338,8 @@
     "cascade_risk": 6,
     "derived_demand_pct": 65,
     "cascade_rationale": "Total requirements cascade via MN (1.31x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.22
+    "io_multiplier": 1.22,
+    "cascade_risk_raw": 6
   },
   {
     "title": "Agents services hospitaliers",
@@ -339,7 +357,8 @@
     "cascade_risk": 4,
     "derived_demand_pct": 60,
     "cascade_rationale": "Total requirements cascade via RU (1.22x total requirements), OQ (1.21x total requirements), LZ (1.52x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.34
+    "io_multiplier": 1.34,
+    "cascade_risk_raw": 3.78
   },
   {
     "title": "Ingénieurs R&D industrie",
@@ -357,7 +376,8 @@
     "cascade_risk": 7,
     "derived_demand_pct": 45,
     "cascade_rationale": "Total requirements cascade via MN (1.31x total requirements), C3 (1.51x total requirements), C5 (1.54x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.36
+    "io_multiplier": 1.36,
+    "cascade_risk_raw": 6.73
   },
   {
     "title": "Techniciens services administratifs",
@@ -375,7 +395,8 @@
     "cascade_risk": 7,
     "derived_demand_pct": 75,
     "cascade_rationale": "Total requirements cascade via MN (1.31x total requirements), KZ (1.29x total requirements), JZ (1.40x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.33
+    "io_multiplier": 1.33,
+    "cascade_risk_raw": 7.04
   },
   {
     "title": "Cadres commerciaux, marketing, achats",
@@ -393,7 +414,8 @@
     "cascade_risk": 6,
     "derived_demand_pct": 55,
     "cascade_rationale": "Total requirements cascade via GZ (1.33x total requirements), MN (1.31x total requirements), C1 (1.80x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.38
+    "io_multiplier": 1.38,
+    "cascade_risk_raw": 6.29
   },
   {
     "title": "Employés comptabilité",
@@ -411,7 +433,8 @@
     "cascade_risk": 8,
     "derived_demand_pct": 70,
     "cascade_rationale": "Total requirements cascade via MN (1.31x total requirements), KZ (1.29x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.33
+    "io_multiplier": 1.33,
+    "cascade_risk_raw": 8
   },
   {
     "title": "Techniciens maintenance environnement",
@@ -429,7 +452,8 @@
     "cascade_risk": 6,
     "derived_demand_pct": 45,
     "cascade_rationale": "Total requirements cascade via C5 (1.54x total requirements), MN (1.31x total requirements), GZ (1.33x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.45
+    "io_multiplier": 1.45,
+    "cascade_risk_raw": 6.37
   },
   {
     "title": "Agents administratifs",
@@ -447,7 +471,8 @@
     "cascade_risk": 7,
     "derived_demand_pct": 75,
     "cascade_rationale": "Total requirements cascade via MN (1.31x total requirements), KZ (1.29x total requirements), JZ (1.40x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.33
+    "io_multiplier": 1.33,
+    "cascade_risk_raw": 7.04
   },
   {
     "title": "Agents sécurité ordre public",
@@ -465,7 +490,8 @@
     "cascade_risk": 4,
     "derived_demand_pct": 55,
     "cascade_rationale": "Total requirements cascade via OQ (1.21x total requirements), MN (1.31x total requirements), RU (1.22x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.22
+    "io_multiplier": 1.22,
+    "cascade_risk_raw": 3.79
   },
   {
     "title": "Médecins",
@@ -483,7 +509,8 @@
     "cascade_risk": 4,
     "derived_demand_pct": 45,
     "cascade_rationale": "Total requirements cascade via OQ (1.21x total requirements), MN (1.31x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.22
+    "io_multiplier": 1.22,
+    "cascade_risk_raw": 3.79
   },
   {
     "title": "Éducateurs spécialisés",
@@ -501,7 +528,8 @@
     "cascade_risk": 4,
     "derived_demand_pct": 40,
     "cascade_rationale": "Total requirements cascade via OQ (1.21x total requirements), MN (1.31x total requirements), RU (1.22x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.22
+    "io_multiplier": 1.22,
+    "cascade_risk_raw": 3.79
   },
   {
     "title": "Vendeurs spécialisés",
@@ -519,7 +547,8 @@
     "cascade_risk": 6,
     "derived_demand_pct": 65,
     "cascade_rationale": "Total requirements cascade via GZ (1.33x total requirements), MN (1.31x total requirements), C1 (1.80x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.38
+    "io_multiplier": 1.38,
+    "cascade_risk_raw": 6.29
   },
   {
     "title": "Maçons",
@@ -537,7 +566,8 @@
     "cascade_risk": 4,
     "derived_demand_pct": 55,
     "cascade_rationale": "Total requirements cascade via FZ (1.50x total requirements), C5 (1.54x total requirements), DE (1.53x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.51
+    "io_multiplier": 1.51,
+    "cascade_risk_raw": 3.75
   },
   {
     "title": "Serveurs cafés restaurants",
@@ -555,7 +585,8 @@
     "cascade_risk": 2,
     "derived_demand_pct": 60,
     "cascade_rationale": "Total requirements cascade via IZ (1.56x total requirements), GZ (1.33x total requirements), RU (1.22x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.52
+    "io_multiplier": 1.52,
+    "cascade_risk_raw": 2.1
   },
   {
     "title": "Employés banque assurances",
@@ -573,7 +604,8 @@
     "cascade_risk": 8,
     "derived_demand_pct": 90,
     "cascade_rationale": "Total requirements cascade via KZ (1.29x total requirements), MN (1.31x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.31
+    "io_multiplier": 1.31,
+    "cascade_risk_raw": 8.32
   },
   {
     "title": "Coiffeurs esthéticiens",
@@ -591,7 +623,8 @@
     "cascade_risk": 4,
     "derived_demand_pct": 55,
     "cascade_rationale": "Total requirements cascade via RU (1.22x total requirements), OQ (1.21x total requirements), LZ (1.52x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.34
+    "io_multiplier": 1.34,
+    "cascade_risk_raw": 3.78
   },
   {
     "title": "Cuisinier professionnel",
@@ -609,7 +642,8 @@
     "cascade_risk": 2,
     "derived_demand_pct": 60,
     "cascade_rationale": "Total requirements cascade via GZ (1.33x total requirements), RU (1.22x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.52
+    "io_multiplier": 1.52,
+    "cascade_risk_raw": 2.1
   },
   {
     "title": "Conducteur livreur courte distance",
@@ -627,7 +661,8 @@
     "cascade_risk": 7,
     "derived_demand_pct": 40,
     "cascade_rationale": "Total requirements cascade via HZ (1.47x total requirements), C5 (1.54x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.47
+    "io_multiplier": 1.47,
+    "cascade_risk_raw": 7.15
   },
   {
     "title": "Employé services divers",
@@ -645,7 +680,8 @@
     "cascade_risk": 4,
     "derived_demand_pct": 70,
     "cascade_rationale": "Total requirements cascade via OQ (1.21x total requirements), LZ (1.52x total requirements), MN (1.31x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.34
+    "io_multiplier": 1.34,
+    "cascade_risk_raw": 3.78
   },
   {
     "title": "Caissier de magasin",
@@ -663,7 +699,8 @@
     "cascade_risk": 7,
     "derived_demand_pct": 50,
     "cascade_rationale": "Total requirements cascade via MN (1.31x total requirements), C5 (1.54x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.38
+    "io_multiplier": 1.38,
+    "cascade_risk_raw": 7
   },
   {
     "title": "Vendeur produits alimentaires",
@@ -681,7 +718,8 @@
     "cascade_risk": 6,
     "derived_demand_pct": 30,
     "cascade_rationale": "Total requirements cascade via GZ (1.33x total requirements), MN (1.31x total requirements), C1 (1.80x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.38
+    "io_multiplier": 1.38,
+    "cascade_risk_raw": 6.29
   },
   {
     "title": "Technicien expert",
@@ -699,7 +737,8 @@
     "cascade_risk": 6,
     "derived_demand_pct": 75,
     "cascade_rationale": "Total requirements cascade via C5 (1.54x total requirements), MN (1.31x total requirements), GZ (1.33x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.45
+    "io_multiplier": 1.45,
+    "cascade_risk_raw": 6.37
   },
   {
     "title": "Animateur socioculturel",
@@ -717,7 +756,8 @@
     "cascade_risk": 4,
     "derived_demand_pct": 40,
     "cascade_rationale": "Total requirements cascade via OQ (1.21x total requirements), MN (1.31x total requirements), RU (1.22x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.22
+    "io_multiplier": 1.22,
+    "cascade_risk_raw": 3.79
   },
   {
     "title": "Cadre de la banque",
@@ -735,7 +775,8 @@
     "cascade_risk": 8,
     "derived_demand_pct": 95,
     "cascade_rationale": "Total requirements cascade via KZ (1.29x total requirements), MN (1.31x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.31
+    "io_multiplier": 1.31,
+    "cascade_risk_raw": 8.32
   },
   {
     "title": "Vendeur généraliste",
@@ -753,7 +794,8 @@
     "cascade_risk": 6,
     "derived_demand_pct": 55,
     "cascade_rationale": "Total requirements cascade via GZ (1.33x total requirements), MN (1.31x total requirements), C1 (1.80x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.38
+    "io_multiplier": 1.38,
+    "cascade_risk_raw": 6.29
   },
   {
     "title": "Ingénieur technico-commercial",
@@ -771,7 +813,8 @@
     "cascade_risk": 6,
     "derived_demand_pct": 80,
     "cascade_rationale": "Total requirements cascade via MN (1.31x total requirements), C5 (1.54x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.38
+    "io_multiplier": 1.38,
+    "cascade_risk_raw": 6.29
   },
   {
     "title": "Technicien études BTP",
@@ -789,7 +832,8 @@
     "cascade_risk": 6,
     "derived_demand_pct": 70,
     "cascade_rationale": "Total requirements cascade via C5 (1.54x total requirements), DE (1.53x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.51
+    "io_multiplier": 1.51,
+    "cascade_risk_raw": 6
   },
   {
     "title": "Agent de sécurité",
@@ -807,7 +851,8 @@
     "cascade_risk": 4,
     "derived_demand_pct": 85,
     "cascade_rationale": "Total requirements cascade via LZ (1.52x total requirements), MN (1.31x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.34
+    "io_multiplier": 1.34,
+    "cascade_risk_raw": 4
   },
   {
     "title": "Employé de maison",
@@ -825,7 +870,8 @@
     "cascade_risk": 4,
     "derived_demand_pct": 65,
     "cascade_rationale": "Total requirements cascade via RU (1.22x total requirements), OQ (1.21x total requirements), LZ (1.52x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.34
+    "io_multiplier": 1.34,
+    "cascade_risk_raw": 3.78
   },
   {
     "title": "Éleveur indépendant",
@@ -843,7 +889,8 @@
     "cascade_risk": 4,
     "derived_demand_pct": 25,
     "cascade_rationale": "Total requirements cascade via AZ (1.59x total requirements), C1 (1.80x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.61
+    "io_multiplier": 1.61,
+    "cascade_risk_raw": 3.58
   },
   {
     "title": "Ouvrier non qualifié métallerie",
@@ -861,7 +908,8 @@
     "cascade_risk": 6,
     "derived_demand_pct": 55,
     "cascade_rationale": "Total requirements cascade via C5 (1.54x total requirements), C3 (1.51x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.56
+    "io_multiplier": 1.56,
+    "cascade_risk_raw": 6.28
   },
   {
     "title": "Peintre finisseur bâtiment",
@@ -879,7 +927,8 @@
     "cascade_risk": 4,
     "derived_demand_pct": 70,
     "cascade_rationale": "Total requirements cascade via FZ (1.50x total requirements), C5 (1.54x total requirements), DE (1.53x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.51
+    "io_multiplier": 1.51,
+    "cascade_risk_raw": 3.75
   },
   {
     "title": "Dirigeant PME",
@@ -897,7 +946,8 @@
     "cascade_risk": 7,
     "derived_demand_pct": 60,
     "cascade_rationale": "Total requirements cascade via MN (1.31x total requirements), KZ (1.29x total requirements), GZ (1.33x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.33
+    "io_multiplier": 1.33,
+    "cascade_risk_raw": 7.04
   },
   {
     "title": "Formateur professionnel",
@@ -915,7 +965,8 @@
     "cascade_risk": 4,
     "derived_demand_pct": 75,
     "cascade_rationale": "Total requirements cascade via OQ (1.21x total requirements), MN (1.31x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.22
+    "io_multiplier": 1.22,
+    "cascade_risk_raw": 3.83
   },
   {
     "title": "Paramédicaux divers",
@@ -933,7 +984,8 @@
     "cascade_risk": 4,
     "derived_demand_pct": 60,
     "cascade_rationale": "Total requirements cascade via OQ (1.21x total requirements), MN (1.31x total requirements), RU (1.22x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.22
+    "io_multiplier": 1.22,
+    "cascade_risk_raw": 3.79
   },
   {
     "title": "Techniciens comptables financiers",
@@ -951,7 +1003,8 @@
     "cascade_risk": 7,
     "derived_demand_pct": 80,
     "cascade_rationale": "Total requirements cascade via MN (1.31x total requirements), KZ (1.29x total requirements), JZ (1.40x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.33
+    "io_multiplier": 1.33,
+    "cascade_risk_raw": 7.04
   },
   {
     "title": "Techniciens médicaux",
@@ -969,7 +1022,8 @@
     "cascade_risk": 4,
     "derived_demand_pct": 50,
     "cascade_rationale": "Total requirements cascade via MN (1.31x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.22
+    "io_multiplier": 1.22,
+    "cascade_risk_raw": 4
   },
   {
     "title": "Gérants HCR",
@@ -987,7 +1041,8 @@
     "cascade_risk": 2,
     "derived_demand_pct": 70,
     "cascade_rationale": "Total requirements cascade via IZ (1.56x total requirements), GZ (1.33x total requirements), RU (1.22x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.52
+    "io_multiplier": 1.52,
+    "cascade_risk_raw": 2.1
   },
   {
     "title": "Techniciens mécanique métaux",
@@ -1005,7 +1060,8 @@
     "cascade_risk": 6,
     "derived_demand_pct": 60,
     "cascade_rationale": "Total requirements cascade via C5 (1.54x total requirements), C4 (1.63x total requirements), C3 (1.51x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.56
+    "io_multiplier": 1.56,
+    "cascade_risk_raw": 6.28
   },
   {
     "title": "Agriculteurs indépendants",
@@ -1023,7 +1079,8 @@
     "cascade_risk": 4,
     "derived_demand_pct": 20,
     "cascade_rationale": "Total requirements cascade via AZ (1.59x total requirements), C1 (1.80x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.61
+    "io_multiplier": 1.61,
+    "cascade_risk_raw": 3.58
   },
   {
     "title": "Jardiniers salariés",
@@ -1041,7 +1098,8 @@
     "cascade_risk": 4,
     "derived_demand_pct": 60,
     "cascade_rationale": "Total requirements cascade via AZ (1.59x total requirements), C1 (1.80x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.61
+    "io_multiplier": 1.61,
+    "cascade_risk_raw": 3.58
   },
   {
     "title": "Techniciens industries process",
@@ -1059,7 +1117,8 @@
     "cascade_risk": 7,
     "derived_demand_pct": 55,
     "cascade_rationale": "Total requirements cascade via C5 (1.54x total requirements), C1 (1.80x total requirements), C2 (2.25x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.7
+    "io_multiplier": 1.7,
+    "cascade_risk_raw": 6.81
   },
   {
     "title": "Mécaniciens véhicules",
@@ -1077,7 +1136,8 @@
     "cascade_risk": 6,
     "derived_demand_pct": 45,
     "cascade_rationale": "Total requirements cascade via C5 (1.54x total requirements), FZ (1.50x total requirements), MN (1.31x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.45
+    "io_multiplier": 1.45,
+    "cascade_risk_raw": 6.37
   },
   {
     "title": "Secrétaires de direction",
@@ -1095,7 +1155,8 @@
     "cascade_risk": 7,
     "derived_demand_pct": 90,
     "cascade_rationale": "Total requirements cascade via MN (1.31x total requirements), KZ (1.29x total requirements), JZ (1.40x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.33
+    "io_multiplier": 1.33,
+    "cascade_risk_raw": 7.04
   },
   {
     "title": "Ingénieurs production",
@@ -1113,7 +1174,8 @@
     "cascade_risk": 8,
     "derived_demand_pct": 40,
     "cascade_rationale": "Total requirements cascade via MN (1.31x total requirements), C3 (1.51x total requirements), JZ (1.40x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.41
+    "io_multiplier": 1.41,
+    "cascade_risk_raw": 7.69
   },
   {
     "title": "Employés Poste Télécoms",
@@ -1131,7 +1193,8 @@
     "cascade_risk": 4,
     "derived_demand_pct": 45,
     "cascade_rationale": "Total requirements cascade via MN (1.31x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.22
+    "io_multiplier": 1.22,
+    "cascade_risk_raw": 4
   },
   {
     "title": "Conducteurs véhicules légers",
@@ -1149,7 +1212,8 @@
     "cascade_risk": 7,
     "derived_demand_pct": 60,
     "cascade_rationale": "Total requirements cascade via HZ (1.47x total requirements), C5 (1.54x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.47
+    "io_multiplier": 1.47,
+    "cascade_risk_raw": 7.15
   },
   {
     "title": "Électriciens bâtiment",
@@ -1167,7 +1231,8 @@
     "cascade_risk": 4,
     "derived_demand_pct": 70,
     "cascade_rationale": "Total requirements cascade via FZ (1.50x total requirements), C5 (1.54x total requirements), DE (1.53x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.51
+    "io_multiplier": 1.51,
+    "cascade_risk_raw": 3.75
   },
   {
     "title": "Plombiers chauffagistes",
@@ -1185,7 +1250,8 @@
     "cascade_risk": 4,
     "derived_demand_pct": 70,
     "cascade_rationale": "Total requirements cascade via FZ (1.50x total requirements), C5 (1.54x total requirements), DE (1.53x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.51
+    "io_multiplier": 1.51,
+    "cascade_risk_raw": 3.75
   },
   {
     "title": "Ingénieurs BTP",
@@ -1203,7 +1269,8 @@
     "cascade_risk": 4,
     "derived_demand_pct": 80,
     "cascade_rationale": "Total requirements cascade via C5 (1.54x total requirements), DE (1.53x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.51
+    "io_multiplier": 1.51,
+    "cascade_risk_raw": 4
   },
   {
     "title": "Professeurs supérieur",
@@ -1221,7 +1288,8 @@
     "cascade_risk": 4,
     "derived_demand_pct": 75,
     "cascade_rationale": "Total requirements cascade via OQ (1.21x total requirements), MN (1.31x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.22
+    "io_multiplier": 1.22,
+    "cascade_risk_raw": 3.83
   },
   {
     "title": "Conducteurs transport commun",
@@ -1239,7 +1307,8 @@
     "cascade_risk": 7,
     "derived_demand_pct": 85,
     "cascade_rationale": "Total requirements cascade via HZ (1.47x total requirements), GZ (1.33x total requirements), C5 (1.54x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.47
+    "io_multiplier": 1.47,
+    "cascade_risk_raw": 7.15
   },
   {
     "title": "Vendeurs Ameublement Bricolage",
@@ -1257,7 +1326,8 @@
     "cascade_risk": 6,
     "derived_demand_pct": 70,
     "cascade_rationale": "Total requirements cascade via GZ (1.33x total requirements), MN (1.31x total requirements), C1 (1.80x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.38
+    "io_multiplier": 1.38,
+    "cascade_risk_raw": 6.29
   },
   {
     "title": "Artistes Musique Danse",
@@ -1275,7 +1345,8 @@
     "cascade_risk": 6,
     "derived_demand_pct": 90,
     "cascade_rationale": "Total requirements cascade via JZ (1.40x total requirements), RU (1.22x total requirements), MN (1.31x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.3
+    "io_multiplier": 1.3,
+    "cascade_risk_raw": 5.59
   },
   {
     "title": "Ouvriers Bâtiment Non Qualifiés",
@@ -1293,7 +1364,8 @@
     "cascade_risk": 4,
     "derived_demand_pct": 85,
     "cascade_rationale": "Total requirements cascade via FZ (1.50x total requirements), C5 (1.54x total requirements), DE (1.53x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.51
+    "io_multiplier": 1.51,
+    "cascade_risk_raw": 3.75
   },
   {
     "title": "Professionnels Spectacles",
@@ -1311,7 +1383,8 @@
     "cascade_risk": 6,
     "derived_demand_pct": 90,
     "cascade_rationale": "Total requirements cascade via JZ (1.40x total requirements), RU (1.22x total requirements), MN (1.31x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.3
+    "io_multiplier": 1.3,
+    "cascade_risk_raw": 5.59
   },
   {
     "title": "Graphistes Stylistes Décorateurs",
@@ -1329,7 +1402,8 @@
     "cascade_risk": 6,
     "derived_demand_pct": 75,
     "cascade_rationale": "Total requirements cascade via JZ (1.40x total requirements), MN (1.31x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.3
+    "io_multiplier": 1.3,
+    "cascade_risk_raw": 6
   },
   {
     "title": "Aides Cuisine Restauration",
@@ -1347,7 +1421,8 @@
     "cascade_risk": 2,
     "derived_demand_pct": 95,
     "cascade_rationale": "Total requirements cascade via GZ (1.33x total requirements), RU (1.22x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.52
+    "io_multiplier": 1.52,
+    "cascade_risk_raw": 2.1
   },
   {
     "title": "Surveillants Scolaires",
@@ -1365,7 +1440,8 @@
     "cascade_risk": 4,
     "derived_demand_pct": 25,
     "cascade_rationale": "Total requirements cascade via OQ (1.21x total requirements), MN (1.31x total requirements), RU (1.22x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.22
+    "io_multiplier": 1.22,
+    "cascade_risk_raw": 3.79
   },
   {
     "title": "Employés Libre Service",
@@ -1383,7 +1459,8 @@
     "cascade_risk": 6,
     "derived_demand_pct": 45,
     "cascade_rationale": "Total requirements cascade via GZ (1.33x total requirements), MN (1.31x total requirements), C1 (1.80x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.38
+    "io_multiplier": 1.38,
+    "cascade_risk_raw": 6.29
   },
   {
     "title": "Sportifs Animateurs Sportifs",
@@ -1401,7 +1478,8 @@
     "cascade_risk": 4,
     "derived_demand_pct": 55,
     "cascade_rationale": "Total requirements cascade via OQ (1.21x total requirements), MN (1.31x total requirements), RU (1.22x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.22
+    "io_multiplier": 1.22,
+    "cascade_risk_raw": 3.79
   },
   {
     "title": "Ingénieurs Méthodes Qualité",
@@ -1419,7 +1497,8 @@
     "cascade_risk": 8,
     "derived_demand_pct": 35,
     "cascade_rationale": "Total requirements cascade via MN (1.31x total requirements), JZ (1.40x total requirements), C5 (1.54x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.41
+    "io_multiplier": 1.41,
+    "cascade_risk_raw": 7.69
   },
   {
     "title": "Cadres RH Recrutement",
@@ -1437,7 +1516,8 @@
     "cascade_risk": 7,
     "derived_demand_pct": 75,
     "cascade_rationale": "Total requirements cascade via MN (1.31x total requirements), KZ (1.29x total requirements), JZ (1.40x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.33
+    "io_multiplier": 1.33,
+    "cascade_risk_raw": 7.04
   },
   {
     "title": "Techniciens Électricité Électronique",
@@ -1455,7 +1535,8 @@
     "cascade_risk": 6,
     "derived_demand_pct": 45,
     "cascade_rationale": "Total requirements cascade via C3 (1.51x total requirements), C5 (1.54x total requirements), DE (1.53x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.52
+    "io_multiplier": 1.52,
+    "cascade_risk_raw": 6.46
   },
   {
     "title": "Ouvriers Qualifiés Mécanique",
@@ -1473,7 +1554,8 @@
     "cascade_risk": 6,
     "derived_demand_pct": 35,
     "cascade_rationale": "Total requirements cascade via C5 (1.54x total requirements), C4 (1.63x total requirements), C3 (1.51x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.56
+    "io_multiplier": 1.56,
+    "cascade_risk_raw": 6.28
   },
   {
     "title": "Techniciens Assurances",
@@ -1491,7 +1573,8 @@
     "cascade_risk": 8,
     "derived_demand_pct": 85,
     "cascade_rationale": "Total requirements cascade via KZ (1.29x total requirements), MN (1.31x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.31
+    "io_multiplier": 1.31,
+    "cascade_risk_raw": 8.32
   },
   {
     "title": "Commerciaux Intermédiaires",
@@ -1509,7 +1592,8 @@
     "cascade_risk": 6,
     "derived_demand_pct": 65,
     "cascade_rationale": "Total requirements cascade via GZ (1.33x total requirements), MN (1.31x total requirements), C1 (1.80x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.38
+    "io_multiplier": 1.38,
+    "cascade_risk_raw": 6.29
   },
   {
     "title": "Responsables Magasinage",
@@ -1527,7 +1611,8 @@
     "cascade_risk": 7,
     "derived_demand_pct": 45,
     "cascade_rationale": "Total requirements cascade via HZ (1.47x total requirements), C5 (1.54x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.47
+    "io_multiplier": 1.47,
+    "cascade_risk_raw": 7.15
   },
   {
     "title": "Cadres Assurances",
@@ -1545,7 +1630,8 @@
     "cascade_risk": 8,
     "derived_demand_pct": 85,
     "cascade_rationale": "Total requirements cascade via KZ (1.29x total requirements), MN (1.31x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.31
+    "io_multiplier": 1.31,
+    "cascade_risk_raw": 8.32
   },
   {
     "title": "Ouvriers Agro-alimentaire Non Qualifiés",
@@ -1563,7 +1649,8 @@
     "cascade_risk": 7,
     "derived_demand_pct": 25,
     "cascade_rationale": "Total requirements cascade via C5 (1.54x total requirements), C1 (1.80x total requirements), C2 (2.25x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.7
+    "io_multiplier": 1.7,
+    "cascade_risk_raw": 6.81
   },
   {
     "title": "Représentants particuliers",
@@ -1581,7 +1668,8 @@
     "cascade_risk": 6,
     "derived_demand_pct": 65,
     "cascade_rationale": "Total requirements cascade via GZ (1.33x total requirements), MN (1.31x total requirements), C1 (1.80x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.38
+    "io_multiplier": 1.38,
+    "cascade_risk_raw": 6.29
   },
   {
     "title": "Techniciens support informatique",
@@ -1599,7 +1687,8 @@
     "cascade_risk": 8,
     "derived_demand_pct": 75,
     "cascade_rationale": "Total requirements cascade via JZ (1.40x total requirements), MN (1.31x total requirements), KZ (1.29x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.34
+    "io_multiplier": 1.34,
+    "cascade_risk_raw": 7.71
   },
   {
     "title": "Menuisiers, agenceurs, isoleurs",
@@ -1617,7 +1706,8 @@
     "cascade_risk": 4,
     "derived_demand_pct": 65,
     "cascade_rationale": "Total requirements cascade via FZ (1.50x total requirements), C5 (1.54x total requirements), DE (1.53x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.51
+    "io_multiplier": 1.51,
+    "cascade_risk_raw": 3.75
   },
   {
     "title": "Professionnels action sociale",
@@ -1635,7 +1725,8 @@
     "cascade_risk": 4,
     "derived_demand_pct": 35,
     "cascade_rationale": "Total requirements cascade via OQ (1.21x total requirements), MN (1.31x total requirements), RU (1.22x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.22
+    "io_multiplier": 1.22,
+    "cascade_risk_raw": 3.79
   },
   {
     "title": "Chefs de chantier, conducteurs travaux",
@@ -1653,7 +1744,8 @@
     "cascade_risk": 4,
     "derived_demand_pct": 50,
     "cascade_rationale": "Total requirements cascade via FZ (1.50x total requirements), C5 (1.54x total requirements), DE (1.53x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.51
+    "io_multiplier": 1.51,
+    "cascade_risk_raw": 3.75
   },
   {
     "title": "Boulangers, pâtissiers",
@@ -1671,7 +1763,8 @@
     "cascade_risk": 2,
     "derived_demand_pct": 35,
     "cascade_rationale": "Total requirements cascade via IZ (1.56x total requirements), GZ (1.33x total requirements), RU (1.22x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.52
+    "io_multiplier": 1.52,
+    "cascade_risk_raw": 2.1
   },
   {
     "title": "Agents immobiliers, syndics",
@@ -1689,7 +1782,8 @@
     "cascade_risk": 6,
     "derived_demand_pct": 70,
     "cascade_rationale": "Total requirements cascade via GZ (1.33x total requirements), MN (1.31x total requirements), C1 (1.80x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.38
+    "io_multiplier": 1.38,
+    "cascade_risk_raw": 6.29
   },
   {
     "title": "Employés hôtellerie",
@@ -1707,7 +1801,8 @@
     "cascade_risk": 2,
     "derived_demand_pct": 65,
     "cascade_rationale": "Total requirements cascade via IZ (1.56x total requirements), GZ (1.33x total requirements), RU (1.22x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.52
+    "io_multiplier": 1.52,
+    "cascade_risk_raw": 2.1
   },
   {
     "title": "Professionnels du droit",
@@ -1725,7 +1820,8 @@
     "cascade_risk": 6,
     "derived_demand_pct": 45,
     "cascade_rationale": "Total requirements cascade via MN (1.31x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.22
+    "io_multiplier": 1.22,
+    "cascade_risk_raw": 6
   },
   {
     "title": "Ouvriers non qualifiés TP",
@@ -1743,7 +1839,8 @@
     "cascade_risk": 4,
     "derived_demand_pct": 50,
     "cascade_rationale": "Total requirements cascade via FZ (1.50x total requirements), C5 (1.54x total requirements), DE (1.53x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.51
+    "io_multiplier": 1.51,
+    "cascade_risk_raw": 3.75
   },
   {
     "title": "Chaudronniers, serruriers, métalliers",
@@ -1761,7 +1858,8 @@
     "cascade_risk": 6,
     "derived_demand_pct": 20,
     "cascade_rationale": "Total requirements cascade via C5 (1.54x total requirements), C4 (1.63x total requirements), C3 (1.51x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.56
+    "io_multiplier": 1.56,
+    "cascade_risk_raw": 6.28
   },
   {
     "title": "Bouchers",
@@ -1779,7 +1877,8 @@
     "cascade_risk": 2,
     "derived_demand_pct": 40,
     "cascade_rationale": "Total requirements cascade via IZ (1.56x total requirements), GZ (1.33x total requirements), RU (1.22x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.52
+    "io_multiplier": 1.52,
+    "cascade_risk_raw": 2.1
   },
   {
     "title": "Ouvriers qualifiés TP",
@@ -1797,7 +1896,8 @@
     "cascade_risk": 4,
     "derived_demand_pct": 55,
     "cascade_rationale": "Total requirements cascade via FZ (1.50x total requirements), C5 (1.54x total requirements), DE (1.53x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.51
+    "io_multiplier": 1.51,
+    "cascade_risk_raw": 3.75
   },
   {
     "title": "Chercheurs (hors industrie/supérieur)",
@@ -1815,7 +1915,8 @@
     "cascade_risk": 7,
     "derived_demand_pct": 45,
     "cascade_rationale": "Total requirements cascade via MN (1.31x total requirements), C5 (1.54x total requirements), JZ (1.40x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.36
+    "io_multiplier": 1.36,
+    "cascade_risk_raw": 6.73
   },
   {
     "title": "Ouvriers maintenance mécanique",
@@ -1833,7 +1934,8 @@
     "cascade_risk": 6,
     "derived_demand_pct": 35,
     "cascade_rationale": "Total requirements cascade via C5 (1.54x total requirements), FZ (1.50x total requirements), MN (1.31x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.45
+    "io_multiplier": 1.45,
+    "cascade_risk_raw": 6.37
   },
   {
     "title": "Ouvriers non qualifiés bâtiment",
@@ -1851,7 +1953,8 @@
     "cascade_risk": 4,
     "derived_demand_pct": 60,
     "cascade_rationale": "Total requirements cascade via FZ (1.50x total requirements), C5 (1.54x total requirements), DE (1.53x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.51
+    "io_multiplier": 1.51,
+    "cascade_risk_raw": 3.75
   },
   {
     "title": "Agents maîtrise fabrication mécanique",
@@ -1869,7 +1972,8 @@
     "cascade_risk": 6,
     "derived_demand_pct": 25,
     "cascade_rationale": "Total requirements cascade via C5 (1.54x total requirements), C4 (1.63x total requirements), C3 (1.51x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.56
+    "io_multiplier": 1.56,
+    "cascade_risk_raw": 6.28
   },
   {
     "title": "Ouvriers qualifiés IAA",
@@ -1887,7 +1991,8 @@
     "cascade_risk": 7,
     "derived_demand_pct": 30,
     "cascade_rationale": "Total requirements cascade via C5 (1.54x total requirements), C1 (1.80x total requirements), C2 (2.25x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.7
+    "io_multiplier": 1.7,
+    "cascade_risk_raw": 6.81
   },
   {
     "title": "Responsable logistique",
@@ -1905,7 +2010,8 @@
     "cascade_risk": 7,
     "derived_demand_pct": 40,
     "cascade_rationale": "Total requirements cascade via HZ (1.47x total requirements), C5 (1.54x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.47
+    "io_multiplier": 1.47,
+    "cascade_risk_raw": 7.15
   },
   {
     "title": "Ouvrier usinage métal",
@@ -1923,7 +2029,8 @@
     "cascade_risk": 6,
     "derived_demand_pct": 25,
     "cascade_rationale": "Total requirements cascade via C5 (1.54x total requirements), C4 (1.63x total requirements), C3 (1.51x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.56
+    "io_multiplier": 1.56,
+    "cascade_risk_raw": 6.28
   },
   {
     "title": "Agent maîtrise industrie",
@@ -1941,7 +2048,8 @@
     "cascade_risk": 7,
     "derived_demand_pct": 30,
     "cascade_rationale": "Total requirements cascade via C5 (1.54x total requirements), C1 (1.80x total requirements), C2 (2.25x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.7
+    "io_multiplier": 1.7,
+    "cascade_risk_raw": 6.81
   },
   {
     "title": "Technicien développement informatique",
@@ -1959,7 +2067,8 @@
     "cascade_risk": 8,
     "derived_demand_pct": 60,
     "cascade_rationale": "Total requirements cascade via JZ (1.40x total requirements), MN (1.31x total requirements), KZ (1.29x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.34
+    "io_multiplier": 1.34,
+    "cascade_risk_raw": 7.71
   },
   {
     "title": "Agent accueil information",
@@ -1977,7 +2086,8 @@
     "cascade_risk": 7,
     "derived_demand_pct": 80,
     "cascade_rationale": "Total requirements cascade via MN (1.31x total requirements), KZ (1.29x total requirements), JZ (1.40x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.33
+    "io_multiplier": 1.33,
+    "cascade_risk_raw": 7.04
   },
   {
     "title": "Technicien bancaire",
@@ -1995,7 +2105,8 @@
     "cascade_risk": 8,
     "derived_demand_pct": 90,
     "cascade_rationale": "Total requirements cascade via KZ (1.29x total requirements), MN (1.31x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.31
+    "io_multiplier": 1.31,
+    "cascade_risk_raw": 8.32
   },
   {
     "title": "Technicien transport tourisme",
@@ -2013,7 +2124,8 @@
     "cascade_risk": 7,
     "derived_demand_pct": 70,
     "cascade_rationale": "Total requirements cascade via HZ (1.47x total requirements), C5 (1.54x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.47
+    "io_multiplier": 1.47,
+    "cascade_risk_raw": 7.15
   },
   {
     "title": "Conducteur engins BTP",
@@ -2031,7 +2143,8 @@
     "cascade_risk": 4,
     "derived_demand_pct": 55,
     "cascade_rationale": "Total requirements cascade via FZ (1.50x total requirements), C5 (1.54x total requirements), DE (1.53x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.51
+    "io_multiplier": 1.51,
+    "cascade_risk_raw": 3.75
   },
   {
     "title": "Pharmacien",
@@ -2049,7 +2162,8 @@
     "cascade_risk": 4,
     "derived_demand_pct": 35,
     "cascade_rationale": "Total requirements cascade via OQ (1.21x total requirements), MN (1.31x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.22
+    "io_multiplier": 1.22,
+    "cascade_risk_raw": 3.79
   },
   {
     "title": "Cadre maintenance environnement",
@@ -2067,7 +2181,8 @@
     "cascade_risk": 8,
     "derived_demand_pct": 40,
     "cascade_rationale": "Total requirements cascade via MN (1.31x total requirements), C3 (1.51x total requirements), JZ (1.40x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.41
+    "io_multiplier": 1.41,
+    "cascade_risk_raw": 7.69
   },
   {
     "title": "Cadre magasin",
@@ -2085,7 +2200,8 @@
     "cascade_risk": 6,
     "derived_demand_pct": 65,
     "cascade_rationale": "Total requirements cascade via GZ (1.33x total requirements), MN (1.31x total requirements), C1 (1.80x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.38
+    "io_multiplier": 1.38,
+    "cascade_risk_raw": 6.29
   },
   {
     "title": "Psychologue, psychothérapeute",
@@ -2103,7 +2219,8 @@
     "cascade_risk": 4,
     "derived_demand_pct": 45,
     "cascade_rationale": "Total requirements cascade via OQ (1.21x total requirements), MN (1.31x total requirements), RU (1.22x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.22
+    "io_multiplier": 1.22,
+    "cascade_risk_raw": 3.79
   },
   {
     "title": "Ouvrier entretien bâtiment",
@@ -2121,7 +2238,8 @@
     "cascade_risk": 6,
     "derived_demand_pct": 85,
     "cascade_rationale": "Total requirements cascade via C5 (1.54x total requirements), FZ (1.50x total requirements), MN (1.31x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.45
+    "io_multiplier": 1.45,
+    "cascade_risk_raw": 6.37
   },
   {
     "title": "Télévendeur",
@@ -2139,7 +2257,8 @@
     "cascade_risk": 8,
     "derived_demand_pct": 70,
     "cascade_rationale": "Total requirements cascade via MN (1.31x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.38
+    "io_multiplier": 1.38,
+    "cascade_risk_raw": 8
   },
   {
     "title": "Cadre communication",
@@ -2157,7 +2276,8 @@
     "cascade_risk": 6,
     "derived_demand_pct": 60,
     "cascade_rationale": "Total requirements cascade via JZ (1.40x total requirements), MN (1.31x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.3
+    "io_multiplier": 1.3,
+    "cascade_risk_raw": 5.59
   },
   {
     "title": "Viticulteur, arboriculteur",
@@ -2175,7 +2295,8 @@
     "cascade_risk": 4,
     "derived_demand_pct": 25,
     "cascade_rationale": "Total requirements cascade via AZ (1.59x total requirements), C1 (1.80x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.61
+    "io_multiplier": 1.61,
+    "cascade_risk_raw": 3.58
   },
   {
     "title": "Ouvrier industrie chimique",
@@ -2193,7 +2314,8 @@
     "cascade_risk": 7,
     "derived_demand_pct": 20,
     "cascade_rationale": "Total requirements cascade via C5 (1.54x total requirements), C1 (1.80x total requirements), C2 (2.25x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.7
+    "io_multiplier": 1.7,
+    "cascade_risk_raw": 6.81
   },
   {
     "title": "Architecte",
@@ -2211,7 +2333,8 @@
     "cascade_risk": 4,
     "derived_demand_pct": 70,
     "cascade_rationale": "Total requirements cascade via FZ (1.50x total requirements), C5 (1.54x total requirements), DE (1.53x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.51
+    "io_multiplier": 1.51,
+    "cascade_risk_raw": 3.75
   },
   {
     "title": "Journalistes et cadres édition",
@@ -2229,7 +2352,8 @@
     "cascade_risk": 7,
     "derived_demand_pct": 50,
     "cascade_rationale": "Total requirements cascade via JZ (1.40x total requirements), MN (1.31x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.3
+    "io_multiplier": 1.3,
+    "cascade_risk_raw": 7
   },
   {
     "title": "Ouvriers assainissement et déchets",
@@ -2247,7 +2371,8 @@
     "cascade_risk": 4,
     "derived_demand_pct": 25,
     "cascade_rationale": "Total requirements cascade via RU (1.22x total requirements), OQ (1.21x total requirements), LZ (1.52x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.34
+    "io_multiplier": 1.34,
+    "cascade_risk_raw": 3.78
   },
   {
     "title": "Artisans et ouvriers qualifiés",
@@ -2265,7 +2390,8 @@
     "cascade_risk": 5,
     "derived_demand_pct": 50,
     "cascade_rationale": "Total requirements cascade via RU (1.22x total requirements), C5 (1.54x total requirements), C1 (1.80x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.43
+    "io_multiplier": 1.43,
+    "cascade_risk_raw": 4.8
   },
   {
     "title": "Viticulteurs, arboriculteurs indépendants",
@@ -2283,7 +2409,8 @@
     "cascade_risk": 4,
     "derived_demand_pct": 25,
     "cascade_rationale": "Total requirements cascade via AZ (1.59x total requirements), C1 (1.80x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.61
+    "io_multiplier": 1.61,
+    "cascade_risk_raw": 3.58
   },
   {
     "title": "Agriculteurs salariés",
@@ -2301,7 +2428,8 @@
     "cascade_risk": 4,
     "derived_demand_pct": 25,
     "cascade_rationale": "Total requirements cascade via AZ (1.59x total requirements), C1 (1.80x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.61
+    "io_multiplier": 1.61,
+    "cascade_risk_raw": 3.58
   },
   {
     "title": "Ouvriers qualifiés bois ameublement",
@@ -2319,7 +2447,8 @@
     "cascade_risk": 7,
     "derived_demand_pct": 50,
     "cascade_rationale": "Total requirements cascade via C5 (1.54x total requirements), C1 (1.80x total requirements), GZ (1.33x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.54
+    "io_multiplier": 1.54,
+    "cascade_risk_raw": 7.19
   },
   {
     "title": "Spécialistes appareillage médical",
@@ -2337,7 +2466,8 @@
     "cascade_risk": 4,
     "derived_demand_pct": 40,
     "cascade_rationale": "Total requirements cascade via MN (1.31x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.22
+    "io_multiplier": 1.22,
+    "cascade_risk_raw": 4
   },
   {
     "title": "Ouvriers qualifiés matériaux énergie",
@@ -2355,7 +2485,8 @@
     "cascade_risk": 7,
     "derived_demand_pct": 30,
     "cascade_rationale": "Total requirements cascade via C5 (1.54x total requirements), C1 (1.80x total requirements), C2 (2.25x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.7
+    "io_multiplier": 1.7,
+    "cascade_risk_raw": 6.81
   },
   {
     "title": "Cadres intermédiaires police armée",
@@ -2373,7 +2504,8 @@
     "cascade_risk": 4,
     "derived_demand_pct": 60,
     "cascade_rationale": "Total requirements cascade via OQ (1.21x total requirements), MN (1.31x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.22
+    "io_multiplier": 1.22,
+    "cascade_risk_raw": 3.79
   },
   {
     "title": "Cadres hôtellerie restauration",
@@ -2391,7 +2523,8 @@
     "cascade_risk": 4,
     "derived_demand_pct": 70,
     "cascade_rationale": "Total requirements cascade via GZ (1.33x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.52
+    "io_multiplier": 1.52,
+    "cascade_risk_raw": 4
   },
   {
     "title": "Techniciens encadrement agricole",
@@ -2409,7 +2542,8 @@
     "cascade_risk": 5,
     "derived_demand_pct": 30,
     "cascade_rationale": "Total requirements cascade via C1 (1.80x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.61
+    "io_multiplier": 1.61,
+    "cascade_risk_raw": 5
   },
   {
     "title": "Maîtres d'hôtel",
@@ -2427,7 +2561,8 @@
     "cascade_risk": 2,
     "derived_demand_pct": 80,
     "cascade_rationale": "Total requirements cascade via IZ (1.56x total requirements), GZ (1.33x total requirements), RU (1.22x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.52
+    "io_multiplier": 1.52,
+    "cascade_risk_raw": 2.1
   },
   {
     "title": "Vendeurs gros matériel équipements",
@@ -2445,7 +2580,8 @@
     "cascade_risk": 6,
     "derived_demand_pct": 60,
     "cascade_rationale": "Total requirements cascade via GZ (1.33x total requirements), MN (1.31x total requirements), C1 (1.80x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.38
+    "io_multiplier": 1.38,
+    "cascade_risk_raw": 6.29
   },
   {
     "title": "Agents qualifiés laboratoire",
@@ -2463,7 +2599,8 @@
     "cascade_risk": 7,
     "derived_demand_pct": 45,
     "cascade_rationale": "Total requirements cascade via C5 (1.54x total requirements), C2 (2.25x total requirements), DE (1.53x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.7
+    "io_multiplier": 1.7,
+    "cascade_risk_raw": 6.81
   },
   {
     "title": "Ingénieurs cadres logistique",
@@ -2481,7 +2618,8 @@
     "cascade_risk": 8,
     "derived_demand_pct": 70,
     "cascade_rationale": "Total requirements multiplier 1.47x [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.47
+    "io_multiplier": 1.47,
+    "cascade_risk_raw": 8
   },
   {
     "title": "Ouvriers qualifiés électricité électronique",
@@ -2499,7 +2637,8 @@
     "cascade_risk": 6,
     "derived_demand_pct": 55,
     "cascade_rationale": "Total requirements cascade via C3 (1.51x total requirements), C5 (1.54x total requirements), DE (1.53x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.52
+    "io_multiplier": 1.52,
+    "cascade_risk_raw": 6.46
   },
   {
     "title": "Assistants communication",
@@ -2517,7 +2656,8 @@
     "cascade_risk": 7,
     "derived_demand_pct": 75,
     "cascade_rationale": "Total requirements cascade via JZ (1.40x total requirements), MN (1.31x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.3
+    "io_multiplier": 1.3,
+    "cascade_risk_raw": 7
   },
   {
     "title": "Concierges",
@@ -2535,7 +2675,8 @@
     "cascade_risk": 4,
     "derived_demand_pct": 60,
     "cascade_rationale": "Total requirements cascade via RU (1.22x total requirements), OQ (1.21x total requirements), LZ (1.52x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.34
+    "io_multiplier": 1.34,
+    "cascade_risk_raw": 3.78
   },
   {
     "title": "Intermédiaires commerce",
@@ -2553,7 +2694,8 @@
     "cascade_risk": 6,
     "derived_demand_pct": 80,
     "cascade_rationale": "Total requirements cascade via GZ (1.33x total requirements), MN (1.31x total requirements), C1 (1.80x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.38
+    "io_multiplier": 1.38,
+    "cascade_risk_raw": 6.29
   },
   {
     "title": "Agents administratifs transports",
@@ -2571,7 +2713,8 @@
     "cascade_risk": 8,
     "derived_demand_pct": 70,
     "cascade_rationale": "Total requirements multiplier 1.47x [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.47
+    "io_multiplier": 1.47,
+    "cascade_risk_raw": 8
   },
   {
     "title": "Ouvriers industries chimiques",
@@ -2589,7 +2732,8 @@
     "cascade_risk": 7,
     "derived_demand_pct": 65,
     "cascade_rationale": "Total requirements cascade via C5 (1.54x total requirements), C1 (1.80x total requirements), C2 (2.25x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.7
+    "io_multiplier": 1.7,
+    "cascade_risk_raw": 6.81
   },
   {
     "title": "Ouvriers artisanat textile/cuir",
@@ -2607,7 +2751,8 @@
     "cascade_risk": 7,
     "derived_demand_pct": 70,
     "cascade_rationale": "Total requirements cascade via C5 (1.54x total requirements), C1 (1.80x total requirements), GZ (1.33x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.54
+    "io_multiplier": 1.54,
+    "cascade_risk_raw": 7.19
   },
   {
     "title": "Éleveurs salariés",
@@ -2625,7 +2770,8 @@
     "cascade_risk": 4,
     "derived_demand_pct": 30,
     "cascade_rationale": "Total requirements cascade via AZ (1.59x total requirements), C1 (1.80x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.61
+    "io_multiplier": 1.61,
+    "cascade_risk_raw": 3.58
   },
   {
     "title": "Contrôleurs impôts/douanes",
@@ -2643,7 +2789,8 @@
     "cascade_risk": 7,
     "derived_demand_pct": 90,
     "cascade_rationale": "Total requirements cascade via MN (1.31x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.22
+    "io_multiplier": 1.22,
+    "cascade_risk_raw": 7
   },
   {
     "title": "Couvreurs",
@@ -2661,7 +2808,8 @@
     "cascade_risk": 4,
     "derived_demand_pct": 75,
     "cascade_rationale": "Total requirements cascade via FZ (1.50x total requirements), C5 (1.54x total requirements), DE (1.53x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.51
+    "io_multiplier": 1.51,
+    "cascade_risk_raw": 3.75
   },
   {
     "title": "Ouvriers non qualifiés divers",
@@ -2679,7 +2827,8 @@
     "cascade_risk": 5,
     "derived_demand_pct": 70,
     "cascade_rationale": "Total requirements cascade via RU (1.22x total requirements), C5 (1.54x total requirements), C1 (1.80x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.43
+    "io_multiplier": 1.43,
+    "cascade_risk_raw": 4.8
   },
   {
     "title": "Artistes plasticiens",
@@ -2697,7 +2846,8 @@
     "cascade_risk": 6,
     "derived_demand_pct": 85,
     "cascade_rationale": "Total requirements cascade via JZ (1.40x total requirements), RU (1.22x total requirements), MN (1.31x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.3
+    "io_multiplier": 1.3,
+    "cascade_risk_raw": 5.59
   },
   {
     "title": "Employés/opérateurs informatique",
@@ -2715,7 +2865,8 @@
     "cascade_risk": 8,
     "derived_demand_pct": 55,
     "cascade_rationale": "Total requirements cascade via JZ (1.40x total requirements), MN (1.31x total requirements), KZ (1.29x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.34
+    "io_multiplier": 1.34,
+    "cascade_risk_raw": 7.71
   },
   {
     "title": "Ouvriers métal non qualifiés",
@@ -2733,7 +2884,8 @@
     "cascade_risk": 6,
     "derived_demand_pct": 18,
     "cascade_rationale": "Total requirements cascade via C5 (1.54x total requirements), C4 (1.63x total requirements), C3 (1.51x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.56
+    "io_multiplier": 1.56,
+    "cascade_risk_raw": 6.28
   },
   {
     "title": "Ouvriers industries graphiques",
@@ -2751,7 +2903,8 @@
     "cascade_risk": 7,
     "derived_demand_pct": 45,
     "cascade_rationale": "Total requirements cascade via C5 (1.54x total requirements), C1 (1.80x total requirements), GZ (1.33x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.54
+    "io_multiplier": 1.54,
+    "cascade_risk_raw": 7.19
   },
   {
     "title": "Soudeurs",
@@ -2769,7 +2922,8 @@
     "cascade_risk": 6,
     "derived_demand_pct": 20,
     "cascade_rationale": "Total requirements cascade via C5 (1.54x total requirements), C4 (1.63x total requirements), C3 (1.51x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.56
+    "io_multiplier": 1.56,
+    "cascade_risk_raw": 6.28
   },
   {
     "title": "Directeurs/inspecteurs scolaires",
@@ -2787,7 +2941,8 @@
     "cascade_risk": 4,
     "derived_demand_pct": 35,
     "cascade_rationale": "Total requirements cascade via OQ (1.21x total requirements), MN (1.31x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.22
+    "io_multiplier": 1.22,
+    "cascade_risk_raw": 3.83
   },
   {
     "title": "Carrossiers automobiles",
@@ -2805,7 +2960,8 @@
     "cascade_risk": 6,
     "derived_demand_pct": 22,
     "cascade_rationale": "Total requirements cascade via C5 (1.54x total requirements), FZ (1.50x total requirements), MN (1.31x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.45
+    "io_multiplier": 1.45,
+    "cascade_risk_raw": 6.37
   },
   {
     "title": "Ouvriers alimentation non qualifiés",
@@ -2823,7 +2979,8 @@
     "cascade_risk": 2,
     "derived_demand_pct": 45,
     "cascade_rationale": "Total requirements cascade via GZ (1.33x total requirements), RU (1.22x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.52
+    "io_multiplier": 1.52,
+    "cascade_risk_raw": 2.1
   },
   {
     "title": "Dentistes",
@@ -2841,7 +2998,8 @@
     "cascade_risk": 4,
     "derived_demand_pct": 35,
     "cascade_rationale": "Total requirements cascade via OQ (1.21x total requirements), MN (1.31x total requirements), RU (1.22x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.22
+    "io_multiplier": 1.22,
+    "cascade_risk_raw": 3.79
   },
   {
     "title": "Juristes",
@@ -2859,7 +3017,8 @@
     "cascade_risk": 7,
     "derived_demand_pct": 70,
     "cascade_rationale": "Total requirements cascade via MN (1.31x total requirements), KZ (1.29x total requirements), JZ (1.40x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.33
+    "io_multiplier": 1.33,
+    "cascade_risk_raw": 7.04
   },
   {
     "title": "Dessinateur mécanique",
@@ -2877,7 +3036,8 @@
     "cascade_risk": 7,
     "derived_demand_pct": 35,
     "cascade_rationale": "Total requirements cascade via C5 (1.54x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.56
+    "io_multiplier": 1.56,
+    "cascade_risk_raw": 7
   },
   {
     "title": "Chef cuisinier",
@@ -2895,7 +3055,8 @@
     "cascade_risk": 2,
     "derived_demand_pct": 60,
     "cascade_rationale": "Total requirements cascade via IZ (1.56x total requirements), GZ (1.33x total requirements), RU (1.22x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.52
+    "io_multiplier": 1.52,
+    "cascade_risk_raw": 2.1
   },
   {
     "title": "Pilote installation industrielle",
@@ -2913,7 +3074,8 @@
     "cascade_risk": 7,
     "derived_demand_pct": 25,
     "cascade_rationale": "Total requirements cascade via C5 (1.54x total requirements), C2 (2.25x total requirements), DE (1.53x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.7
+    "io_multiplier": 1.7,
+    "cascade_risk_raw": 6.81
   },
   {
     "title": "Maraîcher, horticulteur",
@@ -2931,7 +3093,8 @@
     "cascade_risk": 4,
     "derived_demand_pct": 18,
     "cascade_rationale": "Total requirements cascade via AZ (1.59x total requirements), C1 (1.80x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.61
+    "io_multiplier": 1.61,
+    "cascade_risk_raw": 3.58
   },
   {
     "title": "Ouvrier maintenance électricité",
@@ -2949,7 +3112,8 @@
     "cascade_risk": 6,
     "derived_demand_pct": 50,
     "cascade_rationale": "Total requirements cascade via C5 (1.54x total requirements), FZ (1.50x total requirements), MN (1.31x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.45
+    "io_multiplier": 1.45,
+    "cascade_risk_raw": 6.37
   },
   {
     "title": "Agent d'accompagnement",
@@ -2967,7 +3131,8 @@
     "cascade_risk": 7,
     "derived_demand_pct": 40,
     "cascade_rationale": "Total requirements cascade via HZ (1.47x total requirements), GZ (1.33x total requirements), C5 (1.54x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.47
+    "io_multiplier": 1.47,
+    "cascade_risk_raw": 7.15
   },
   {
     "title": "Ingénieur télécoms",
@@ -2985,7 +3150,8 @@
     "cascade_risk": 8,
     "derived_demand_pct": 65,
     "cascade_rationale": "Total requirements cascade via MN (1.31x total requirements), KZ (1.29x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.34
+    "io_multiplier": 1.34,
+    "cascade_risk_raw": 8
   },
   {
     "title": "Cadre des transports",
@@ -3003,7 +3169,8 @@
     "cascade_risk": 7,
     "derived_demand_pct": 55,
     "cascade_rationale": "Total requirements cascade via HZ (1.47x total requirements), C5 (1.54x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.47
+    "io_multiplier": 1.47,
+    "cascade_risk_raw": 7.15
   },
   {
     "title": "Employé transports tourisme",
@@ -3021,7 +3188,8 @@
     "cascade_risk": 7,
     "derived_demand_pct": 75,
     "cascade_rationale": "Total requirements cascade via HZ (1.47x total requirements), GZ (1.33x total requirements), C5 (1.54x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.47
+    "io_multiplier": 1.47,
+    "cascade_risk_raw": 7.15
   },
   {
     "title": "Conducteur de train",
@@ -3039,7 +3207,8 @@
     "cascade_risk": 7,
     "derived_demand_pct": 55,
     "cascade_rationale": "Total requirements cascade via HZ (1.47x total requirements), C5 (1.54x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.47
+    "io_multiplier": 1.47,
+    "cascade_risk_raw": 7.15
   },
   {
     "title": "Professionnel politique",
@@ -3057,7 +3226,8 @@
     "cascade_risk": 4,
     "derived_demand_pct": 45,
     "cascade_rationale": "Total requirements cascade via RU (1.22x total requirements), OQ (1.21x total requirements), GZ (1.33x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.25
+    "io_multiplier": 1.25,
+    "cascade_risk_raw": 4.04
   },
   {
     "title": "Ouvrier non qualifié électricité",
@@ -3075,7 +3245,8 @@
     "cascade_risk": 6,
     "derived_demand_pct": 45,
     "cascade_rationale": "Total requirements cascade via C3 (1.51x total requirements), C5 (1.54x total requirements), DE (1.53x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.52
+    "io_multiplier": 1.52,
+    "cascade_risk_raw": 6.46
   },
   {
     "title": "Technicien matériaux souples/bois",
@@ -3093,7 +3264,8 @@
     "cascade_risk": 7,
     "derived_demand_pct": 55,
     "cascade_rationale": "Total requirements cascade via C5 (1.54x total requirements), C1 (1.80x total requirements), GZ (1.33x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.54
+    "io_multiplier": 1.54,
+    "cascade_risk_raw": 7.19
   },
   {
     "title": "Cadre armée/gendarmerie",
@@ -3111,7 +3283,8 @@
     "cascade_risk": 4,
     "derived_demand_pct": 35,
     "cascade_rationale": "Total requirements cascade via OQ (1.21x total requirements), MN (1.31x total requirements), RU (1.22x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.22
+    "io_multiplier": 1.22,
+    "cascade_risk_raw": 3.79
   },
   {
     "title": "Ouvrier non qualifié bois",
@@ -3129,7 +3302,8 @@
     "cascade_risk": 7,
     "derived_demand_pct": 55,
     "cascade_rationale": "Total requirements cascade via C5 (1.54x total requirements), C1 (1.80x total requirements), GZ (1.33x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.54
+    "io_multiplier": 1.54,
+    "cascade_risk_raw": 7.19
   },
   {
     "title": "Charpentier bois",
@@ -3147,7 +3321,8 @@
     "cascade_risk": 4,
     "derived_demand_pct": 75,
     "cascade_rationale": "Total requirements cascade via FZ (1.50x total requirements), C5 (1.54x total requirements), DE (1.53x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.51
+    "io_multiplier": 1.51,
+    "cascade_risk_raw": 3.75
   },
   {
     "title": "Agent police municipale",
@@ -3165,7 +3340,8 @@
     "cascade_risk": 4,
     "derived_demand_pct": 45,
     "cascade_rationale": "Total requirements cascade via OQ (1.21x total requirements), MN (1.31x total requirements), RU (1.22x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.22
+    "io_multiplier": 1.22,
+    "cascade_risk_raw": 3.79
   },
   {
     "title": "Sage-femme",
@@ -3183,7 +3359,8 @@
     "cascade_risk": 4,
     "derived_demand_pct": 65,
     "cascade_rationale": "Total requirements cascade via OQ (1.21x total requirements), MN (1.31x total requirements), RU (1.22x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.22
+    "io_multiplier": 1.22,
+    "cascade_risk_raw": 3.79
   },
   {
     "title": "Ouvriers qualifiés textile cuir",
@@ -3201,7 +3378,8 @@
     "cascade_risk": 7,
     "derived_demand_pct": 65,
     "cascade_rationale": "Total requirements cascade via C5 (1.54x total requirements), C1 (1.80x total requirements), GZ (1.33x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.54
+    "io_multiplier": 1.54,
+    "cascade_risk_raw": 7.19
   },
   {
     "title": "Agents impôts et douanes",
@@ -3219,7 +3397,8 @@
     "cascade_risk": 7,
     "derived_demand_pct": 55,
     "cascade_rationale": "Total requirements cascade via MN (1.31x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.22
+    "io_multiplier": 1.22,
+    "cascade_risk_raw": 7
   },
   {
     "title": "Cadres dirigeants grandes entreprises",
@@ -3237,7 +3416,8 @@
     "cascade_risk": 7,
     "derived_demand_pct": 85,
     "cascade_rationale": "Total requirements cascade via MN (1.31x total requirements), KZ (1.29x total requirements), GZ (1.33x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.33
+    "io_multiplier": 1.33,
+    "cascade_risk_raw": 7.04
   },
   {
     "title": "Ouvriers non qualifiés métallurgie",
@@ -3255,7 +3435,8 @@
     "cascade_risk": 7,
     "derived_demand_pct": 15,
     "cascade_rationale": "Total requirements cascade via C5 (1.54x total requirements), C2 (2.25x total requirements), DE (1.53x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.7
+    "io_multiplier": 1.7,
+    "cascade_risk_raw": 6.81
   },
   {
     "title": "Ingénieurs maintenance informatique",
@@ -3273,7 +3454,8 @@
     "cascade_risk": 8,
     "derived_demand_pct": 65,
     "cascade_rationale": "Total requirements cascade via JZ (1.40x total requirements), MN (1.31x total requirements), KZ (1.29x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.34
+    "io_multiplier": 1.34,
+    "cascade_risk_raw": 7.71
   },
   {
     "title": "Régleurs machines industrielles",
@@ -3291,7 +3473,8 @@
     "cascade_risk": 6,
     "derived_demand_pct": 20,
     "cascade_rationale": "Total requirements cascade via C5 (1.54x total requirements), C4 (1.63x total requirements), C3 (1.51x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.56
+    "io_multiplier": 1.56,
+    "cascade_risk_raw": 6.28
   },
   {
     "title": "Photographes",
@@ -3309,7 +3492,8 @@
     "cascade_risk": 6,
     "derived_demand_pct": 70,
     "cascade_rationale": "Total requirements cascade via JZ (1.40x total requirements), MN (1.31x total requirements), OQ (1.21x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.3
+    "io_multiplier": 1.3,
+    "cascade_risk_raw": 5.59
   },
   {
     "title": "Interprètes",
@@ -3327,7 +3511,8 @@
     "cascade_risk": 7,
     "derived_demand_pct": 80,
     "cascade_rationale": "Total requirements cascade via JZ (1.40x total requirements), MN (1.31x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.3
+    "io_multiplier": 1.3,
+    "cascade_risk_raw": 7
   },
   {
     "title": "Agents maîtrise entretien",
@@ -3345,7 +3530,8 @@
     "cascade_risk": 6,
     "derived_demand_pct": 75,
     "cascade_rationale": "Total requirements cascade via C5 (1.54x total requirements), MN (1.31x total requirements), GZ (1.33x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.45
+    "io_multiplier": 1.45,
+    "cascade_risk_raw": 6.37
   },
   {
     "title": "Ouvriers non qualifiés industriels",
@@ -3363,7 +3549,8 @@
     "cascade_risk": 7,
     "derived_demand_pct": 30,
     "cascade_rationale": "Total requirements cascade via C5 (1.54x total requirements), C2 (2.25x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.7
+    "io_multiplier": 1.7,
+    "cascade_risk_raw": 7
   },
   {
     "title": "Cadres Poste télécommunications",
@@ -3381,7 +3568,8 @@
     "cascade_risk": 6,
     "derived_demand_pct": 50,
     "cascade_rationale": "Total requirements cascade via MN (1.31x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.22
+    "io_multiplier": 1.22,
+    "cascade_risk_raw": 6
   },
   {
     "title": "Maîtrise hôtellerie",
@@ -3399,7 +3587,8 @@
     "cascade_risk": 3,
     "derived_demand_pct": 85,
     "cascade_rationale": "Total requirements cascade via GZ (1.33x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.52
+    "io_multiplier": 1.52,
+    "cascade_risk_raw": 3
   },
   {
     "title": "Artisans bois ameublement",
@@ -3417,7 +3606,8 @@
     "cascade_risk": 7,
     "derived_demand_pct": 60,
     "cascade_rationale": "Total requirements cascade via C5 (1.54x total requirements), C1 (1.80x total requirements), GZ (1.33x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.54
+    "io_multiplier": 1.54,
+    "cascade_risk_raw": 7.19
   },
   {
     "title": "Maraîchers horticulteurs indépendants",
@@ -3435,7 +3625,8 @@
     "cascade_risk": 4,
     "derived_demand_pct": 40,
     "cascade_rationale": "Total requirements cascade via AZ (1.59x total requirements), C1 (1.80x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.61
+    "io_multiplier": 1.61,
+    "cascade_risk_raw": 3.58
   },
   {
     "title": "Dessinateurs bâtiment et TP",
@@ -3453,7 +3644,8 @@
     "cascade_risk": 7,
     "derived_demand_pct": 80,
     "cascade_rationale": "Total requirements cascade via C5 (1.54x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.51
+    "io_multiplier": 1.51,
+    "cascade_risk_raw": 7
   },
   {
     "title": "Agents traitement thermique surface",
@@ -3471,7 +3663,8 @@
     "cascade_risk": 6,
     "derived_demand_pct": 25,
     "cascade_rationale": "Total requirements cascade via C5 (1.54x total requirements), C3 (1.51x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.56
+    "io_multiplier": 1.56,
+    "cascade_risk_raw": 6.28
   },
   {
     "title": "Personnels navigants aviation",
@@ -3489,7 +3682,8 @@
     "cascade_risk": 7,
     "derived_demand_pct": 80,
     "cascade_rationale": "Total requirements cascade via HZ (1.47x total requirements), GZ (1.33x total requirements), C5 (1.54x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.47
+    "io_multiplier": 1.47,
+    "cascade_risk_raw": 7.15
   },
   {
     "title": "Ouvriers non qualifiés textile cuir",
@@ -3507,7 +3701,8 @@
     "cascade_risk": 7,
     "derived_demand_pct": 60,
     "cascade_rationale": "Total requirements cascade via C5 (1.54x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.54
+    "io_multiplier": 1.54,
+    "cascade_risk_raw": 7.19
   },
   {
     "title": "Agents exploitation transports",
@@ -3525,7 +3720,8 @@
     "cascade_risk": 7,
     "derived_demand_pct": 60,
     "cascade_rationale": "Total requirements cascade via HZ (1.47x total requirements), C5 (1.54x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.47
+    "io_multiplier": 1.47,
+    "cascade_risk_raw": 7.15
   },
   {
     "title": "Vétérinaires",
@@ -3543,7 +3739,8 @@
     "cascade_risk": 4,
     "derived_demand_pct": 30,
     "cascade_rationale": "Total requirements cascade via OQ (1.21x total requirements), MN (1.31x total requirements), RU (1.22x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.22
+    "io_multiplier": 1.22,
+    "cascade_risk_raw": 3.79
   },
   {
     "title": "Intermédiaires Poste Télécoms",
@@ -3561,7 +3758,8 @@
     "cascade_risk": 7,
     "derived_demand_pct": 75,
     "cascade_rationale": "Total requirements cascade via MN (1.31x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.22
+    "io_multiplier": 1.22,
+    "cascade_risk_raw": 7
   },
   {
     "title": "Travailleurs pierre matériaux",
@@ -3579,7 +3777,8 @@
     "cascade_risk": 4,
     "derived_demand_pct": 80,
     "cascade_rationale": "Total requirements cascade via FZ (1.50x total requirements), C5 (1.54x total requirements), DE (1.53x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.51
+    "io_multiplier": 1.51,
+    "cascade_risk_raw": 3.75
   },
   {
     "title": "Bûcherons sylviculteurs forestiers",
@@ -3597,7 +3796,8 @@
     "cascade_risk": 4,
     "derived_demand_pct": 50,
     "cascade_rationale": "Total requirements cascade via AZ (1.59x total requirements), C1 (1.80x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.61
+    "io_multiplier": 1.61,
+    "cascade_risk_raw": 3.58
   },
   {
     "title": "Géomètres",
@@ -3615,7 +3815,8 @@
     "cascade_risk": 7,
     "derived_demand_pct": 85,
     "cascade_rationale": "Total requirements cascade via C5 (1.54x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.51
+    "io_multiplier": 1.51,
+    "cascade_risk_raw": 7
   },
   {
     "title": "Ingénieurs cadres agriculture",
@@ -3633,7 +3834,8 @@
     "cascade_risk": 8,
     "derived_demand_pct": 45,
     "cascade_rationale": "Total requirements multiplier 1.61x [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.61
+    "io_multiplier": 1.61,
+    "cascade_risk_raw": 8
   },
   {
     "title": "Clergé",
@@ -3651,7 +3853,8 @@
     "cascade_risk": 4,
     "derived_demand_pct": 40,
     "cascade_rationale": "Total requirements cascade via RU (1.22x total requirements), OQ (1.21x total requirements), GZ (1.33x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.25
+    "io_multiplier": 1.25,
+    "cascade_risk_raw": 4.04
   },
   {
     "title": "Charcutiers traiteurs",
@@ -3669,7 +3872,8 @@
     "cascade_risk": 2,
     "derived_demand_pct": 70,
     "cascade_rationale": "Total requirements cascade via GZ (1.33x total requirements), RU (1.22x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.52
+    "io_multiplier": 1.52,
+    "cascade_risk_raw": 2.1
   },
   {
     "title": "Mainteniciens électroménager",
@@ -3687,7 +3891,8 @@
     "cascade_risk": 6,
     "derived_demand_pct": 40,
     "cascade_rationale": "Total requirements cascade via C5 (1.54x total requirements), FZ (1.50x total requirements), MN (1.31x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.45
+    "io_multiplier": 1.45,
+    "cascade_risk_raw": 6.37
   },
   {
     "title": "Charpentiers métal",
@@ -3705,7 +3910,8 @@
     "cascade_risk": 4,
     "derived_demand_pct": 85,
     "cascade_rationale": "Total requirements cascade via FZ (1.50x total requirements), C5 (1.54x total requirements), DE (1.53x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.51
+    "io_multiplier": 1.51,
+    "cascade_risk_raw": 3.75
   },
   {
     "title": "Conducteurs engins agricoles",
@@ -3723,7 +3929,8 @@
     "cascade_risk": 5,
     "derived_demand_pct": 40,
     "cascade_rationale": "Total requirements cascade via C1 (1.80x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.61
+    "io_multiplier": 1.61,
+    "cascade_risk_raw": 5
   },
   {
     "title": "Ouvriers qualifiés industrie",
@@ -3741,7 +3948,8 @@
     "cascade_risk": 7,
     "derived_demand_pct": 70,
     "cascade_rationale": "Total requirements cascade via C5 (1.54x total requirements), C2 (2.25x total requirements), DE (1.53x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.7
+    "io_multiplier": 1.7,
+    "cascade_risk_raw": 6.81
   },
   {
     "title": "Tuyauteurs",
@@ -3759,7 +3967,8 @@
     "cascade_risk": 6,
     "derived_demand_pct": 75,
     "cascade_rationale": "Total requirements cascade via C5 (1.54x total requirements), C4 (1.63x total requirements), C3 (1.51x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.56
+    "io_multiplier": 1.56,
+    "cascade_risk_raw": 6.28
   },
   {
     "title": "Pêcheurs aquaculteurs",
@@ -3777,7 +3986,8 @@
     "cascade_risk": 4,
     "derived_demand_pct": 55,
     "cascade_rationale": "Total requirements cascade via AZ (1.59x total requirements), C1 (1.80x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.61
+    "io_multiplier": 1.61,
+    "cascade_risk_raw": 3.58
   },
   {
     "title": "Écrivains",
@@ -3795,7 +4005,8 @@
     "cascade_risk": 8,
     "derived_demand_pct": 60,
     "cascade_rationale": "Total requirements cascade via MN (1.31x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.3
+    "io_multiplier": 1.3,
+    "cascade_risk_raw": 8
   },
   {
     "title": "Agents maîtrise fabrication électrique",
@@ -3813,7 +4024,8 @@
     "cascade_risk": 7,
     "derived_demand_pct": 35,
     "cascade_rationale": "Total requirements cascade via C5 (1.54x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.52
+    "io_multiplier": 1.52,
+    "cascade_risk_raw": 7
   },
   {
     "title": "Exploitants équipements sportifs",
@@ -3831,7 +4043,8 @@
     "cascade_risk": 4,
     "derived_demand_pct": 70,
     "cascade_rationale": "Total requirements cascade via OQ (1.21x total requirements), MN (1.31x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.22
+    "io_multiplier": 1.22,
+    "cascade_risk_raw": 3.79
   },
   {
     "title": "Magistrats",
@@ -3849,7 +4062,8 @@
     "cascade_risk": 7,
     "derived_demand_pct": 80,
     "cascade_rationale": "Total requirements cascade via MN (1.31x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.22
+    "io_multiplier": 1.22,
+    "cascade_risk_raw": 7
   },
   {
     "title": "Dessinateurs électricité électronique",
@@ -3867,7 +4081,8 @@
     "cascade_risk": 8,
     "derived_demand_pct": 55,
     "cascade_rationale": "Total requirements multiplier 1.52x [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.52
+    "io_multiplier": 1.52,
+    "cascade_risk_raw": 8
   },
   {
     "title": "Bûcherons, sylviculteurs indépendants",
@@ -3885,7 +4100,8 @@
     "cascade_risk": 4,
     "derived_demand_pct": 40,
     "cascade_rationale": "Total requirements cascade via AZ (1.59x total requirements), C1 (1.80x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.61
+    "io_multiplier": 1.61,
+    "cascade_risk_raw": 3.58
   },
   {
     "title": "Professionnels de l'orientation",
@@ -3903,7 +4119,8 @@
     "cascade_risk": 4,
     "derived_demand_pct": 65,
     "cascade_rationale": "Total requirements cascade via MN (1.31x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.22
+    "io_multiplier": 1.22,
+    "cascade_risk_raw": 4
   },
   {
     "title": "Cadres et techniciens documentation",
@@ -3921,7 +4138,8 @@
     "cascade_risk": 7,
     "derived_demand_pct": 85,
     "cascade_rationale": "Total requirements cascade via JZ (1.40x total requirements), MN (1.31x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.3
+    "io_multiplier": 1.3,
+    "cascade_risk_raw": 7
   },
   {
     "title": "Ouvriers non qualifiés imprimerie",
@@ -3939,7 +4157,8 @@
     "cascade_risk": 7,
     "derived_demand_pct": 50,
     "cascade_rationale": "Total requirements cascade via C5 (1.54x total requirements), C1 (1.80x total requirements), GZ (1.33x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.54
+    "io_multiplier": 1.54,
+    "cascade_risk_raw": 7.19
   },
   {
     "title": "Ouvriers qualifiés bois papier",
@@ -3957,7 +4176,8 @@
     "cascade_risk": 7,
     "derived_demand_pct": 45,
     "cascade_rationale": "Total requirements cascade via C5 (1.54x total requirements), C1 (1.80x total requirements), C2 (2.25x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.7
+    "io_multiplier": 1.7,
+    "cascade_risk_raw": 6.81
   },
   {
     "title": "Marins, pêcheurs indépendants",
@@ -3975,7 +4195,8 @@
     "cascade_risk": 4,
     "derived_demand_pct": 30,
     "cascade_rationale": "Total requirements cascade via AZ (1.59x total requirements), C1 (1.80x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.61
+    "io_multiplier": 1.61,
+    "cascade_risk_raw": 3.58
   },
   {
     "title": "Contrôleurs des transports",
@@ -3993,7 +4214,8 @@
     "cascade_risk": 7,
     "derived_demand_pct": 75,
     "cascade_rationale": "Total requirements cascade via HZ (1.47x total requirements), GZ (1.33x total requirements), C5 (1.54x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.47
+    "io_multiplier": 1.47,
+    "cascade_risk_raw": 7.15
   },
   {
     "title": "Cadres et maîtres d'équipage",
@@ -4011,7 +4233,8 @@
     "cascade_risk": 4,
     "derived_demand_pct": 35,
     "cascade_rationale": "Total requirements cascade via AZ (1.59x total requirements), C1 (1.80x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.61
+    "io_multiplier": 1.61,
+    "cascade_risk_raw": 3.58
   },
   {
     "title": "Marins salariés",
@@ -4029,7 +4252,8 @@
     "cascade_risk": 4,
     "derived_demand_pct": 30,
     "cascade_rationale": "Total requirements cascade via AZ (1.59x total requirements), C1 (1.80x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.61
+    "io_multiplier": 1.61,
+    "cascade_risk_raw": 3.58
   },
   {
     "title": "Ouvriers non qualifiés papier bois",
@@ -4047,6 +4271,7 @@
     "cascade_risk": 7,
     "derived_demand_pct": 45,
     "cascade_rationale": "Total requirements cascade via C5 (1.54x total requirements), C1 (1.80x total requirements), C2 (2.25x total requirements) [INSEE 2020 total-requirements table (TES)]",
-    "io_multiplier": 1.7
+    "io_multiplier": 1.7,
+    "cascade_risk_raw": 6.81
   }
 ]
