@@ -14,7 +14,8 @@
     "cascade_risk": 9,
     "derived_demand_pct": 75,
     "cascade_rationale": "Total requirements cascade via 52 (1.36x total requirements), PROF (1.37x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.37
+    "io_multiplier": 1.37,
+    "cascade_risk_raw": 9.78
   },
   {
     "title": "Actors",
@@ -31,7 +32,8 @@
     "cascade_risk": 7,
     "derived_demand_pct": 50,
     "cascade_rationale": "Total requirements cascade via 51 (1.39x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.33
+    "io_multiplier": 1.33,
+    "cascade_risk_raw": 7
   },
   {
     "title": "Actuaries",
@@ -48,7 +50,8 @@
     "cascade_risk": 9,
     "derived_demand_pct": 95,
     "cascade_rationale": "Total requirements cascade via 52 (1.36x total requirements), PROF (1.37x total requirements), 51 (1.39x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.38
+    "io_multiplier": 1.38,
+    "cascade_risk_raw": 9.66
   },
   {
     "title": "Administrative services and facilities managers",
@@ -65,7 +68,8 @@
     "cascade_risk": 8,
     "derived_demand_pct": 85,
     "cascade_rationale": "Total requirements cascade via PROF (1.37x total requirements), 52 (1.36x total requirements), 31G (1.80x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.42
+    "io_multiplier": 1.42,
+    "cascade_risk_raw": 8.4
   },
   {
     "title": "Adult basic and secondary education and ESL teachers",
@@ -82,7 +86,8 @@
     "cascade_risk": 7,
     "derived_demand_pct": 20,
     "cascade_rationale": "Total requirements multiplier 1.28x [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.28
+    "io_multiplier": 1.28,
+    "cascade_risk_raw": 7
   },
   {
     "title": "Advertising sales agents",
@@ -99,7 +104,8 @@
     "cascade_risk": 7,
     "derived_demand_pct": 75,
     "cascade_rationale": "Total requirements cascade via 52 (1.36x total requirements), 53 (1.37x total requirements), PROF (1.37x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.3
+    "io_multiplier": 1.3,
+    "cascade_risk_raw": 7.34
   },
   {
     "title": "Advertising, promotions, and marketing managers",
@@ -116,7 +122,8 @@
     "cascade_risk": 8,
     "derived_demand_pct": 80,
     "cascade_rationale": "Total requirements cascade via PROF (1.37x total requirements), 52 (1.36x total requirements), 31G (1.80x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.42
+    "io_multiplier": 1.42,
+    "cascade_risk_raw": 8.4
   },
   {
     "title": "Aerospace engineering and operations technologists and technicians",
@@ -133,7 +140,8 @@
     "cascade_risk": 8,
     "derived_demand_pct": 10,
     "cascade_rationale": "Total requirements cascade via PROF (1.37x total requirements), 31G (1.80x total requirements), G (1.39x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.59
+    "io_multiplier": 1.59,
+    "cascade_risk_raw": 8.59
   },
   {
     "title": "Aerospace engineers",
@@ -150,7 +158,8 @@
     "cascade_risk": 8,
     "derived_demand_pct": 35,
     "cascade_rationale": "Total requirements cascade via PROF (1.37x total requirements), 31G (1.80x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.59
+    "io_multiplier": 1.59,
+    "cascade_risk_raw": 8.59
   },
   {
     "title": "Agricultural and food science technicians",
@@ -167,7 +176,8 @@
     "cascade_risk": 7,
     "derived_demand_pct": 15,
     "cascade_rationale": "Total requirements cascade via PROF (1.37x total requirements), G (1.39x total requirements), 6 (1.24x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.41
+    "io_multiplier": 1.41,
+    "cascade_risk_raw": 8.09
   },
   {
     "title": "Agricultural and food scientists",
@@ -184,7 +194,8 @@
     "cascade_risk": 7,
     "derived_demand_pct": 20,
     "cascade_rationale": "Total requirements cascade via PROF (1.37x total requirements), G (1.39x total requirements), 31G (1.80x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.41
+    "io_multiplier": 1.41,
+    "cascade_risk_raw": 8.09
   },
   {
     "title": "Agricultural engineers",
@@ -201,7 +212,8 @@
     "cascade_risk": 8,
     "derived_demand_pct": 15,
     "cascade_rationale": "Total requirements cascade via PROF (1.37x total requirements), 31G (1.80x total requirements), G (1.39x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.59
+    "io_multiplier": 1.59,
+    "cascade_risk_raw": 8.59
   },
   {
     "title": "Agricultural workers",
@@ -218,7 +230,8 @@
     "cascade_risk": 5,
     "derived_demand_pct": 5,
     "cascade_rationale": "Total requirements cascade via 11 (1.59x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.59
+    "io_multiplier": 1.59,
+    "cascade_risk_raw": 4.67
   },
   {
     "title": "Air traffic controllers",
@@ -235,7 +248,8 @@
     "cascade_risk": 7,
     "derived_demand_pct": 60,
     "cascade_rationale": "Total requirements cascade via 31G (1.80x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.35
+    "io_multiplier": 1.35,
+    "cascade_risk_raw": 7
   },
   {
     "title": "Aircraft and avionics equipment mechanics and technicians",
@@ -252,7 +266,8 @@
     "cascade_risk": 6,
     "derived_demand_pct": 55,
     "cascade_rationale": "Total requirements cascade via 23 (1.74x total requirements), 31G (1.80x total requirements), 81 (1.25x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.55
+    "io_multiplier": 1.55,
+    "cascade_risk_raw": 6.23
   },
   {
     "title": "Airline and commercial pilots",
@@ -269,7 +284,8 @@
     "cascade_risk": 6,
     "derived_demand_pct": 65,
     "cascade_rationale": "Total requirements cascade via 42 (1.24x total requirements), 31G (1.80x total requirements), 44RT (1.25x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.35
+    "io_multiplier": 1.35,
+    "cascade_risk_raw": 5.88
   },
   {
     "title": "Animal care and service workers",
@@ -286,7 +302,8 @@
     "cascade_risk": 4,
     "derived_demand_pct": 45,
     "cascade_rationale": "Total requirements cascade via 81 (1.25x total requirements), 6 (1.24x total requirements), 7 (1.31x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.26
+    "io_multiplier": 1.26,
+    "cascade_risk_raw": 4.25
   },
   {
     "title": "Announcers and DJs",
@@ -303,7 +320,8 @@
     "cascade_risk": 8,
     "derived_demand_pct": 40,
     "cascade_rationale": "Total requirements cascade via 51 (1.39x total requirements), PROF (1.37x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.35
+    "io_multiplier": 1.35,
+    "cascade_risk_raw": 8.26
   },
   {
     "title": "Anthropologists and archeologists",
@@ -320,7 +338,8 @@
     "cascade_risk": 7,
     "derived_demand_pct": 40,
     "cascade_rationale": "Total requirements cascade via PROF (1.37x total requirements), G (1.39x total requirements), 31G (1.80x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.41
+    "io_multiplier": 1.41,
+    "cascade_risk_raw": 8.09
   },
   {
     "title": "Arbitrators, mediators, and conciliators",
@@ -337,7 +356,8 @@
     "cascade_risk": 9,
     "derived_demand_pct": 85,
     "cascade_rationale": "Total requirements cascade via PROF (1.37x total requirements), 52 (1.36x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.37
+    "io_multiplier": 1.37,
+    "cascade_risk_raw": 9.72
   },
   {
     "title": "Architects",
@@ -354,7 +374,8 @@
     "cascade_risk": 8,
     "derived_demand_pct": 75,
     "cascade_rationale": "Total requirements cascade via PROF (1.37x total requirements), 31G (1.80x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.59
+    "io_multiplier": 1.59,
+    "cascade_risk_raw": 8.59
   },
   {
     "title": "Architectural and engineering managers",
@@ -371,7 +392,8 @@
     "cascade_risk": 8,
     "derived_demand_pct": 80,
     "cascade_rationale": "Total requirements cascade via PROF (1.37x total requirements), 52 (1.36x total requirements), 31G (1.80x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.42
+    "io_multiplier": 1.42,
+    "cascade_risk_raw": 8.4
   },
   {
     "title": "Archivists, curators, and museum workers",
@@ -388,7 +410,8 @@
     "cascade_risk": 6,
     "derived_demand_pct": 35,
     "cascade_rationale": "Total requirements cascade via G (1.39x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.28
+    "io_multiplier": 1.28,
+    "cascade_risk_raw": 6
   },
   {
     "title": "Art directors",
@@ -405,7 +428,8 @@
     "cascade_risk": 8,
     "derived_demand_pct": 65,
     "cascade_rationale": "Total requirements cascade via 51 (1.39x total requirements), PROF (1.37x total requirements), 31G (1.80x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.42
+    "io_multiplier": 1.42,
+    "cascade_risk_raw": 8.4
   },
   {
     "title": "Assemblers and fabricators",
@@ -422,7 +446,8 @@
     "cascade_risk": 9,
     "derived_demand_pct": 45,
     "cascade_rationale": "Total requirements cascade via 31G (1.80x total requirements), 22 (1.39x total requirements), 42 (1.24x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.73
+    "io_multiplier": 1.73,
+    "cascade_risk_raw": 10.05
   },
   {
     "title": "Athletes and sports competitors",
@@ -439,7 +464,8 @@
     "cascade_risk": 5,
     "derived_demand_pct": 70,
     "cascade_rationale": "Total requirements cascade via 7 (1.31x total requirements), 51 (1.39x total requirements), G (1.39x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.33
+    "io_multiplier": 1.33,
+    "cascade_risk_raw": 4.92
   },
   {
     "title": "Athletic trainers",
@@ -456,7 +482,8 @@
     "cascade_risk": 5,
     "derived_demand_pct": 40,
     "cascade_rationale": "Total requirements cascade via 6 (1.24x total requirements), G (1.39x total requirements), PROF (1.37x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.26
+    "io_multiplier": 1.26,
+    "cascade_risk_raw": 5.15
   },
   {
     "title": "Atmospheric scientists, including meteorologists",
@@ -473,7 +500,8 @@
     "cascade_risk": 8,
     "derived_demand_pct": 20,
     "cascade_rationale": "Total requirements cascade via PROF (1.37x total requirements), 31G (1.80x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.41
+    "io_multiplier": 1.41,
+    "cascade_risk_raw": 8.09
   },
   {
     "title": "Audiologists",
@@ -490,7 +518,8 @@
     "cascade_risk": 5,
     "derived_demand_pct": 50,
     "cascade_rationale": "Total requirements cascade via 6 (1.24x total requirements), G (1.39x total requirements), PROF (1.37x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.26
+    "io_multiplier": 1.26,
+    "cascade_risk_raw": 5.15
   },
   {
     "title": "Automotive body and glass repairers",
@@ -507,7 +536,8 @@
     "cascade_risk": 6,
     "derived_demand_pct": 30,
     "cascade_rationale": "Total requirements cascade via 23 (1.74x total requirements), 31G (1.80x total requirements), 81 (1.25x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.55
+    "io_multiplier": 1.55,
+    "cascade_risk_raw": 6.23
   },
   {
     "title": "Automotive service technicians and mechanics",
@@ -524,7 +554,8 @@
     "cascade_risk": 6,
     "derived_demand_pct": 25,
     "cascade_rationale": "Total requirements cascade via 23 (1.74x total requirements), 31G (1.80x total requirements), 81 (1.25x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.55
+    "io_multiplier": 1.55,
+    "cascade_risk_raw": 6.23
   },
   {
     "title": "Bakers",
@@ -541,7 +572,8 @@
     "cascade_risk": 9,
     "derived_demand_pct": 35,
     "cascade_rationale": "Total requirements cascade via 31G (1.80x total requirements), 22 (1.39x total requirements), 42 (1.24x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.73
+    "io_multiplier": 1.73,
+    "cascade_risk_raw": 10.05
   },
   {
     "title": "Barbers, hairstylists, and cosmetologists",
@@ -558,7 +590,8 @@
     "cascade_risk": 4,
     "derived_demand_pct": 60,
     "cascade_rationale": "Total requirements cascade via 81 (1.25x total requirements), 6 (1.24x total requirements), 7 (1.31x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.26
+    "io_multiplier": 1.26,
+    "cascade_risk_raw": 4.25
   },
   {
     "title": "Bartenders",
@@ -575,7 +608,8 @@
     "cascade_risk": 4,
     "derived_demand_pct": 75,
     "cascade_rationale": "Total requirements cascade via 7 (1.31x total requirements), 6 (1.24x total requirements), 44RT (1.25x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.3
+    "io_multiplier": 1.3,
+    "cascade_risk_raw": 3.68
   },
   {
     "title": "Bill and account collectors",
@@ -592,7 +626,8 @@
     "cascade_risk": 9,
     "derived_demand_pct": 40,
     "cascade_rationale": "Total requirements cascade via 52 (1.36x total requirements), PROF (1.37x total requirements), 31G (1.80x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.38
+    "io_multiplier": 1.38,
+    "cascade_risk_raw": 9
   },
   {
     "title": "Biochemists and biophysicists",
@@ -609,7 +644,8 @@
     "cascade_risk": 7,
     "derived_demand_pct": 20,
     "cascade_rationale": "Total requirements cascade via PROF (1.37x total requirements), 31G (1.80x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.41
+    "io_multiplier": 1.41,
+    "cascade_risk_raw": 8.09
   },
   {
     "title": "Bioengineers and biomedical engineers",
@@ -626,7 +662,8 @@
     "cascade_risk": 8,
     "derived_demand_pct": 15,
     "cascade_rationale": "Total requirements cascade via PROF (1.37x total requirements), 31G (1.80x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.59
+    "io_multiplier": 1.59,
+    "cascade_risk_raw": 8.59
   },
   {
     "title": "Biological technicians",
@@ -643,7 +680,8 @@
     "cascade_risk": 7,
     "derived_demand_pct": 25,
     "cascade_rationale": "Total requirements cascade via PROF (1.37x total requirements), G (1.39x total requirements), 31G (1.80x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.41
+    "io_multiplier": 1.41,
+    "cascade_risk_raw": 8.09
   },
   {
     "title": "Boilermakers",
@@ -660,7 +698,8 @@
     "cascade_risk": 4,
     "derived_demand_pct": 35,
     "cascade_rationale": "Total requirements cascade via 23 (1.74x total requirements), 21 (1.53x total requirements), 22 (1.39x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.68
+    "io_multiplier": 1.68,
+    "cascade_risk_raw": 3.84
   },
   {
     "title": "Bookkeeping, accounting, and auditing clerks",
@@ -677,7 +716,8 @@
     "cascade_risk": 9,
     "derived_demand_pct": 100,
     "cascade_rationale": "Total requirements cascade via 52 (1.36x total requirements), PROF (1.37x total requirements), 31G (1.80x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.38
+    "io_multiplier": 1.38,
+    "cascade_risk_raw": 9
   },
   {
     "title": "Broadcast, sound, and video technicians",
@@ -694,7 +734,8 @@
     "cascade_risk": 8,
     "derived_demand_pct": 55,
     "cascade_rationale": "Total requirements cascade via 51 (1.39x total requirements), PROF (1.37x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.35
+    "io_multiplier": 1.35,
+    "cascade_risk_raw": 8.26
   },
   {
     "title": "Budget analysts",
@@ -711,7 +752,8 @@
     "cascade_risk": 9,
     "derived_demand_pct": 100,
     "cascade_rationale": "Total requirements cascade via 52 (1.36x total requirements), PROF (1.37x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.37
+    "io_multiplier": 1.37,
+    "cascade_risk_raw": 9.78
   },
   {
     "title": "Bus drivers",
@@ -728,7 +770,8 @@
     "cascade_risk": 6,
     "derived_demand_pct": 40,
     "cascade_rationale": "Total requirements cascade via 48TW (1.27x total requirements), 42 (1.24x total requirements), 31G (1.80x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.35
+    "io_multiplier": 1.35,
+    "cascade_risk_raw": 5.88
   },
   {
     "title": "Butchers",
@@ -745,7 +788,8 @@
     "cascade_risk": 9,
     "derived_demand_pct": 45,
     "cascade_rationale": "Total requirements cascade via 31G (1.80x total requirements), 22 (1.39x total requirements), 42 (1.24x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.73
+    "io_multiplier": 1.73,
+    "cascade_risk_raw": 10.05
   },
   {
     "title": "Calibration technologists and technicians",
@@ -762,7 +806,8 @@
     "cascade_risk": 6,
     "derived_demand_pct": 35,
     "cascade_rationale": "Total requirements cascade via 31G (1.80x total requirements), 53 (1.37x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.55
+    "io_multiplier": 1.55,
+    "cascade_risk_raw": 6.23
   },
   {
     "title": "Cardiovascular technologists and technicians",
@@ -779,7 +824,8 @@
     "cascade_risk": 5,
     "derived_demand_pct": 45,
     "cascade_rationale": "Total requirements cascade via 6 (1.24x total requirements), G (1.39x total requirements), PROF (1.37x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.26
+    "io_multiplier": 1.26,
+    "cascade_risk_raw": 5.15
   },
   {
     "title": "Career and technical education teachers",
@@ -796,7 +842,8 @@
     "cascade_risk": 5,
     "derived_demand_pct": 30,
     "cascade_rationale": "Total requirements cascade via 6 (1.24x total requirements), G (1.39x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.28
+    "io_multiplier": 1.28,
+    "cascade_risk_raw": 5.01
   },
   {
     "title": "Carpenters",
@@ -813,7 +860,8 @@
     "cascade_risk": 4,
     "derived_demand_pct": 65,
     "cascade_rationale": "Total requirements cascade via 23 (1.74x total requirements), 21 (1.53x total requirements), 22 (1.39x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.68
+    "io_multiplier": 1.68,
+    "cascade_risk_raw": 3.84
   },
   {
     "title": "Cartographers and photogrammetrists",
@@ -830,7 +878,8 @@
     "cascade_risk": 8,
     "derived_demand_pct": 55,
     "cascade_rationale": "Total requirements cascade via PROF (1.37x total requirements), 31G (1.80x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.59
+    "io_multiplier": 1.59,
+    "cascade_risk_raw": 8.59
   },
   {
     "title": "Cashiers",
@@ -847,7 +896,8 @@
     "cascade_risk": 7,
     "derived_demand_pct": 80,
     "cascade_rationale": "Total requirements cascade via 52 (1.36x total requirements), 53 (1.37x total requirements), PROF (1.37x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.3
+    "io_multiplier": 1.3,
+    "cascade_risk_raw": 7.34
   },
   {
     "title": "Chefs and head cooks",
@@ -864,7 +914,8 @@
     "cascade_risk": 4,
     "derived_demand_pct": 75,
     "cascade_rationale": "Total requirements cascade via 7 (1.31x total requirements), 6 (1.24x total requirements), 44RT (1.25x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.3
+    "io_multiplier": 1.3,
+    "cascade_risk_raw": 3.68
   },
   {
     "title": "Chemical engineers",
@@ -881,7 +932,8 @@
     "cascade_risk": 8,
     "derived_demand_pct": 40,
     "cascade_rationale": "Total requirements cascade via PROF (1.37x total requirements), 31G (1.80x total requirements), G (1.39x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.59
+    "io_multiplier": 1.59,
+    "cascade_risk_raw": 8.59
   },
   {
     "title": "Chemical technicians",
@@ -898,7 +950,8 @@
     "cascade_risk": 7,
     "derived_demand_pct": 35,
     "cascade_rationale": "Total requirements cascade via PROF (1.37x total requirements), G (1.39x total requirements), 31G (1.80x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.41
+    "io_multiplier": 1.41,
+    "cascade_risk_raw": 8.09
   },
   {
     "title": "Chemists and materials scientists",
@@ -915,7 +968,8 @@
     "cascade_risk": 7,
     "derived_demand_pct": 40,
     "cascade_rationale": "Total requirements cascade via PROF (1.37x total requirements), 31G (1.80x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.41
+    "io_multiplier": 1.41,
+    "cascade_risk_raw": 8.09
   },
   {
     "title": "Childcare workers",
@@ -932,7 +986,8 @@
     "cascade_risk": 4,
     "derived_demand_pct": 85,
     "cascade_rationale": "Total requirements cascade via 81 (1.25x total requirements), 6 (1.24x total requirements), 7 (1.31x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.26
+    "io_multiplier": 1.26,
+    "cascade_risk_raw": 4.25
   },
   {
     "title": "Chiropractors",
@@ -949,7 +1004,8 @@
     "cascade_risk": 5,
     "derived_demand_pct": 60,
     "cascade_rationale": "Total requirements cascade via 6 (1.24x total requirements), G (1.39x total requirements), PROF (1.37x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.26
+    "io_multiplier": 1.26,
+    "cascade_risk_raw": 5.15
   },
   {
     "title": "Civil engineering technologists and technicians",
@@ -966,7 +1022,8 @@
     "cascade_risk": 8,
     "derived_demand_pct": 70,
     "cascade_rationale": "Total requirements cascade via PROF (1.37x total requirements), 31G (1.80x total requirements), G (1.39x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.59
+    "io_multiplier": 1.59,
+    "cascade_risk_raw": 8.59
   },
   {
     "title": "Civil engineers",
@@ -983,7 +1040,8 @@
     "cascade_risk": 8,
     "derived_demand_pct": 65,
     "cascade_rationale": "Total requirements cascade via PROF (1.37x total requirements), 31G (1.80x total requirements), G (1.39x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.59
+    "io_multiplier": 1.59,
+    "cascade_risk_raw": 8.59
   },
   {
     "title": "Claims adjusters, appraisers, examiners, and investigators",
@@ -1000,7 +1058,8 @@
     "cascade_risk": 9,
     "derived_demand_pct": 45,
     "cascade_rationale": "Total requirements cascade via 52 (1.36x total requirements), PROF (1.37x total requirements), 53 (1.37x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.37
+    "io_multiplier": 1.37,
+    "cascade_risk_raw": 9.78
   },
   {
     "title": "Clinical laboratory technologists and technicians",
@@ -1017,7 +1076,8 @@
     "cascade_risk": 5,
     "derived_demand_pct": 25,
     "cascade_rationale": "Total requirements cascade via G (1.39x total requirements), PROF (1.37x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.26
+    "io_multiplier": 1.26,
+    "cascade_risk_raw": 5.15
   },
   {
     "title": "Coaches and scouts",
@@ -1034,7 +1094,8 @@
     "cascade_risk": 5,
     "derived_demand_pct": 65,
     "cascade_rationale": "Total requirements cascade via 51 (1.39x total requirements), G (1.39x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.33
+    "io_multiplier": 1.33,
+    "cascade_risk_raw": 4.92
   },
   {
     "title": "Community health workers",
@@ -1051,7 +1112,8 @@
     "cascade_risk": 5,
     "derived_demand_pct": 20,
     "cascade_rationale": "Total requirements cascade via G (1.39x total requirements), 6 (1.24x total requirements), 81 (1.25x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.29
+    "io_multiplier": 1.29,
+    "cascade_risk_raw": 5.06
   },
   {
     "title": "Compensation and benefits managers",
@@ -1068,7 +1130,8 @@
     "cascade_risk": 8,
     "derived_demand_pct": 95,
     "cascade_rationale": "Total requirements cascade via PROF (1.37x total requirements), 52 (1.36x total requirements), 31G (1.80x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.42
+    "io_multiplier": 1.42,
+    "cascade_risk_raw": 8.4
   },
   {
     "title": "Compensation, benefits, and job analysis specialists",
@@ -1085,7 +1148,8 @@
     "cascade_risk": 9,
     "derived_demand_pct": 95,
     "cascade_rationale": "Total requirements cascade via 52 (1.36x total requirements), PROF (1.37x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.37
+    "io_multiplier": 1.37,
+    "cascade_risk_raw": 9.78
   },
   {
     "title": "Compliance officers",
@@ -1102,7 +1166,8 @@
     "cascade_risk": 9,
     "derived_demand_pct": 85,
     "cascade_rationale": "Total requirements cascade via 52 (1.36x total requirements), PROF (1.37x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.37
+    "io_multiplier": 1.37,
+    "cascade_risk_raw": 9.78
   },
   {
     "title": "Computer and information research scientists",
@@ -1119,7 +1184,8 @@
     "cascade_risk": 10,
     "derived_demand_pct": 55,
     "cascade_rationale": "Total requirements cascade via 51 (1.39x total requirements), PROF (1.37x total requirements), 52 (1.36x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.44
+    "io_multiplier": 1.44,
+    "cascade_risk_raw": 10.56
   },
   {
     "title": "Computer and information systems managers",
@@ -1136,7 +1202,8 @@
     "cascade_risk": 8,
     "derived_demand_pct": 95,
     "cascade_rationale": "Total requirements cascade via PROF (1.37x total requirements), 52 (1.36x total requirements), 31G (1.80x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.42
+    "io_multiplier": 1.42,
+    "cascade_risk_raw": 8.4
   },
   {
     "title": "Computer hardware engineers",
@@ -1153,7 +1220,8 @@
     "cascade_risk": 8,
     "derived_demand_pct": 65,
     "cascade_rationale": "Total requirements cascade via PROF (1.37x total requirements), 31G (1.80x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.59
+    "io_multiplier": 1.59,
+    "cascade_risk_raw": 8.59
   },
   {
     "title": "Computer network architects",
@@ -1170,7 +1238,8 @@
     "cascade_risk": 10,
     "derived_demand_pct": 95,
     "cascade_rationale": "Total requirements cascade via 51 (1.39x total requirements), PROF (1.37x total requirements), 52 (1.36x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.44
+    "io_multiplier": 1.44,
+    "cascade_risk_raw": 10.56
   },
   {
     "title": "Computer programmers",
@@ -1187,7 +1256,8 @@
     "cascade_risk": 10,
     "derived_demand_pct": 85,
     "cascade_rationale": "Total requirements cascade via 51 (1.39x total requirements), PROF (1.37x total requirements), 52 (1.36x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.44
+    "io_multiplier": 1.44,
+    "cascade_risk_raw": 10.56
   },
   {
     "title": "Computer support specialists",
@@ -1204,7 +1274,8 @@
     "cascade_risk": 10,
     "derived_demand_pct": 95,
     "cascade_rationale": "Total requirements cascade via 51 (1.39x total requirements), PROF (1.37x total requirements), 52 (1.36x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.44
+    "io_multiplier": 1.44,
+    "cascade_risk_raw": 10.56
   },
   {
     "title": "Computer systems analysts",
@@ -1221,7 +1292,8 @@
     "cascade_risk": 10,
     "derived_demand_pct": 95,
     "cascade_rationale": "Total requirements cascade via 51 (1.39x total requirements), PROF (1.37x total requirements), 52 (1.36x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.44
+    "io_multiplier": 1.44,
+    "cascade_risk_raw": 10.56
   },
   {
     "title": "Concierges",
@@ -1238,7 +1310,8 @@
     "cascade_risk": 5,
     "derived_demand_pct": 75,
     "cascade_rationale": "Total requirements cascade via 44RT (1.25x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.26
+    "io_multiplier": 1.26,
+    "cascade_risk_raw": 5
   },
   {
     "title": "Conservation scientists and foresters",
@@ -1255,7 +1328,8 @@
     "cascade_risk": 7,
     "derived_demand_pct": 25,
     "cascade_rationale": "Total requirements cascade via PROF (1.37x total requirements), G (1.39x total requirements), 6 (1.24x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.41
+    "io_multiplier": 1.41,
+    "cascade_risk_raw": 8.09
   },
   {
     "title": "Construction and building inspectors",
@@ -1272,7 +1346,8 @@
     "cascade_risk": 5,
     "derived_demand_pct": 75,
     "cascade_rationale": "Total requirements multiplier 1.68x [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.68
+    "io_multiplier": 1.68,
+    "cascade_risk_raw": 5
   },
   {
     "title": "Construction equipment operators",
@@ -1289,7 +1364,8 @@
     "cascade_risk": 4,
     "derived_demand_pct": 75,
     "cascade_rationale": "Total requirements cascade via 23 (1.74x total requirements), 21 (1.53x total requirements), 22 (1.39x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.68
+    "io_multiplier": 1.68,
+    "cascade_risk_raw": 3.84
   },
   {
     "title": "Construction laborers and helpers",
@@ -1306,7 +1382,8 @@
     "cascade_risk": 4,
     "derived_demand_pct": 45,
     "cascade_rationale": "Total requirements cascade via 23 (1.74x total requirements), 21 (1.53x total requirements), 22 (1.39x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.68
+    "io_multiplier": 1.68,
+    "cascade_risk_raw": 3.84
   },
   {
     "title": "Construction managers",
@@ -1323,7 +1400,8 @@
     "cascade_risk": 8,
     "derived_demand_pct": 55,
     "cascade_rationale": "Total requirements cascade via PROF (1.37x total requirements), 52 (1.36x total requirements), 31G (1.80x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.42
+    "io_multiplier": 1.42,
+    "cascade_risk_raw": 8.4
   },
   {
     "title": "Cooks",
@@ -1340,7 +1418,8 @@
     "cascade_risk": 4,
     "derived_demand_pct": 65,
     "cascade_rationale": "Total requirements cascade via 7 (1.31x total requirements), 6 (1.24x total requirements), 44RT (1.25x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.3
+    "io_multiplier": 1.3,
+    "cascade_risk_raw": 3.68
   },
   {
     "title": "Correctional officers and bailiffs",
@@ -1357,7 +1436,8 @@
     "cascade_risk": 8,
     "derived_demand_pct": 5,
     "cascade_rationale": "Total requirements cascade via G (1.39x total requirements), PROF (1.37x total requirements), 53 (1.37x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.38
+    "io_multiplier": 1.38,
+    "cascade_risk_raw": 7.9
   },
   {
     "title": "Cost estimators",
@@ -1374,7 +1454,8 @@
     "cascade_risk": 9,
     "derived_demand_pct": 75,
     "cascade_rationale": "Total requirements cascade via 52 (1.36x total requirements), PROF (1.37x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.37
+    "io_multiplier": 1.37,
+    "cascade_risk_raw": 9.78
   },
   {
     "title": "Court reporters and simultaneous captioners",
@@ -1391,7 +1472,8 @@
     "cascade_risk": 9,
     "derived_demand_pct": 85,
     "cascade_rationale": "Total requirements cascade via PROF (1.37x total requirements), 52 (1.36x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.37
+    "io_multiplier": 1.37,
+    "cascade_risk_raw": 9.72
   },
   {
     "title": "Craft and fine artists",
@@ -1408,7 +1490,8 @@
     "cascade_risk": 8,
     "derived_demand_pct": 80,
     "cascade_rationale": "Total requirements cascade via 51 (1.39x total requirements), PROF (1.37x total requirements), 31G (1.80x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.42
+    "io_multiplier": 1.42,
+    "cascade_risk_raw": 8.4
   },
   {
     "title": "Credit counselors",
@@ -1425,7 +1508,8 @@
     "cascade_risk": 9,
     "derived_demand_pct": 60,
     "cascade_rationale": "Total requirements cascade via 52 (1.36x total requirements), PROF (1.37x total requirements), 53 (1.37x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.37
+    "io_multiplier": 1.37,
+    "cascade_risk_raw": 9.78
   },
   {
     "title": "Customer service representatives",
@@ -1442,7 +1526,8 @@
     "cascade_risk": 9,
     "derived_demand_pct": 70,
     "cascade_rationale": "Total requirements cascade via 52 (1.36x total requirements), PROF (1.37x total requirements), 31G (1.80x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.38
+    "io_multiplier": 1.38,
+    "cascade_risk_raw": 9
   },
   {
     "title": "Dancers and choreographers",
@@ -1459,7 +1544,8 @@
     "cascade_risk": 5,
     "derived_demand_pct": 80,
     "cascade_rationale": "Total requirements cascade via 7 (1.31x total requirements), 51 (1.39x total requirements), G (1.39x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.33
+    "io_multiplier": 1.33,
+    "cascade_risk_raw": 4.92
   },
   {
     "title": "Data scientists",
@@ -1476,7 +1562,8 @@
     "cascade_risk": 9,
     "derived_demand_pct": 85,
     "cascade_rationale": "Total requirements cascade via 52 (1.36x total requirements), PROF (1.37x total requirements), 51 (1.39x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.38
+    "io_multiplier": 1.38,
+    "cascade_risk_raw": 9.66
   },
   {
     "title": "Database administrators and architects",
@@ -1493,7 +1580,8 @@
     "cascade_risk": 10,
     "derived_demand_pct": 90,
     "cascade_rationale": "Total requirements cascade via 51 (1.39x total requirements), PROF (1.37x total requirements), 52 (1.36x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.44
+    "io_multiplier": 1.44,
+    "cascade_risk_raw": 10.56
   },
   {
     "title": "Delivery truck drivers and driver/sales workers",
@@ -1510,7 +1598,8 @@
     "cascade_risk": 6,
     "derived_demand_pct": 50,
     "cascade_rationale": "Total requirements cascade via 48TW (1.27x total requirements), 42 (1.24x total requirements), 31G (1.80x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.35
+    "io_multiplier": 1.35,
+    "cascade_risk_raw": 5.88
   },
   {
     "title": "Dental and ophthalmic laboratory technicians and medical appliance technicians",
@@ -1527,7 +1616,8 @@
     "cascade_risk": 9,
     "derived_demand_pct": 40,
     "cascade_rationale": "Total requirements cascade via 31G (1.80x total requirements), 42 (1.24x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.73
+    "io_multiplier": 1.73,
+    "cascade_risk_raw": 10.05
   },
   {
     "title": "Dental assistants",
@@ -1544,7 +1634,8 @@
     "cascade_risk": 5,
     "derived_demand_pct": 55,
     "cascade_rationale": "Total requirements cascade via 6 (1.24x total requirements), G (1.39x total requirements), PROF (1.37x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.26
+    "io_multiplier": 1.26,
+    "cascade_risk_raw": 5.15
   },
   {
     "title": "Dental hygienists",
@@ -1561,7 +1652,8 @@
     "cascade_risk": 5,
     "derived_demand_pct": 50,
     "cascade_rationale": "Total requirements cascade via 6 (1.24x total requirements), G (1.39x total requirements), PROF (1.37x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.26
+    "io_multiplier": 1.26,
+    "cascade_risk_raw": 5.15
   },
   {
     "title": "Dentists",
@@ -1578,7 +1670,8 @@
     "cascade_risk": 5,
     "derived_demand_pct": 65,
     "cascade_rationale": "Total requirements cascade via 6 (1.24x total requirements), G (1.39x total requirements), PROF (1.37x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.26
+    "io_multiplier": 1.26,
+    "cascade_risk_raw": 5.15
   },
   {
     "title": "Desktop publishers",
@@ -1595,7 +1688,8 @@
     "cascade_risk": 9,
     "derived_demand_pct": 90,
     "cascade_rationale": "Total requirements cascade via 52 (1.36x total requirements), PROF (1.37x total requirements), 31G (1.80x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.38
+    "io_multiplier": 1.38,
+    "cascade_risk_raw": 9
   },
   {
     "title": "Diagnostic medical sonographers",
@@ -1612,7 +1706,8 @@
     "cascade_risk": 5,
     "derived_demand_pct": 45,
     "cascade_rationale": "Total requirements cascade via G (1.39x total requirements), PROF (1.37x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.26
+    "io_multiplier": 1.26,
+    "cascade_risk_raw": 5.15
   },
   {
     "title": "Diesel service technicians and mechanics",
@@ -1629,7 +1724,8 @@
     "cascade_risk": 6,
     "derived_demand_pct": 70,
     "cascade_rationale": "Total requirements cascade via 23 (1.74x total requirements), 31G (1.80x total requirements), 81 (1.25x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.55
+    "io_multiplier": 1.55,
+    "cascade_risk_raw": 6.23
   },
   {
     "title": "Dietitians and nutritionists",
@@ -1646,7 +1742,8 @@
     "cascade_risk": 6,
     "derived_demand_pct": 60,
     "cascade_rationale": "Total requirements cascade via G (1.39x total requirements), PROF (1.37x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.26
+    "io_multiplier": 1.26,
+    "cascade_risk_raw": 6
   },
   {
     "title": "Drafters",
@@ -1663,7 +1760,8 @@
     "cascade_risk": 9,
     "derived_demand_pct": 80,
     "cascade_rationale": "Total requirements cascade via PROF (1.37x total requirements), 31G (1.80x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.59
+    "io_multiplier": 1.59,
+    "cascade_risk_raw": 9
   },
   {
     "title": "Drywall installers, ceiling tile installers, and tapers",
@@ -1680,7 +1778,8 @@
     "cascade_risk": 4,
     "derived_demand_pct": 70,
     "cascade_rationale": "Total requirements cascade via 23 (1.74x total requirements), 21 (1.53x total requirements), 22 (1.39x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.68
+    "io_multiplier": 1.68,
+    "cascade_risk_raw": 3.84
   },
   {
     "title": "Economists",
@@ -1697,7 +1796,8 @@
     "cascade_risk": 9,
     "derived_demand_pct": 90,
     "cascade_rationale": "Total requirements cascade via PROF (1.37x total requirements), 31G (1.80x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.41
+    "io_multiplier": 1.41,
+    "cascade_risk_raw": 9
   },
   {
     "title": "Editors",
@@ -1714,7 +1814,8 @@
     "cascade_risk": 9,
     "derived_demand_pct": 85,
     "cascade_rationale": "Total requirements cascade via 51 (1.39x total requirements), PROF (1.37x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.35
+    "io_multiplier": 1.35,
+    "cascade_risk_raw": 9
   },
   {
     "title": "Electrical and electronic engineering technologists and technicians",
@@ -1731,7 +1832,8 @@
     "cascade_risk": 8,
     "derived_demand_pct": 60,
     "cascade_rationale": "Total requirements cascade via PROF (1.37x total requirements), 31G (1.80x total requirements), G (1.39x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.59
+    "io_multiplier": 1.59,
+    "cascade_risk_raw": 8.59
   },
   {
     "title": "Electrical and electronics engineers",
@@ -1748,7 +1850,8 @@
     "cascade_risk": 8,
     "derived_demand_pct": 75,
     "cascade_rationale": "Total requirements cascade via PROF (1.37x total requirements), 31G (1.80x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.59
+    "io_multiplier": 1.59,
+    "cascade_risk_raw": 8.59
   },
   {
     "title": "Electrical and electronics installers and repairers",
@@ -1765,7 +1868,8 @@
     "cascade_risk": 6,
     "derived_demand_pct": 55,
     "cascade_rationale": "Total requirements cascade via 23 (1.74x total requirements), 31G (1.80x total requirements), 81 (1.25x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.55
+    "io_multiplier": 1.55,
+    "cascade_risk_raw": 6.23
   },
   {
     "title": "Electrical power-line installers and repairers",
@@ -1782,7 +1886,8 @@
     "cascade_risk": 6,
     "derived_demand_pct": 10,
     "cascade_rationale": "Total requirements cascade via 23 (1.74x total requirements), 31G (1.80x total requirements), 81 (1.25x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.55
+    "io_multiplier": 1.55,
+    "cascade_risk_raw": 6.23
   },
   {
     "title": "Electricians",
@@ -1799,7 +1904,8 @@
     "cascade_risk": 4,
     "derived_demand_pct": 45,
     "cascade_rationale": "Total requirements cascade via 23 (1.74x total requirements), 21 (1.53x total requirements), 22 (1.39x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.68
+    "io_multiplier": 1.68,
+    "cascade_risk_raw": 3.84
   },
   {
     "title": "Electro-mechanical and mechatronics technologists and technicians",
@@ -1816,7 +1922,8 @@
     "cascade_risk": 8,
     "derived_demand_pct": 15,
     "cascade_rationale": "Total requirements cascade via PROF (1.37x total requirements), 31G (1.80x total requirements), G (1.39x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.59
+    "io_multiplier": 1.59,
+    "cascade_risk_raw": 8.59
   },
   {
     "title": "Elementary, middle, and high school principals",
@@ -1833,7 +1940,8 @@
     "cascade_risk": 8,
     "derived_demand_pct": 65,
     "cascade_rationale": "Total requirements cascade via PROF (1.37x total requirements), 52 (1.36x total requirements), 31G (1.80x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.42
+    "io_multiplier": 1.42,
+    "cascade_risk_raw": 8.4
   },
   {
     "title": "Elevator and escalator installers and repairers",
@@ -1850,7 +1958,8 @@
     "cascade_risk": 4,
     "derived_demand_pct": 75,
     "cascade_rationale": "Total requirements cascade via 23 (1.74x total requirements), 21 (1.53x total requirements), 22 (1.39x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.68
+    "io_multiplier": 1.68,
+    "cascade_risk_raw": 3.84
   },
   {
     "title": "Emergency management directors",
@@ -1867,7 +1976,8 @@
     "cascade_risk": 8,
     "derived_demand_pct": 35,
     "cascade_rationale": "Total requirements cascade via PROF (1.37x total requirements), 52 (1.36x total requirements), 31G (1.80x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.42
+    "io_multiplier": 1.42,
+    "cascade_risk_raw": 8.4
   },
   {
     "title": "EMTs and paramedics",
@@ -1884,7 +1994,8 @@
     "cascade_risk": 5,
     "derived_demand_pct": 25,
     "cascade_rationale": "Total requirements cascade via 6 (1.24x total requirements), G (1.39x total requirements), PROF (1.37x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.26
+    "io_multiplier": 1.26,
+    "cascade_risk_raw": 5.15
   },
   {
     "title": "Entertainment and recreation managers",
@@ -1901,7 +2012,8 @@
     "cascade_risk": 8,
     "derived_demand_pct": 75,
     "cascade_rationale": "Total requirements cascade via PROF (1.37x total requirements), 52 (1.36x total requirements), 31G (1.80x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.42
+    "io_multiplier": 1.42,
+    "cascade_risk_raw": 8.4
   },
   {
     "title": "Environmental engineering technologists and technicians",
@@ -1918,7 +2030,8 @@
     "cascade_risk": 8,
     "derived_demand_pct": 35,
     "cascade_rationale": "Total requirements cascade via PROF (1.37x total requirements), 31G (1.80x total requirements), G (1.39x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.59
+    "io_multiplier": 1.59,
+    "cascade_risk_raw": 8.59
   },
   {
     "title": "Environmental engineers",
@@ -1935,7 +2048,8 @@
     "cascade_risk": 8,
     "derived_demand_pct": 45,
     "cascade_rationale": "Total requirements cascade via PROF (1.37x total requirements), 31G (1.80x total requirements), G (1.39x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.59
+    "io_multiplier": 1.59,
+    "cascade_risk_raw": 8.59
   },
   {
     "title": "Environmental science and protection technicians",
@@ -1952,7 +2066,8 @@
     "cascade_risk": 7,
     "derived_demand_pct": 40,
     "cascade_rationale": "Total requirements cascade via PROF (1.37x total requirements), G (1.39x total requirements), 6 (1.24x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.41
+    "io_multiplier": 1.41,
+    "cascade_risk_raw": 8.09
   },
   {
     "title": "Environmental scientists and specialists",
@@ -1969,7 +2084,8 @@
     "cascade_risk": 7,
     "derived_demand_pct": 50,
     "cascade_rationale": "Total requirements cascade via PROF (1.37x total requirements), G (1.39x total requirements), 31G (1.80x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.41
+    "io_multiplier": 1.41,
+    "cascade_risk_raw": 8.09
   },
   {
     "title": "Epidemiologists",
@@ -1986,7 +2102,8 @@
     "cascade_risk": 7,
     "derived_demand_pct": 15,
     "cascade_rationale": "Total requirements cascade via PROF (1.37x total requirements), 31G (1.80x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.41
+    "io_multiplier": 1.41,
+    "cascade_risk_raw": 8.09
   },
   {
     "title": "Exercise physiologists",
@@ -2003,7 +2120,8 @@
     "cascade_risk": 5,
     "derived_demand_pct": 60,
     "cascade_rationale": "Total requirements cascade via 6 (1.24x total requirements), G (1.39x total requirements), PROF (1.37x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.26
+    "io_multiplier": 1.26,
+    "cascade_risk_raw": 5.15
   },
   {
     "title": "Farmers, ranchers, and other agricultural managers",
@@ -2020,7 +2138,8 @@
     "cascade_risk": 8,
     "derived_demand_pct": 10,
     "cascade_rationale": "Total requirements cascade via PROF (1.37x total requirements), 52 (1.36x total requirements), 31G (1.80x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.42
+    "io_multiplier": 1.42,
+    "cascade_risk_raw": 8.4
   },
   {
     "title": "Fashion designers",
@@ -2037,7 +2156,8 @@
     "cascade_risk": 8,
     "derived_demand_pct": 80,
     "cascade_rationale": "Total requirements cascade via 51 (1.39x total requirements), PROF (1.37x total requirements), 31G (1.80x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.42
+    "io_multiplier": 1.42,
+    "cascade_risk_raw": 8.4
   },
   {
     "title": "Film and video editors and camera operators",
@@ -2054,7 +2174,8 @@
     "cascade_risk": 8,
     "derived_demand_pct": 70,
     "cascade_rationale": "Total requirements cascade via 51 (1.39x total requirements), PROF (1.37x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.35
+    "io_multiplier": 1.35,
+    "cascade_risk_raw": 8.26
   },
   {
     "title": "Financial analysts",
@@ -2071,7 +2192,8 @@
     "cascade_risk": 9,
     "derived_demand_pct": 95,
     "cascade_rationale": "Total requirements cascade via 52 (1.36x total requirements), PROF (1.37x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.37
+    "io_multiplier": 1.37,
+    "cascade_risk_raw": 9.78
   },
   {
     "title": "Financial clerks",
@@ -2088,7 +2210,8 @@
     "cascade_risk": 9,
     "derived_demand_pct": 98,
     "cascade_rationale": "Total requirements cascade via 52 (1.36x total requirements), PROF (1.37x total requirements), 31G (1.80x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.38
+    "io_multiplier": 1.38,
+    "cascade_risk_raw": 9
   },
   {
     "title": "Financial examiners",
@@ -2105,7 +2228,8 @@
     "cascade_risk": 9,
     "derived_demand_pct": 90,
     "cascade_rationale": "Total requirements cascade via 52 (1.36x total requirements), PROF (1.37x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.37
+    "io_multiplier": 1.37,
+    "cascade_risk_raw": 9.78
   },
   {
     "title": "Financial managers",
@@ -2122,7 +2246,8 @@
     "cascade_risk": 8,
     "derived_demand_pct": 100,
     "cascade_rationale": "Total requirements cascade via PROF (1.37x total requirements), 52 (1.36x total requirements), 31G (1.80x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.42
+    "io_multiplier": 1.42,
+    "cascade_risk_raw": 8.4
   },
   {
     "title": "Fire inspectors",
@@ -2139,7 +2264,8 @@
     "cascade_risk": 8,
     "derived_demand_pct": 40,
     "cascade_rationale": "Total requirements cascade via G (1.39x total requirements), PROF (1.37x total requirements), 53 (1.37x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.38
+    "io_multiplier": 1.38,
+    "cascade_risk_raw": 7.9
   },
   {
     "title": "Firefighters",
@@ -2156,7 +2282,8 @@
     "cascade_risk": 8,
     "derived_demand_pct": 5,
     "cascade_rationale": "Total requirements cascade via G (1.39x total requirements), PROF (1.37x total requirements), 53 (1.37x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.38
+    "io_multiplier": 1.38,
+    "cascade_risk_raw": 7.9
   },
   {
     "title": "Fishing and hunting workers",
@@ -2173,7 +2300,8 @@
     "cascade_risk": 5,
     "derived_demand_pct": 15,
     "cascade_rationale": "Total requirements cascade via 11 (1.59x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.59
+    "io_multiplier": 1.59,
+    "cascade_risk_raw": 4.67
   },
   {
     "title": "Fitness trainers and instructors",
@@ -2190,7 +2318,8 @@
     "cascade_risk": 4,
     "derived_demand_pct": 65,
     "cascade_rationale": "Total requirements cascade via 81 (1.25x total requirements), 6 (1.24x total requirements), 7 (1.31x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.26
+    "io_multiplier": 1.26,
+    "cascade_risk_raw": 4.25
   },
   {
     "title": "Flight attendants",
@@ -2207,7 +2336,8 @@
     "cascade_risk": 6,
     "derived_demand_pct": 70,
     "cascade_rationale": "Total requirements cascade via 48TW (1.27x total requirements), 42 (1.24x total requirements), 31G (1.80x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.35
+    "io_multiplier": 1.35,
+    "cascade_risk_raw": 5.88
   },
   {
     "title": "Flooring installers and tile and stone setters",
@@ -2224,7 +2354,8 @@
     "cascade_risk": 4,
     "derived_demand_pct": 55,
     "cascade_rationale": "Total requirements cascade via 23 (1.74x total requirements), 21 (1.53x total requirements), 22 (1.39x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.68
+    "io_multiplier": 1.68,
+    "cascade_risk_raw": 3.84
   },
   {
     "title": "Floral designers",
@@ -2241,7 +2372,8 @@
     "cascade_risk": 8,
     "derived_demand_pct": 60,
     "cascade_rationale": "Total requirements cascade via 51 (1.39x total requirements), PROF (1.37x total requirements), 7 (1.31x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.42
+    "io_multiplier": 1.42,
+    "cascade_risk_raw": 8.4
   },
   {
     "title": "Food and beverage serving and related workers",
@@ -2258,7 +2390,8 @@
     "cascade_risk": 4,
     "derived_demand_pct": 80,
     "cascade_rationale": "Total requirements cascade via 7 (1.31x total requirements), 6 (1.24x total requirements), 44RT (1.25x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.3
+    "io_multiplier": 1.3,
+    "cascade_risk_raw": 3.68
   },
   {
     "title": "Food preparation workers",
@@ -2275,7 +2408,8 @@
     "cascade_risk": 4,
     "derived_demand_pct": 75,
     "cascade_rationale": "Total requirements cascade via 7 (1.31x total requirements), 6 (1.24x total requirements), 44RT (1.25x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.3
+    "io_multiplier": 1.3,
+    "cascade_risk_raw": 3.68
   },
   {
     "title": "Food processing equipment workers",
@@ -2292,7 +2426,8 @@
     "cascade_risk": 9,
     "derived_demand_pct": 5,
     "cascade_rationale": "Total requirements cascade via 31G (1.80x total requirements), 22 (1.39x total requirements), 42 (1.24x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.73
+    "io_multiplier": 1.73,
+    "cascade_risk_raw": 10.05
   },
   {
     "title": "Food service managers",
@@ -2309,7 +2444,8 @@
     "cascade_risk": 8,
     "derived_demand_pct": 60,
     "cascade_rationale": "Total requirements cascade via PROF (1.37x total requirements), 52 (1.36x total requirements), 31G (1.80x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.42
+    "io_multiplier": 1.42,
+    "cascade_risk_raw": 8.4
   },
   {
     "title": "Forensic science technicians",
@@ -2326,7 +2462,8 @@
     "cascade_risk": 7,
     "derived_demand_pct": 10,
     "cascade_rationale": "Total requirements cascade via PROF (1.37x total requirements), G (1.39x total requirements), 31G (1.80x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.41
+    "io_multiplier": 1.41,
+    "cascade_risk_raw": 8.09
   },
   {
     "title": "Forest and conservation workers",
@@ -2343,7 +2480,8 @@
     "cascade_risk": 5,
     "derived_demand_pct": 5,
     "cascade_rationale": "Total requirements cascade via 11 (1.59x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.59
+    "io_multiplier": 1.59,
+    "cascade_risk_raw": 4.67
   },
   {
     "title": "Fundraisers",
@@ -2360,7 +2498,8 @@
     "cascade_risk": 9,
     "derived_demand_pct": 55,
     "cascade_rationale": "Total requirements cascade via 52 (1.36x total requirements), PROF (1.37x total requirements), 53 (1.37x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.37
+    "io_multiplier": 1.37,
+    "cascade_risk_raw": 9.78
   },
   {
     "title": "Funeral service workers",
@@ -2377,7 +2516,8 @@
     "cascade_risk": 4,
     "derived_demand_pct": 5,
     "cascade_rationale": "Total requirements cascade via 81 (1.25x total requirements), 6 (1.24x total requirements), 7 (1.31x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.26
+    "io_multiplier": 1.26,
+    "cascade_risk_raw": 4.25
   },
   {
     "title": "Gambling services workers",
@@ -2394,7 +2534,8 @@
     "cascade_risk": 4,
     "derived_demand_pct": 40,
     "cascade_rationale": "Total requirements cascade via 6 (1.24x total requirements), 44RT (1.25x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.26
+    "io_multiplier": 1.26,
+    "cascade_risk_raw": 4.25
   },
   {
     "title": "General maintenance and repair workers",
@@ -2411,7 +2552,8 @@
     "cascade_risk": 6,
     "derived_demand_pct": 70,
     "cascade_rationale": "Total requirements cascade via 23 (1.74x total requirements), 31G (1.80x total requirements), 81 (1.25x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.55
+    "io_multiplier": 1.55,
+    "cascade_risk_raw": 6.23
   },
   {
     "title": "General office clerks",
@@ -2428,7 +2570,8 @@
     "cascade_risk": 9,
     "derived_demand_pct": 95,
     "cascade_rationale": "Total requirements cascade via 52 (1.36x total requirements), PROF (1.37x total requirements), 31G (1.80x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.38
+    "io_multiplier": 1.38,
+    "cascade_risk_raw": 9
   },
   {
     "title": "Genetic counselors",
@@ -2445,7 +2588,8 @@
     "cascade_risk": 6,
     "derived_demand_pct": 45,
     "cascade_rationale": "Total requirements cascade via G (1.39x total requirements), PROF (1.37x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.26
+    "io_multiplier": 1.26,
+    "cascade_risk_raw": 6
   },
   {
     "title": "Geographers",
@@ -2462,7 +2606,8 @@
     "cascade_risk": 8,
     "derived_demand_pct": 45,
     "cascade_rationale": "Total requirements cascade via PROF (1.37x total requirements), 31G (1.80x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.41
+    "io_multiplier": 1.41,
+    "cascade_risk_raw": 8.09
   },
   {
     "title": "Geological and hydrologic technicians",
@@ -2479,7 +2624,8 @@
     "cascade_risk": 7,
     "derived_demand_pct": 35,
     "cascade_rationale": "Total requirements cascade via PROF (1.37x total requirements), G (1.39x total requirements), 31G (1.80x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.41
+    "io_multiplier": 1.41,
+    "cascade_risk_raw": 8.09
   },
   {
     "title": "Geoscientists",
@@ -2496,7 +2642,8 @@
     "cascade_risk": 7,
     "derived_demand_pct": 40,
     "cascade_rationale": "Total requirements cascade via PROF (1.37x total requirements), G (1.39x total requirements), 31G (1.80x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.41
+    "io_multiplier": 1.41,
+    "cascade_risk_raw": 8.09
   },
   {
     "title": "Glaziers",
@@ -2513,7 +2660,8 @@
     "cascade_risk": 4,
     "derived_demand_pct": 60,
     "cascade_rationale": "Total requirements cascade via 23 (1.74x total requirements), 21 (1.53x total requirements), 22 (1.39x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.68
+    "io_multiplier": 1.68,
+    "cascade_risk_raw": 3.84
   },
   {
     "title": "Graphic designers",
@@ -2530,7 +2678,8 @@
     "cascade_risk": 9,
     "derived_demand_pct": 75,
     "cascade_rationale": "Total requirements cascade via 51 (1.39x total requirements), PROF (1.37x total requirements), 31G (1.80x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.42
+    "io_multiplier": 1.42,
+    "cascade_risk_raw": 9
   },
   {
     "title": "Grounds maintenance workers",
@@ -2547,7 +2696,8 @@
     "cascade_risk": 7,
     "derived_demand_pct": 50,
     "cascade_rationale": "Total requirements cascade via 53 (1.37x total requirements), PROF (1.37x total requirements), 7 (1.31x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.35
+    "io_multiplier": 1.35,
+    "cascade_risk_raw": 7.41
   },
   {
     "title": "Hand laborers and material movers",
@@ -2564,7 +2714,8 @@
     "cascade_risk": 6,
     "derived_demand_pct": 55,
     "cascade_rationale": "Total requirements cascade via 48TW (1.27x total requirements), 42 (1.24x total requirements), 31G (1.80x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.35
+    "io_multiplier": 1.35,
+    "cascade_risk_raw": 5.88
   },
   {
     "title": "Hazardous materials removal workers",
@@ -2581,7 +2732,8 @@
     "cascade_risk": 4,
     "derived_demand_pct": 45,
     "cascade_rationale": "Total requirements cascade via 23 (1.74x total requirements), 21 (1.53x total requirements), 22 (1.39x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.68
+    "io_multiplier": 1.68,
+    "cascade_risk_raw": 3.84
   },
   {
     "title": "Health and safety engineers",
@@ -2598,7 +2750,8 @@
     "cascade_risk": 8,
     "derived_demand_pct": 40,
     "cascade_rationale": "Total requirements cascade via PROF (1.37x total requirements), 31G (1.80x total requirements), G (1.39x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.59
+    "io_multiplier": 1.59,
+    "cascade_risk_raw": 8.59
   },
   {
     "title": "Health education specialists",
@@ -2615,7 +2768,8 @@
     "cascade_risk": 6,
     "derived_demand_pct": 35,
     "cascade_rationale": "Total requirements cascade via G (1.39x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.29
+    "io_multiplier": 1.29,
+    "cascade_risk_raw": 6
   },
   {
     "title": "Health information technologists and medical registrars",
@@ -2632,7 +2786,8 @@
     "cascade_risk": 8,
     "derived_demand_pct": 35,
     "cascade_rationale": "Total requirements cascade via PROF (1.37x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.26
+    "io_multiplier": 1.26,
+    "cascade_risk_raw": 8
   },
   {
     "title": "Heating, air conditioning, and refrigeration mechanics and installers",
@@ -2649,7 +2804,8 @@
     "cascade_risk": 6,
     "derived_demand_pct": 65,
     "cascade_rationale": "Total requirements cascade via 23 (1.74x total requirements), 31G (1.80x total requirements), 81 (1.25x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.55
+    "io_multiplier": 1.55,
+    "cascade_risk_raw": 6.23
   },
   {
     "title": "Heavy and tractor-trailer truck drivers",
@@ -2666,7 +2822,8 @@
     "cascade_risk": 6,
     "derived_demand_pct": 55,
     "cascade_rationale": "Total requirements cascade via 42 (1.24x total requirements), 31G (1.80x total requirements), 44RT (1.25x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.35
+    "io_multiplier": 1.35,
+    "cascade_risk_raw": 5.88
   },
   {
     "title": "Heavy vehicle and mobile equipment service technicians",
@@ -2683,7 +2840,8 @@
     "cascade_risk": 6,
     "derived_demand_pct": 65,
     "cascade_rationale": "Total requirements cascade via 23 (1.74x total requirements), 31G (1.80x total requirements), 81 (1.25x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.55
+    "io_multiplier": 1.55,
+    "cascade_risk_raw": 6.23
   },
   {
     "title": "High school teachers",
@@ -2700,7 +2858,8 @@
     "cascade_risk": 7,
     "derived_demand_pct": 25,
     "cascade_rationale": "Total requirements multiplier 1.28x [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.28
+    "io_multiplier": 1.28,
+    "cascade_risk_raw": 7
   },
   {
     "title": "Historians",
@@ -2717,7 +2876,8 @@
     "cascade_risk": 7,
     "derived_demand_pct": 55,
     "cascade_rationale": "Total requirements cascade via PROF (1.37x total requirements), 31G (1.80x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.41
+    "io_multiplier": 1.41,
+    "cascade_risk_raw": 8.09
   },
   {
     "title": "Home health and personal care aides",
@@ -2734,7 +2894,8 @@
     "cascade_risk": 5,
     "derived_demand_pct": 75,
     "cascade_rationale": "Total requirements cascade via 6 (1.24x total requirements), G (1.39x total requirements), PROF (1.37x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.26
+    "io_multiplier": 1.26,
+    "cascade_risk_raw": 5.15
   },
   {
     "title": "Human resources managers",
@@ -2751,7 +2912,8 @@
     "cascade_risk": 8,
     "derived_demand_pct": 95,
     "cascade_rationale": "Total requirements cascade via PROF (1.37x total requirements), 52 (1.36x total requirements), 31G (1.80x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.42
+    "io_multiplier": 1.42,
+    "cascade_risk_raw": 8.4
   },
   {
     "title": "Human resources specialists",
@@ -2768,7 +2930,8 @@
     "cascade_risk": 9,
     "derived_demand_pct": 95,
     "cascade_rationale": "Total requirements cascade via 52 (1.36x total requirements), PROF (1.37x total requirements), 53 (1.37x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.37
+    "io_multiplier": 1.37,
+    "cascade_risk_raw": 9.78
   },
   {
     "title": "Hydrologists",
@@ -2785,7 +2948,8 @@
     "cascade_risk": 7,
     "derived_demand_pct": 45,
     "cascade_rationale": "Total requirements cascade via PROF (1.37x total requirements), G (1.39x total requirements), 31G (1.80x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.41
+    "io_multiplier": 1.41,
+    "cascade_risk_raw": 8.09
   },
   {
     "title": "Industrial designers",
@@ -2802,7 +2966,8 @@
     "cascade_risk": 8,
     "derived_demand_pct": 40,
     "cascade_rationale": "Total requirements cascade via 51 (1.39x total requirements), PROF (1.37x total requirements), 31G (1.80x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.42
+    "io_multiplier": 1.42,
+    "cascade_risk_raw": 8.4
   },
   {
     "title": "Industrial engineering technologists and technicians",
@@ -2819,7 +2984,8 @@
     "cascade_risk": 8,
     "derived_demand_pct": 55,
     "cascade_rationale": "Total requirements cascade via PROF (1.37x total requirements), 31G (1.80x total requirements), G (1.39x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.59
+    "io_multiplier": 1.59,
+    "cascade_risk_raw": 8.59
   },
   {
     "title": "Industrial engineers",
@@ -2836,7 +3002,8 @@
     "cascade_risk": 8,
     "derived_demand_pct": 60,
     "cascade_rationale": "Total requirements cascade via PROF (1.37x total requirements), 31G (1.80x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.59
+    "io_multiplier": 1.59,
+    "cascade_risk_raw": 8.59
   },
   {
     "title": "Industrial machinery mechanics, machinery maintenance workers, and millwrights",
@@ -2853,7 +3020,8 @@
     "cascade_risk": 6,
     "derived_demand_pct": 70,
     "cascade_rationale": "Total requirements cascade via 23 (1.74x total requirements), 31G (1.80x total requirements), 81 (1.25x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.55
+    "io_multiplier": 1.55,
+    "cascade_risk_raw": 6.23
   },
   {
     "title": "Industrial production managers",
@@ -2870,7 +3038,8 @@
     "cascade_risk": 8,
     "derived_demand_pct": 80,
     "cascade_rationale": "Total requirements cascade via PROF (1.37x total requirements), 52 (1.36x total requirements), 31G (1.80x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.42
+    "io_multiplier": 1.42,
+    "cascade_risk_raw": 8.4
   },
   {
     "title": "Information clerks",
@@ -2887,7 +3056,8 @@
     "cascade_risk": 8,
     "derived_demand_pct": 75,
     "cascade_rationale": "Total requirements cascade via 52 (1.36x total requirements), PROF (1.37x total requirements), 53 (1.37x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.38
+    "io_multiplier": 1.38,
+    "cascade_risk_raw": 8.32
   },
   {
     "title": "Information security analysts",
@@ -2904,7 +3074,8 @@
     "cascade_risk": 10,
     "derived_demand_pct": 65,
     "cascade_rationale": "Total requirements cascade via 51 (1.39x total requirements), PROF (1.37x total requirements), 52 (1.36x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.44
+    "io_multiplier": 1.44,
+    "cascade_risk_raw": 10.56
   },
   {
     "title": "Instructional coordinators",
@@ -2921,7 +3092,8 @@
     "cascade_risk": 7,
     "derived_demand_pct": 60,
     "cascade_rationale": "Total requirements multiplier 1.28x [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.28
+    "io_multiplier": 1.28,
+    "cascade_risk_raw": 7
   },
   {
     "title": "Insulation workers",
@@ -2938,7 +3110,8 @@
     "cascade_risk": 4,
     "derived_demand_pct": 85,
     "cascade_rationale": "Total requirements cascade via 23 (1.74x total requirements), 21 (1.53x total requirements), 22 (1.39x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.68
+    "io_multiplier": 1.68,
+    "cascade_risk_raw": 3.84
   },
   {
     "title": "Insurance sales agents",
@@ -2955,7 +3128,8 @@
     "cascade_risk": 7,
     "derived_demand_pct": 90,
     "cascade_rationale": "Total requirements cascade via 52 (1.36x total requirements), 53 (1.37x total requirements), PROF (1.37x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.3
+    "io_multiplier": 1.3,
+    "cascade_risk_raw": 7.34
   },
   {
     "title": "Insurance underwriters",
@@ -2972,7 +3146,8 @@
     "cascade_risk": 9,
     "derived_demand_pct": 100,
     "cascade_rationale": "Total requirements cascade via 52 (1.36x total requirements), PROF (1.37x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.37
+    "io_multiplier": 1.37,
+    "cascade_risk_raw": 9.78
   },
   {
     "title": "Interior designers",
@@ -2989,7 +3164,8 @@
     "cascade_risk": 8,
     "derived_demand_pct": 65,
     "cascade_rationale": "Total requirements cascade via 51 (1.39x total requirements), PROF (1.37x total requirements), 31G (1.80x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.42
+    "io_multiplier": 1.42,
+    "cascade_risk_raw": 8.4
   },
   {
     "title": "Interpreters and translators",
@@ -3006,7 +3182,8 @@
     "cascade_risk": 9,
     "derived_demand_pct": 85,
     "cascade_rationale": "Total requirements cascade via 51 (1.39x total requirements), PROF (1.37x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.35
+    "io_multiplier": 1.35,
+    "cascade_risk_raw": 9
   },
   {
     "title": "Ironworkers",
@@ -3023,7 +3200,8 @@
     "cascade_risk": 4,
     "derived_demand_pct": 35,
     "cascade_rationale": "Total requirements cascade via 23 (1.74x total requirements), 21 (1.53x total requirements), 22 (1.39x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.68
+    "io_multiplier": 1.68,
+    "cascade_risk_raw": 3.84
   },
   {
     "title": "Janitors and building cleaners",
@@ -3040,7 +3218,8 @@
     "cascade_risk": 7,
     "derived_demand_pct": 70,
     "cascade_rationale": "Total requirements cascade via 53 (1.37x total requirements), PROF (1.37x total requirements), 7 (1.31x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.35
+    "io_multiplier": 1.35,
+    "cascade_risk_raw": 7.41
   },
   {
     "title": "Jewelers and precious stone and metal workers",
@@ -3057,7 +3236,8 @@
     "cascade_risk": 9,
     "derived_demand_pct": 75,
     "cascade_rationale": "Total requirements cascade via 31G (1.80x total requirements), 42 (1.24x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.73
+    "io_multiplier": 1.73,
+    "cascade_risk_raw": 10.05
   },
   {
     "title": "Judges and hearing officers",
@@ -3074,7 +3254,8 @@
     "cascade_risk": 9,
     "derived_demand_pct": 55,
     "cascade_rationale": "Total requirements cascade via PROF (1.37x total requirements), 52 (1.36x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.37
+    "io_multiplier": 1.37,
+    "cascade_risk_raw": 9.72
   },
   {
     "title": "Kindergarten and elementary school teachers",
@@ -3091,7 +3272,8 @@
     "cascade_risk": 6,
     "derived_demand_pct": 25,
     "cascade_rationale": "Total requirements cascade via G (1.39x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.28
+    "io_multiplier": 1.28,
+    "cascade_risk_raw": 6
   },
   {
     "title": "Labor relations specialists",
@@ -3108,7 +3290,8 @@
     "cascade_risk": 9,
     "derived_demand_pct": 90,
     "cascade_rationale": "Total requirements cascade via 52 (1.36x total requirements), PROF (1.37x total requirements), 53 (1.37x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.37
+    "io_multiplier": 1.37,
+    "cascade_risk_raw": 9.78
   },
   {
     "title": "Landscape architects",
@@ -3125,7 +3308,8 @@
     "cascade_risk": 8,
     "derived_demand_pct": 65,
     "cascade_rationale": "Total requirements cascade via PROF (1.37x total requirements), 31G (1.80x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.59
+    "io_multiplier": 1.59,
+    "cascade_risk_raw": 8.59
   },
   {
     "title": "Lawyers",
@@ -3142,7 +3326,8 @@
     "cascade_risk": 9,
     "derived_demand_pct": 75,
     "cascade_rationale": "Total requirements cascade via PROF (1.37x total requirements), 52 (1.36x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.37
+    "io_multiplier": 1.37,
+    "cascade_risk_raw": 9.72
   },
   {
     "title": "Librarians and library media specialists",
@@ -3159,7 +3344,8 @@
     "cascade_risk": 7,
     "derived_demand_pct": 30,
     "cascade_rationale": "Total requirements multiplier 1.28x [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.28
+    "io_multiplier": 1.28,
+    "cascade_risk_raw": 7
   },
   {
     "title": "Library technicians and assistants",
@@ -3176,7 +3362,8 @@
     "cascade_risk": 7,
     "derived_demand_pct": 35,
     "cascade_rationale": "Total requirements multiplier 1.28x [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.28
+    "io_multiplier": 1.28,
+    "cascade_risk_raw": 7
   },
   {
     "title": "Licensed practical and licensed vocational nurses",
@@ -3193,7 +3380,8 @@
     "cascade_risk": 5,
     "derived_demand_pct": 20,
     "cascade_rationale": "Total requirements cascade via 6 (1.24x total requirements), G (1.39x total requirements), PROF (1.37x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.26
+    "io_multiplier": 1.26,
+    "cascade_risk_raw": 5.15
   },
   {
     "title": "Loan officers",
@@ -3210,7 +3398,8 @@
     "cascade_risk": 9,
     "derived_demand_pct": 80,
     "cascade_rationale": "Total requirements cascade via 52 (1.36x total requirements), PROF (1.37x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.37
+    "io_multiplier": 1.37,
+    "cascade_risk_raw": 9.78
   },
   {
     "title": "Lodging managers",
@@ -3227,7 +3416,8 @@
     "cascade_risk": 8,
     "derived_demand_pct": 70,
     "cascade_rationale": "Total requirements cascade via PROF (1.37x total requirements), 52 (1.36x total requirements), 31G (1.80x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.42
+    "io_multiplier": 1.42,
+    "cascade_risk_raw": 8.4
   },
   {
     "title": "Logging workers",
@@ -3244,7 +3434,8 @@
     "cascade_risk": 5,
     "derived_demand_pct": 30,
     "cascade_rationale": "Total requirements cascade via 11 (1.59x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.59
+    "io_multiplier": 1.59,
+    "cascade_risk_raw": 4.67
   },
   {
     "title": "Logisticians",
@@ -3261,7 +3452,8 @@
     "cascade_risk": 9,
     "derived_demand_pct": 65,
     "cascade_rationale": "Total requirements cascade via 52 (1.36x total requirements), PROF (1.37x total requirements), 53 (1.37x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.37
+    "io_multiplier": 1.37,
+    "cascade_risk_raw": 9.78
   },
   {
     "title": "Machinists and tool and die makers",
@@ -3278,7 +3470,8 @@
     "cascade_risk": 9,
     "derived_demand_pct": 35,
     "cascade_rationale": "Total requirements cascade via 31G (1.80x total requirements), 42 (1.24x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.73
+    "io_multiplier": 1.73,
+    "cascade_risk_raw": 10.05
   },
   {
     "title": "Management analysts",
@@ -3295,7 +3488,8 @@
     "cascade_risk": 9,
     "derived_demand_pct": 90,
     "cascade_rationale": "Total requirements cascade via 52 (1.36x total requirements), PROF (1.37x total requirements), 53 (1.37x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.37
+    "io_multiplier": 1.37,
+    "cascade_risk_raw": 9.78
   },
   {
     "title": "Manicurists and pedicurists",
@@ -3312,7 +3506,8 @@
     "cascade_risk": 4,
     "derived_demand_pct": 50,
     "cascade_rationale": "Total requirements cascade via 81 (1.25x total requirements), 6 (1.24x total requirements), 7 (1.31x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.26
+    "io_multiplier": 1.26,
+    "cascade_risk_raw": 4.25
   },
   {
     "title": "Marine engineers and naval architects",
@@ -3329,7 +3524,8 @@
     "cascade_risk": 8,
     "derived_demand_pct": 5,
     "cascade_rationale": "Total requirements cascade via PROF (1.37x total requirements), 31G (1.80x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.59
+    "io_multiplier": 1.59,
+    "cascade_risk_raw": 8.59
   },
   {
     "title": "Market research analysts",
@@ -3346,7 +3542,8 @@
     "cascade_risk": 9,
     "derived_demand_pct": 80,
     "cascade_rationale": "Total requirements cascade via 52 (1.36x total requirements), PROF (1.37x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.37
+    "io_multiplier": 1.37,
+    "cascade_risk_raw": 9.78
   },
   {
     "title": "Marriage and family therapists",
@@ -3363,7 +3560,8 @@
     "cascade_risk": 5,
     "derived_demand_pct": 60,
     "cascade_rationale": "Total requirements cascade via G (1.39x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.29
+    "io_multiplier": 1.29,
+    "cascade_risk_raw": 5.06
   },
   {
     "title": "Masonry workers",
@@ -3380,7 +3578,8 @@
     "cascade_risk": 4,
     "derived_demand_pct": 70,
     "cascade_rationale": "Total requirements cascade via 23 (1.74x total requirements), 21 (1.53x total requirements), 22 (1.39x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.68
+    "io_multiplier": 1.68,
+    "cascade_risk_raw": 3.84
   },
   {
     "title": "Massage therapists",
@@ -3397,7 +3596,8 @@
     "cascade_risk": 5,
     "derived_demand_pct": 60,
     "cascade_rationale": "Total requirements cascade via 6 (1.24x total requirements), G (1.39x total requirements), PROF (1.37x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.26
+    "io_multiplier": 1.26,
+    "cascade_risk_raw": 5.15
   },
   {
     "title": "Material moving machine operators",
@@ -3414,7 +3614,8 @@
     "cascade_risk": 6,
     "derived_demand_pct": 40,
     "cascade_rationale": "Total requirements cascade via 48TW (1.27x total requirements), 42 (1.24x total requirements), 31G (1.80x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.35
+    "io_multiplier": 1.35,
+    "cascade_risk_raw": 5.88
   },
   {
     "title": "Material recording clerks",
@@ -3431,7 +3632,8 @@
     "cascade_risk": 8,
     "derived_demand_pct": 60,
     "cascade_rationale": "Total requirements cascade via 52 (1.36x total requirements), PROF (1.37x total requirements), 53 (1.37x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.38
+    "io_multiplier": 1.38,
+    "cascade_risk_raw": 8.32
   },
   {
     "title": "Materials engineers",
@@ -3448,7 +3650,8 @@
     "cascade_risk": 8,
     "derived_demand_pct": 30,
     "cascade_rationale": "Total requirements cascade via PROF (1.37x total requirements), 31G (1.80x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.59
+    "io_multiplier": 1.59,
+    "cascade_risk_raw": 8.59
   },
   {
     "title": "Mathematicians and statisticians",
@@ -3465,7 +3668,8 @@
     "cascade_risk": 9,
     "derived_demand_pct": 85,
     "cascade_rationale": "Total requirements cascade via 52 (1.36x total requirements), PROF (1.37x total requirements), 51 (1.39x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.38
+    "io_multiplier": 1.38,
+    "cascade_risk_raw": 9.66
   },
   {
     "title": "Mechanical engineering technologists and technicians",
@@ -3482,7 +3686,8 @@
     "cascade_risk": 8,
     "derived_demand_pct": 35,
     "cascade_rationale": "Total requirements cascade via PROF (1.37x total requirements), 31G (1.80x total requirements), G (1.39x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.59
+    "io_multiplier": 1.59,
+    "cascade_risk_raw": 8.59
   },
   {
     "title": "Mechanical engineers",
@@ -3499,7 +3704,8 @@
     "cascade_risk": 8,
     "derived_demand_pct": 45,
     "cascade_rationale": "Total requirements cascade via PROF (1.37x total requirements), 31G (1.80x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.59
+    "io_multiplier": 1.59,
+    "cascade_risk_raw": 8.59
   },
   {
     "title": "Medical and health services managers",
@@ -3516,7 +3722,8 @@
     "cascade_risk": 8,
     "derived_demand_pct": 35,
     "cascade_rationale": "Total requirements cascade via PROF (1.37x total requirements), 52 (1.36x total requirements), 31G (1.80x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.42
+    "io_multiplier": 1.42,
+    "cascade_risk_raw": 8.4
   },
   {
     "title": "Medical assistants",
@@ -3533,7 +3740,8 @@
     "cascade_risk": 5,
     "derived_demand_pct": 45,
     "cascade_rationale": "Total requirements cascade via 6 (1.24x total requirements), G (1.39x total requirements), PROF (1.37x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.26
+    "io_multiplier": 1.26,
+    "cascade_risk_raw": 5.15
   },
   {
     "title": "Medical dosimetrists",
@@ -3550,7 +3758,8 @@
     "cascade_risk": 8,
     "derived_demand_pct": 20,
     "cascade_rationale": "Total requirements cascade via PROF (1.37x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.26
+    "io_multiplier": 1.26,
+    "cascade_risk_raw": 8
   },
   {
     "title": "Medical equipment repairers",
@@ -3567,7 +3776,8 @@
     "cascade_risk": 6,
     "derived_demand_pct": 25,
     "cascade_rationale": "Total requirements cascade via 23 (1.74x total requirements), 31G (1.80x total requirements), 81 (1.25x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.55
+    "io_multiplier": 1.55,
+    "cascade_risk_raw": 6.23
   },
   {
     "title": "Medical records specialists",
@@ -3584,7 +3794,8 @@
     "cascade_risk": 9,
     "derived_demand_pct": 55,
     "cascade_rationale": "Total requirements cascade via PROF (1.37x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.26
+    "io_multiplier": 1.26,
+    "cascade_risk_raw": 9
   },
   {
     "title": "Medical scientists",
@@ -3601,7 +3812,8 @@
     "cascade_risk": 7,
     "derived_demand_pct": 35,
     "cascade_rationale": "Total requirements cascade via PROF (1.37x total requirements), 31G (1.80x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.41
+    "io_multiplier": 1.41,
+    "cascade_risk_raw": 8.09
   },
   {
     "title": "Medical transcriptionists",
@@ -3618,7 +3830,8 @@
     "cascade_risk": 10,
     "derived_demand_pct": 65,
     "cascade_rationale": "Total requirements multiplier 1.26x [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.26
+    "io_multiplier": 1.26,
+    "cascade_risk_raw": 10
   },
   {
     "title": "Meeting, convention, and event planners",
@@ -3635,7 +3848,8 @@
     "cascade_risk": 9,
     "derived_demand_pct": 80,
     "cascade_rationale": "Total requirements cascade via 52 (1.36x total requirements), PROF (1.37x total requirements), 53 (1.37x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.37
+    "io_multiplier": 1.37,
+    "cascade_risk_raw": 9.78
   },
   {
     "title": "Metal and plastic machine workers",
@@ -3652,7 +3866,8 @@
     "cascade_risk": 9,
     "derived_demand_pct": 20,
     "cascade_rationale": "Total requirements cascade via 31G (1.80x total requirements), 42 (1.24x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.73
+    "io_multiplier": 1.73,
+    "cascade_risk_raw": 10.05
   },
   {
     "title": "Microbiologists",
@@ -3669,7 +3884,8 @@
     "cascade_risk": 7,
     "derived_demand_pct": 25,
     "cascade_rationale": "Total requirements cascade via PROF (1.37x total requirements), G (1.39x total requirements), 31G (1.80x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.41
+    "io_multiplier": 1.41,
+    "cascade_risk_raw": 8.09
   },
   {
     "title": "Middle school teachers",
@@ -3686,7 +3902,8 @@
     "cascade_risk": 6,
     "derived_demand_pct": 55,
     "cascade_rationale": "Total requirements cascade via G (1.39x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.28
+    "io_multiplier": 1.28,
+    "cascade_risk_raw": 6
   },
   {
     "title": "Military careers",
@@ -3703,7 +3920,8 @@
     "cascade_risk": 6,
     "derived_demand_pct": 5,
     "cascade_rationale": "Total requirements cascade via G (1.39x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.39
+    "io_multiplier": 1.39,
+    "cascade_risk_raw": 6.25
   },
   {
     "title": "Mining and geological engineers",
@@ -3720,7 +3938,8 @@
     "cascade_risk": 8,
     "derived_demand_pct": 20,
     "cascade_rationale": "Total requirements cascade via PROF (1.37x total requirements), 31G (1.80x total requirements), G (1.39x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.59
+    "io_multiplier": 1.59,
+    "cascade_risk_raw": 8.59
   },
   {
     "title": "Models",
@@ -3737,7 +3956,8 @@
     "cascade_risk": 8,
     "derived_demand_pct": 75,
     "cascade_rationale": "Total requirements cascade via 52 (1.36x total requirements), PROF (1.37x total requirements), 51 (1.39x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.3
+    "io_multiplier": 1.3,
+    "cascade_risk_raw": 8
   },
   {
     "title": "Music directors and composers",
@@ -3754,7 +3974,8 @@
     "cascade_risk": 7,
     "derived_demand_pct": 65,
     "cascade_rationale": "Total requirements cascade via 51 (1.39x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.33
+    "io_multiplier": 1.33,
+    "cascade_risk_raw": 7
   },
   {
     "title": "Musicians and singers",
@@ -3771,7 +3992,8 @@
     "cascade_risk": 5,
     "derived_demand_pct": 70,
     "cascade_rationale": "Total requirements cascade via 51 (1.39x total requirements), G (1.39x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.33
+    "io_multiplier": 1.33,
+    "cascade_risk_raw": 4.92
   },
   {
     "title": "Natural sciences managers",
@@ -3788,7 +4010,8 @@
     "cascade_risk": 8,
     "derived_demand_pct": 40,
     "cascade_rationale": "Total requirements cascade via PROF (1.37x total requirements), 52 (1.36x total requirements), 31G (1.80x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.42
+    "io_multiplier": 1.42,
+    "cascade_risk_raw": 8.4
   },
   {
     "title": "Network and computer systems administrators",
@@ -3805,7 +4028,8 @@
     "cascade_risk": 10,
     "derived_demand_pct": 80,
     "cascade_rationale": "Total requirements cascade via 51 (1.39x total requirements), PROF (1.37x total requirements), 52 (1.36x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.44
+    "io_multiplier": 1.44,
+    "cascade_risk_raw": 10.56
   },
   {
     "title": "News analysts, reporters, and journalists",
@@ -3822,7 +4046,8 @@
     "cascade_risk": 8,
     "derived_demand_pct": 40,
     "cascade_rationale": "Total requirements cascade via 51 (1.39x total requirements), PROF (1.37x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.35
+    "io_multiplier": 1.35,
+    "cascade_risk_raw": 8.26
   },
   {
     "title": "Nuclear engineers",
@@ -3839,7 +4064,8 @@
     "cascade_risk": 8,
     "derived_demand_pct": 10,
     "cascade_rationale": "Total requirements cascade via PROF (1.37x total requirements), 31G (1.80x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.59
+    "io_multiplier": 1.59,
+    "cascade_risk_raw": 8.59
   },
   {
     "title": "Nuclear medicine technologists",
@@ -3856,7 +4082,8 @@
     "cascade_risk": 5,
     "derived_demand_pct": 45,
     "cascade_rationale": "Total requirements cascade via 6 (1.24x total requirements), G (1.39x total requirements), PROF (1.37x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.26
+    "io_multiplier": 1.26,
+    "cascade_risk_raw": 5.15
   },
   {
     "title": "Nuclear technicians",
@@ -3873,7 +4100,8 @@
     "cascade_risk": 7,
     "derived_demand_pct": 10,
     "cascade_rationale": "Total requirements cascade via PROF (1.37x total requirements), G (1.39x total requirements), 31G (1.80x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.41
+    "io_multiplier": 1.41,
+    "cascade_risk_raw": 8.09
   },
   {
     "title": "Nurse anesthetists, nurse midwives, and nurse practitioners",
@@ -3890,7 +4118,8 @@
     "cascade_risk": 5,
     "derived_demand_pct": 50,
     "cascade_rationale": "Total requirements cascade via G (1.39x total requirements), PROF (1.37x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.26
+    "io_multiplier": 1.26,
+    "cascade_risk_raw": 5.15
   },
   {
     "title": "Nursing assistants and orderlies",
@@ -3907,7 +4136,8 @@
     "cascade_risk": 5,
     "derived_demand_pct": 35,
     "cascade_rationale": "Total requirements cascade via 6 (1.24x total requirements), G (1.39x total requirements), PROF (1.37x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.26
+    "io_multiplier": 1.26,
+    "cascade_risk_raw": 5.15
   },
   {
     "title": "Occupational health and safety specialists and technicians",
@@ -3924,7 +4154,8 @@
     "cascade_risk": 5,
     "derived_demand_pct": 40,
     "cascade_rationale": "Total requirements cascade via G (1.39x total requirements), PROF (1.37x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.26
+    "io_multiplier": 1.26,
+    "cascade_risk_raw": 5.15
   },
   {
     "title": "Occupational therapists",
@@ -3941,7 +4172,8 @@
     "cascade_risk": 5,
     "derived_demand_pct": 55,
     "cascade_rationale": "Total requirements cascade via 6 (1.24x total requirements), G (1.39x total requirements), PROF (1.37x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.26
+    "io_multiplier": 1.26,
+    "cascade_risk_raw": 5.15
   },
   {
     "title": "Occupational therapy assistants and aides",
@@ -3958,7 +4190,8 @@
     "cascade_risk": 5,
     "derived_demand_pct": 55,
     "cascade_rationale": "Total requirements cascade via 6 (1.24x total requirements), G (1.39x total requirements), PROF (1.37x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.26
+    "io_multiplier": 1.26,
+    "cascade_risk_raw": 5.15
   },
   {
     "title": "Oil and gas workers",
@@ -3975,7 +4208,8 @@
     "cascade_risk": 4,
     "derived_demand_pct": 25,
     "cascade_rationale": "Total requirements cascade via 23 (1.74x total requirements), 21 (1.53x total requirements), 22 (1.39x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.68
+    "io_multiplier": 1.68,
+    "cascade_risk_raw": 3.84
   },
   {
     "title": "Operations research analysts",
@@ -3992,7 +4226,8 @@
     "cascade_risk": 9,
     "derived_demand_pct": 95,
     "cascade_rationale": "Total requirements cascade via 52 (1.36x total requirements), PROF (1.37x total requirements), 51 (1.39x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.38
+    "io_multiplier": 1.38,
+    "cascade_risk_raw": 9.66
   },
   {
     "title": "Opticians",
@@ -4009,7 +4244,8 @@
     "cascade_risk": 5,
     "derived_demand_pct": 35,
     "cascade_rationale": "Total requirements cascade via 6 (1.24x total requirements), G (1.39x total requirements), PROF (1.37x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.26
+    "io_multiplier": 1.26,
+    "cascade_risk_raw": 5.15
   },
   {
     "title": "Optometrists",
@@ -4026,7 +4262,8 @@
     "cascade_risk": 5,
     "derived_demand_pct": 30,
     "cascade_rationale": "Total requirements cascade via 6 (1.24x total requirements), G (1.39x total requirements), PROF (1.37x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.26
+    "io_multiplier": 1.26,
+    "cascade_risk_raw": 5.15
   },
   {
     "title": "Orthotists and prosthetists",
@@ -4043,7 +4280,8 @@
     "cascade_risk": 5,
     "derived_demand_pct": 65,
     "cascade_rationale": "Total requirements cascade via 6 (1.24x total requirements), G (1.39x total requirements), PROF (1.37x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.26
+    "io_multiplier": 1.26,
+    "cascade_risk_raw": 5.15
   },
   {
     "title": "Painters, construction and maintenance",
@@ -4060,7 +4298,8 @@
     "cascade_risk": 4,
     "derived_demand_pct": 55,
     "cascade_rationale": "Total requirements cascade via 23 (1.74x total requirements), 21 (1.53x total requirements), 22 (1.39x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.68
+    "io_multiplier": 1.68,
+    "cascade_risk_raw": 3.84
   },
   {
     "title": "Painting and coating workers",
@@ -4077,7 +4316,8 @@
     "cascade_risk": 9,
     "derived_demand_pct": 35,
     "cascade_rationale": "Total requirements cascade via 31G (1.80x total requirements), 22 (1.39x total requirements), 42 (1.24x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.73
+    "io_multiplier": 1.73,
+    "cascade_risk_raw": 10.05
   },
   {
     "title": "Paralegals and legal assistants",
@@ -4094,7 +4334,8 @@
     "cascade_risk": 9,
     "derived_demand_pct": 98,
     "cascade_rationale": "Total requirements cascade via PROF (1.37x total requirements), 52 (1.36x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.37
+    "io_multiplier": 1.37,
+    "cascade_risk_raw": 9.72
   },
   {
     "title": "Personal financial advisors",
@@ -4111,7 +4352,8 @@
     "cascade_risk": 9,
     "derived_demand_pct": 85,
     "cascade_rationale": "Total requirements cascade via 52 (1.36x total requirements), PROF (1.37x total requirements), 53 (1.37x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.37
+    "io_multiplier": 1.37,
+    "cascade_risk_raw": 9.78
   },
   {
     "title": "Pest control workers",
@@ -4128,7 +4370,8 @@
     "cascade_risk": 7,
     "derived_demand_pct": 45,
     "cascade_rationale": "Total requirements cascade via 53 (1.37x total requirements), PROF (1.37x total requirements), 7 (1.31x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.35
+    "io_multiplier": 1.35,
+    "cascade_risk_raw": 7.41
   },
   {
     "title": "Petroleum engineers",
@@ -4145,7 +4388,8 @@
     "cascade_risk": 8,
     "derived_demand_pct": 20,
     "cascade_rationale": "Total requirements cascade via PROF (1.37x total requirements), 31G (1.80x total requirements), G (1.39x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.59
+    "io_multiplier": 1.59,
+    "cascade_risk_raw": 8.59
   },
   {
     "title": "Pharmacists",
@@ -4162,7 +4406,8 @@
     "cascade_risk": 5,
     "derived_demand_pct": 30,
     "cascade_rationale": "Total requirements cascade via G (1.39x total requirements), PROF (1.37x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.26
+    "io_multiplier": 1.26,
+    "cascade_risk_raw": 5.15
   },
   {
     "title": "Pharmacy technicians",
@@ -4179,7 +4424,8 @@
     "cascade_risk": 5,
     "derived_demand_pct": 35,
     "cascade_rationale": "Total requirements cascade via 6 (1.24x total requirements), G (1.39x total requirements), PROF (1.37x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.26
+    "io_multiplier": 1.26,
+    "cascade_risk_raw": 5.15
   },
   {
     "title": "Phlebotomists",
@@ -4196,7 +4442,8 @@
     "cascade_risk": 5,
     "derived_demand_pct": 30,
     "cascade_rationale": "Total requirements cascade via 6 (1.24x total requirements), G (1.39x total requirements), PROF (1.37x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.26
+    "io_multiplier": 1.26,
+    "cascade_risk_raw": 5.15
   },
   {
     "title": "Photographers",
@@ -4213,7 +4460,8 @@
     "cascade_risk": 8,
     "derived_demand_pct": 65,
     "cascade_rationale": "Total requirements cascade via 51 (1.39x total requirements), PROF (1.37x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.35
+    "io_multiplier": 1.35,
+    "cascade_risk_raw": 8.26
   },
   {
     "title": "Physical therapist assistants and aides",
@@ -4230,7 +4478,8 @@
     "cascade_risk": 5,
     "derived_demand_pct": 45,
     "cascade_rationale": "Total requirements cascade via 6 (1.24x total requirements), G (1.39x total requirements), PROF (1.37x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.26
+    "io_multiplier": 1.26,
+    "cascade_risk_raw": 5.15
   },
   {
     "title": "Physical therapists",
@@ -4247,7 +4496,8 @@
     "cascade_risk": 5,
     "derived_demand_pct": 45,
     "cascade_rationale": "Total requirements cascade via 6 (1.24x total requirements), G (1.39x total requirements), PROF (1.37x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.26
+    "io_multiplier": 1.26,
+    "cascade_risk_raw": 5.15
   },
   {
     "title": "Physician assistants",
@@ -4264,7 +4514,8 @@
     "cascade_risk": 5,
     "derived_demand_pct": 35,
     "cascade_rationale": "Total requirements cascade via G (1.39x total requirements), PROF (1.37x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.26
+    "io_multiplier": 1.26,
+    "cascade_risk_raw": 5.15
   },
   {
     "title": "Physicians and surgeons",
@@ -4281,7 +4532,8 @@
     "cascade_risk": 5,
     "derived_demand_pct": 40,
     "cascade_rationale": "Total requirements cascade via G (1.39x total requirements), PROF (1.37x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.26
+    "io_multiplier": 1.26,
+    "cascade_risk_raw": 5.15
   },
   {
     "title": "Physicists and astronomers",
@@ -4298,7 +4550,8 @@
     "cascade_risk": 7,
     "derived_demand_pct": 55,
     "cascade_rationale": "Total requirements cascade via PROF (1.37x total requirements), 31G (1.80x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.41
+    "io_multiplier": 1.41,
+    "cascade_risk_raw": 8.09
   },
   {
     "title": "Plumbers, pipefitters, and steamfitters",
@@ -4315,7 +4568,8 @@
     "cascade_risk": 4,
     "derived_demand_pct": 55,
     "cascade_rationale": "Total requirements cascade via 23 (1.74x total requirements), 21 (1.53x total requirements), 22 (1.39x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.68
+    "io_multiplier": 1.68,
+    "cascade_risk_raw": 3.84
   },
   {
     "title": "Podiatrists",
@@ -4332,7 +4586,8 @@
     "cascade_risk": 5,
     "derived_demand_pct": 20,
     "cascade_rationale": "Total requirements cascade via 6 (1.24x total requirements), G (1.39x total requirements), PROF (1.37x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.26
+    "io_multiplier": 1.26,
+    "cascade_risk_raw": 5.15
   },
   {
     "title": "Police and detectives",
@@ -4349,7 +4604,8 @@
     "cascade_risk": 8,
     "derived_demand_pct": 10,
     "cascade_rationale": "Total requirements cascade via G (1.39x total requirements), PROF (1.37x total requirements), 53 (1.37x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.38
+    "io_multiplier": 1.38,
+    "cascade_risk_raw": 7.9
   },
   {
     "title": "Political scientists",
@@ -4366,7 +4622,8 @@
     "cascade_risk": 8,
     "derived_demand_pct": 40,
     "cascade_rationale": "Total requirements cascade via PROF (1.37x total requirements), 31G (1.80x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.41
+    "io_multiplier": 1.41,
+    "cascade_risk_raw": 8.09
   },
   {
     "title": "Postal service workers",
@@ -4383,7 +4640,8 @@
     "cascade_risk": 8,
     "derived_demand_pct": 25,
     "cascade_rationale": "Total requirements cascade via 52 (1.36x total requirements), PROF (1.37x total requirements), 6 (1.24x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.38
+    "io_multiplier": 1.38,
+    "cascade_risk_raw": 8.32
   },
   {
     "title": "Postsecondary education administrators",
@@ -4400,7 +4658,8 @@
     "cascade_risk": 8,
     "derived_demand_pct": 60,
     "cascade_rationale": "Total requirements cascade via PROF (1.37x total requirements), 52 (1.36x total requirements), 31G (1.80x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.42
+    "io_multiplier": 1.42,
+    "cascade_risk_raw": 8.4
   },
   {
     "title": "Postsecondary teachers",
@@ -4417,7 +4676,8 @@
     "cascade_risk": 7,
     "derived_demand_pct": 65,
     "cascade_rationale": "Total requirements multiplier 1.28x [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.28
+    "io_multiplier": 1.28,
+    "cascade_risk_raw": 7
   },
   {
     "title": "Power plant operators, distributors, and dispatchers",
@@ -4434,7 +4694,8 @@
     "cascade_risk": 9,
     "derived_demand_pct": 20,
     "cascade_rationale": "Total requirements cascade via 31G (1.80x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.73
+    "io_multiplier": 1.73,
+    "cascade_risk_raw": 10.05
   },
   {
     "title": "Preschool and childcare center directors",
@@ -4451,7 +4712,8 @@
     "cascade_risk": 8,
     "derived_demand_pct": 75,
     "cascade_rationale": "Total requirements cascade via PROF (1.37x total requirements), 52 (1.36x total requirements), 31G (1.80x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.42
+    "io_multiplier": 1.42,
+    "cascade_risk_raw": 8.4
   },
   {
     "title": "Preschool teachers",
@@ -4468,7 +4730,8 @@
     "cascade_risk": 5,
     "derived_demand_pct": 75,
     "cascade_rationale": "Total requirements cascade via 6 (1.24x total requirements), G (1.39x total requirements), 81 (1.25x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.28
+    "io_multiplier": 1.28,
+    "cascade_risk_raw": 5.01
   },
   {
     "title": "Private detectives and investigators",
@@ -4485,7 +4748,8 @@
     "cascade_risk": 8,
     "derived_demand_pct": 55,
     "cascade_rationale": "Total requirements cascade via G (1.39x total requirements), PROF (1.37x total requirements), 53 (1.37x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.38
+    "io_multiplier": 1.38,
+    "cascade_risk_raw": 7.9
   },
   {
     "title": "Probation officers and correctional treatment specialists",
@@ -4502,7 +4766,8 @@
     "cascade_risk": 6,
     "derived_demand_pct": 5,
     "cascade_rationale": "Total requirements cascade via G (1.39x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.29
+    "io_multiplier": 1.29,
+    "cascade_risk_raw": 6
   },
   {
     "title": "Producers and directors",
@@ -4519,7 +4784,8 @@
     "cascade_risk": 7,
     "derived_demand_pct": 60,
     "cascade_rationale": "Total requirements cascade via 51 (1.39x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.33
+    "io_multiplier": 1.33,
+    "cascade_risk_raw": 7
   },
   {
     "title": "Project management specialists",
@@ -4536,7 +4802,8 @@
     "cascade_risk": 9,
     "derived_demand_pct": 90,
     "cascade_rationale": "Total requirements cascade via 52 (1.36x total requirements), PROF (1.37x total requirements), 53 (1.37x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.37
+    "io_multiplier": 1.37,
+    "cascade_risk_raw": 9.78
   },
   {
     "title": "Property appraisers and assessors",
@@ -4553,7 +4820,8 @@
     "cascade_risk": 9,
     "derived_demand_pct": 75,
     "cascade_rationale": "Total requirements cascade via 52 (1.36x total requirements), PROF (1.37x total requirements), 53 (1.37x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.37
+    "io_multiplier": 1.37,
+    "cascade_risk_raw": 9.78
   },
   {
     "title": "Property, real estate, and community association managers",
@@ -4570,7 +4838,8 @@
     "cascade_risk": 8,
     "derived_demand_pct": 80,
     "cascade_rationale": "Total requirements cascade via PROF (1.37x total requirements), 52 (1.36x total requirements), 31G (1.80x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.42
+    "io_multiplier": 1.42,
+    "cascade_risk_raw": 8.4
   },
   {
     "title": "Psychiatric technicians and aides",
@@ -4587,7 +4856,8 @@
     "cascade_risk": 5,
     "derived_demand_pct": 40,
     "cascade_rationale": "Total requirements cascade via 6 (1.24x total requirements), G (1.39x total requirements), PROF (1.37x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.26
+    "io_multiplier": 1.26,
+    "cascade_risk_raw": 5.15
   },
   {
     "title": "Psychologists",
@@ -4604,7 +4874,8 @@
     "cascade_risk": 7,
     "derived_demand_pct": 55,
     "cascade_rationale": "Total requirements cascade via PROF (1.37x total requirements), G (1.39x total requirements), 31G (1.80x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.41
+    "io_multiplier": 1.41,
+    "cascade_risk_raw": 8.09
   },
   {
     "title": "Public relations and fundraising managers",
@@ -4621,7 +4892,8 @@
     "cascade_risk": 8,
     "derived_demand_pct": 70,
     "cascade_rationale": "Total requirements cascade via PROF (1.37x total requirements), 52 (1.36x total requirements), 31G (1.80x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.42
+    "io_multiplier": 1.42,
+    "cascade_risk_raw": 8.4
   },
   {
     "title": "Public relations specialists",
@@ -4638,7 +4910,8 @@
     "cascade_risk": 8,
     "derived_demand_pct": 85,
     "cascade_rationale": "Total requirements cascade via 51 (1.39x total requirements), PROF (1.37x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.35
+    "io_multiplier": 1.35,
+    "cascade_risk_raw": 8.26
   },
   {
     "title": "Public safety telecommunicators",
@@ -4655,7 +4928,8 @@
     "cascade_risk": 8,
     "derived_demand_pct": 10,
     "cascade_rationale": "Total requirements cascade via 52 (1.36x total requirements), PROF (1.37x total requirements), 53 (1.37x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.38
+    "io_multiplier": 1.38,
+    "cascade_risk_raw": 8.32
   },
   {
     "title": "Purchasing managers, buyers, and purchasing agents",
@@ -4672,7 +4946,8 @@
     "cascade_risk": 9,
     "derived_demand_pct": 75,
     "cascade_rationale": "Total requirements cascade via 52 (1.36x total requirements), PROF (1.37x total requirements), 53 (1.37x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.37
+    "io_multiplier": 1.37,
+    "cascade_risk_raw": 9.78
   },
   {
     "title": "Quality control inspectors",
@@ -4689,7 +4964,8 @@
     "cascade_risk": 9,
     "derived_demand_pct": 55,
     "cascade_rationale": "Total requirements cascade via 31G (1.80x total requirements), 42 (1.24x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.73
+    "io_multiplier": 1.73,
+    "cascade_risk_raw": 10.05
   },
   {
     "title": "Radiation therapists",
@@ -4706,7 +4982,8 @@
     "cascade_risk": 5,
     "derived_demand_pct": 70,
     "cascade_rationale": "Total requirements cascade via 6 (1.24x total requirements), G (1.39x total requirements), PROF (1.37x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.26
+    "io_multiplier": 1.26,
+    "cascade_risk_raw": 5.15
   },
   {
     "title": "Radiologic and MRI technologists",
@@ -4723,7 +5000,8 @@
     "cascade_risk": 5,
     "derived_demand_pct": 70,
     "cascade_rationale": "Total requirements cascade via 6 (1.24x total requirements), G (1.39x total requirements), PROF (1.37x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.26
+    "io_multiplier": 1.26,
+    "cascade_risk_raw": 5.15
   },
   {
     "title": "Railroad workers",
@@ -4740,7 +5018,8 @@
     "cascade_risk": 6,
     "derived_demand_pct": 65,
     "cascade_rationale": "Total requirements cascade via 48TW (1.27x total requirements), 42 (1.24x total requirements), 31G (1.80x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.35
+    "io_multiplier": 1.35,
+    "cascade_risk_raw": 5.88
   },
   {
     "title": "Real estate brokers and sales agents",
@@ -4757,7 +5036,8 @@
     "cascade_risk": 7,
     "derived_demand_pct": 90,
     "cascade_rationale": "Total requirements cascade via 52 (1.36x total requirements), 53 (1.37x total requirements), PROF (1.37x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.3
+    "io_multiplier": 1.3,
+    "cascade_risk_raw": 7.34
   },
   {
     "title": "Receptionists",
@@ -4774,7 +5054,8 @@
     "cascade_risk": 8,
     "derived_demand_pct": 95,
     "cascade_rationale": "Total requirements cascade via 52 (1.36x total requirements), PROF (1.37x total requirements), 53 (1.37x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.38
+    "io_multiplier": 1.38,
+    "cascade_risk_raw": 8.32
   },
   {
     "title": "Recreation workers",
@@ -4791,7 +5072,8 @@
     "cascade_risk": 4,
     "derived_demand_pct": 75,
     "cascade_rationale": "Total requirements cascade via 81 (1.25x total requirements), 6 (1.24x total requirements), 7 (1.31x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.26
+    "io_multiplier": 1.26,
+    "cascade_risk_raw": 4.25
   },
   {
     "title": "Recreational therapists",
@@ -4808,7 +5090,8 @@
     "cascade_risk": 5,
     "derived_demand_pct": 65,
     "cascade_rationale": "Total requirements cascade via 6 (1.24x total requirements), G (1.39x total requirements), PROF (1.37x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.26
+    "io_multiplier": 1.26,
+    "cascade_risk_raw": 5.15
   },
   {
     "title": "Registered nurses",
@@ -4825,7 +5108,8 @@
     "cascade_risk": 5,
     "derived_demand_pct": 80,
     "cascade_rationale": "Total requirements cascade via 6 (1.24x total requirements), G (1.39x total requirements), PROF (1.37x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.26
+    "io_multiplier": 1.26,
+    "cascade_risk_raw": 5.15
   },
   {
     "title": "Rehabilitation counselors",
@@ -4842,7 +5126,8 @@
     "cascade_risk": 5,
     "derived_demand_pct": 20,
     "cascade_rationale": "Total requirements cascade via G (1.39x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.29
+    "io_multiplier": 1.29,
+    "cascade_risk_raw": 5.06
   },
   {
     "title": "Respiratory therapists",
@@ -4859,7 +5144,8 @@
     "cascade_risk": 5,
     "derived_demand_pct": 10,
     "cascade_rationale": "Total requirements cascade via 6 (1.24x total requirements), G (1.39x total requirements), PROF (1.37x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.26
+    "io_multiplier": 1.26,
+    "cascade_risk_raw": 5.15
   },
   {
     "title": "Retail sales workers",
@@ -4876,7 +5162,8 @@
     "cascade_risk": 7,
     "derived_demand_pct": 60,
     "cascade_rationale": "Total requirements cascade via 44RT (1.25x total requirements), 42 (1.24x total requirements), 52 (1.36x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.3
+    "io_multiplier": 1.3,
+    "cascade_risk_raw": 7.34
   },
   {
     "title": "Roofers",
@@ -4893,7 +5180,8 @@
     "cascade_risk": 4,
     "derived_demand_pct": 55,
     "cascade_rationale": "Total requirements cascade via 23 (1.74x total requirements), 21 (1.53x total requirements), 22 (1.39x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.68
+    "io_multiplier": 1.68,
+    "cascade_risk_raw": 3.84
   },
   {
     "title": "Sales engineers",
@@ -4910,7 +5198,8 @@
     "cascade_risk": 7,
     "derived_demand_pct": 80,
     "cascade_rationale": "Total requirements cascade via 52 (1.36x total requirements), 53 (1.37x total requirements), PROF (1.37x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.3
+    "io_multiplier": 1.3,
+    "cascade_risk_raw": 7.34
   },
   {
     "title": "Sales managers",
@@ -4927,7 +5216,8 @@
     "cascade_risk": 8,
     "derived_demand_pct": 70,
     "cascade_rationale": "Total requirements cascade via PROF (1.37x total requirements), 52 (1.36x total requirements), 31G (1.80x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.42
+    "io_multiplier": 1.42,
+    "cascade_risk_raw": 8.4
   },
   {
     "title": "School and career counselors and advisors",
@@ -4944,7 +5234,8 @@
     "cascade_risk": 6,
     "derived_demand_pct": 25,
     "cascade_rationale": "Total requirements cascade via G (1.39x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.29
+    "io_multiplier": 1.29,
+    "cascade_risk_raw": 6
   },
   {
     "title": "Secretaries and administrative assistants",
@@ -4961,7 +5252,8 @@
     "cascade_risk": 8,
     "derived_demand_pct": 95,
     "cascade_rationale": "Total requirements cascade via 52 (1.36x total requirements), PROF (1.37x total requirements), 31G (1.80x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.38
+    "io_multiplier": 1.38,
+    "cascade_risk_raw": 8.32
   },
   {
     "title": "Securities, commodities, and financial services sales agents",
@@ -4978,7 +5270,8 @@
     "cascade_risk": 8,
     "derived_demand_pct": 90,
     "cascade_rationale": "Total requirements cascade via 52 (1.36x total requirements), PROF (1.37x total requirements), 51 (1.39x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.3
+    "io_multiplier": 1.3,
+    "cascade_risk_raw": 8
   },
   {
     "title": "Security guards and gambling surveillance officers",
@@ -4995,7 +5288,8 @@
     "cascade_risk": 8,
     "derived_demand_pct": 65,
     "cascade_rationale": "Total requirements cascade via G (1.39x total requirements), PROF (1.37x total requirements), 53 (1.37x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.38
+    "io_multiplier": 1.38,
+    "cascade_risk_raw": 7.9
   },
   {
     "title": "Semiconductor processing technicians",
@@ -5012,7 +5306,8 @@
     "cascade_risk": 9,
     "derived_demand_pct": 5,
     "cascade_rationale": "Total requirements cascade via 31G (1.80x total requirements), 42 (1.24x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.73
+    "io_multiplier": 1.73,
+    "cascade_risk_raw": 10.05
   },
   {
     "title": "Set and exhibit designers",
@@ -5029,7 +5324,8 @@
     "cascade_risk": 8,
     "derived_demand_pct": 50,
     "cascade_rationale": "Total requirements cascade via 51 (1.39x total requirements), PROF (1.37x total requirements), 31G (1.80x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.42
+    "io_multiplier": 1.42,
+    "cascade_risk_raw": 8.4
   },
   {
     "title": "Sheet metal workers",
@@ -5046,7 +5342,8 @@
     "cascade_risk": 4,
     "derived_demand_pct": 60,
     "cascade_rationale": "Total requirements cascade via 23 (1.74x total requirements), 21 (1.53x total requirements), 22 (1.39x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.68
+    "io_multiplier": 1.68,
+    "cascade_risk_raw": 3.84
   },
   {
     "title": "Skincare specialists",
@@ -5063,7 +5360,8 @@
     "cascade_risk": 4,
     "derived_demand_pct": 70,
     "cascade_rationale": "Total requirements cascade via 81 (1.25x total requirements), 6 (1.24x total requirements), 7 (1.31x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.26
+    "io_multiplier": 1.26,
+    "cascade_risk_raw": 4.25
   },
   {
     "title": "Small engine mechanics",
@@ -5080,7 +5378,8 @@
     "cascade_risk": 6,
     "derived_demand_pct": 15,
     "cascade_rationale": "Total requirements cascade via 23 (1.74x total requirements), 31G (1.80x total requirements), 81 (1.25x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.55
+    "io_multiplier": 1.55,
+    "cascade_risk_raw": 6.23
   },
   {
     "title": "Social and community service managers",
@@ -5097,7 +5396,8 @@
     "cascade_risk": 8,
     "derived_demand_pct": 50,
     "cascade_rationale": "Total requirements cascade via PROF (1.37x total requirements), 52 (1.36x total requirements), 31G (1.80x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.42
+    "io_multiplier": 1.42,
+    "cascade_risk_raw": 8.4
   },
   {
     "title": "Social and human service assistants",
@@ -5114,7 +5414,8 @@
     "cascade_risk": 5,
     "derived_demand_pct": 50,
     "cascade_rationale": "Total requirements cascade via G (1.39x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.29
+    "io_multiplier": 1.29,
+    "cascade_risk_raw": 5.06
   },
   {
     "title": "Social workers",
@@ -5131,7 +5432,8 @@
     "cascade_risk": 5,
     "derived_demand_pct": 50,
     "cascade_rationale": "Total requirements cascade via G (1.39x total requirements), 6 (1.24x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.29
+    "io_multiplier": 1.29,
+    "cascade_risk_raw": 5.06
   },
   {
     "title": "Sociologists",
@@ -5148,7 +5450,8 @@
     "cascade_risk": 7,
     "derived_demand_pct": 40,
     "cascade_rationale": "Total requirements cascade via PROF (1.37x total requirements), 31G (1.80x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.41
+    "io_multiplier": 1.41,
+    "cascade_risk_raw": 8.09
   },
   {
     "title": "Software developers, quality assurance analysts, and testers",
@@ -5165,7 +5468,8 @@
     "cascade_risk": 10,
     "derived_demand_pct": 70,
     "cascade_rationale": "Total requirements cascade via 51 (1.39x total requirements), PROF (1.37x total requirements), 52 (1.36x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.44
+    "io_multiplier": 1.44,
+    "cascade_risk_raw": 10.56
   },
   {
     "title": "Solar photovoltaic installers",
@@ -5182,7 +5486,8 @@
     "cascade_risk": 4,
     "derived_demand_pct": 15,
     "cascade_rationale": "Total requirements cascade via 23 (1.74x total requirements), 21 (1.53x total requirements), 22 (1.39x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.68
+    "io_multiplier": 1.68,
+    "cascade_risk_raw": 3.84
   },
   {
     "title": "Special education teachers",
@@ -5199,7 +5504,8 @@
     "cascade_risk": 5,
     "derived_demand_pct": 10,
     "cascade_rationale": "Total requirements cascade via G (1.39x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.28
+    "io_multiplier": 1.28,
+    "cascade_risk_raw": 5.01
   },
   {
     "title": "Special effects artists and animators",
@@ -5216,7 +5522,8 @@
     "cascade_risk": 9,
     "derived_demand_pct": 30,
     "cascade_rationale": "Total requirements cascade via 51 (1.39x total requirements), PROF (1.37x total requirements), 31G (1.80x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.42
+    "io_multiplier": 1.42,
+    "cascade_risk_raw": 9
   },
   {
     "title": "Speech-language pathologists",
@@ -5233,7 +5540,8 @@
     "cascade_risk": 5,
     "derived_demand_pct": 35,
     "cascade_rationale": "Total requirements cascade via G (1.39x total requirements), PROF (1.37x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.26
+    "io_multiplier": 1.26,
+    "cascade_risk_raw": 5.15
   },
   {
     "title": "Stationary engineers and boiler operators",
@@ -5250,7 +5558,8 @@
     "cascade_risk": 9,
     "derived_demand_pct": 65,
     "cascade_rationale": "Total requirements cascade via 31G (1.80x total requirements), 22 (1.39x total requirements), 42 (1.24x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.73
+    "io_multiplier": 1.73,
+    "cascade_risk_raw": 10.05
   },
   {
     "title": "Substance abuse, behavioral disorder, and mental health counselors",
@@ -5267,7 +5576,8 @@
     "cascade_risk": 5,
     "derived_demand_pct": 45,
     "cascade_rationale": "Total requirements cascade via G (1.39x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.29
+    "io_multiplier": 1.29,
+    "cascade_risk_raw": 5.06
   },
   {
     "title": "Surgical assistants and technologists",
@@ -5284,7 +5594,8 @@
     "cascade_risk": 5,
     "derived_demand_pct": 40,
     "cascade_rationale": "Total requirements cascade via 6 (1.24x total requirements), G (1.39x total requirements), PROF (1.37x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.26
+    "io_multiplier": 1.26,
+    "cascade_risk_raw": 5.15
   },
   {
     "title": "Survey researchers",
@@ -5301,7 +5612,8 @@
     "cascade_risk": 9,
     "derived_demand_pct": 75,
     "cascade_rationale": "Total requirements cascade via PROF (1.37x total requirements), 31G (1.80x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.41
+    "io_multiplier": 1.41,
+    "cascade_risk_raw": 9
   },
   {
     "title": "Surveying and mapping technicians",
@@ -5318,7 +5630,8 @@
     "cascade_risk": 8,
     "derived_demand_pct": 65,
     "cascade_rationale": "Total requirements cascade via PROF (1.37x total requirements), 31G (1.80x total requirements), G (1.39x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.59
+    "io_multiplier": 1.59,
+    "cascade_risk_raw": 8.59
   },
   {
     "title": "Surveyors",
@@ -5335,7 +5648,8 @@
     "cascade_risk": 8,
     "derived_demand_pct": 65,
     "cascade_rationale": "Total requirements cascade via PROF (1.37x total requirements), 31G (1.80x total requirements), G (1.39x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.59
+    "io_multiplier": 1.59,
+    "cascade_risk_raw": 8.59
   },
   {
     "title": "Tax examiners and collectors, and revenue agents",
@@ -5352,7 +5666,8 @@
     "cascade_risk": 9,
     "derived_demand_pct": 50,
     "cascade_rationale": "Total requirements cascade via 52 (1.36x total requirements), PROF (1.37x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.37
+    "io_multiplier": 1.37,
+    "cascade_risk_raw": 9.78
   },
   {
     "title": "Taxi drivers, shuttle drivers, and chauffeurs",
@@ -5369,7 +5684,8 @@
     "cascade_risk": 6,
     "derived_demand_pct": 70,
     "cascade_rationale": "Total requirements cascade via 42 (1.24x total requirements), 31G (1.80x total requirements), 44RT (1.25x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.35
+    "io_multiplier": 1.35,
+    "cascade_risk_raw": 5.88
   },
   {
     "title": "Teacher assistants",
@@ -5386,7 +5702,8 @@
     "cascade_risk": 5,
     "derived_demand_pct": 40,
     "cascade_rationale": "Total requirements cascade via 6 (1.24x total requirements), G (1.39x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.28
+    "io_multiplier": 1.28,
+    "cascade_risk_raw": 5.01
   },
   {
     "title": "Technical writers",
@@ -5403,7 +5720,8 @@
     "cascade_risk": 9,
     "derived_demand_pct": 85,
     "cascade_rationale": "Total requirements cascade via 51 (1.39x total requirements), PROF (1.37x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.35
+    "io_multiplier": 1.35,
+    "cascade_risk_raw": 9
   },
   {
     "title": "Telecommunications technicians",
@@ -5420,7 +5738,8 @@
     "cascade_risk": 6,
     "derived_demand_pct": 40,
     "cascade_rationale": "Total requirements cascade via 23 (1.74x total requirements), 31G (1.80x total requirements), 81 (1.25x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.55
+    "io_multiplier": 1.55,
+    "cascade_risk_raw": 6.23
   },
   {
     "title": "Tellers",
@@ -5437,7 +5756,8 @@
     "cascade_risk": 8,
     "derived_demand_pct": 30,
     "cascade_rationale": "Total requirements cascade via 52 (1.36x total requirements), PROF (1.37x total requirements), 53 (1.37x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.38
+    "io_multiplier": 1.38,
+    "cascade_risk_raw": 8.32
   },
   {
     "title": "Top executives",
@@ -5454,7 +5774,8 @@
     "cascade_risk": 8,
     "derived_demand_pct": 80,
     "cascade_rationale": "Total requirements cascade via PROF (1.37x total requirements), 52 (1.36x total requirements), 31G (1.80x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.42
+    "io_multiplier": 1.42,
+    "cascade_risk_raw": 8.4
   },
   {
     "title": "Tour and travel guides",
@@ -5471,7 +5792,8 @@
     "cascade_risk": 4,
     "derived_demand_pct": 75,
     "cascade_rationale": "Total requirements cascade via 6 (1.24x total requirements), 44RT (1.25x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.26
+    "io_multiplier": 1.26,
+    "cascade_risk_raw": 4.25
   },
   {
     "title": "Training and development managers",
@@ -5488,7 +5810,8 @@
     "cascade_risk": 8,
     "derived_demand_pct": 85,
     "cascade_rationale": "Total requirements cascade via PROF (1.37x total requirements), 52 (1.36x total requirements), 31G (1.80x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.42
+    "io_multiplier": 1.42,
+    "cascade_risk_raw": 8.4
   },
   {
     "title": "Training and development specialists",
@@ -5505,7 +5828,8 @@
     "cascade_risk": 9,
     "derived_demand_pct": 85,
     "cascade_rationale": "Total requirements cascade via 52 (1.36x total requirements), PROF (1.37x total requirements), 53 (1.37x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.37
+    "io_multiplier": 1.37,
+    "cascade_risk_raw": 9.78
   },
   {
     "title": "Transportation, storage, and distribution managers",
@@ -5522,7 +5846,8 @@
     "cascade_risk": 8,
     "derived_demand_pct": 65,
     "cascade_rationale": "Total requirements cascade via PROF (1.37x total requirements), 52 (1.36x total requirements), 31G (1.80x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.42
+    "io_multiplier": 1.42,
+    "cascade_risk_raw": 8.4
   },
   {
     "title": "Travel agents",
@@ -5539,7 +5864,8 @@
     "cascade_risk": 9,
     "derived_demand_pct": 85,
     "cascade_rationale": "Total requirements cascade via 52 (1.36x total requirements), PROF (1.37x total requirements), 51 (1.39x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.3
+    "io_multiplier": 1.3,
+    "cascade_risk_raw": 9
   },
   {
     "title": "Tutors",
@@ -5556,7 +5882,8 @@
     "cascade_risk": 7,
     "derived_demand_pct": 75,
     "cascade_rationale": "Total requirements multiplier 1.28x [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.28
+    "io_multiplier": 1.28,
+    "cascade_risk_raw": 7
   },
   {
     "title": "Umpires, referees, and other sports officials",
@@ -5573,7 +5900,8 @@
     "cascade_risk": 5,
     "derived_demand_pct": 35,
     "cascade_rationale": "Total requirements cascade via 51 (1.39x total requirements), G (1.39x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.33
+    "io_multiplier": 1.33,
+    "cascade_risk_raw": 5
   },
   {
     "title": "Urban and regional planners",
@@ -5590,7 +5918,8 @@
     "cascade_risk": 7,
     "derived_demand_pct": 75,
     "cascade_rationale": "Total requirements cascade via PROF (1.37x total requirements), 31G (1.80x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.41
+    "io_multiplier": 1.41,
+    "cascade_risk_raw": 8.09
   },
   {
     "title": "Veterinarians",
@@ -5607,7 +5936,8 @@
     "cascade_risk": 5,
     "derived_demand_pct": 65,
     "cascade_rationale": "Total requirements cascade via 6 (1.24x total requirements), G (1.39x total requirements), PROF (1.37x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.26
+    "io_multiplier": 1.26,
+    "cascade_risk_raw": 5.15
   },
   {
     "title": "Veterinary assistants and laboratory animal caretakers",
@@ -5624,7 +5954,8 @@
     "cascade_risk": 5,
     "derived_demand_pct": 60,
     "cascade_rationale": "Total requirements cascade via 6 (1.24x total requirements), G (1.39x total requirements), PROF (1.37x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.26
+    "io_multiplier": 1.26,
+    "cascade_risk_raw": 5.15
   },
   {
     "title": "Veterinary technologists and technicians",
@@ -5641,7 +5972,8 @@
     "cascade_risk": 5,
     "derived_demand_pct": 65,
     "cascade_rationale": "Total requirements cascade via 6 (1.24x total requirements), G (1.39x total requirements), PROF (1.37x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.26
+    "io_multiplier": 1.26,
+    "cascade_risk_raw": 5.15
   },
   {
     "title": "Waiters and waitresses",
@@ -5658,7 +5990,8 @@
     "cascade_risk": 4,
     "derived_demand_pct": 85,
     "cascade_rationale": "Total requirements cascade via 7 (1.31x total requirements), 6 (1.24x total requirements), 44RT (1.25x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.3
+    "io_multiplier": 1.3,
+    "cascade_risk_raw": 3.68
   },
   {
     "title": "Water and wastewater treatment plant and system operators",
@@ -5675,7 +6008,8 @@
     "cascade_risk": 9,
     "derived_demand_pct": 15,
     "cascade_rationale": "Total requirements cascade via 31G (1.80x total requirements), 42 (1.24x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.73
+    "io_multiplier": 1.73,
+    "cascade_risk_raw": 10.05
   },
   {
     "title": "Water transportation workers",
@@ -5692,7 +6026,8 @@
     "cascade_risk": 6,
     "derived_demand_pct": 10,
     "cascade_rationale": "Total requirements cascade via 48TW (1.27x total requirements), 42 (1.24x total requirements), 31G (1.80x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.35
+    "io_multiplier": 1.35,
+    "cascade_risk_raw": 5.88
   },
   {
     "title": "Web developers and digital designers",
@@ -5709,7 +6044,8 @@
     "cascade_risk": 10,
     "derived_demand_pct": 75,
     "cascade_rationale": "Total requirements cascade via 51 (1.39x total requirements), PROF (1.37x total requirements), 52 (1.36x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.44
+    "io_multiplier": 1.44,
+    "cascade_risk_raw": 10.56
   },
   {
     "title": "Welders, cutters, solderers, and brazers",
@@ -5726,7 +6062,8 @@
     "cascade_risk": 9,
     "derived_demand_pct": 35,
     "cascade_rationale": "Total requirements cascade via 31G (1.80x total requirements), 22 (1.39x total requirements), 42 (1.24x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.73
+    "io_multiplier": 1.73,
+    "cascade_risk_raw": 10.05
   },
   {
     "title": "Wholesale and manufacturing sales representatives",
@@ -5743,7 +6080,8 @@
     "cascade_risk": 7,
     "derived_demand_pct": 85,
     "cascade_rationale": "Total requirements cascade via 52 (1.36x total requirements), 53 (1.37x total requirements), PROF (1.37x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.3
+    "io_multiplier": 1.3,
+    "cascade_risk_raw": 7.34
   },
   {
     "title": "Wind turbine technicians",
@@ -5760,7 +6098,8 @@
     "cascade_risk": 6,
     "derived_demand_pct": 15,
     "cascade_rationale": "Total requirements cascade via 23 (1.74x total requirements), 31G (1.80x total requirements), 81 (1.25x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.55
+    "io_multiplier": 1.55,
+    "cascade_risk_raw": 6.23
   },
   {
     "title": "Woodworkers",
@@ -5777,7 +6116,8 @@
     "cascade_risk": 9,
     "derived_demand_pct": 55,
     "cascade_rationale": "Total requirements cascade via 31G (1.80x total requirements), 22 (1.39x total requirements), 42 (1.24x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.73
+    "io_multiplier": 1.73,
+    "cascade_risk_raw": 10.05
   },
   {
     "title": "Writers and authors",
@@ -5794,7 +6134,8 @@
     "cascade_risk": 9,
     "derived_demand_pct": 75,
     "cascade_rationale": "Total requirements cascade via 51 (1.39x total requirements), PROF (1.37x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.35
+    "io_multiplier": 1.35,
+    "cascade_risk_raw": 9
   },
   {
     "title": "Zoologists and wildlife biologists",
@@ -5811,6 +6152,7 @@
     "cascade_risk": 7,
     "derived_demand_pct": 35,
     "cascade_rationale": "Total requirements cascade via PROF (1.37x total requirements), G (1.39x total requirements), 31G (1.80x total requirements) [BEA 2022 total-requirements table]",
-    "io_multiplier": 1.41
+    "io_multiplier": 1.41,
+    "cascade_risk_raw": 8.09
   }
 ]
